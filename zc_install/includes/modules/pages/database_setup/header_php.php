@@ -172,7 +172,7 @@ if ($is_upgrade) { // read previous settings from configure.php
 
   } else { // set defaults:
    $zdb_type       = 'MySQL';
-   $zdb_prefix     = '';
+   $zdb_prefix     = 'zen_';
    $zdb_server     = 'localhost';
    $zdb_user       = 'root';
    $zdb_name       = 'zencart';
