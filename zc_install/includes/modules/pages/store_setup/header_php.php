@@ -21,7 +21,7 @@ if (!isset($_GET['debug3']) && !zen_not_null($_POST['debug3'])) define('ZC_UPG_D
   if (!isset($_POST['store_zone'])) $_POST['store_zone'] = '194';
   if (!isset($_POST['store_address'])) $_POST['store_address'] = STORE_ADDRESS_DEFAULT_VALUE;
   if (!isset($_POST['store_default_language'])) $_POST['store_default_language'] = 'ja';
-  if (!isset($_POST['store_default_currency'])) $_POST['store_default_currency'] = '';
+  if (!isset($_POST['store_default_currency'])) $_POST['store_default_currency'] = 'JPY';
 
   require('../includes/configure.php');
   if (!defined('DB_TYPE') || DB_TYPE=='') {
