@@ -7,14 +7,17 @@
  * @version $Id: stylesheet.css 3824 2006-06-21 17:07:09Z drbyte $
  */
 
+html {font-size:100.01%;}
 body {
+font-size:small;
 background-color: #EEE;
 margin: 0px;
 padding: 0px;
-font: 12px Tahoma, Verdana, Arial, sans-serif;
+font-family:Arial, sans-serif;
 text-align: center;
 }
-
+input,radio,textarea,select,table,td {font:inherit;}
+input[type=text] {padding:3px;}
 /*  Column Structure
 --------------------------------- */
 #wrap {
@@ -177,7 +180,7 @@ font-size: 16px;
 
 /* Links
 --------------------------------- */
-a:link, a:visited, a:active { color:#0033FF; font-weight: bold; font-size: 1.1em; text-decoration:none; }
+a:link, a:visited, a:active { color:#0033FF; font-weight: bold; font-size: 1em; text-decoration:none; }
 a:hover { color:#c96e29;}
 a.button { padding: 3px 15px; color: #000; border: 3px outset #666; margin: 0px 5px; background-color: #ceddf0; }
 a.button:hover {background-color: #ceddf0; }
