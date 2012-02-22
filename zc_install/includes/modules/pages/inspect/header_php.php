@@ -178,7 +178,7 @@
   $mysql_version = ($mysql_version == '') ? UNKNOWN : $mysql_version ;
   //if (is_object($db_test)) $mysql_qry=$db_test->get_server_info();
   $mysql_ver_class = ($mysql_version<'3.23.00') ? 'FAIL' : 'OK';
-  $mysql_ver_class = ($mysql_version == UNKNOWN || $mysql_version > '5.1') ? 'WARN' : $mysql_ver_class;
+  $mysql_ver_class = ($mysql_version == UNKNOWN || $mysql_version > '5.6') ? 'WARN' : $mysql_ver_class;
   
   $status_check[] = array('Importance' => 'Critical', 'Title' => LABEL_MYSQL_AVAILABLE, 'Status' => $mysql_support, 'Class' => ($mysql_support==ON) ? 'OK' : 'FAIL', 'HelpURL' =>ERROR_CODE_DB_NOTSUPPORTED, 'HelpLabel'=>ERROR_TEXT_DB_NOTSUPPORTED);
   $status_check[] = array('Importance' => 'Info', 'Title' => LABEL_MYSQL_VER, 'Status' => $mysql_version, 'Class' => $mysql_ver_class, 'HelpURL' =>($mysql_version > '5.0' ? ERROR_CODE_DB_MYSQL5 : ERROR_CODE_DB_VER_UNKNOWN), 'HelpLabel'=>($mysql_version > '5.0' ? ERROR_TEXT_DB_MYSQL5 : ERROR_TEXT_DB_VER_UNKNOWN) );
