@@ -23,7 +23,7 @@ CREATE TABLE upgrade_exceptions (
   errordate datetime default '0001-01-01 00:00:00',
   sqlstatement text,
   PRIMARY KEY  (upgrade_exception_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 # --------------------------------------------------------
@@ -48,7 +48,7 @@ CREATE TABLE address_book (
   entry_zone_id int(11) NOT NULL default '0',
   PRIMARY KEY  (address_book_id),
   KEY idx_address_book_customers_id_zen (customers_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -62,7 +62,7 @@ CREATE TABLE address_format (
   address_format varchar(128) NOT NULL default '',
   address_summary varchar(48) NOT NULL default '',
   PRIMARY KEY  (address_format_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -79,7 +79,7 @@ CREATE TABLE admin (
   admin_level tinyint(1) NOT NULL default '1',
   PRIMARY KEY  (admin_id),
   KEY idx_admin_name_zen (admin_name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -97,7 +97,7 @@ CREATE TABLE admin_activity_log (
   KEY idx_page_accessed_zen (page_accessed),
   KEY idx_access_date_zen (access_date),
   KEY idx_ip_zen (ip_address)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 # --------------------------------------------------------
@@ -116,7 +116,7 @@ CREATE TABLE authorizenet (
   time varchar(50) NOT NULL default '',
   session_id varchar(255) NOT NULL default '',
   UNIQUE KEY idx_auth_net_id (id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 #
 # Table structure for table banners
@@ -141,7 +141,7 @@ CREATE TABLE banners (
   banners_sort_order int(11) NOT NULL default '0',
   PRIMARY KEY  (banners_id),
   KEY idx_status_group_zen (status,banners_group)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 # --------------------------------------------------------
@@ -159,7 +159,7 @@ CREATE TABLE banners_history (
   banners_history_date datetime NOT NULL default '0001-01-01 00:00:00',
   PRIMARY KEY  (banners_history_id),
   KEY idx_banners_id_zen (banners_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -180,7 +180,7 @@ CREATE TABLE categories (
   KEY idx_parent_id_cat_id_zen (parent_id,categories_id),
   KEY idx_status_zen (categories_status),
   KEY idx_sort_order_zen (sort_order)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -196,7 +196,7 @@ CREATE TABLE categories_description (
   categories_description text NOT NULL,
   PRIMARY KEY  (categories_id,language_id),
   KEY idx_categories_name_zen (categories_name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -221,7 +221,7 @@ CREATE TABLE configuration (
   UNIQUE KEY unq_config_key_zen (configuration_key),
   KEY idx_key_value_zen (configuration_key,configuration_value(10)),
   KEY idx_cfg_grp_id_zen (configuration_group_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -238,7 +238,7 @@ CREATE TABLE configuration_group (
   visible int(1) default '1',
   PRIMARY KEY  (configuration_group_id),
   KEY idx_visible_zen (visible)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -250,7 +250,7 @@ DROP TABLE IF EXISTS counter;
 CREATE TABLE counter (
   startdate char(8) default NULL,
   counter int(12) default NULL
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -263,7 +263,7 @@ CREATE TABLE counter_history (
   startdate char(8) default NULL,
   counter int(12) default NULL,
   session_counter int(12) default NULL
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -280,7 +280,7 @@ CREATE TABLE countries (
   address_format_id int(11) NOT NULL default '0',
   PRIMARY KEY  (countries_id),
   KEY idx_countries_name_zen (countries_name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -299,7 +299,7 @@ CREATE TABLE coupon_email_track (
   date_sent datetime NOT NULL default '0001-01-01 00:00:00',
   PRIMARY KEY  (unique_id),
   KEY idx_coupon_id_zen (coupon_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -312,7 +312,7 @@ CREATE TABLE coupon_gv_customer (
   customer_id int(5) NOT NULL default '0',
   amount decimal(8,4) NOT NULL default '0.0000',
   PRIMARY KEY  (customer_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -332,7 +332,7 @@ CREATE TABLE coupon_gv_queue (
   PRIMARY KEY  (unique_id),
   KEY idx_cust_id_order_id_zen (customer_id,order_id),
   KEY idx_release_flag_zen (release_flag)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -350,7 +350,7 @@ CREATE TABLE coupon_redeem_track (
   order_id int(11) NOT NULL default '0',
   PRIMARY KEY  (unique_id),
   KEY idx_coupon_id_zen (coupon_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -367,7 +367,7 @@ CREATE TABLE coupon_restrict (
   coupon_restrict char(1) NOT NULL default 'N',
   PRIMARY KEY  (restrict_id),
   KEY idx_coup_id_prod_id_zen (coupon_id,product_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -396,7 +396,7 @@ CREATE TABLE coupons (
   KEY idx_active_type_zen (coupon_active,coupon_type),
   KEY idx_coupon_code_zen (coupon_code),
   KEY idx_coupon_type_zen (coupon_type)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -411,7 +411,7 @@ CREATE TABLE coupons_description (
   coupon_name varchar(32) NOT NULL default '',
   coupon_description text,
   PRIMARY KEY (coupon_id,language_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -432,7 +432,7 @@ CREATE TABLE currencies (
   value float(13,8) default NULL,
   last_updated datetime default NULL,
   PRIMARY KEY  (currencies_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -464,7 +464,7 @@ CREATE TABLE customers (
   KEY idx_grp_pricing_zen (customers_group_pricing),
   KEY idx_nick_zen (customers_nick),
   KEY idx_newsletter_zen (customers_newsletter)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -482,7 +482,7 @@ CREATE TABLE customers_basket (
   customers_basket_date_added varchar(8) default NULL,
   PRIMARY KEY  (customers_basket_id),
   KEY idx_customers_id_zen (customers_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -501,7 +501,7 @@ CREATE TABLE customers_basket_attributes (
   products_options_sort_order text NOT NULL,
   PRIMARY KEY  (customers_basket_attributes_id),
   KEY idx_cust_id_prod_id_zen (customers_id,products_id(36))
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -518,7 +518,7 @@ CREATE TABLE customers_info (
   customers_info_date_account_last_modified datetime default NULL,
   global_product_notifications int(1) default '0',
   PRIMARY KEY  (customers_info_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -531,7 +531,7 @@ CREATE TABLE db_cache (
   cache_data blob,
   cache_entry_created int(15),
   PRIMARY KEY  (cache_entry_name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 # --------------------------------------------------------
@@ -554,7 +554,7 @@ CREATE TABLE email_archive (
   PRIMARY KEY  (archive_id),
   KEY idx_email_to_address_zen (email_to_address),
   KEY idx_module_zen (module)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 
@@ -576,7 +576,7 @@ CREATE TABLE featured (
   KEY idx_status_zen (status),
   KEY idx_products_id_zen (products_id),
   KEY idx_date_avail_zen (featured_date_available)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -592,7 +592,7 @@ CREATE TABLE files_uploaded (
   files_uploaded_name varchar(64) NOT NULL default '',
   PRIMARY KEY  (files_uploaded_id),
   KEY idx_customers_id_zen (customers_id)
-) TYPE=MyISAM COMMENT='Must always have either a sesskey or customers_id';
+) ENGINE=MyISAM COMMENT='Must always have either a sesskey or customers_id';
 
 # --------------------------------------------------------
 
@@ -608,7 +608,7 @@ CREATE TABLE geo_zones (
   last_modified datetime default NULL,
   date_added datetime NOT NULL default '0001-01-01 00:00:00',
   PRIMARY KEY  (geo_zone_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -619,7 +619,7 @@ DROP TABLE IF EXISTS get_terms_to_filter;
 CREATE TABLE get_terms_to_filter (
   get_term_name varchar(255) NOT NULL default '',
   PRIMARY KEY  (get_term_name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 #
 # Table structure for table geo_zones
@@ -633,7 +633,7 @@ CREATE TABLE group_pricing (
   last_modified datetime default NULL,
   date_added datetime NOT NULL default '0001-01-01 00:00:00',
   PRIMARY KEY  (group_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 # --------------------------------------------------------
 
 
@@ -666,7 +666,7 @@ CREATE TABLE ezpages (
   KEY idx_ezp_status_sidebox_zen (status_sidebox),
   KEY idx_ezp_status_footer_zen (status_footer),
   KEY idx_ezp_status_toc_zen (status_toc)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 #---------------------------------------------------
 
@@ -684,7 +684,7 @@ CREATE TABLE languages (
   sort_order int(3) default NULL,
   PRIMARY KEY  (languages_id),
   KEY idx_languages_name_zen (name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -705,7 +705,7 @@ CREATE TABLE layout_boxes (
   PRIMARY KEY  (layout_id),
   KEY idx_name_template_zen (layout_template,layout_box_name),
   KEY idx_layout_box_status_zen (layout_box_status)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -722,7 +722,7 @@ CREATE TABLE manufacturers (
   last_modified datetime default NULL,
   PRIMARY KEY  (manufacturers_id),
   KEY idx_mfg_name_zen (manufacturers_name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -738,7 +738,7 @@ CREATE TABLE manufacturers_info (
   url_clicked int(5) NOT NULL default '0',
   date_last_click datetime default NULL,
   PRIMARY KEY  (manufacturers_id,languages_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -756,7 +756,7 @@ CREATE TABLE media_clips (
   last_modified datetime NOT NULL default '0001-01-01 00:00:00',
   PRIMARY KEY  (clip_id),
   KEY idx_media_id_zen (media_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -771,7 +771,7 @@ CREATE TABLE media_manager (
   last_modified datetime NOT NULL default '0001-01-01 00:00:00',
   date_added datetime NOT NULL default '0001-01-01 00:00:00',
   PRIMARY KEY  (media_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -784,7 +784,7 @@ CREATE TABLE media_to_products (
   media_id int(11) NOT NULL default '0',
   product_id int(11) NOT NULL default '0',
   KEY idx_media_product_zen (media_id,product_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -798,7 +798,7 @@ CREATE TABLE media_types (
   type_name varchar(64) NOT NULL default '',
   type_ext varchar(8) NOT NULL default '',
   PRIMARY KEY  (type_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 INSERT INTO media_types (type_name, type_ext) VALUES ('MP3','.mp3');
 
@@ -816,7 +816,7 @@ CREATE TABLE meta_tags_categories_description (
   metatags_keywords TEXT,
   metatags_description TEXT,
   PRIMARY KEY  (categories_id,language_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -832,7 +832,7 @@ CREATE TABLE meta_tags_products_description (
   metatags_keywords TEXT,
   metatags_description TEXT,
   PRIMARY KEY  (products_id,language_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -848,7 +848,7 @@ CREATE TABLE music_genre (
   last_modified datetime default NULL,
   PRIMARY KEY  (music_genre_id),
   KEY idx_music_genre_name_zen (music_genre_name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -868,7 +868,7 @@ CREATE TABLE newsletters (
   status int(1) default NULL,
   locked int(1) default '0',
   PRIMARY KEY  (newsletters_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -932,7 +932,7 @@ CREATE TABLE orders (
   ip_address varchar(96) NOT NULL default '',
   PRIMARY KEY  (orders_id),
   KEY idx_status_orders_cust_zen (orders_status,orders_id,customers_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 # --------------------------------------------------------
@@ -960,7 +960,7 @@ CREATE TABLE orders_products (
   products_prid tinytext NOT NULL,
   PRIMARY KEY  (orders_products_id),
   KEY idx_orders_id_prod_id_zen (orders_id,products_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 # --------------------------------------------------------
@@ -999,7 +999,7 @@ CREATE TABLE orders_products_attributes (
   products_prid tinytext NOT NULL,
   PRIMARY KEY  (orders_products_attributes_id),
   KEY idx_orders_id_prod_id_zen (orders_id , orders_products_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1019,7 +1019,7 @@ CREATE TABLE orders_products_download (
   PRIMARY KEY  (orders_products_download_id),
   KEY idx_orders_id_zen (orders_id),
   KEY idx_orders_products_id_zen (orders_products_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1034,7 +1034,7 @@ CREATE TABLE orders_status (
   orders_status_name varchar(32) NOT NULL default '',
   PRIMARY KEY  (orders_status_id,language_id),
   KEY idx_orders_status_name_zen (orders_status_name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1052,7 +1052,7 @@ CREATE TABLE orders_status_history (
   comments text,
   PRIMARY KEY  (orders_status_history_id),
   KEY idx_orders_id_status_id_zen (orders_id,orders_status_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1072,7 +1072,7 @@ CREATE TABLE orders_total (
   PRIMARY KEY  (orders_total_id),
   KEY idx_ot_orders_id_zen (orders_id),
   KEY idx_ot_class_zen (class)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1085,7 +1085,7 @@ CREATE TABLE paypal_session (
   expiry int(17) NOT NULL default '0',
   PRIMARY KEY  (unique_id),
   KEY idx_session_id_zen (session_id(36))
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 DROP TABLE IF EXISTS paypal;
@@ -1133,7 +1133,7 @@ CREATE TABLE paypal (
   memo text,
   PRIMARY KEY (paypal_ipn_id,txn_id),
   KEY idx_zen_order_id_zen (zen_order_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 DROP TABLE IF EXISTS paypal_testing;
@@ -1182,7 +1182,7 @@ CREATE TABLE paypal_testing (
   memo text,
   PRIMARY KEY  (paypal_ipn_id,txn_id),
   KEY idx_zen_order_id_zen (zen_order_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 DROP TABLE IF EXISTS paypal_payment_status;
@@ -1190,7 +1190,7 @@ CREATE TABLE paypal_payment_status (
   payment_status_id int(11) NOT NULL auto_increment,
   payment_status_name varchar(64) NOT NULL default '',
   PRIMARY KEY (payment_status_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 INSERT INTO paypal_payment_status VALUES (1, 'Completed');
 INSERT INTO paypal_payment_status VALUES (2, 'Pending');
@@ -1212,7 +1212,7 @@ CREATE TABLE paypal_payment_status_history (
   date_added datetime NOT NULL default '0001-01-01 00:00:00',
   PRIMARY KEY (payment_status_history_id),
   KEY idx_paypal_ipn_id_zen (paypal_ipn_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 
@@ -1230,7 +1230,7 @@ CREATE TABLE product_music_extra (
   music_genre_id int(11) NOT NULL default '0',
   PRIMARY KEY  (products_id),
   KEY idx_music_genre_id_zen (music_genre_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 # --------------------------------------------------------
@@ -1251,7 +1251,7 @@ CREATE TABLE product_type_layout (
   PRIMARY KEY  (configuration_id),
   UNIQUE KEY unq_config_key_zen (configuration_key),
   KEY idx_key_value_zen (configuration_key, configuration_value(10))
-  )TYPE=MyISAM;
+  )ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1271,7 +1271,7 @@ CREATE TABLE product_types (
   last_modified datetime NOT NULL default '0001-01-01 00:00:00',
   PRIMARY KEY  (type_id),
   KEY idx_type_master_type_zen (type_master_type)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1285,7 +1285,7 @@ CREATE TABLE product_types_to_category (
   category_id int(11) NOT NULL default '0',
   KEY idx_category_id_zen (category_id),
   KEY idx_product_type_id_zen (product_type_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 # --------------------------------------------------------
@@ -1334,7 +1334,7 @@ CREATE TABLE products (
   PRIMARY KEY  (products_id),
   KEY idx_products_date_added_zen (products_date_added),
   KEY idx_products_status_zen (products_status)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 # --------------------------------------------------------
 
 #
@@ -1372,7 +1372,7 @@ CREATE TABLE products_attributes (
   attributes_required tinyint(1) NOT NULL default '0',
   PRIMARY KEY  (products_attributes_id),
   KEY idx_id_options_id_values_zen (products_id,options_id,options_values_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1387,7 +1387,7 @@ CREATE TABLE products_attributes_download (
   products_attributes_maxdays int(2) default '0',
   products_attributes_maxcount int(2) default '0',
   PRIMARY KEY  (products_attributes_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1405,7 +1405,7 @@ CREATE TABLE products_description (
   products_viewed int(5) default '0',
   PRIMARY KEY  (products_id,language_id),
   KEY idx_products_name_zen (products_name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1419,7 +1419,7 @@ CREATE TABLE products_discount_quantity (
   discount_qty float NOT NULL default '0',
   discount_price decimal(15,4) NOT NULL default '0.0000',
   KEY idx_id_qty_zen (products_id,discount_qty)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1433,7 +1433,7 @@ CREATE TABLE products_notifications (
   customers_id int(11) NOT NULL default '0',
   date_added datetime NOT NULL default '0001-01-01 00:00:00',
   PRIMARY KEY  (products_id,customers_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1456,7 +1456,7 @@ CREATE TABLE products_options (
   products_options_rows smallint(2) NOT NULL default '1',
   PRIMARY KEY  (products_options_id,language_id),
   KEY idx_lang_id_zen (language_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1469,7 +1469,7 @@ CREATE TABLE products_options_types (
   products_options_types_id int(11) NOT NULL default '0',
   products_options_types_name varchar(32) default NULL,
   PRIMARY KEY  (products_options_types_id)
-) TYPE=MyISAM COMMENT='Track products_options_types';
+) ENGINE=MyISAM COMMENT='Track products_options_types';
 
 # --------------------------------------------------------
 
@@ -1484,7 +1484,7 @@ CREATE TABLE products_options_values (
   products_options_values_name varchar(64) NOT NULL default '',
   products_options_values_sort_order int(11) NOT NULL default '0',
   PRIMARY KEY (products_options_values_id,language_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1498,7 +1498,7 @@ CREATE TABLE products_options_values_to_products_options (
   products_options_id int(11) NOT NULL default '0',
   products_options_values_id int(11) NOT NULL default '0',
   PRIMARY KEY  (products_options_values_to_products_options_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1512,7 +1512,7 @@ CREATE TABLE products_to_categories (
   categories_id int(11) NOT NULL default '0',
   PRIMARY KEY  (products_id,categories_id),
   KEY idx_cat_prod_id_zen (categories_id,products_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1534,7 +1534,7 @@ CREATE TABLE project_version (
   project_version_date_applied datetime NOT NULL default '0001-01-01 01:01:01',
   PRIMARY KEY  (project_version_id),
   UNIQUE KEY idx_project_version_key_zen (project_version_key)
-) TYPE=MyISAM COMMENT='Database Version Tracking';
+) ENGINE=MyISAM COMMENT='Database Version Tracking';
 
 
 # --------------------------------------------------------
@@ -1549,7 +1549,7 @@ CREATE TABLE project_version_history (
   project_version_comment varchar(250) NOT NULL default '',
   project_version_date_applied datetime NOT NULL default '0001-01-01 01:01:01',
   PRIMARY KEY  (project_version_id)
-) TYPE=MyISAM COMMENT='Database Version Tracking History';
+) ENGINE=MyISAM COMMENT='Database Version Tracking History';
 
 # --------------------------------------------------------
 
@@ -1566,7 +1566,7 @@ query_string TEXT NOT NULL default '' ,
 query_keys_list TEXT NOT NULL default '' ,
 PRIMARY KEY  (query_id) ,
 UNIQUE KEY query_name (query_name)
-) Type=MyISAM COMMENT = 'Stores queries for re-use in Admin email and report modules';
+) ENGINE=MyISAM COMMENT = 'Stores queries for re-use in Admin email and report modules';
 
 # --------------------------------------------------------
 
@@ -1583,7 +1583,7 @@ CREATE TABLE record_artists (
   last_modified datetime default NULL,
   PRIMARY KEY  (artists_id),
   KEY idx_rec_artists_name_zen (artists_name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1599,7 +1599,7 @@ CREATE TABLE record_artists_info (
   url_clicked int(5) NOT NULL default '0',
   date_last_click datetime default NULL,
   PRIMARY KEY  (artists_id,languages_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1616,7 +1616,7 @@ CREATE TABLE record_company (
   last_modified datetime default NULL,
   PRIMARY KEY  (record_company_id),
   KEY idx_rec_company_name_zen (record_company_name)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1632,7 +1632,7 @@ CREATE TABLE record_company_info (
   url_clicked int(5) NOT NULL default '0',
   date_last_click datetime default NULL,
   PRIMARY KEY  (record_company_id,languages_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1654,7 +1654,7 @@ CREATE TABLE reviews (
   PRIMARY KEY  (reviews_id),
   KEY idx_products_id_zen (products_id),
   KEY idx_customers_id_zen (customers_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1668,7 +1668,7 @@ CREATE TABLE reviews_description (
   languages_id int(11) NOT NULL default '0',
   reviews_text text NOT NULL,
   PRIMARY KEY  (reviews_id,languages_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1695,7 +1695,7 @@ CREATE TABLE salemaker_sales (
   sale_date_status_change date NOT NULL default '0001-01-01',
   PRIMARY KEY  (sale_id),
   KEY idx_sale_status_zen (sale_status)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1709,7 +1709,7 @@ CREATE TABLE sessions (
   expiry int(11) unsigned NOT NULL default '0',
   value text NOT NULL,
   PRIMARY KEY  (sesskey)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1732,7 +1732,7 @@ CREATE TABLE specials (
   KEY idx_status_zen (status),
   KEY idx_products_id_zen (products_id),
   KEY idx_date_avail_zen (specials_date_available)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1748,7 +1748,7 @@ CREATE TABLE tax_class (
   last_modified datetime default NULL,
   date_added datetime NOT NULL default '0001-01-01 00:00:00',
   PRIMARY KEY  (tax_class_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1769,7 +1769,7 @@ CREATE TABLE tax_rates (
   PRIMARY KEY  (tax_rates_id),
   KEY idx_tax_zone_id_zen (tax_zone_id),
   KEY idx_tax_class_id_zen (tax_class_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1784,7 +1784,7 @@ CREATE TABLE template_select (
   template_language varchar(64) NOT NULL default '0',
   PRIMARY KEY  (template_id),
   KEY idx_tpl_lang_zen (template_language)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1810,7 +1810,7 @@ CREATE TABLE whos_online (
   KEY idx_time_entry_zen (time_entry),
   KEY idx_time_last_click_zen (time_last_click),
   KEY idx_last_page_url_zen (last_page_url)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1825,7 +1825,7 @@ CREATE TABLE zones (
   zone_code varchar(32) NOT NULL default '',
   zone_name varchar(32) NOT NULL default '',
   PRIMARY KEY  (zone_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 # --------------------------------------------------------
 
@@ -1842,7 +1842,7 @@ CREATE TABLE zones_to_geo_zones (
   last_modified datetime default NULL,
   date_added datetime NOT NULL default '0001-01-01 00:00:00',
   PRIMARY KEY  (association_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 #
@@ -1859,7 +1859,7 @@ CREATE TABLE customers_wishlist (
   final_price decimal(8,2) NOT NULL default '0.00',
   products_quantity int(2) NOT NULL default '0',
   wishlist_name varchar(64) default NULL
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 

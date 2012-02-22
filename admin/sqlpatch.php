@@ -633,7 +633,7 @@ echo $line . '<br />';
             reason varchar(200) default NULL,
             errordate datetime default '0001-01-01 00:00:00',
             sqlstatement text, PRIMARY KEY  (upgrade_exception_id)
-          ) TYPE=MyISAM   ");
+          ) ENGINE=MyISAM   ");
     return $result;
     }
   }
