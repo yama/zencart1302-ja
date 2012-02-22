@@ -11,7 +11,7 @@
  * defining language components for the page
  */
   define('SAVE_DATABASE_SETTINGS', 'データベース設定を保存');//this comes before TEXT_MAIN
-  define('TEXT_MAIN', "次にデータベースの設定を行います。注意して各項目を入力し、<em>" . SAVE_DATABASE_SETTINGS . "</em> をクリックしてください。");
+  define('TEXT_MAIN', "データベースの設定を行います。" . SAVE_DATABASE_SETTINGS . " をクリックすると、設定が保存され、データベースへの書き込みが実行されます。");
   define('TEXT_PAGE_HEADING', 'Zen Cart設定　-　データベース設定');
   define('DATABASE_INFORMATION', 'データベース設定');
   define('DATABASE_TYPE', 'データベースタイプ');
@@ -25,7 +25,7 @@
   define('DATABASE_NAME', 'データベース名');
   define('DATABASE_NAME_INSTRUCTION', 'データベース名を入力してください。(例）\'zencart\'。');
   define('DATABASE_PREFIX', 'テーブルプレフィクス');
-  define('DATABASE_PREFIX_INSTRUCTION', 'データベーステーブルに付けるプレフィクスを入力してください。(例）\'zen_\'。必要でなければ空白にしてください。<br />プレフィクスを使用することで一つのデータベースで複数の店舗を運営することができます。');
+  define('DATABASE_PREFIX_INSTRUCTION', 'データベーステーブルに付けるプレフィクスを入力してください。(例）\'zen_\'。必要でなければ空白にしてください。<br />プレフィクスを設定すると、ひとつのデータベースで複数のショップを運用したり、他のCMSと共存したりすることができます。');
   define('DATABASE_CREATE', 'データベース作成');
   define('DATABASE_CREATE_INSTRUCTION', 'データベースを新規作成しますか? ');
   define('DATABASE_CONNECTION', '持続的接続');

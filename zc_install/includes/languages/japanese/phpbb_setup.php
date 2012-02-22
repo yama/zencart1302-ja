@@ -11,8 +11,8 @@
  * defining language components for the page
  */
   define('SAVE_PHPBB_SETTINGS', 'phpBBの設定を保存'); //this comes before TEXT_MAIN
-  define('TEXT_MAIN', 'phpBBフォーラムがインストール済みの場合、Zen CartからphpBBフォーラムにリンクするかどうかを確認します。各種設定項目を適切に入力し、<em>'.SAVE_PHPBB_SETTINGS.'</em> を押してください。次の画面へと移動します。');
-  define('TEXT_PAGE_HEADING', 'Zen Cartの設定 -　phpBB の設定');
+  define('TEXT_MAIN', '同じサーバにphpBBがインストール済みの場合、Zen CartからphpBBにリンクすることができます。各種設定項目を適切に入力し、<em>'.SAVE_PHPBB_SETTINGS.'</em> をクリックしてください。');
+  define('TEXT_PAGE_HEADING', 'Zen Cartの設定 - phpBB の設定');
   define('PHPBB_INFORMATION', 'phpBB情報');
   define('PHPBB_USE', 'phpBBフォーラムとリンクさせますか');
   define('PHPBB_USE_INSTRUCTION', 'インストール済みのphpBBフォーラムとリンクするかどうか選択してください。');
