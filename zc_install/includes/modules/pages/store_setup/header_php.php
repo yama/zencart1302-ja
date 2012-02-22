@@ -18,7 +18,7 @@ if (!isset($_GET['debug3']) && !zen_not_null($_POST['debug3'])) define('ZC_UPG_D
   if (!isset($_POST['store_owner'])) $_POST['store_owner'] = '';
   if (!isset($_POST['store_owner_email'])) $_POST['store_owner_email'] = '';
   if (!isset($_POST['store_country'])) $_POST['store_country'] = '107';
-  if (!isset($_POST['store_zone'])) $_POST['store_zone'] = '';
+  if (!isset($_POST['store_zone'])) $_POST['store_zone'] = '194';
   if (!isset($_POST['store_address'])) $_POST['store_address'] = STORE_ADDRESS_DEFAULT_VALUE;
   if (!isset($_POST['store_default_language'])) $_POST['store_default_language'] = '';
   if (!isset($_POST['store_default_currency'])) $_POST['store_default_currency'] = '';
