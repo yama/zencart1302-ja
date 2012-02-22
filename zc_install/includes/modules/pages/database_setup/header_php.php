@@ -146,7 +146,7 @@ $is_upgrade = $_GET['is_upgrade'];
            $link = '<a href="' . $linkto . '">' . '<br /><br />Done!<br />Click Here To Continue<br /><br />' . '</a>';
            echo "\n<script type=\"text/javascript\">\nwindow.location=\"$linkto\";\n</script>\n";
            echo '<noscript>'.$link.'</noscript><br /><br />';
-           echo '<div id="footer"><p>Copyright &copy; 2003-2006 <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a></p></div></div></body></html>';
+           echo '<div id="footer"><p>Copyright &copy; 2003-2012 <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a></p></div></div></body></html>';
          } else {
            header('location: index.php?main_page=store_setup&language=' . $language);
          }

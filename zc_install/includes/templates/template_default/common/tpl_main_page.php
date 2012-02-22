@@ -35,7 +35,7 @@
   ?>
   </div>
   <div id="footer">
-    <p>Copyright &copy; 2003-2006 <a href="http://www.zen-cart.com" target="_blank">Zen Cart&trade;</a></p>
+    <p>Copyright &copy; 2003-2012 <a href="http://www.zen-cart.com" target="_blank">Zen Cart&trade;</a></p>
   </div>
 </div>
 <!--  <p><a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0 Transitional</a></p>-->
