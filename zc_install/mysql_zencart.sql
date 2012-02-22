@@ -3338,7 +3338,7 @@ INSERT INTO currencies VALUES (3,'Japanese Yen','JPY','','円','.',',','0','1.000
 
 
 #言語設定
-INSERT INTO languages VALUES (2,'Japanese','ja','icon.gif','japanese',1);
+INSERT INTO languages VALUES (2,'Japanese','ja','icon.gif','japanese',0);
 
 #国設定
 #住所フォーマットを変更
