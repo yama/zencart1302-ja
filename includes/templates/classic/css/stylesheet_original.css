@@ -462,3 +462,23 @@ TABLE.products-attributes-images {
   float: left;
   padding: 2px;
 }
+
+html {
+	font-size:100.01%;
+}
+body {
+font-size:82.5%;
+}
+
+.messageStackError, .messageStackWarning, errorBox,
+td.headerNavigation,
+.leftboxheading, .rightboxheading, .centerboxheading, .singleboxheading,
+.leftbox, .rightbox, .centerbox, .singlebox,
+checkbox, input, radio, select,
+table.footer
+ {
+font-size:inherit;
+}
+h4, h5, h6, LABEL, h4.optionName, LEGEND, ADDRESS, .sideBoxContent, .larger {
+font-size:1em;
+}
