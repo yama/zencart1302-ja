@@ -13,7 +13,7 @@
 //define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping');
 // END: moved to meta_tags.php
 
-  define('FOOTER_TEXT_BODY', 'Copyright &copy; 2003-2006 <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a> Powered by <a href="http://www.zen-cart.com" target="_blank">zen-cart.com</a> / <a href="http://www.zen-cart.jp" target="_blank">zen-cart.jp</a>');
+  define('FOOTER_TEXT_BODY', 'Copyright &copy; 2003-2012 <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a> Powered by <a href="http://www.zen-cart.com" target="_blank">zen-cart.com</a> / <a href="http://www.zen-cart.jp" target="_blank">zen-cart.jp</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
 // on RedHat try 'en_US'

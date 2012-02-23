@@ -26,7 +26,7 @@
 // email disclaimer
   define('EMAIL_DISCLAIMER', 'このメールは当ショップに登録されたお客様に対してお送りしています。お心当たりが無いようでしたら大変お手数ですがメールにて %s までご連絡ください。');
   define('EMAIL_SPAM_DISCLAIMER','このメールは当ショップに登録され、購読を希望された方にお届けしています。配信停止を希望される方は、お手数ですがこちらのメールアドレスまでご連絡下さい。');
-  define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) 2003-2006 <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+  define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) 2003-2012 <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 
 // email advisory for all emails customer generate - tell-a-friend and GV send
   define('EMAIL_ADVISORY', '-----' . "\n" . '「<strong>重要:</strong>
