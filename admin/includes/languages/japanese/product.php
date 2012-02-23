@@ -125,10 +125,8 @@ define('TEXT_COPY_AS_DUPLICATE', '商品を複製');
   define('TEXT_COPY_ATTRIBUTES_NO','いいえ');
 
 // Products and Discount Copy Options
-  define('TEXT_COPY_DISCOUNTS_ONLY','複製した商品にのみ割引を適用します。');
-//Only used for Duplicate Products with Discounts ...
-  define('TEXT_COPY_DISCOUNTS','割引適用のためにコピー商品を複製しますか？');
-//Copy Product Discounts to Duplicate?'
+  define('TEXT_COPY_DISCOUNTS_ONLY','複製した商品にのみ割引を適用します。');//Only used for Duplicate Products with Discounts ...
+  define('TEXT_COPY_DISCOUNTS','割引適用のためにコピー商品を複製しますか？');//Copy Product Discounts to Duplicate?'
   define('TEXT_COPY_DISCOUNTS_YES','はい');
   define('TEXT_COPY_DISCOUNTS_NO','いいえ');
 
@@ -189,8 +187,7 @@ define('TEXT_COPY_AS_DUPLICATE', '商品を複製');
   define('TEXT_ATTRIBUTE_COPY_UPDATING','<strong>属性を以下から更新 </strong>');
 
 // meta tags
-  define('TEXT_META_TAG_TITLE_INCLUDES','文書タイトル（＜title＞要素）に挿入する情報の指定');
-//Mark What the Product\'s Meta Tag Title Should Include:</strong>
+  define('TEXT_META_TAG_TITLE_INCLUDES','文書タイトル（＜title＞要素）に挿入する情報の指定');//Mark What the Product\'s Meta Tag Title Should Include:</strong>
   define('TEXT_PRODUCTS_METATAGS_PRODUCTS_NAME_STATUS','<strong>商品名:</strong>');
   define('TEXT_PRODUCTS_METATAGS_TITLE_STATUS','<strong>タイトル:</strong>');
   define('TEXT_PRODUCTS_METATAGS_MODEL_STATUS','<strong>モデル:</strong>');

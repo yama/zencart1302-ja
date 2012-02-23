@@ -49,4 +49,12 @@ define('TEXT_IMAGE_NONEXISTENT', '画像が存在しません。');
 
 define('TEXT_INFO_HEADING_DELETE_SPECIALS', '特価商品を削除');
 define('TEXT_INFO_DELETE_INTRO', 'この特価商品を本当に削除しますか?');
+
+define('SUCCESS_SPECIALS_PRE_ADD', 'Successful: Pre-Add of Special ... please update the price and dates ...');
+define('WARNING_SPECIALS_PRE_ADD_EMPTY', 'Warning: No Product ID specified ... nothing was added ...');
+define('WARNING_SPECIALS_PRE_ADD_DUPLICATE', 'Warning: Product ID already on Special ... nothing was added ...');
+define('TEXT_INFO_HEADING_PRE_ADD_SPECIALS', 'Manually add new Special by Product ID');
+define('TEXT_INFO_PRE_ADD_INTRO', 'On large databases, you may Manually Add a Special by the Product ID<br /><br />This is best used when the page takes too long to render and trying to select a Product from the dropdown becomes difficult due to too many Products from which to choose.');
+define('TEXT_PRE_ADD_PRODUCTS_ID', 'Please enter the Product ID to be Pre-Added: ');
+define('TEXT_INFO_MANUAL', 'Product ID to be Manually Added as a Special');
 ?>

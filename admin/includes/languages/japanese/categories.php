@@ -67,6 +67,7 @@ define('TEXT_INFO_HEADING_MOVE_PRODUCT', '商品を移動');
 define('TEXT_INFO_HEADING_COPY_TO', 'コピー先');
 
 define('TEXT_DELETE_CATEGORY_INTRO', 'このカテゴリを本当に削除しますか?');
+define('TEXT_DELETE_CATEGORY_INTRO_LINKED_PRODUCTS', '<strong>Warning:</strong> Linked Products whose Master Categories ID are deleted will not price properly. You should first assure that when deleting a Category that contains Linked Products that you reset the Product(s) Master Categories ID to another Category before removing a Category');
 define('TEXT_DELETE_PRODUCT_INTRO', 'この商品を本当に削除しますか?');
 
 define('TEXT_DELETE_WARNING_CHILDS', '<b>警告:</b> このカテゴリには %s 個のサブカテゴリが登録されています!');
@@ -159,7 +160,6 @@ define('ERROR_CANNOT_ADD_PRODUCT_TYPE','この特定のタイプの勝因はこのカテゴリーに
   define('TEXT_PRODUCTS_ATTRIBUTES_INFO','商品のオプション:');
   define('TEXT_PRODUCT_ATTRIBUTES_DOWNLOADS','ダウンロード商品: ');
 
-
   define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES','商品オプションを付加する:');
   define('TEXT_PRODUCT_IS_PRICED_BY_ATTRIBUTE','はい');
   define('TEXT_PRODUCT_NOT_PRICED_BY_ATTRIBUTE','いいえ');
@@ -220,7 +220,7 @@ define('PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT', '価格要問い合わせの商品');
   define('TEXT_EDIT_CATEGORIES_META_TAGS_KEYWORDS', 'Metaタグ(Keywords):');
   define('TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION', 'Metaタグ(Description):');
 
-
+define('WARNING_PRODUCTS_IN_TOP_INFO', 'WARNING: You have Products in the Top Level Category. This will cause pricing to not work properly in the Catalog. Products found: ');
 
 
 ?>

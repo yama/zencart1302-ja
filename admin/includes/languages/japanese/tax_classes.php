@@ -22,6 +22,7 @@
 
 define('HEADING_TITLE', '税種別設定');
 
+define('TABLE_HEADING_TAX_CLASS_ID', 'ID');
 define('TABLE_HEADING_TAX_CLASSES', '税種別');
 define('TABLE_HEADING_ACTION', '操作');
 

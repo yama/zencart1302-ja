@@ -36,4 +36,5 @@ define('HEADER_RESTRICT_REMOVE', '削除');
 define('IMAGE_ALLOW', '許可');
 define('IMAGE_DENY', '不許可');
 define('IMAGE_REMOVE', '削除');
+define('TEXT_ALL_CATEGORIES', 'All Categories');
 ?>

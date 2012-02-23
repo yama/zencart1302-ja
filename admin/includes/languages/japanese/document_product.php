@@ -33,6 +33,7 @@ define('TABLE_HEADING_QUANTITY','数量');
 define('TABLE_HEADING_ACTION', '操作');
 define('TABLE_HEADING_STATUS', 'ステータス');
 
+
 define('TEXT_CATEGORIES', 'カテゴリ:');
 define('TEXT_SUBCATEGORIES', 'サブカテゴリ:');
 define('TEXT_PRODUCTS', '商品:');
@@ -116,7 +117,6 @@ define('EMPTY_CATEGORY', '空カテゴリ');
 define('TEXT_HOW_TO_COPY', 'コピー方法:');
 define('TEXT_COPY_AS_LINK', '商品をリンク');
 define('TEXT_COPY_AS_DUPLICATE', '商品を複製');
-
 
 // Products and Attribute Copy Options
   define('TEXT_COPY_ATTRIBUTES_ONLY','商品のコピーだけに使う ...');

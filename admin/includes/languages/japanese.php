@@ -104,6 +104,7 @@ define('HEADER_TITLE_LOGOFF', 'ログオフ');
 // Define the name of your Gift Certificate as Gift Voucher, Gift Certificate, Zen Cart Dollars, etc. here for use through out the shop
   define('TEXT_GV_NAME','ギフト券');
   define('TEXT_GV_NAMES','ギフト券');
+  define('TEXT_DISCOUNT_COUPON', 'Discount Coupon');
 
 // used for redeem code, redemption code, or redemption id
   define('TEXT_GV_REDEEM','引き換えコード');
@@ -117,7 +118,7 @@ define('DOB_FORMAT_STRING', 'yyyy/mm/dd');
 
 // configuration box text in includes/boxes/configuration.php
 define('BOX_HEADING_CONFIGURATION', '一般設定');
-define('BOX_CONFIGURATION_MYSTORE', 'マイストア');
+define('BOX_CONFIGURATION_MYSTORE', 'マイショップ');
 define('BOX_CONFIGURATION_LOGGING', 'ロギング');
 define('BOX_CONFIGURATION_CACHE', 'キャッシュ');
 
@@ -213,7 +214,7 @@ define('BOX_COUPON_ADMIN','クーポン券の管理');
 define('IMAGE_RELEASE', 'Redeem ', '引き換え');
 
 // javascript messages
-define('JS_ERROR', 'エラー： フォームの内容にエラーがあります。!\n以下の内容を確認してください。\n\n');
+define('JS_ERROR', 'エラー： フォームの内容にエラーがあります。\n以下の内容を確認してください。\n\n');
 
 define('JS_OPTIONS_VALUE_PRICE', '* 新商品の価格が必要です。\n');
 define('JS_OPTIONS_VALUE_PRICE_PREFIX', '* 商品オプション属性の価格は±のいずれかが必要です。\n');
@@ -228,21 +229,19 @@ define('JS_PRODUCTS_IMAGE', '* 新商品の画像が入力されていません。\n');
 
 define('JS_SPECIALS_PRODUCTS_PRICE', '* この商品の新しい価格を設定してください。\n');
 
-define('JS_GENDER', '* \'性別\'を選択してください。\n');
-define('JS_FIRST_NAME', '* \'姓\'を入力してください。' . ENTRY_FIRST_NAME_MIN_LENGTH . '文字以上\n');
-define('JS_LAST_NAME', '* \'名\'を入力してください。' . ENTRY_LAST_NAME_MIN_LENGTH . '文字以上\n');
-define('JS_FIRST_NAME_KANA', '* \'姓ふりがな\'を入力してください。' . ENTRY_FIRST_NAME_MIN_LENGTH . '文字以上\n');
-define('JS_LAST_NAME_KANA', '* \'名ふりがな\'を入力してください。' . ENTRY_LAST_NAME_MIN_LENGTH . '文字以上\n');
-define('JS_DOB', '* \'生年月日\'を入力してください。フォーマット: xxxx/xx/xx (西暦/月/日).\n');
-define('JS_EMAIL_ADDRESS', '* \'メールアドレス\'を入力してください。' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . '文字以上\n');
-define('JS_ADDRESS', '* \'住所\'を入力してください。 ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . '文字以上\n');
-define('JS_POST_CODE', '* \'郵便番号\'を入力してください。' . ENTRY_POSTCODE_MIN_LENGTH . '文字以上\n');
-define('JS_CITY', '* \'市区町村\'を入力してください。' . ENTRY_CITY_MIN_LENGTH . '文字以上\n');
-define('JS_STATE', '* \'都道府県\'を入力してください。\n');
+define('JS_GENDER', '* 性別を選択してください。\n');
+define('JS_FIRST_NAME', '* 姓を入力してください。' . ENTRY_FIRST_NAME_MIN_LENGTH . '文字以上\n');
+define('JS_LAST_NAME', '* 名を入力してください。' . ENTRY_LAST_NAME_MIN_LENGTH . '文字以上\n');
+define('JS_DOB', '* 生年月日を入力してください。フォーマット: xxxx/xx/xx (西暦/月/日).\n');
+define('JS_EMAIL_ADDRESS', '* メールアドレスを入力してください。' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . '文字以上\n');
+define('JS_ADDRESS', '* 住所を入力してください。 ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . '文字以上\n');
+define('JS_POST_CODE', '* 郵便番号を入力してください。' . ENTRY_POSTCODE_MIN_LENGTH . '文字以上\n');
+define('JS_CITY', '* 市区町村を入力してください。' . ENTRY_CITY_MIN_LENGTH . '文字以上\n');
+define('JS_STATE', '* 都道府県を入力してください。\n');
 define('JS_STATE_SELECT', '-- 選択してください --');
-define('JS_ZONE', '* \'都道府県\'をリストから選択してください。');
-define('JS_COUNTRY', '* \'国名\'を選択してください。\n');
-define('JS_TELEPHONE', '* \'電話番号\'を入力してください。' . ENTRY_TELEPHONE_MIN_LENGTH . '文字以上.\n');
+define('JS_ZONE', '* 都道府県をリストから選択してください。');
+define('JS_COUNTRY', '* 国名を選択してください。\n');
+define('JS_TELEPHONE', '* 電話番号を入力してください。' . ENTRY_TELEPHONE_MIN_LENGTH . '文字以上.\n');
 define('JS_PASSWORD', '* \'パスワード\' と \'パスワード確認\'が一致するように入力してください。' . ENTRY_PASSWORD_MIN_LENGTH . '文字以上\n');
 
 define('JS_ORDER_DOES_NOT_EXIST', '注文番号%sは存在しません。');
@@ -259,12 +258,6 @@ define('ENTRY_FIRST_NAME', '姓:');
 define('ENTRY_FIRST_NAME_ERROR', '&nbsp;<span class="errorText">' . ENTRY_FIRST_NAME_MIN_LENGTH . '文字以上</span>');
 define('ENTRY_LAST_NAME', '名:');
 define('ENTRY_LAST_NAME_ERROR', '&nbsp;<span class="errorText">' . ENTRY_LAST_NAME_MIN_LENGTH . '文字以上</span>');
-// ->furikana
-define('ENTRY_FIRST_NAME_KANA', '姓ふりがな:');
-define('ENTRY_FIRST_NAME_KANA_ERROR', '&nbsp;<span class="errorText">' . ENTRY_FIRST_NAME_MIN_LENGTH . '文字以上</span>');
-define('ENTRY_LAST_NAME_KANA', '名ふりがな:');
-define('ENTRY_LAST_NAME_KANA_ERROR', '&nbsp;<span class="errorText">' . ENTRY_LAST_NAME_MIN_LENGTH . '文字以上</span>');
-// <-furikana
 define('ENTRY_DATE_OF_BIRTH', '生年月日:');
 define('ENTRY_DATE_OF_BIRTH_ERROR', '&nbsp;<span class="errorText">(記入例: 1970/05/21)</span>');
 define('ENTRY_EMAIL_ADDRESS', 'E-Mail アドレス:');
@@ -691,6 +684,15 @@ define('ENTRY_NOTHING_TO_SEND','メッセージの入力内容がありません。');
   define('CATEGORY_HAS_SUBCATEGORIES', '注意: カテゴリにサブカテゴリがあります。<br />商品を追加できません。');
 
   define('WARNING_REGISTER_GLOBALS_ON', 'ご使用中のサーバーはregister_globalsがOnで運用されています。<br/>register_globalsはセキュリティ上重大な問題を引き起こす可能性があるため、Zen Cartは、register_globalsの設定をOffにしなければ動作しません。<br/>Zen Cartのインストールディレクトリに.htaccessファイルが正しくアップロードされているのにこのメッセージが表示されている場合、ご使用中のサーバーでは.htaccessでregister_globalsの設定を変更できないことを意味しています。<br/>この問題を解決するためには、次のうち2つのどちらかの対応が必要です。<br/><br/><br/>1. サーバーの設定を変更する<br/>2. register_globalsがOffで運用可能なサーバーに再インストールする');
+
+// ->furikana
+define('JS_FIRST_NAME_KANA', '* 姓(ふりがな)を入力してください。' . ENTRY_FIRST_NAME_MIN_LENGTH . '文字以上\n');
+define('JS_LAST_NAME_KANA', '* 名(ふりがな)を入力してください。' . ENTRY_LAST_NAME_MIN_LENGTH . '文字以上\n');
+define('ENTRY_FIRST_NAME_KANA', '姓ふりがな:');
+define('ENTRY_FIRST_NAME_KANA_ERROR', '&nbsp;<span class="errorText">' . ENTRY_FIRST_NAME_MIN_LENGTH . '文字以上</span>');
+define('ENTRY_LAST_NAME_KANA', '名ふりがな:');
+define('ENTRY_LAST_NAME_KANA_ERROR', '&nbsp;<span class="errorText">' . ENTRY_LAST_NAME_MIN_LENGTH . '文字以上</span>');
+// <-furikana
 
 ///////////////////////////////////////////////////////////
 // include additional files:

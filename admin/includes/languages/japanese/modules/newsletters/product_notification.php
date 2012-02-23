@@ -27,8 +27,8 @@ define('TEXT_SELECTED_PRODUCTS', '選択された商品');
 define('JS_PLEASE_SELECT_PRODUCTS', 'いくつか商品を選択して下さい。');
 
 define('BUTTON_GLOBAL', 'グローバル');
-define('BUTTON_SELECT', '>>>');
-define('BUTTON_UNSELECT', '<<<');
+define('BUTTON_SELECT', '&gt;&gt;&gt;');
+define('BUTTON_UNSELECT', '&lt;&lt;&lt;');
 define('BUTTON_SUBMIT', '送信');
 define('BUTTON_CANCEL', 'キャンセル');
 ?>

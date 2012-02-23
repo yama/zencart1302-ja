@@ -33,6 +33,7 @@ define('TABLE_HEADING_QUANTITY','Quantity');
 define('TABLE_HEADING_ACTION', 'Action');
 define('TABLE_HEADING_STATUS', 'Status');
 
+
 define('TEXT_CATEGORIES', 'Categories:');
 define('TEXT_SUBCATEGORIES', 'Subcategories:');
 define('TEXT_PRODUCTS', 'Products:');

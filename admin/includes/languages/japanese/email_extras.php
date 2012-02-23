@@ -39,7 +39,7 @@
 // email disclaimer
   define('EMAIL_DISCLAIMER', 'このメールアドレスは、あなたもしくはあなたのお客様からいただいたものです。このメールに心当たりがない方は、お手数ですが %s までお知らせください。');
   define('EMAIL_SPAM_DISCLAIMER','このメールは、US CAN-SPAM Law in effect 01/01/2004に準拠して送信されました。購読削除を希望される場合は、差出人アドレスにリクエストいただければ速やかに対処いたします。');
-  define('EMAIL_FOOTER_COPYRIGHT','Copyright &copy; 2004 <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+  define('EMAIL_FOOTER_COPYRIGHT','Copyright &copy; 2012 <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
   define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[ギフト券]');
   define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[クーポン券]');
   define('SEND_EXTRA_ORDERS_STATUS_ADMIN_EMAILS_TO_SUBJECT','[ご注文状況]');

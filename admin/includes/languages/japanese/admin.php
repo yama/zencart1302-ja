@@ -35,7 +35,7 @@ define('TEXT_HEADING_RESET_PASSWORD', 'パスワードリセット');
 define('TEXT_ADMINS', 'Admins:');
 define('TEXT_ADMINS_EMAIL', 'Email:');
 
-define('TEXT_NEW_INTRO', '以下のフォームに新しい管理者用の情報を入力してください。');
+define('TEXT_NEW_INTRO', '新しい管理者の情報を入力してください。');
 define('TEXT_EDIT_INTRO', '必要な修正を行ってください。');
 
 define('TEXT_ADMINS_NAME', '管理者名:');

@@ -95,7 +95,7 @@ define('COUPON_CODE_HELP', 'クーポンコードを入力してください。空白の場合は自動で
 define('COUPON_STARTDATE_HELP', 'クーポン券が有効になる日付');
 define('COUPON_FINISHDATE_HELP', 'クーポン券の有効期限の日付');
 define('COUPON_FREE_SHIP_HELP', 'クーポン券の効果を配送料を無料にする。<BR>ノート： これはクーポンの利用額に関係なく適用されますが、利用最低額は適用されます。');
-define('COUPON_FREE_SHIP_ITEM_HELP', '<BR>また、商品金額に対しては適用されません。');
+define('COUPON_FREE_SHIP_ITEM_HELP', '<br />また、商品金額に対しては適用されません。');
 define('COUPON_DESC_HELP', '顧客向けの説明文');
 define('COUPON_MIN_ORDER_HELP', 'クーポン券が有効な場合の最低利用額');
 define('COUPON_USES_COUPON_HELP', 'クーポン券の最大利用回数。空白の場合は無制限になります。');
@@ -115,4 +115,5 @@ define('SUCCESS_COUPON_DISABLED', 'Success! Discount Coupon was set to Inactive 
 define('TEXT_COUPON_NEW', 'コピーで新しく作成するクーポン券のクーポンコードを指定してください。');
 define('ERROR_DISCOUNT_COUPON_DUPLICATE', '警告! 指定されたクーポンコードは既に存在します。コピー処理を取りやめました。');
 define('TEXT_CONFIRM_COPY', 'このクーポン券をコピーして新しいクーポン券を作成しますか？作成する場合は[保存]ボタンを押してください。');
+define('SUCCESS_COUPON_DUPLICATE', 'Success! Discount Coupon was duplicated ...<br /><br />Be sure to check Coupon Name and Dates ...');
 ?>
