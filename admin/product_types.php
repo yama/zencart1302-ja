@@ -211,7 +211,7 @@ if ($_GET['action'] == 'layout' || $_GET['action'] == 'layout_edit') {
   while (!$configuration->EOF) {
     if (zen_not_null($configuration->fields['use_function'])) {
       $use_function = $configuration->fields['use_function'];
-      if (ereg('->', $use_function)) {
+      if (strpos($use_function,'->')!==false) {
         $class_method = explode('->', $use_function);
         if (!is_object(${$class_method[0]})) {
           include(DIR_WS_CLASSES . $class_method[0] . '.php');
