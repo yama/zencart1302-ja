@@ -113,7 +113,7 @@ mbstring.encoding_translation = On
       	$encode =mb_http_input();			
 		if($encode == 'ASCII' ){ $encode = 'UTF-8';}
       
-		$phonenum=ereg_replace("-","",mb_convert_kana($order->customer['telephone'],"a")); 
+		$phonenum=str_replace('-','',mb_convert_kana($order->customer['telephone'],"a")); 
 	
 		if(strlen($phonenum)>11 || strlen($phonenum)<9){
 			
@@ -160,11 +160,11 @@ mbstring.encoding_translation = On
 			zen_draw_hidden_field('NAME2', mb_strcut(mb_convert_kana($order->billing['lastname'],"KVHA"),0,20)) .
 			zen_draw_hidden_field('KANA1', mb_strcut(mb_convert_kana(MODULE_PAYMENT_REMISECSP_TEXT_INPUT_KANA,"KVHA"),0,20)) .
 			zen_draw_hidden_field('KANA2', mb_strcut(mb_convert_kana(MODULE_PAYMENT_REMISECSP_TEXT_INPUT_KANA,"KVHA"),0,20)) .
-			zen_draw_hidden_field('YUBIN1', ereg_replace("-","",mb_convert_kana(substr($order->billing['postcode'],0,3),"a"))) .
+			zen_draw_hidden_field('YUBIN1', str_replace('-','',mb_convert_kana(substr($order->billing['postcode'],0,3),"a"))) .
 			zen_draw_hidden_field('ADD1', $address1) .
 			zen_draw_hidden_field('ADD2', $address2) .
 			zen_draw_hidden_field('ADD3', $address3) . 
-			zen_draw_hidden_field('TEL', substr(ereg_replace("-","",mb_convert_kana($order->customer['telephone'],"a")),0,11) ) .
+			zen_draw_hidden_field('TEL', substr(str_replace('-','',mb_convert_kana($order->customer['telephone'],"a")),0,11) ) .
 			zen_draw_hidden_field('MAIL', mb_convert_kana($order->customer['email_address'],"a") ) .
 			zen_draw_hidden_field('TAX', '0') .
 			zen_draw_hidden_field('TOTAL', $order->info['total']) .

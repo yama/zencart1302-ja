@@ -340,7 +340,7 @@ class authorizenet_aim extends base {
 
     // concatenate the submission data and put into $data variable
     while(list($key, $value) = each($submit_data)) {
-      $data .= $key . '=' . urlencode(ereg_replace(',', '', $value)) . '&';
+      $data .= $key . '=' . urlencode(str_replace(',', '', $value)) . '&';
     }
 
     // Remove the last "&" from the string
@@ -392,7 +392,7 @@ class authorizenet_aim extends base {
 
       // Create a string from all of the response data for insertion into the database
       while(list($key, $value) = each($response)) {
-        $response_list .= ($key +1) . '=' . urlencode(ereg_replace(',', '', $value)) . '&';
+        $response_list .= ($key +1) . '=' . urlencode(str_replace(',', '', $value)) . '&';
       }
 
       // Remove the last "&" from the string

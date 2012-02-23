@@ -69,7 +69,7 @@ class ot_gv {
     if ($_SESSION['cot_gv'] > 0) {
       if ($this->include_shipping == 'false') $order_total -= $order->info['shipping_cost'];
       if ($this->include_tax == 'false') $order_total -= $order->info['tax'];
-      if (ereg('[^0-9/.]', trim($_SESSION['cot_gv']))) {
+      if (preg_match('@[^0-9/.]@', trim($_SESSION['cot_gv']))) {
         zen_redirect(zen_href_link(FILENAME_CHECKOUT_PAYMENT, 'credit_class_error_code=' . $this->code . '&credit_class_error=' . urlencode(TEXT_INVALID_REDEEM_AMOUNT), 'SSL',true, false));
       }
       if ($_SESSION['cot_gv'] > $this->user_has_gv_account($_SESSION['customer_id'])) {
@@ -94,7 +94,7 @@ class ot_gv {
 
   function update_credit_account($i) {
     global $db, $order, $insert_id;
-    if (ereg('^GIFT', addslashes($order->products[$i]['model']))) {
+    if (preg_match('/^GIFT/', addslashes($order->products[$i]['model']))) {
       $gv_order_amount = ($order->products[$i]['final_price'] * $order->products[$i]['qty']);
       if ($this->credit_tax=='true') $gv_order_amount = $gv_order_amount * (100 + $order->products[$i]['tax']) / 100;
       $gv_order_amount = $gv_order_amount * 100 / 100;

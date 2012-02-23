@@ -159,7 +159,7 @@ class remise_zen {
 					
 				$this->cc_card_name=mb_convert_kana($_POST['remise_cc_name'],"a");
 
-				if(strlen($this->cc_card_name)<3 || ereg("[^0-9a-zA-Z ]",$this->cc_card_name)){
+				if(strlen($this->cc_card_name)<3 || preg_match('/[^0-9a-zA-Z ]/',$this->cc_card_name)){
 					if ( ($result == false) || ($result < 1) ) {
 						$error .= MODULE_PAYMENT_REMISE_TEXT_CC_NAME;
 					}else{
@@ -236,7 +236,7 @@ class remise_zen {
 		if( strlen(MODULE_PAYMENT_REMISE_MODEL) > 0 ){
 			
 			for ($i = 0, $n = sizeof($order->products); $i < $n; $i++) {
-				if( ereg(MODULE_PAYMENT_REMISE_MODEL,$order->products[$i]['model']) ){
+				if( preg_match('/' . MODULE_PAYMENT_REMISE_MODEL . '/',$order->products[$i]['model']) ){
 					$remise_job_code = "CHECK";
 
 					$strlen_futeikan = strlen(MODULE_PAYMENT_REMISE_MAIL_FUTEIKANN);

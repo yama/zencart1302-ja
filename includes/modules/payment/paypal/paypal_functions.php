@@ -43,7 +43,7 @@
     return true;
   }
   function ipn_validate_transaction($info, $postArray) {
-    if (!eregi("VERIFIED",$info)) {
+    if (!preg_match('/VERIFIED/i',$info)) {
       ipn_debug_email('IPN WARNING::Transaction was not marked as VERIFIED. IPN Info = ' . $info);
       return false;
     }
