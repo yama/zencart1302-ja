@@ -684,8 +684,8 @@ define('ENTRY_NOTHING_TO_SEND','メッセージの入力内容がありません。');
   define('TEXT_FREE_SHIPPING_EDIT','警告: はい、マーク商品です。 - 送料無料, お届け先の住所が必要です。<br />オーダーにおけるすべての商品が常に送料無料であるときに、送料無料用のモジュールが必要です。');
 
 // admin activity log warnings
-  define('WARNING_ADMIN_ACTIVITY_LOG_DATE', '警告: 管理人のログ記録は、設定を2ヵ月以上にすることをお勧めします。');
-  define('WARNING_ADMIN_ACTIVITY_LOG_RECORDS', '警告: 管理人のログ記録は、設定を50,000以上にすることをお勧めします');
+  define('WARNING_ADMIN_ACTIVITY_LOG_DATE', '警告: 最初の設定から2カ月たちました。管理人のログ記録は蓄積され続けるため定期的なリセットをお勧めします。');
+  define('WARNING_ADMIN_ACTIVITY_LOG_RECORDS', '警告: 管理人のログ記録が50,000件以上に達しました。定期的なリセットをお勧めします。');
   define('RESET_ADMIN_ACTIVITY_LOG', '管理人のログ記録をリセットするため、管理人画面へ移動します。');
 
   define('CATEGORY_HAS_SUBCATEGORIES', '注意: カテゴリにサブカテゴリがあります。<br />商品を追加できません。');

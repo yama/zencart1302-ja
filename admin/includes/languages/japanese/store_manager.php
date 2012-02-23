@@ -39,7 +39,7 @@
   define('TEXT_INFO_PRODUCTS_VIEWED_UPDATE', '<strong>「商品の閲覧回数ランキング」をリセット</strong><br />「商品の閲覧回数ランキングを0にリセット: ');
   define('TEXT_INFO_PRODUCTS_ORDERED_UPDATE', '<strong>注文された商品をリセットする</strong><br />注文された商品のカウントをゼロにする: ');
   define('TEXT_INFO_MASTER_CATEGORIES_ID_UPDATE', '<strong>全商品のマスターカテゴリIDをリセット</strong><br />リンクされた商品と価格に反映するには: ');
-  define('TEXT_INFO_ADMIN_ACTIVITY_LOG', '<strong>管理者のアクティビティログテーブルをデータベースから削除<br />警告: この更新を行う前バックアップを必ず取ってください!</strong><br />管理者のアクティビティログは管理者の活動履歴を記録したものです このため非常に大きくなるため、速やかにきれいにしていく必要があります。<br />警告は60日で50000件ほど溜まります');
+  define('TEXT_INFO_ADMIN_ACTIVITY_LOG', '<strong>管理者のアクティビティログテーブルをデータベースから削除</strong><br />管理者のアクティビティログは管理者の活動履歴を記録したものです。常に蓄積され続けますので、定期的に削除することをおすすめします。');
 
   define('TEXT_ORDERS_ID_UPDATE', '<strong>現在のオーダーIDをリセットする</strong>');
   define('TEXT_INFO_ORDERS_ID_UPDATE', '<strong>注意: 現在のオーダーIDをリセットする前に ...</strong><br />最初にテスト注文を行い、このオーダーIDを元に新しいオーダーIDを決めてください。<br />新しいオーダーIDは、次の実際の注文時に開始したいオーダーIDより1少ない数値を記入します(<strong>例:</strong> 次の実際のオーダーIDを「1225」から始めたければ「1224」と入力)。<br /><strong>警告:</strong> オーダーIDは増やす方向へリセットはできますが、減らす方向へリセットはできません。<br />オーダーIDを一度「25」にリセットし、再度「20」にリセットしても、次の実際のオーダーIDは「26」からになります。');
