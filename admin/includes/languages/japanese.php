@@ -479,7 +479,7 @@ define('NOT_INSTALLED_TEXT','インストールされていません');
   define('BOX_CATALOG_PRODUCT_OPTIONS_VALUES','オプション値のソート順設定');
 
   define('TEXT_UPDATE_SORT_ORDERS_OPTIONS','<strong>オプション属性をオプション値でソートする</strong> ');
-  define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>オプション属性の表示順を更新する</strong><br />デフォルトの表示順s:<br />');
+  define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>オプション属性の表示順を更新する</strong><br />デフォルトの表示順:<br />');
 
 // Product Options Name Sort Order - option_values.php
   define('BOX_CATALOG_PRODUCT_OPTIONS_NAME','オプション名のソート順設定');
