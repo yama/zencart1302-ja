@@ -315,7 +315,7 @@ function executeSql($sql_file, $database, $table_prefix = '', $isupgrade=false) 
   }
 
   function zen_sanitize_string($string) {
-    $string = ereg_replace(' +', ' ', $string);
+    $string = preg_replace('/ +/', ' ', $string);
     return preg_replace("/[<>]/", '_', $string);
   }
 
@@ -332,15 +332,15 @@ function executeSql($sql_file, $database, $table_prefix = '', $isupgrade=false) 
 	$space_check = '[ ]';
 
 // strip beginning and ending quotes, if and only if both present
-	if( (ereg('^["]', $user) && ereg('["]$', $user)) ){
-		$user = ereg_replace ( '^["]', '', $user );
-		$user = ereg_replace ( '["]$', '', $user );
-		$user = ereg_replace ( $space_check, '', $user ); //spaces in quoted addresses OK per RFC (?)
+	if( (preg_match('/^"/', $user) && preg_match('/"$/', $user)) ){
+		$user = preg_replace ( '/^"/', '', $user );
+		$user = preg_replace ( '/"$/', '', $user );
+		$user = preg_replace ( '/' . $space_check . '/', '', $user ); //spaces in quoted addresses OK per RFC (?)
 		$email = $user."@".$domain; // contine with stripped quotes for remainder
 	}
 
 // if e-mail domain part is an IP address, check each part for a value under 256
-	if (ereg($valid_ip_form, $domain)) {
+	if (preg_match('/' . $valid_ip_form . '/', $domain)) {
 	  $digit = explode( ".", $domain );
 	  for($i=0; $i<4; $i++) {
 		if ($digit[$i] > 255) {
@@ -357,8 +357,8 @@ function executeSql($sql_file, $database, $table_prefix = '', $isupgrade=false) 
 	  }
 	}
 
-	if (!ereg($space_check, $email)) { // trap for spaces in
-	  if ( eregi($valid_email_pattern, $email)) { // validate against valid e-mail patterns
+	if (!preg_match('/' . $space_check . '/', $email)) { // trap for spaces in
+	  if ( preg_match('/' . $valid_email_pattern . '/i', $email)) { // validate against valid e-mail patterns
 		$valid_address = true;
 	  } else {
 		$valid_address = false;

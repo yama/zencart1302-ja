@@ -441,10 +441,10 @@ class usps extends base {
     $rates = array();
     if ($order->delivery['country']['id'] == SHIPPING_ORIGIN_COUNTRY) {
       if (sizeof($response) == '1') {
-        if (ereg('<Error>', $response[0])) {
-          $number = ereg('<Number>(.*)</Number>', $response[0], $regs);
+        if (strpos($response[0],'<Error>')!==false) {
+          $number = preg_match('@<Number>(.*)</Number>@', $response[0], $regs);
           $number = $regs[1];
-          $description = ereg('<Description>(.*)</Description>', $response[0], $regs);
+          $description = preg_match('@<Description>(.*)</Description>@', $response[0], $regs);
           $description = $regs[1];
 
           return array('error' => $number . ' - ' . $description);
@@ -454,9 +454,9 @@ class usps extends base {
       $n = sizeof($response);
       for ($i=0; $i<$n; $i++) {
         if (strpos($response[$i], '<Postage>')) {
-          $service = ereg('<Service>(.*)</Service>', $response[$i], $regs);
+          $service = preg_match('@<Service>(.*)</Service>@', $response[$i], $regs);
           $service = $regs[1];
-          $postage = ereg('<Postage>(.*)</Postage>', $response[$i], $regs);
+          $postage = preg_match('@<Postage>(.*)</Postage>@', $response[$i], $regs);
           $postage = $regs[1];
 
           $rates[] = array($service => $postage);
@@ -464,7 +464,7 @@ class usps extends base {
           // BOF: UPS USPS
           if ($transit) {
             switch ($service) {
-              case 'Express':     $time = ereg('<MonFriCommitment>(.*)</MonFriCommitment>', $transresp[$service], $tregs);
+              case 'Express':     $time = preg_match('@<MonFriCommitment>(.*)</MonFriCommitment>@', $transresp[$service], $tregs);
               $time = $tregs[1];
               if ($time == '' || $time == 'No Data') {
                 $time = '1 - 2 ' . MODULE_SHIPPING_USPS_TEXT_DAYS;
@@ -472,7 +472,7 @@ class usps extends base {
                 $time = 'Tomorrow by ' . $time;
               }
               break;
-              case 'Priority':    $time = ereg('<Days>(.*)</Days>', $transresp[$service], $tregs);
+              case 'Priority':    $time = preg_match('@<Days>(.*)</Days>@', $transresp[$service], $tregs);
               $time = $tregs[1];
               if ($time == '' || $time == 'No Data') {
                 $time = '2 - 3 ' . MODULE_SHIPPING_USPS_TEXT_DAYS;
@@ -482,7 +482,7 @@ class usps extends base {
                 $time .= ' ' . MODULE_SHIPPING_USPS_TEXT_DAYS;
               }
               break;
-              case 'Parcel':      $time = ereg('<Days>(.*)</Days>', $transresp[$service], $tregs);
+              case 'Parcel':      $time = preg_match('@<Days>(.*)</Days>@', $transresp[$service], $tregs);
               $time = $tregs[1];
               if ($time == '' || $time == 'No Data') {
                 $time = '4 - 7 ' . MODULE_SHIPPING_USPS_TEXT_DAYS;
@@ -503,10 +503,10 @@ class usps extends base {
         }
       }
     } else {
-      if (ereg('<Error>', $response[0])) {
-        $number = ereg('<Number>(.*)</Number>', $response[0], $regs);
+      if (strpos($response[0],'<Error>')!==false) {
+        $number = preg_match('@<Number>(.*)</Number>@', $response[0], $regs);
         $number = $regs[1];
-        $description = ereg('<Description>(.*)</Description>', $response[0], $regs);
+        $description = preg_match('@<Description>(.*)</Description>@', $response[0], $regs);
         $description = $regs[1];
 
         return array('error' => $number . ' - ' . $description);
@@ -532,12 +532,12 @@ class usps extends base {
         $size = sizeof($services);
         for ($i=0, $n=$size; $i<$n; $i++) {
           if (strpos($services[$i], '<Postage>')) {
-            $service = ereg('<SvcDescription>(.*)</SvcDescription>', $services[$i], $regs);
+            $service = preg_match('@<SvcDescription>(.*)</SvcDescription>@', $services[$i], $regs);
             $service = $regs[1];
-            $postage = ereg('<Postage>(.*)</Postage>', $services[$i], $regs);
+            $postage = preg_match('@<Postage>(.*)</Postage>@', $services[$i], $regs);
             $postage = $regs[1];
             // BOF: UPS USPS
-            $time = ereg('<SvcCommitments>(.*)</SvcCommitments>', $services[$i], $tregs);
+            $time = preg_match('@<SvcCommitments>(.*)</SvcCommitments>@', $services[$i], $tregs);
             $time = $tregs[1];
             $time = preg_replace('/Weeks$/', MODULE_SHIPPING_USPS_TEXT_WEEKS, $time);
             $time = preg_replace('/Days$/', MODULE_SHIPPING_USPS_TEXT_DAYS, $time);
