@@ -52,3 +52,10 @@ margin-left:5px;
 padding-top:3em;
 width:30%;
 }
+
+div.row {
+padding:0;
+}
+div.header {
+color:#666;
+}

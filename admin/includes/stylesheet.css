@@ -357,3 +357,24 @@ color:#ff6600;
 .lookupAttention {
   color: #FF0000;
 }
+
+
+
+/* add */
+html {font-size:100.01%;}
+body {font-size:75%;}
+a,body,html,table{
+font-family: Helvetica, Arial, sans-serif;
+}
+.dataTableRowSpacer,td.dataTableRowSpacer,TR.dataTableRowSpacer,
+body#login legend,
+checkbox,input,radio,select,textarea,file {
+font-size:inherit;
+}
+a, table, input, textarea, select, .smallText,ul.nde-menu-system * {font:inherit;}
+
+body#login fieldset {
+border:1px solid #ccc;
+border-radius: 8px;
+}
+a:link,a:visited,span.SortOrderHeaderLink {color:#00577D;}
