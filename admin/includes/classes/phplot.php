@@ -790,7 +790,7 @@ class PHPlot{
 	function SetPlotType($which_pt) {
 		$accepted = "bars,lines,linepoints,area,points,pie,thinbarline";
 		$asked = trim($which_pt);
-		if (perg_match('/' . $asked . '/i', $accepted)) {
+		if (preg_match('/' . $asked . '/i', $accepted)) {
 			$this->plot_type = $which_pt;
 			return true;
 		} else {
