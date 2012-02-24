@@ -21,7 +21,7 @@ define('TITLE_PLEASE_SELECT', '今回のお届け先を変更');
 
 define('TABLE_HEADING_NEW_SHIPPING_ADDRESS', '新しいお届け先');
 define('TEXT_CREATE_NEW_SHIPPING_ADDRESS', 'こちらのフォームで新しいお届け先住所を設定してください。');
-define('TEXT_SELECT_OTHER_SHIPPING_DESTINATION', 'お届け先の指定がないご注文商品の場合、ご希望のお届け先を選択してください。');
+define('TEXT_SELECT_OTHER_SHIPPING_DESTINATION', '登録済みのご住所にお届けする場合、ご希望のお届け先を選択してください。');
 
 define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>次画面へ進む</strong>');
 define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '→配送方法を選択');
