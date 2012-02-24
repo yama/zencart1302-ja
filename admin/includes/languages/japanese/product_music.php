@@ -110,8 +110,8 @@ define('TEXT_PRODUCTS_IMAGE', '商品画像:');
 define('TEXT_PRODUCTS_IMAGE_DIR', 'ディレクトリにアップロード:');
 define('TEXT_PRODUCTS_URL', '商品のURL:');
 define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>("http://"なしで入力)</small>');
-define('TEXT_PRODUCTS_PRICE_NET', '商品価格 (ネット):');
-define('TEXT_PRODUCTS_PRICE_GROSS', '商品価格 (グロス):');
+define('TEXT_PRODUCTS_PRICE_NET', '商品価格 (本体価格):');
+define('TEXT_PRODUCTS_PRICE_GROSS', '商品価格 (総額):');
 define('TEXT_PRODUCTS_WEIGHT', '商品の重量:');
 
 define('EMPTY_CATEGORY', '空のカテゴリ');
