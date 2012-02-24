@@ -72,7 +72,7 @@ define('ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE','Ê£À½²ÄÇ½¤Ê¥ª¥×¥·¥ç¥
 define('PRODUCTS_ATTRIBUTES_EDITING','ÊÔ½¸'); // title
 define('PRODUCTS_ATTRIBUTES_DELETE','ºï½ü'); // title
 define('PRODUCTS_ATTRIBUTES_ADDING','¿·¤·¤¤Â°À­¤òÄÉ²Ã'); // title
-define('TEXT_DOWNLOADS_DISABLED','NOTE: ¥À¥¦¥ó¥í¡¼¥ÉÈÎÇä¤ÏÍøÍÑÉÕ²Ã¤Ë¤Ê¤ê¤Þ¤·¤¿¡£');
+define('TEXT_DOWNLOADS_DISABLED','NOTE: ¥À¥¦¥ó¥í¡¼¥ÉÈÎÇä¤ÏÍøÍÑ¤Ç¤­¤Ê¤¯¤Ê¤ê¤Þ¤·¤¿¡£');
 
 define('TABLE_TEXT_MAX_DAYS_SHORT', 'Æü:');
 define('TABLE_TEXT_MAX_COUNT_SHORT', 'ºÇÂç:');
