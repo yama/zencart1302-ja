@@ -20,7 +20,7 @@ define('TABLE_HEADING_PAYMENT_METHOD', 'お支払い方法');
 define('TEXT_SELECT_PAYMENT_METHOD', 'お支払い方法を選択してください.');
 define('TITLE_PLEASE_SELECT', '選択してください');
 define('TEXT_ENTER_PAYMENT_INFORMATION', '今回のご注文でご利用いただけるお支払い方法はこれだけです。');
-define('TABLE_HEADING_COMMENTS', 'ご注文についてご要望などございましたらご記入ください。');
+define('TABLE_HEADING_COMMENTS', '連絡事項がございましたらご記入ください。');
 
 define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>次画面に進んでください</strong>');
 define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '→ご注文の最終確認');

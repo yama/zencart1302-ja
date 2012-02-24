@@ -18,7 +18,7 @@ define('HEADING_SHIPPING_METHOD', '配送方法:');
 define('HEADING_PAYMENT_METHOD', 'お支払い方法:');
 define('HEADING_PRODUCTS', 'カートの内容');
 define('HEADING_TAX', '税額');
-define('HEADING_ORDER_COMMENTS', 'ご注文についてご要望などあればご記入ください。');
+define('HEADING_ORDER_COMMENTS', '連絡事項がございましたらご記入ください。');
 // no comments entered
 define('NO_COMMENTS_TEXT', 'なし');
 define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>最終確認</strong>');
