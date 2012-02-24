@@ -820,7 +820,7 @@ function init()
     $category_inputs_string_metatags_keywords = '';
     for ($i = 0, $n = sizeof($languages); $i < $n; $i++) {
       $category_inputs_string_metatags_keywords .= '<br />' . zen_image(DIR_WS_CATALOG_LANGUAGES . $languages[$i]['directory'] . '/images/' . $languages[$i]['image'], $languages[$i]['metatags_keywords']) . '&nbsp;' ;
-      $category_inputs_string_metatags_keywords .= zen_draw_textarea_field('metatags_keywords[' . $languages[$i]['id'] . ']', 'soft', '100%', '20', zen_get_category_metatags_keywords($cInfo->categories_id, $languages[$i]['id']));
+      $category_inputs_string_metatags_keywords .= zen_draw_textarea_field('metatags_keywords[' . $languages[$i]['id'] . ']', 'soft', '100%', '2', zen_get_category_metatags_keywords($cInfo->categories_id, $languages[$i]['id']));
     }
     $contents[] = array('text' => '<br />' . TEXT_EDIT_CATEGORIES_META_TAGS_KEYWORDS . $category_inputs_string_metatags_keywords);
 
@@ -832,7 +832,7 @@ function init()
         $category_inputs_string_metatags_description .= '<IFRAME src= "' . DIR_WS_CATALOG . 'FCKeditor/fckeditor.html?FieldName=metatags_description[' . $languages[$i]['id']  . ']&Upload=false&Browse=false&Toolbar=Short" width="97%" height="200" frameborder="no" scrolling="yes"></IFRAME>';
         $category_inputs_string_metatags_description .= '<INPUT type="hidden" name="metatags_description[' . $languages[$i]['id']  . ']" ' . 'value=' . "'" . zen_get_category_metatags_description($cInfo->categories_id, $languages[$i]['id']) . "'>";
       } else {
-        $category_inputs_string_metatags_description .= zen_draw_textarea_field('metatags_description[' . $languages[$i]['id'] . ']', 'soft', '100%', '20', zen_get_category_metatags_description($cInfo->categories_id, $languages[$i]['id']));
+        $category_inputs_string_metatags_description .= zen_draw_textarea_field('metatags_description[' . $languages[$i]['id'] . ']', 'soft', '100%', '5', zen_get_category_metatags_description($cInfo->categories_id, $languages[$i]['id']));
       }
     }
     $contents[] = array('text' => '<br />' . TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION . $category_inputs_string_metatags_description);
