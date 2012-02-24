@@ -126,7 +126,7 @@
       }
 
       // now lets build the mail object with the phpmailer class
-      $mail = & new PHPMailer();
+      $mail = new PHPMailer();
       $lang_code = ($_SESSION['languages_code'] == '' ? 'en' : $_SESSION['languages_code'] );
       $mail->SetLanguage($lang_code,DIR_WS_CLASSES . 'support/');
       $mail->CharSet =  (defined('EMAIL_CHARSET')) ? EMAIL_CHARSET : ((defined('CHARSET')) ? CHARSET : "iso-8859-1");
