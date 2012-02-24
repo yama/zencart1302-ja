@@ -1161,7 +1161,7 @@ if ($action == '') {
           </tr></table></td></tr>
           <tr class="attributeBoxContent"><td><table><tr>
             <td class="smallText" valign="top" width="40">&nbsp;</td>
-            <td class="pageHeading">&nbsp;
+            <td>&nbsp;
               <input type="hidden" name="options_id" value="<?php echo $attributes_values->fields['options_id']; ?>">
               <?php echo zen_get_option_name_language($attributes_values->fields['options_id'], $_SESSION['languages_id']); ?>:
             </td>
@@ -1635,7 +1635,7 @@ if ($action == '') {
 
 <!-- bof Option Names and Values -->
   <tr class="attributeBoxContent">
-    <td class="pageHeading">
+    <td>
       <table border='0' width="100%">
         <tr><td class="attributeBoxContent"><table border="0" cellpadding="4" cellspacing="2">
           <tr class="attributeBoxContent"><td><table><tr>
@@ -1735,14 +1735,14 @@ $off_overwrite = false;
       <td class="attributeBoxContent">
         <table border="1" cellpadding="4" cellspacing="2">
           <tr>
-            <td align="center" class="attributeBoxContent" nowrap="nowrap">
+            <td class="attributeBoxContent" nowrap="nowrap">
 	      <?php echo TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR; ?><br />
 	        &nbsp;<input type="text" name="attributes_price_factor" size="6" /><br />
 	      <?php echo TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR_OFFSET; ?><br />
 	        &nbsp;<input type="text" name="attributes_price_factor_offset" size="6" /></td>
 	  </tr>
 	  <tr>
-            <td align="center" class="attributeBoxContent" nowrap="nowrap">
+            <td class="attributeBoxContent" nowrap="nowrap">
 	      <?php echo TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR_ONETIME; ?><br />
 	        &nbsp;<input type="text" name="attributes_price_factor_onetime" size="6" /><br />
 	      <?php echo TABLE_HEADING_ATTRIBUTES_PRICE_FACTOR_OFFSET_ONETIME; ?><br />
@@ -1760,8 +1760,8 @@ $off_overwrite = false;
       <td colspan="2" class="attributeBoxContent">
         <table border="1" cellpadding="4" cellspacing="2">
           <tr>
-            <td align="center" class="attributeBoxContent" nowrap="nowrap">&nbsp;<?php echo TABLE_HEADING_ATTRIBUTES_QTY_PRICES . '<br />'; ?><input type="text" name="attributes_qty_prices" size="60">&nbsp;</td>
-            <td align="center" class="attributeBoxContent" nowrap="nowrap">&nbsp;<?php echo TABLE_HEADING_ATTRIBUTES_QTY_PRICES_ONETIME . '<br />'; ?><input type="text" name="attributes_qty_prices_onetime" size="60">&nbsp;</td>
+            <td class="attributeBoxContent" nowrap="nowrap">&nbsp;<?php echo TABLE_HEADING_ATTRIBUTES_QTY_PRICES . '<br />'; ?><input type="text" name="attributes_qty_prices" size="60">&nbsp;</td>
+            <td class="attributeBoxContent" nowrap="nowrap">&nbsp;<?php echo TABLE_HEADING_ATTRIBUTES_QTY_PRICES_ONETIME . '<br />'; ?><input type="text" name="attributes_qty_prices_onetime" size="60">&nbsp;</td>
           </tr>
         </table>
       </td>
@@ -1787,7 +1787,7 @@ $off_overwrite = false;
 
 <!-- bof Attribute Flags -->
 <tr class="attributeBoxContent">
-  <td class="pageHeading">
+  <td>
     <table border='0' width="100%">
       <tr><td class="attributeBoxContent"><table border="0" cellpadding="4" cellspacing="2">
 
@@ -1796,7 +1796,7 @@ $off_overwrite = false;
               <tr >
                 <td class="smallText" align="center" width="50"><?php echo TEXT_ATTRIBUTES_FLAGS; ?></td>
                 <td class="smallText" align="center" width="150" bgcolor="#ffff00"><strong><?php echo TEXT_ATTRIBUTES_DISPLAY_ONLY . '</strong><br>' . zen_draw_radio_field('attributes_display_only', '0', $off_attributes_display_only) . '&nbsp;' . TABLE_HEADING_NO . ' ' . zen_draw_radio_field('attributes_display_only', '1', $on_attributes_display_only) . '&nbsp;' . TABLE_HEADING_YES; ?></td>
-                <td class="smallText" align="center" width="150" bgcolor="#2C54F5"><strong><?php echo TEXT_ATTRIBUTES_IS_FREE . '</strong><br>' . zen_draw_radio_field('product_attribute_is_free', '0', $off_product_attribute_is_free) . '&nbsp;' . TABLE_HEADING_NO . ' ' . zen_draw_radio_field('product_attribute_is_free', '1', $on_product_attribute_is_free) . '&nbsp;' . TABLE_HEADING_YES; ?></td>
+                <td class="smallText" align="center" width="150" bgcolor="#2C54F5" style="color:#fff;"><strong><?php echo TEXT_ATTRIBUTES_IS_FREE . '</strong><br>' . zen_draw_radio_field('product_attribute_is_free', '0', $off_product_attribute_is_free) . '&nbsp;' . TABLE_HEADING_NO . ' ' . zen_draw_radio_field('product_attribute_is_free', '1', $on_product_attribute_is_free) . '&nbsp;' . TABLE_HEADING_YES; ?></td>
                 <td class="smallText" align="center" width="150" bgcolor="#ffa346"><strong><?php echo TEXT_ATTRIBUTES_DEFAULT . '</strong><br>' . zen_draw_radio_field('attributes_default', '0', $off_attributes_default) . '&nbsp;' . TABLE_HEADING_NO . ' ' . zen_draw_radio_field('attributes_default', '1', $on_attributes_default) . '&nbsp;' . TABLE_HEADING_YES; ?></td>
                 <td class="smallText" align="center" width="150" bgcolor="#ff00ff"><strong><?php echo TEXT_ATTRIBUTE_IS_DISCOUNTED . '</strong><br>' . zen_draw_radio_field('attributes_discounted', '0', $off_attributes_discounted) . '&nbsp;' . TABLE_HEADING_NO . ' ' . zen_draw_radio_field('attributes_discounted', '1', $on_attributes_discounted) . '&nbsp;' . TABLE_HEADING_YES; ?></td>
                 <td class="smallText" align="center" width="150" bgcolor="#d200f0"><strong><?php echo TEXT_ATTRIBUTE_PRICE_BASE_INCLUDED . '</strong><br>' . zen_draw_radio_field('attributes_price_base_included', '0', $off_attributes_price_base_included) . '&nbsp;' . TABLE_HEADING_NO . ' ' . zen_draw_radio_field('attributes_price_base_included', '1', $on_attributes_price_base_included) . '&nbsp;' . TABLE_HEADING_YES; ?></td>
@@ -1829,7 +1829,7 @@ $off_overwrite = false;
 
 <!-- bof Attribute Images -->
 <tr class="attributeBoxContent">
-  <td class="pageHeading">
+  <td>
     <table border='0' width="100%">
       <tr><td class="attributeBoxContent"><table border="0" cellpadding="4" cellspacing="2" width="100%">
 
@@ -1881,7 +1881,7 @@ $off_overwrite = false;
 ?>
 <!-- bof Down loads ON -->
 <tr class="attributeBoxContent">
-  <td class="pageHeading">
+  <td>
     <table border='0' width="100%">
       <tr><td class="attributeBoxContent"><table border="0" cellpadding="4" cellspacing="2">
 
@@ -1905,7 +1905,7 @@ $off_overwrite = false;
 ?>
 <!-- bof Down loads OFF -->
 <tr class="attributeBoxContent">
-  <td class="pageHeading">
+  <td>
     <table border='0' width="100%">
       <tr><td class="attributeBoxContent"><table border="1" cellpadding="4" cellspacing="2">
 

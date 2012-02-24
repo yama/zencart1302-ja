@@ -757,7 +757,7 @@ function go_option() {
   </table>
 
 <!-- ADD - additional features //-->
-	<table border="2" width="75%" cellspacing="0" cellpadding="0" align="center">
+	<table width="75%" cellspacing="0" cellpadding="0" align="center">
       <tr>
         <td width="100%">
     	    <table width="100%" border="0" cellspacing="0" cellpadding="2">
@@ -863,7 +863,7 @@ function go_option() {
   </table>
 
 <!-- DELETE - additional features //-->
-	<table border="2" width="75%" cellspacing="0" cellpadding="0" align="center">
+	<table width="75%" cellspacing="0" cellpadding="0" align="center">
       <tr>
         <td width="100%">
     	    <table width="100%" border="0" cellspacing="0" cellpadding="2">
@@ -971,7 +971,7 @@ function go_option() {
 
 
 <!-- COPY - additional features //-->
-	<table border="2" width="75%" cellspacing="0" cellpadding="0" align="center">
+	<table width="75%" cellspacing="0" cellpadding="0" align="center">
       <tr>
         <td width="100%">
     	    <table width="100%" border="0" cellspacing="0" cellpadding="2">
