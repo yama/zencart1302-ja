@@ -684,7 +684,7 @@ HTMLArea.prototype.generate = function () {
 	// the sizes.  (somebody tell me why doesn't this work in IE)
 
 	if (!HTMLArea.is_ie) {
-		iframe.style.borderWidth = "1px";
+		iframe.style.borderWidth = "0px";
 	// iframe.frameBorder = "1";
 	// iframe.marginHeight = "0";
 	// iframe.marginWidth = "0";
