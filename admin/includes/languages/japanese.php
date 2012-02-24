@@ -551,8 +551,8 @@ define('TEXT_STATUS_WARNING','<strong>Ãí°Õ:</strong> ÆüÉÕ¤òÀßÄê¤·¤Æ¤ª¤¯¤È¡¢¥¹¥Æ¡
 define('TEXT_LEGEND_LINKED', '¥ê¥ó¥¯¤µ¤ì¤¿¾¦ÉÊ');
 define('TEXT_MASTER_CATEGORIES_ID','¾¦ÉÊ¥Þ¥¹¥¿¡¼¥«¥Æ¥´¥ê:');
 define('TEXT_LEGEND', 'ËÞÎã: ');
-define('TEXT_LEGEND_STATUS_OFF', '¥¹¥Æ¡¼¥¿¥¹ - ¥ª¥ó');
-define('TEXT_LEGEND_STATUS_ON', '¥¹¥Æ¡¼¥¿¥¹ - ¥ª¥Õ');
+define('TEXT_LEGEND_STATUS_OFF', '¥¹¥Æ¡¼¥¿¥¹ - ¥ª¥Õ');
+define('TEXT_LEGEND_STATUS_ON', '¥¹¥Æ¡¼¥¿¥¹ - ¥ª¥ó');
 
 define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>Ãí°Õ: ¥Þ¥¹¥¿¡¼¥«¥Æ¥´¥ê¤Ï¡¢Îã¤¨¤Ð¥»¡¼¥ë¤Ê¤É¾¦ÉÊ¥«¥Æ¥´¥êËè¤Ë<br />²Á³ÊÀßÄê¤ò¤¹¤ë¤è¤¦¤Ê¾ì¹ç¤Ë»ÈÍÑ¤·¤Þ¤¹¡£</strong>');
 
