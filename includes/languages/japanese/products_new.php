@@ -29,6 +29,6 @@ define('TEXT_PRICE', '²Á³Ê:');
 
 define('TEXT_PRODUCTS_MODEL','¥â¥Ç¥ë: ');
 define('TEXT_PRODUCTS_WEIGHT','½ÅÎÌ: ');
-define('TEXT_PRODUCTS_QUANTITY','ºß¸ËÍ­¤ê: ');
+define('TEXT_PRODUCTS_QUANTITY','ºß¸Ë¤¢¤ê: ');
 define('TEXT_OUT_OF_STOCK','ºß¸ËÀÚ¤ì');
 ?>
