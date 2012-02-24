@@ -343,7 +343,7 @@ switch ($error_code) {
   break;
   case ('22'):
     define('POPUP_ERROR_HEADING', 'データベースセッション');
-    define('POPUP_ERROR_TEXT', 'これは、ファイルあるいはデータベースにセッション情報を格納するかどうかを決めます。ファイルベースのセッションの方が速いのですが、安全性を考慮すると、SSL接続を使用するすべてのオンラインストアにはデータベースセッションの方が好ましいです。');
+    define('POPUP_ERROR_TEXT', 'これは、ファイルあるいはデータベースにセッション情報を格納するかどうかを決めます。ファイルベースのセッションの方が速いのですが、安全性を考慮すると、SSL接続を使用するすべてのオンラインショップにはデータベースセッションの方が好ましいです。');
     
   break;
   case ('23'):
@@ -553,7 +553,7 @@ switch ($error_code) {
   break;
   case ('64'):
     define('POPUP_ERROR_HEADING', '同じサーバ上にインストールしているphpBBフォーラムとリンクさせますか? ');
-    define('POPUP_ERROR_TEXT', 'Zen Cartストアを、既に設置してあるphpBBフォーラムとリンクするには、はいを選択してください。');
+    define('POPUP_ERROR_TEXT', 'Zen Cartショップを、既に設置してあるphpBBフォーラムとリンクするには、はいを選択してください。');
     
   break;
   case ('65'):
@@ -579,7 +579,7 @@ switch ($error_code) {
   break;
   case ('70'):
     define('POPUP_ERROR_HEADING', 'Safe Mode is On');
-    define('POPUP_ERROR_TEXT', '総合的e-CommerceアプリケーションであるZen Cartは、Safe Modeで稼働しているサーバではうまく機能しません。<br /><br />e-Commerceシステムを実行することは、多数の先進的なサービスを必要とし、廉価な「共有」ホスティングサービスでは動作が制限されることがよくあります。ウェブスペースを「Safe Mode」に設定してしまうと、オンラインストアを完全に運営することができなくなります。php.iniファイル上で「SAFE_MODE=OFF」に設定してください。この変更にはホスティング会社の手助けが必要になる場合があります。');
+    define('POPUP_ERROR_TEXT', '総合的e-CommerceアプリケーションであるZen Cartは、Safe Modeで稼働しているサーバではうまく機能しません。<br /><br />e-Commerceシステムを実行することは、多数の先進的なサービスを必要とし、廉価な「共有」ホスティングサービスでは動作が制限されることがよくあります。ウェブスペースを「Safe Mode」に設定してしまうと、オンラインショップを万全な状態で運営することができなくなります。php.iniファイル上で「SAFE_MODE=OFF」に設定してください。この変更にはホスティング会社の手助けが必要になる場合があります。');
   break;
   case ('71'):
     define('POPUP_ERROR_HEADING', 'ファイルベースキャッシングサポートのためにキャッシュフォルダが必要です');

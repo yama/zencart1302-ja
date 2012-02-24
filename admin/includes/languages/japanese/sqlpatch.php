@@ -28,7 +28,7 @@
   define('ERROR_NOTHING_TO_DO','エラー: クエリ、またはクエリファイルがありません');
   define('TEXT_CLOSE_WINDOW', '[ 閉じる ]');
   define('SQLPATCH_HELP_TEXT','SQLパッチツールはテキストエリアフィールドにダイレクトにSQLコードを通す、もしくはスクリプトファイルをアップロードすることでことでシステムにパッチを適用します。 '.
-                              'このツールはストア内のadmin/includes/configure.php(DB_PREFIX definition)で定義されたアクティブなDBに、自動的に要求されたプレフィックスを挿入するため、スクリプトを準備するときにはテーブルのプレフィクスを含めてはいけません<br /><br />' .
+                              'このツールはショップ内のadmin/includes/configure.php(DB_PREFIX definition)で定義されたアクティブなDBに、自動的に要求されたプレフィックスを挿入するため、スクリプトを準備するときにはテーブルのプレフィクスを含めてはいけません<br /><br />' .
                               '入力、またはアップロードされたコマンドは以下の声明によって始まります:'.
                               '<br /><ul><li>TABLEを存在する場合落とす</li><li>TABLEを作成する</li><li>挿入する</li><li>無視を挿入する</li><li>TABLEを変更する</li>' .
                               '<li>アップデートする(単一TABLEのみ)</li><li>アップデートを無視する(単一TABLEのみ)</li><li>削除する</li><li>INDEXをドロップする</li><li>INDEXを作成する</li>' .
