@@ -88,15 +88,15 @@ define('TEXT_PRODUCTS_QTY_BOX_STATUS', '商品のQuantity Boxを表示:');
 define('TEXT_DOCUMENT_DATE_AVAILABLE', '日付が利用できる:');
 define('TEXT_DOCUMENT_AVAILABLE', '利用できる');
 define('TEXT_DOCUMENT_NOT_AVAILABLE', '利用できない');
-define('TEXT_PRODUCT_IS_VIRTUAL', 'はい、送付先をスキップします');
-define('TEXT_PRODUCT_NOT_VIRTUAL', 'いいえ、配送先の入力が必要です');
-define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', 'はい、いつでも送料無料です');
-define('TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING', 'いいえ、通常の送料の扱いです');
+define('TEXT_PRODUCT_IS_VIRTUAL', '送付先をスキップ');
+define('TEXT_PRODUCT_NOT_VIRTUAL', '配送先の入力が必要');
+define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', 'いつでも送料無料');
+define('TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING', '通常の送料');
 define('TEXT_PRODUCT_SPECIAL_ALWAYS_FREE_SHIPPING', '特別商品/ダウンロード商品の組み合わせでは住所の入力が必要です。');
 define('TEXT_PRODUCTS_SORT_ORDER', '整列順:');
 
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', 'はい、総量ボックスを見せてください');
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', 'いいえ、総量ボックスを見せないでください');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', '総量ボックスを表示');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', '総量ボックスを表示しない');
 
 define('TEXT_DOCUMENT_NAME', 'ドキュメント名:');
 define('TEXT_DOCUMENT_DETAILS', 'ドキュメントのコンテンツ:');

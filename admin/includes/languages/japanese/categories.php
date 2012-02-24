@@ -89,13 +89,13 @@ define('TEXT_PRODUCTS_QTY_BOX_STATUS', '商品の数量入力欄の表示:');
 define('TEXT_PRODUCTS_DATE_AVAILABLE', '発売日:');
 define('TEXT_PRODUCT_AVAILABLE', '在庫あり');
 define('TEXT_PRODUCT_NOT_AVAILABLE', '品切れ');
-define('TEXT_PRODUCT_IS_VIRTUAL', 'はい、配送先の指定は不要です。');
-define('TEXT_PRODUCT_NOT_VIRTUAL', 'いいえ、配送先の指定が必要です');
-define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', 'はい、送料を無料にします。');
-define('TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING', 'いいえ、通常どおりの送料です。');
+define('TEXT_PRODUCT_IS_VIRTUAL', '配送先の指定は不要');
+define('TEXT_PRODUCT_NOT_VIRTUAL', '配送先の指定が必要');
+define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', '送料無料');
+define('TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING', '通常どおりの送料です。');
 
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', 'はい、在庫数を表示します。');
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', 'いいえ、在庫数を表示しません。');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', '在庫数を表示');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', '在庫数を表示しない');
 
 define('TEXT_PRODUCTS_MANUFACTURER', 'メーカー:');
 define('TEXT_PRODUCTS_NAME', '商品名:');
@@ -105,7 +105,7 @@ define('TEXT_PRODUCTS_MODEL', '商品の型番:');
 define('TEXT_PRODUCTS_IMAGE', '商品の画像:');
 define('TEXT_PRODUCTS_IMAGE_DIR', 'アップロードするディレクトリ:');
 define('TEXT_PRODUCTS_URL', '商品のURL:');
-define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>(\'http://\'はいりません。)</small>');
+define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>(\'http://\'は不要です。)</small>');
 define('TEXT_PRODUCTS_PRICE_NET', '価格 (税抜き):');
 define('TEXT_PRODUCTS_PRICE_GROSS', '価格 (税込み):');
 define('TEXT_PRODUCTS_WEIGHT', '商品の重量:');

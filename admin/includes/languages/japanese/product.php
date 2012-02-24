@@ -88,15 +88,15 @@ define('TEXT_PRODUCTS_QTY_BOX_STATUS', '商品の数量欄の表示:');
 define('TEXT_PRODUCTS_DATE_AVAILABLE', '提供可能日:');
 define('TEXT_PRODUCT_AVAILABLE', '在庫あり');
 define('TEXT_PRODUCT_NOT_AVAILABLE', '在庫切れ');
-define('TEXT_PRODUCT_IS_VIRTUAL', 'はい、送付先住所をスキップ');
-define('TEXT_PRODUCT_NOT_VIRTUAL', 'いいえ、送付先住所が必要');
-define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', 'はい、常に送料無料');
-define('TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING', 'いいえ、通常送料を適用');
+define('TEXT_PRODUCT_IS_VIRTUAL', '送付先住所をスキップ');
+define('TEXT_PRODUCT_NOT_VIRTUAL', '送付先住所が必要');
+define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', '常に送料無料');
+define('TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING', '通常送料を適用');
 define('TEXT_PRODUCT_SPECIAL_ALWAYS_FREE_SHIPPING', '配送先が必要な特殊商品/ダウンロード商品');//Special, Product/Download Combo Requires a Shipping Address
 define('TEXT_PRODUCTS_SORT_ORDER', 'ソート順:');
 
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', 'はい、数量欄を表示');
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', 'いいえ、数量欄は非表示');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', '数量欄を表示');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', '数量欄は非表示');
 
 define('TEXT_PRODUCTS_MANUFACTURER', '商品メーカー:');
 define('TEXT_PRODUCTS_NAME', '商品名:');
