@@ -21,7 +21,7 @@ define('TEXT_CHOOSE_SHIPPING_METHOD', 'ご希望の配送方法をお選び下さい。');
 define('TITLE_PLEASE_SELECT', '選択してください');
 define('TEXT_ENTER_SHIPPING_INFORMATION', '今回のご注文でご利用いただける配送方法はこちらのみです。');
 
-define('TABLE_HEADING_COMMENTS', '注文についてご意見、ご要望などあればご記入ください。');
+define('TABLE_HEADING_COMMENTS', 'ご連絡事項がございましたらご記入ください。');
 
 define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '次画面に進んでください');
 define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '→お支払い方法を選択');
