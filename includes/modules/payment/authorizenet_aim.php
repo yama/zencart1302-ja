@@ -381,7 +381,7 @@ class authorizenet_aim extends base {
 
     curl_close ($ch);
 
-    $response = split('\,', $authorize);
+    $response = explode(',', $authorize);
 
 
     // DATABASE SECTION

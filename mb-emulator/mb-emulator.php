@@ -50,7 +50,7 @@ function mb_detect_order($encoding_list = '')
 	if ($encoding_list) {
 		if (is_string($encoding_list)) {
 			$encoding_list = strtoupper($encoding_list);
-			$encoding_list = split(', *', $encoding_list);
+			$encoding_list = explode(', *', $encoding_list);
 		}
 		foreach($encoding_list as $encode)
 			if (!array_key_exists($encode, $mbemu_internals['encoding'])) return FALSE;
@@ -788,7 +788,7 @@ function mb_detect_encoding( $str , $encoding_list = '')
 		if ($encoding_list == 'AUTO') {
 			$encoding_list = mb_detect_order();
 		} else {
-			$encoding_list = split(', *', $encoding_list);
+			$encoding_list = explode(', *', $encoding_list);
 		}
 	}
 	foreach($encoding_list as $encode) {

@@ -894,7 +894,6 @@ $customer = $db->Execute("select customers_firstname, customers_lastname
         <td align="left"><input type="checkbox" name="coupon_free_ship" <?php if ($_POST['coupon_free_ship']) echo 'CHECKED'; ?>></td>
         <td align="left" class="main">
           <?php
-          // à–¾‚ª‚í‚©‚è‚Ã‚ç‚¢‚Ì‚Å•t‰Á
             echo COUPON_FREE_SHIP_HELP;
            	echo COUPON_FREE_SHIP_ITEM_HELP;
           ?>
@@ -918,15 +917,15 @@ $customer = $db->Execute("select customers_firstname, customers_lastname
       <tr>
 <?php
     if (!$_POST['coupon_startdate']) {
-      $coupon_startdate = split("[-]", date('Y-m-d'));
+      $coupon_startdate = explode('-', date('Y-m-d'));
     } else {
-      $coupon_startdate = split("[-]", $_POST['coupon_startdate']);
+      $coupon_startdate = explode('-', $_POST['coupon_startdate']);
     }
     if (!$_POST['coupon_finishdate']) {
-      $coupon_finishdate = split("[-]", date('Y-m-d'));
+      $coupon_finishdate = explode('-', date('Y-m-d'));
       $coupon_finishdate[0] = $coupon_finishdate[0] + 1;
     } else {
-      $coupon_finishdate = split("[-]", $_POST['coupon_finishdate']);
+      $coupon_finishdate = explode('-', $_POST['coupon_finishdate']);
     }
 ?>
         <td align="left" class="main"><?php echo COUPON_STARTDATE; ?></td>
