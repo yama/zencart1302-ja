@@ -482,3 +482,5 @@ font-size:inherit;
 h4, h5, h6, LABEL, h4.optionName, LEGEND, ADDRESS, .sideBoxContent, .larger {
 font-size:1em;
 }
+
+textarea,input,select,radio {font-size:inherit;}
