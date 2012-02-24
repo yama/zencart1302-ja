@@ -20,7 +20,7 @@
 // $Id: freeshipper.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE', '配送料無料');
+define('MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE', '弊社指定宅配サービス');
 define('MODULE_SHIPPING_FREESHIPPER_TEXT_DESCRIPTION', '配送料無料');
-define('MODULE_SHIPPING_FREESHIPPER_TEXT_WAY', '');
+define('MODULE_SHIPPING_FREESHIPPER_TEXT_WAY', '弊社指定宅配サービス(配送料無料)');
 ?>

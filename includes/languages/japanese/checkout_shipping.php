@@ -16,7 +16,7 @@ define('TABLE_HEADING_SHIPPING_ADDRESS', 'お届け先住所');
 define('TEXT_CHOOSE_SHIPPING_DESTINATION', 'ご注文の品物は左記の住所にお届けします。<em>お届け先の変更</em>ボタンをクリックしてお届け先を変更できます。');
 define('TITLE_SHIPPING_ADDRESS', 'お届け先:');
 
-define('TABLE_HEADING_SHIPPING_METHOD', '配送方法:');
+define('TABLE_HEADING_SHIPPING_METHOD', '配送方法と配送料金:');
 define('TEXT_CHOOSE_SHIPPING_METHOD', 'ご希望の配送方法をお選び下さい。');
 define('TITLE_PLEASE_SELECT', '選択してください');
 define('TEXT_ENTER_SHIPPING_INFORMATION', '今回のご注文でご利用いただける配送方法はこちらのみです。');
