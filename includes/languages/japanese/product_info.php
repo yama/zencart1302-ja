@@ -12,7 +12,7 @@ define('TEXT_CURRENT_REVIEWS', '現在のレビュー:');
 define('TEXT_MORE_INFORMATION', 'より詳しい情報は、この商品の<a href="%s" target="_blank">Webページ</a>をご覧ください');
 define('TEXT_DATE_ADDED', 'この商品は%sに登録されました。');
 define('TEXT_DATE_AVAILABLE', 'この商品は%sに入荷予定です。');
-define('TEXT_ALSO_PURCHASED_PRODUCTS', 'この商品をお求めの客様はこんな商品もお求めです。');
+define('TEXT_ALSO_PURCHASED_PRODUCTS', 'この商品をお求めのお客様はこんな商品もお求めです。');
 define('TEXT_PRODUCT_OPTIONS', '選択して下さい: ');
 define('TEXT_PRODUCT_MANUFACTURER', 'メーカー: ');
 define('TEXT_PRODUCT_WEIGHT', '重量: ');
