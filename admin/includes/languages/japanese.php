@@ -556,8 +556,8 @@ define('TEXT_LEGEND_STATUS_ON', 'ステータス - オフ');
 
 define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>注意: マスターカテゴリは、例えばセールなど商品カテゴリ毎に<br />価格設定をするような場合に使用します。</strong>');
 
-define('TEXT_YES', 'Yes');
-define('TEXT_NO', 'No');
+define('TEXT_YES', 'はい');
+define('TEXT_NO', 'いいえ');
 
 // shipping error messages
 define('ERROR_SHIPPING_CONFIGURATION', '<strong>配送設定エラー!</strong>');
