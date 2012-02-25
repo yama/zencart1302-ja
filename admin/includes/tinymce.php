@@ -11,8 +11,8 @@ foreach($languages as $a)
 {
 	$lang_code[] = $a['code'];
 }
-if(array_search('ja',$lang_code)) $language = 'ja';
-else                              $language = 'en';
+if(array_search('ja',$lang_code)!==false) $language = 'ja';
+else                                      $language = 'en';
 
 $plugins = 'advlist,save,autolink,lists,style,fullscreen,advimage,paste,advlink,media,contextmenu,table,advhr,inlinepopups';
 $theme_advanced_buttons1  = 'undo,redo,|,bold,forecolor,backcolor,formatselect,styleselect,fontsizeselect,code,|,fullscreen,help';
