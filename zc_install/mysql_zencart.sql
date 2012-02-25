@@ -1931,7 +1931,7 @@ INSERT INTO configuration (configuration_title, configuration_key, configuration
 INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function) VALUES ('Server Uptime', 'DISPLAY_SERVER_UPTIME', 'true', 'Displaying Server uptime can cause entries in error logs on some servers. (true = Display, false = don\'t display)', 1, 46, '2003-11-08 20:24:47', '0001-01-01 00:00:00', '', 'zen_cfg_select_option(array(\'true\', \'false\'),');
 INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function) VALUES ('Missing Page Check', 'MISSING_PAGE_CHECK', 'true', 'Zen Cart can check for missing pages in the URL and redirect to Index page. For debugging you may want to turn this off. <br /><br /><strong>Default=On</strong><br />On = Send missing pages to \'index\'<br />Off = Don\'t check for missing pages<br />Page Not Found = display the Page-Not-Found page', 1, 48, '2003-11-08 20:24:47', '0001-01-01 00:00:00', '', 'zen_cfg_select_option(array(\'On\', \'Off\', \'Page Not Found\'),');
 
-INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) VALUES ('HTML Editor', 'HTML_EDITOR_PREFERENCE', 'NONE', 'Please select the HTML/Rich-Text editor you wish to use for composing Admin-related emails, newsletters, and product descriptions', '1', '110', 'zen_cfg_select_option(array(\'HTMLAREA\', \'NONE\'),', now());
+INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) VALUES ('HTML Editor', 'HTML_EDITOR_PREFERENCE', 'NONE', 'Please select the HTML/Rich-Text editor you wish to use for composing Admin-related emails, newsletters, and product descriptions', '1', '110', 'zen_cfg_select_option(array(\'TINYMCE\', \'NONE\'),', now());
 #phpbb
 INSERT INTO configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) VALUES ('Enable phpBB linkage?', 'PHPBB_LINKS_ENABLED', 'false', 'Should Zen Cart synchronize new account information to your (already-installed) phpBB forum?', '1', '120', 'zen_cfg_select_option(array(\'true\', \'false\'),', now());
 
@@ -2536,7 +2536,7 @@ INSERT INTO configuration_group VALUES ('21', 'New Listing', 'New Products Listi
 INSERT INTO configuration_group VALUES ('22', 'Featured Listing', 'Featured Products Listing', '22', '1');
 INSERT INTO configuration_group VALUES ('23', 'All Listing', 'All Products Listing', '23', '1');
 INSERT INTO configuration_group VALUES ('24', 'Index Listing', 'Index Products Listing', '24', '1');
-INSERT INTO configuration_group VALUES ('25', 'Define Page Status', 'Define Main Pages and HTMLArea Options', '25', '1');
+INSERT INTO configuration_group VALUES ('25', 'Define Page Status', 'Define Main Pages and TinyMCE Options', '25', '1');
 INSERT INTO configuration_group VALUES (30, 'EZ-Pages Settings', 'EZ-Pages Settings', 30, '1');
 
 INSERT INTO countries VALUES (240,'Aaland Islands','AX','ALA','1');
@@ -3454,7 +3454,7 @@ UPDATE configuration_group SET configuration_group_title = '新着商品リストの設定
 UPDATE configuration_group SET configuration_group_title = 'おすすめ商品リストの設定', configuration_group_description = 'おすすめ商品リストについて各種の設定をします。' WHERE  configuration_group_id = '22';
 UPDATE configuration_group SET configuration_group_title = '全商品リストの設定', configuration_group_description = '全商品リストについて各種の設定をします。' WHERE  configuration_group_id = '23';
 UPDATE configuration_group SET configuration_group_title = 'トップページの表示設定', configuration_group_description = 'トップページの要素表示について各種の設定をします。' WHERE  configuration_group_id = '24';
-UPDATE configuration_group SET configuration_group_title = '定番ページの表示設定', configuration_group_description = '定番ページとHTMLAreaなどについて各種の設定をします。' WHERE  configuration_group_id = '25';
+UPDATE configuration_group SET configuration_group_title = '定番ページの表示設定', configuration_group_description = '定番ページとTinyMCEなどについて各種の設定をします。' WHERE  configuration_group_id = '25';
 UPDATE configuration_group SET configuration_group_title = 'EZ-Pagesの設定', configuration_group_description = 'EZページについて各種の設定をします。' WHERE  configuration_group_id = '30';
 
 UPDATE configuration SET configuration_title='ショップ名', configuration_description='ショップ名を設定します。' WHERE configuration_key='STORE_NAME';

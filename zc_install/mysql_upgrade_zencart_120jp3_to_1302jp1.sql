@@ -37,7 +37,7 @@ UPDATE configuration_group SET configuration_group_title = '新着商品リストの設定
 UPDATE configuration_group SET configuration_group_title = 'おすすめ商品リストの設定', configuration_group_description = 'おすすめ商品リストについて各種の設定をします。' WHERE  configuration_group_id = '22';
 UPDATE configuration_group SET configuration_group_title = '全商品リストの設定', configuration_group_description = '全商品リストについて各種の設定をします。' WHERE  configuration_group_id = '23';
 UPDATE configuration_group SET configuration_group_title = 'トップページの表示設定', configuration_group_description = 'トップページの要素表示について各種の設定をします。' WHERE  configuration_group_id = '24';
-UPDATE configuration_group SET configuration_group_title = '定番ページの表示設定', configuration_group_description = '定番ページとHTMLAreaなどについて各種の設定をします。' WHERE  configuration_group_id = '25';
+UPDATE configuration_group SET configuration_group_title = '定番ページの表示設定', configuration_group_description = '定番ページとTinyMCEなどについて各種の設定をします。' WHERE  configuration_group_id = '25';
 UPDATE configuration_group SET configuration_group_title = 'EZ-Pagesの設定', configuration_group_description = 'EZページについて各種の設定をします。' WHERE  configuration_group_id = '30';
 UPDATE configuration SET configuration_title='ショップ名', configuration_description='ショップ名を設定します。' WHERE configuration_key='STORE_NAME';
 UPDATE configuration SET configuration_title='ショップオーナー名', configuration_description='ショップオーナー名(または運営管理者名)を設定します。' WHERE configuration_key='STORE_OWNER';
