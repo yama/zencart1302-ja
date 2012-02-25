@@ -878,6 +878,7 @@ $customer = $db->Execute("select customers_firstname, customers_lastname
         <td align="left"><input type="checkbox" name="coupon_free_ship" <?php if ($_POST['coupon_free_ship']) echo 'CHECKED'; ?>></td>
         <td align="left" class="main">
           <?php
+          // 説明がわかりづらいので付加
             echo COUPON_FREE_SHIP_HELP;
            	echo COUPON_FREE_SHIP_ITEM_HELP;
           ?>
