@@ -2,14 +2,13 @@
 
 body, td, th
 {
-	font-family:		'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif !important;
-	font-size:			12px;
+	font-size:			13px;
 	font-style: normal;
 }
 
 body {
 	line-height: 1.5;
-	color: #333333;
+	color: #000000;
 	background-color: #FFFFFF;
 	background-attachment: fixed;
 	background-repeat:repeat-x !important;
@@ -49,9 +48,6 @@ body blockquote {
 	background-color:#f3f3f3;
 }
 
-table {margin-bottom:8px;}
-td,th {padding:4px !important;}
-th {color:#1d5eb3 !important;background-color:#f5f5f5;text-align:left;}
 
 a:hover {
 	color: #7fa2ff;
