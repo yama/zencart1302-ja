@@ -6,7 +6,6 @@ Released under the GNU General Public License
 
  $Id: stylesheet.css 3296 2006-03-28 07:28:20Z drbyte $
 */
-@import url("menu.css");/* including stylesheet for dhtml menu */
 @import url("index.css");/* including stylesheet for index.php */
 a{
 color:#0000ff;
@@ -361,7 +360,7 @@ color:#ff6600;
 
 
 /* add */
-html {font-size:100.01%;}
+html {font-size:100.01%;overflow-y:scroll;}
 body {font-size:75%;}
 a,body,html,table{
 font-family: Helvetica, Arial, sans-serif;
@@ -378,3 +377,7 @@ border:1px solid #ccc;
 border-radius: 8px;
 }
 a:link,a:visited,span.SortOrderHeaderLink {color:#00577D;}
+
+.pageHeading {
+font-variant:normal;
+}
