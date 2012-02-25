@@ -122,22 +122,6 @@ if (EMAIL_ATTACHMENT_UPLOADS_ENABLED=='EMAIL_ATTACHMENT_UPLOADS_ENABLED') define
 <meta http-equiv="Content-Type" content="text/html; charset=<?php echo CHARSET; ?>">
 <title><?php echo TITLE; ?></title>
 <link rel="stylesheet" type="text/css" href="includes/stylesheet.css">
-<link rel="stylesheet" type="text/css" href="includes/cssjsmenuhover.css" media="all" id="hoverJS">
-<script language="javascript" src="includes/menu.js"></script>
-<script type="text/javascript">
-  <!--
-  function init()
-  {
-    cssjsmenu('navbar');
-    if (document.getElementById)
-    {
-      var kill = document.getElementById('hoverJS');
-      kill.disabled = true;
-    }
-  if (typeof _editor_url == "string") HTMLArea.replace('message_html');
-  }
-  // -->
-</script>
 <?php if ($_SESSION['html_editor_preference_status']=="FCKEDITOR") include (DIR_WS_INCLUDES.'fckeditor.php'); ?>
 <?php if ($_SESSION['html_editor_preference_status']=="HTMLAREA")  include (DIR_WS_INCLUDES.'htmlarea.php'); ?>
 <script language="javascript" type="text/javascript"><!--
@@ -212,7 +196,7 @@ function check_form(form_name) {
 }
 //--></script>
 </head>
-<body onload="init()">
+<body>
 <!-- header //-->
 <?php require(DIR_WS_INCLUDES . 'header.php'); ?>
 <!-- header_eof //-->

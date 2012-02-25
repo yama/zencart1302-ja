@@ -25,7 +25,7 @@
   require(DIR_WS_CLASSES . 'currencies.php');
   $currencies = new currencies();
   
-  $_POST['amount'] = str_replace(array('$','%','#','Â€','Â£','Â¥','Âƒ'), '', $_POST['amount']);
+  $_POST['amount'] = str_replace(array('$','%','#','Áß','Â£','Â¥','Áá'), '', $_POST['amount']);
   $_POST['amount'] = abs($_POST['amount']);
   
   if ($_GET['action'] == 'set_editor') {
@@ -181,22 +181,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=<?php echo CHARSET; ?>">
 <title><?php echo TITLE; ?></title>
 <link rel="stylesheet" type="text/css" href="includes/stylesheet.css">
-<link rel="stylesheet" type="text/css" href="includes/cssjsmenuhover.css" media="all" id="hoverJS">
-<script language="javascript" src="includes/menu.js"></script>
-<script type="text/javascript">
-  <!--
-  function init()
-  {
-    cssjsmenu('navbar');
-    if (document.getElementById)
-    {
-      var kill = document.getElementById('hoverJS');
-      kill.disabled = true;
-    }
-  if (typeof _editor_url == "string") HTMLArea.replace('message_html');
-  }
-  // -->
-</script>
 <script language="javascript" type="text/javascript"><!--
 var form = "";
 var submitted = false;
@@ -272,7 +256,7 @@ function check_form(form_name) {
 <?php if ($_SESSION['html_editor_preference_status']=="FCKEDITOR") include (DIR_WS_INCLUDES.'fckeditor.php'); ?>
 <?php if ($_SESSION['html_editor_preference_status']=="HTMLAREA")  include (DIR_WS_INCLUDES.'htmlarea.php'); ?>
 </head>
-<body onload="init()">
+<body>
 <!-- header //-->
 <?php require(DIR_WS_INCLUDES . 'header.php'); ?>
 <!-- header_eof //-->
