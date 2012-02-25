@@ -6,13 +6,11 @@
  */
 if (!defined('IS_ADMIN_FLAG')) die('Illegal Access');
 
-$languages = zen_get_languages(); // todo
-foreach($languages as $a)
+switch($_SESSION['language'])
 {
-	$lang_code[] = $a['code'];
+	case 'japanese' : $language = 'ja'; break;
+	default         : $language = 'en';
 }
-if(array_search('ja',$lang_code)!==false) $language = 'ja';
-else                                      $language = 'en';
 
 $plugins = 'advlist,save,autolink,lists,fullscreen,advimage,paste,advlink,media,contextmenu,table,advhr,inlinepopups';
 $theme_advanced_buttons1  = 'fontselect,fontsizeselect,formatselect,bold,italic,underline,strikethrough,|,sup,sub,|,copy,cut,pastetext,pasteword';
@@ -20,34 +18,35 @@ $theme_advanced_buttons2  = 'justifyleft,justifycenter,justifyright,justifyfull,
 $site_url = HTTP_CATALOG_SERVER . DIR_WS_CATALOG;
 $base_dir = DIR_WS_CATALOG;
 //<!-- load the main TinyMCE files -->
-$str  = '';
-$str .= '<script type="text/javascript" src="' . DIR_WS_CATALOG . 'editors/zenc_tinymce/tiny_mce/tiny_mce.js"></script>' . "\n";
-$str .= '<script language="javascript" type="text/javascript">' . "\n";
-$str .= 'tinyMCE.init({' . "\n";
-$str .= "theme : 'advanced',\n";
-$str .= "mode : 'textareas',\n";
-$str .= "language : '{$language}',\n";
-$str .= "plugins : '{$plugins}',\n";
-$str .= "width  : '600',\n";
-$str .= "height : '350',\n";
-$str .= "accessibility_warnings            : false,\n";
-$str .= "document_base_url                 : '{$site_url}',\n";
-$str .= "relative_urls                     : false,\n";
-$str .= "remove_script_host                : false,\n";
-$str .= "force_br_newlines                 : true,\n";
-$str .= "force_p_newlines                  : false,\n";
-$str .= "forced_root_block                 : '',\n";
-$str .= "convert_fonts_to_spans            : true,\n";
-$str .= "valid_elements : '*[*]',\n";
-$str .= "theme_advanced_buttons1 : '{$theme_advanced_buttons1}',\n";
-$str .= "theme_advanced_buttons2 : '{$theme_advanced_buttons2}',\n";
-$str .= "theme_advanced_buttons3 : '',\n";
-$str .= "theme_advanced_toolbar_location : 'top',\n";
-$str .= "theme_advanced_toolbar_align : 'left',\n";
-$str .= "theme_advanced_statusbar_location : 'bottom',\n";
-$str .= "theme_advanced_resizing : true,\n";
-$str .= "theme_advanced_resize_horizontal : false,\n";
-$str .= "content_css : '{$base_dir}editors/zenc_tinymce/add_style.css'\n";
-$str .= "});\n";
-$str .= "</script>\n";
+$str  = <<< EOT
+<script type="text/javascript" src="{$site_url}editors/zenc_tinymce/tiny_mce/tiny_mce.js"></script>
+<script language="javascript" type="text/javascript">
+tinyMCE.init({
+theme                             : 'advanced',
+mode                              : 'textareas',
+language                          : '{$language}',
+plugins                           : '{$plugins}',
+width                             : '600',
+height                            : '350',
+accessibility_warnings            : false,
+document_base_url                 : '{$site_url}',
+relative_urls                     : false,
+remove_script_host                : false,
+force_br_newlines                 : true,
+force_p_newlines                  : false,
+forced_root_block                 : '',
+convert_fonts_to_spans            : true,
+valid_elements                    : '*[*]',
+theme_advanced_buttons1           : '{$theme_advanced_buttons1}',
+theme_advanced_buttons2           : '{$theme_advanced_buttons2}',
+theme_advanced_buttons3           : '',
+theme_advanced_toolbar_location   : 'top',
+theme_advanced_toolbar_align      : 'left',
+theme_advanced_statusbar_location : 'bottom',
+theme_advanced_resizing           : true,
+theme_advanced_resize_horizontal  : false,
+content_css                       : '{$base_dir}editors/zenc_tinymce/add_style.css'
+});
+</script>
+EOT;
 echo $str;
