@@ -537,7 +537,7 @@ define('NOT_INSTALLED_TEXT','インストールされていません');
   define('TEXT_VERSION_CHECK_NEW_PATCH','利用可能な新しいパッチ');
   define('TEXT_VERSION_CHECK_PATCH','パッチ');
   define('TEXT_VERSION_CHECK_DOWNLOAD','パッチをダウンロードする');
-  define('TEXT_VERSION_CHECK_CURRENT','Zen Cart&tradeのバージョン; とくに問題はありません。');
+  define('TEXT_VERSION_CHECK_CURRENT','Zen Cart&trade;のバージョン : 問題ありません。');
 
 // downloads manager
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_DOWNLOADS_MANAGER', ' <b>%d</b>から<b>%d</b>を表示中(ダウンロード全<b>%d</b>件)');
