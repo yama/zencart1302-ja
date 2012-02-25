@@ -15,15 +15,15 @@
   define('TEXT_PAGE_HEADING', 'Zen Cartの設定　- システム設定');
   define('SERVER_SETTINGS', 'サーバ設定');
   define('PHYSICAL_PATH', '設置ディレクトリ');
-  define('PHYSICAL_PATH_INSTRUCTION', '設置ディレクトリの物理パス。');
+  define('PHYSICAL_PATH_INSTRUCTION', '設置ディレクトリの物理パス');
   define('PHYSICAL_HTTPS_PATH', '設置ディレクトリ(SSL/不要なら空白)');
-  define('PHYSICAL_HTTPS_PATH_INSTRUCTION', 'SSL領域にインストールしたZen Cartの設置ディレクトリの物理パス。');
+  define('PHYSICAL_HTTPS_PATH_INSTRUCTION', 'SSL領域にインストールしたZen Cartの設置ディレクトリの物理パス');
   define('VIRTUAL_HTTP_PATH', 'サイトのURL');
   define('VIRTUAL_HTTP_PATH_INSTRUCTION', '');
   define('VIRTUAL_HTTPS_PATH', 'サイトのURL(SSL/不要なら空白)');
   define('VIRTUAL_HTTPS_PATH_INSTRUCTION', '');
   define('VIRTUAL_HTTPS_SERVER', 'SSLサーバのホスト名(不要なら空白)');
-  define('VIRTUAL_HTTPS_SERVER_INSTRUCTION', 'Zen Cartディレクトリ用仮想HTTPSサーバ。');
+  define('VIRTUAL_HTTPS_SERVER_INSTRUCTION', 'Zen Cartディレクトリ用仮想HTTPSサーバ');
   define('ENABLE_SSL', 'ショップでSSLを有効にする');
   define('ENABLE_SSL_INSTRUCTION', 'SSLの動作を確認していない場合は「いいえ」にしておいてください。<br />');
   define('ENABLE_SSL_ADMIN', '管理画面でSSLを有効にする');
