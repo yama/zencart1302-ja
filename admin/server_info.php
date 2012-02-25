@@ -135,13 +135,12 @@
   <tr>
     <td width="100%" height="23">
       <style type="text/css">
- table, td, tr {font-family: sans-serif; font-size: 11px;}
 .p {text-align: center;}
-.e {background-color: #ccccff; font-weight: bold; font-size: 11px;}
-.h {background-color: #9999cc; font-weight: bold; font-size: 11px;}
-.v {background-color: #cccccc; font-size: 12px;}
-i {color: #666666; font-size: 11px;}
-hr {display: none; font-size: 11px;}
+.e {background-color: #ccccff; font-weight: bold;}
+.h {background-color: #9999cc; font-weight: bold;}
+.v {background-color: #cccccc;}
+i {color: #666666;}
+hr {display: none;}
 </style>
 <?php
   if (function_exists('ob_start')) {
