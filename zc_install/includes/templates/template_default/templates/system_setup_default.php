@@ -18,29 +18,29 @@
 	  <fieldset>
 	  <legend><?php echo SERVER_SETTINGS; ?></legend>
 		<div class="section">
-		  <input type="text" id="physical_path" name="physical_path" tabindex="1" value="<?php echo PHYSICAL_PATH_VALUE; ?>" size="50" />
+		  <input type="text" id="physical_path" name="physical_path" tabindex="1" value="<?php echo PHYSICAL_PATH_VALUE; ?>" size="40" />
 		  <label for="physical_path"><?php echo PHYSICAL_PATH; ?></label>
 		  <p><?php echo PHYSICAL_PATH_INSTRUCTION . '<a href="javascript:popupWindow(\'popup_help_screen.php?error_code=4\')"> ' . TEXT_HELP_LINK . '</a>'; ?></p>
 		</div>
 		<div class="section">
- 		  <input type="text" id="physical_https_path" name="physical_https_path" tabindex = "1" value="<?php echo PHYSICAL_HTTPS_PATH_VALUE; ?>" size="50" />
+ 		  <input type="text" id="physical_https_path" name="physical_https_path" tabindex = "1" value="<?php echo PHYSICAL_HTTPS_PATH_VALUE; ?>" size="40" />
  		  <label for="physical_https_path"><?php echo PHYSICAL_HTTPS_PATH; ?></label>
  		  <p><?php echo PHYSICAL_HTTPS_PATH_INSTRUCTION . '<a href="javascript:popupWindow(\'popup_help_screen.php?error_code=95\')"> ' . TEXT_HELP_LINK . '</a>'; ?></p>
  		</div>
  		<div class="section">
-		  <input type="text" id="virtual_http_path" name="virtual_http_path" tabindex="2" value="<?php echo VIRTUAL_HTTP_PATH_VALUE; ?>" size="50" />
+		  <input type="text" id="virtual_http_path" name="virtual_http_path" tabindex="2" value="<?php echo VIRTUAL_HTTP_PATH_VALUE; ?>" size="40" />
 		  <label for="virtual_http_path"><?php echo VIRTUAL_HTTP_PATH; ?></label>
 		  <p><?php echo VIRTUAL_HTTP_PATH_INSTRUCTION . '<a href="javascript:popupWindow(\'popup_help_screen.php?error_code=5\')"> ' . TEXT_HELP_LINK . '</a>'; ?></p>
 		</div>
 
 		<div class="section">
-		  <input type="text" id="virtual_https_server" name="virtual_https_server" tabindex="3" value="<?php echo VIRTUAL_HTTPS_SERVER_VALUE; ?>" size="50" />
+		  <input type="text" id="virtual_https_server" name="virtual_https_server" tabindex="3" value="<?php echo VIRTUAL_HTTPS_SERVER_VALUE; ?>" size="40" />
 		  <label for="virtual_https_server"><?php echo VIRTUAL_HTTPS_SERVER; ?></label>
 		  <p><?php echo VIRTUAL_HTTPS_SERVER_INSTRUCTION . '<a href="javascript:popupWindow(\'popup_help_screen.php?error_code=6\')"> ' . TEXT_HELP_LINK . '</a>'; ?></p>
 		</div>
 
 		<div class="section">
-		  <input type="text" id="virtual_https_path" name="virtual_https_path" tabindex="4" value="<?php echo VIRTUAL_HTTPS_PATH_VALUE; ?>" size="50" />
+		  <input type="text" id="virtual_https_path" name="virtual_https_path" tabindex="4" value="<?php echo VIRTUAL_HTTPS_PATH_VALUE; ?>" size="40" />
 		  <label for="virtual_https_path"><?php echo VIRTUAL_HTTPS_PATH; ?></label>
 		  <p><?php echo VIRTUAL_HTTPS_PATH_INSTRUCTION . '<a href="javascript:popupWindow(\'popup_help_screen.php?error_code=7\')"> ' . TEXT_HELP_LINK . '</a>'; ?></p>
 		</div>
