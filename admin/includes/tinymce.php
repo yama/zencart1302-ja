@@ -15,9 +15,8 @@ if(array_search('ja',$lang_code)!==false) $language = 'ja';
 else                                      $language = 'en';
 
 $plugins = 'advlist,save,autolink,lists,style,fullscreen,advimage,paste,advlink,media,contextmenu,table,advhr,inlinepopups';
-$theme_advanced_buttons1  = 'undo,redo,|,bold,forecolor,backcolor,formatselect,styleselect,fontsizeselect,code,|,fullscreen,help';
-$theme_advanced_buttons2  = 'image,media,link,unlink,anchor,|,bullist,numlist,|,blockquote,outdent,indent,|,';
-$theme_advanced_buttons2 .= 'justifyleft,justifycenter,justifyright,|,table,|,advhr,|,xstyleprops,removeformat,|,pastetext,pasteword';
+$theme_advanced_buttons1  = 'fontselect,fontsizeselect,formatselect,bold,italic,underline,strikethrough,|,sup,sub,|,copy,cut,pastetext,pasteword';
+$theme_advanced_buttons2  = 'justifyleft,justifycenter,justifyright,justifyfull,|,numlist,bullist,outdent,indent,|,forecolor,backcolor,|,advhr,link,image,media,table,code,|,fullscreen,|,help';
 $base_dir = DIR_WS_CATALOG;
 //<!-- load the main TinyMCE files -->
 $str  = '';
