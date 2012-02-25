@@ -73,7 +73,7 @@ if (!isset($_SESSION['display_categories_dropdown'])) {
                 <td class="dataTableHeadingContent" align="right"><?php echo TABLE_HEADING_PRICE; ?></td>
                 <td class="dataTableHeadingContent" align="right">&nbsp;</td>
                 <td class="dataTableHeadingContent" align="right"><?php echo TABLE_HEADING_QUANTITY; ?>&nbsp;&nbsp;&nbsp;</td>
-                <td class="dataTableHeadingContent" width="50" align="center"><?php echo TABLE_HEADING_STATUS; ?></td>
+                <td class="dataTableHeadingContent" width="70" align="center"><?php echo TABLE_HEADING_STATUS; ?></td>
                 <td class="dataTableHeadingContent" align="right"><?php echo TABLE_HEADING_CATEGORIES_SORT_ORDER; ?></td>
                 <td class="dataTableHeadingContent" align="right"><?php echo TABLE_HEADING_ACTION; ?>&nbsp;</td>
 <?php } // action == '' ?>
@@ -138,7 +138,7 @@ if (!isset($_SESSION['display_categories_dropdown'])) {
 ?>
 <?php if ($action == '') { ?>
                 <td class="dataTableContent" width="20" align="right"><?php echo $categories->fields['categories_id']; ?></td>
-                <td class="dataTableContent"><?php echo '<a href="' . zen_href_link(FILENAME_CATEGORIES, zen_get_path($categories->fields['categories_id'])) . '">' . zen_image(DIR_WS_ICONS . 'folder.gif', ICON_FOLDER) . '</a>&nbsp;<b>' . $categories->fields['categories_name'] . '</b>'; ?></td>
+                <td class="dataTableContent"><?php echo '<a href="' . zen_href_link(FILENAME_CATEGORIES, zen_get_path($categories->fields['categories_id'])) . '">' . zen_image(DIR_WS_ICONS . 'folder.gif', ICON_FOLDER) . '</a>&nbsp;' . $categories->fields['categories_name']; ?></td>
                 <td class="dataTableContent" align="center">&nbsp;</td>
                 <td class="dataTableContent" align="right">&nbsp;<?php echo zen_get_products_sale_discount('', $categories->fields['categories_id'], true); ?></td>
                 <td class="dataTableContent" align="center">&nbsp;</td>
@@ -155,7 +155,7 @@ if (!isset($_SESSION['display_categories_dropdown'])) {
                   ?>
                   &nbsp;&nbsp;
                 </td>
-                <td class="dataTableContent" width="50" align="left">
+                <td class="dataTableContent" width="70" align="left">
 <?php
       if ($categories->fields['categories_status'] == '1') {
         echo '<a href="' . zen_href_link(FILENAME_CATEGORIES, 'action=setflag_categories&flag=0&cID=' . $categories->fields['categories_id'] . '&cPath=' . $cPath . (isset($_GET['page']) ? '&page=' . $_GET['page'] : '')) . '">' . zen_image(DIR_WS_IMAGES . 'icon_green_on.gif', IMAGE_ICON_STATUS_ON) . '</a>';

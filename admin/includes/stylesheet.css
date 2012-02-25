@@ -20,7 +20,6 @@ text-decoration:underline;
 }
 a.headerLink:link{
 color:#ffffff;
-font-weight:bold;
 text-decoration:none;
 }
 a.headerLink:visited{
@@ -294,7 +293,6 @@ background-color:#c96e29;
 }
 .headerBarContent{
 color:#ffffff;
-font-weight:bold;
 padding:2px;
 }
 .infoBoxContent{

@@ -141,7 +141,7 @@ echo zen_draw_form('new_product_meta_tags', $type_admin_handler , 'cPath=' . $cP
     for ($i=0, $n=sizeof($languages); $i<$n; $i++) {
 ?>
       <tr>
-        <td><table border="3" cellspacing="4" cellpadding="6">
+        <td><table border="0" cellspacing="4" cellpadding="6">
           <tr>
             <td class="main" colspan="2">
               <?php echo zen_image(DIR_WS_CATALOG_LANGUAGES . $languages[$i]['directory'] . '/images/' . $languages[$i]['image'], $languages[$i]['name']) . '&nbsp;' . '<strong>' . TEXT_PRODUCTS_NAME . '</strong>' . '&nbsp;' . zen_get_products_name($_GET['pID'], $languages[$i]['id']) . '&nbsp;&nbsp;&nbsp;<strong>' . TEXT_PRODUCTS_MODEL . '</strong>&nbsp;' . $pInfo->products_model . '&nbsp;&nbsp;&nbsp;<strong>' . TEXT_PRODUCTS_PRICE_INFO . '</strong>&nbsp;' . $currencies->format($pInfo->products_price_sorter); ?>
@@ -150,19 +150,19 @@ echo zen_draw_form('new_product_meta_tags', $type_admin_handler , 'cPath=' . $cP
           <tr>
             <td class="main"valign="top"><?php echo TEXT_META_TAGS_TITLE; ?>&nbsp;</td>
             <td class="main">
-              <?php echo zen_draw_input_field('metatags_title[' . $languages[$i]['id'] . ']', (isset($metatags_title[$languages[$i]['id']]) ? stripslashes($metatags_title[$languages[$i]['id']]) : zen_get_metatags_title($pInfo->products_id, $languages[$i]['id'])), zen_set_field_length(TABLE_META_TAGS_PRODUCTS_DESCRIPTION, 'metatags_title', '150', false)); //,'id="'.'metatags_title' . $languages[$i]['id'] . '"');?>
+              <?php echo zen_draw_input_field('metatags_title[' . $languages[$i]['id'] . ']', (isset($metatags_title[$languages[$i]['id']]) ? stripslashes($metatags_title[$languages[$i]['id']]) : zen_get_metatags_title($pInfo->products_id, $languages[$i]['id'])), zen_set_field_length(TABLE_META_TAGS_PRODUCTS_DESCRIPTION, 'metatags_title', '90', false)); //,'id="'.'metatags_title' . $languages[$i]['id'] . '"');?>
             </td>
           </tr>
           <tr>
             <td class="main"valign="top"><?php echo TEXT_META_TAGS_KEYWORDS; ?>&nbsp;</td>
             <td class="main">
-              <?php echo zen_draw_textarea_field('metatags_keywords[' . $languages[$i]['id'] . ']', 'soft', '100%', '10', (isset($metatags_keywords[$languages[$i]['id']])) ? stripslashes($metatags_keywords[$languages[$i]['id']]) : zen_get_metatags_keywords($pInfo->products_id, $languages[$i]['id'])); //,'id="'.'metatags_keywords' . $languages[$i]['id'] . '"'); ?>
+              <?php echo zen_draw_textarea_field('metatags_keywords[' . $languages[$i]['id'] . ']', 'soft', '100%', '3', (isset($metatags_keywords[$languages[$i]['id']])) ? stripslashes($metatags_keywords[$languages[$i]['id']]) : zen_get_metatags_keywords($pInfo->products_id, $languages[$i]['id'])); //,'id="'.'metatags_keywords' . $languages[$i]['id'] . '"'); ?>
             </td>
           </tr>
           <tr>
             <td class="main"valign="top"><?php echo TEXT_META_TAGS_DESCRIPTION; ?>&nbsp;</td>
             <td class="main">
-              <?php echo zen_draw_textarea_field('metatags_description[' . $languages[$i]['id'] . ']', 'soft', '100%', '10', (isset($metatags_description[$languages[$i]['id']])) ? stripslashes($metatags_description[$languages[$i]['id']]) : zen_get_metatags_description($pInfo->products_id, $languages[$i]['id'])); //,'id="'.'metatags_description' . $languages[$i]['id'] . '"'); ?>
+              <?php echo zen_draw_textarea_field('metatags_description[' . $languages[$i]['id'] . ']', 'soft', '100%', '3', (isset($metatags_description[$languages[$i]['id']])) ? stripslashes($metatags_description[$languages[$i]['id']]) : zen_get_metatags_description($pInfo->products_id, $languages[$i]['id'])); //,'id="'.'metatags_description' . $languages[$i]['id'] . '"'); ?>
             </td>
           </tr>
         </table></td>
