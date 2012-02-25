@@ -10,9 +10,11 @@ if (!defined('IS_ADMIN_FLAG')) {
   die('Illegal Access');
 }
 ?>
+<link rel="stylesheet" href="includes/javascript/tinydropdown2/tinydropdown.css" type="text/css" />
+<script type="text/javascript" src="includes/javascript/tinydropdown2/tinydropdown.js"></script>
 <!-- Menu bar #2. -->
-<div id="navbar">
-<ul class="nde-menu-system" onmouseover="hide_dropdowns('in')" onmouseout="hide_dropdowns('out')">
+<div class="nav">
+<ul id="menu" class="menu">
 <?php
 
   require(DIR_WS_BOXES . 'configuration_dhtml.php');
@@ -29,3 +31,6 @@ if (!defined('IS_ADMIN_FLAG')) {
 ?>
 </ul>
 </div>
+<script type="text/javascript">
+var dropdown=new TINY.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
+</script>
