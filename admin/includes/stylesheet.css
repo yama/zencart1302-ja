@@ -367,7 +367,7 @@ font-family: Helvetica, Arial, sans-serif;
 }
 .dataTableRowSpacer,td.dataTableRowSpacer,TR.dataTableRowSpacer,
 body#login legend,
-checkbox,input,radio,select,textarea,file {
+checkbox,input,radio,select,textarea,option {
 font-size:inherit;
 }
 a, table, input, textarea, select, .smallText,ul.nde-menu-system * {font:inherit;}
