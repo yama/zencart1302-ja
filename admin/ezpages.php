@@ -45,7 +45,7 @@
     if ($_GET['reset_editor'] == '0') {
       $_SESSION['html_editor_preference_status'] = 'NONE';
     } else {
-      $_SESSION['html_editor_preference_status'] = 'HTMLAREA';
+      $_SESSION['html_editor_preference_status'] = 'TINYMCE';
     }
     $action='';
     zen_redirect(zen_href_link(FILENAME_EZPAGES_ADMIN));
@@ -203,7 +203,7 @@
 <link rel="stylesheet" type="text/css" href="includes/stylesheet.css">
 <script language="javascript" src="includes/general.js"></script>
 <?php if ($_SESSION['html_editor_preference_status']=="FCKEDITOR") require(DIR_WS_INCLUDES.'fckeditor.php'); ?>
-<?php if ($_SESSION['html_editor_preference_status']=="HTMLAREA")  require(DIR_WS_INCLUDES.'htmlarea.php'); ?>
+<?php if ($_SESSION['html_editor_preference_status']=="TINYMCE")  require(DIR_WS_INCLUDES.'tinymce.php'); ?>
 </head>
 <body>
 <?php require(DIR_WS_INCLUDES . 'header.php'); ?>
@@ -239,8 +239,8 @@
 <?php
 // toggle switch for editor
         $editor_array = array(array('id' => '0', 'text' => TEXT_NONE),
-                              array('id' => '1', 'text' => TEXT_HTML_AREA));
-        echo TEXT_EDITOR_INFO . zen_draw_form('set_editor_form', FILENAME_EZPAGES_ADMIN, '', 'get') . '&nbsp;&nbsp;' . zen_draw_pull_down_menu('reset_editor', $editor_array, ($_SESSION['html_editor_preference_status'] == 'HTMLAREA' ? '1' : '0'), 'onChange="this.form.submit();"') .
+                              array('id' => '1', 'text' => TEXT_TINYMCE));
+        echo TEXT_EDITOR_INFO . zen_draw_form('set_editor_form', FILENAME_EZPAGES_ADMIN, '', 'get') . '&nbsp;&nbsp;' . zen_draw_pull_down_menu('reset_editor', $editor_array, ($_SESSION['html_editor_preference_status'] == 'TINYMCE' ? '1' : '0'), 'onChange="this.form.submit();"') .
         zen_hide_session_id() .
         zen_draw_hidden_field('action', 'set_editor') .
         '</form>';
@@ -436,7 +436,7 @@
 					$oFCKeditor = new FCKeditor ;
 					$oFCKeditor->Value = $ezInfo->pages_html_text ;
 					$oFCKeditor->CreateFCKeditor( 'pages_html_text', '80%', '200' ) ;  //instanceName, width, height (px or %)
-					} else { // using HTMLAREA or just raw "source"
+					} else { // using TINYMCE or just raw "source"
 					echo zen_draw_textarea_field('pages_html_text', 'soft', '100%', '20', $ezInfo->pages_html_text);
 					} ?>
             </td>

@@ -615,7 +615,7 @@ define('ENTRY_NOTHING_TO_SEND','メッセージの入力内容がありません。');
  define('EMAIL_SEND_FAILED','エラー: "%s"へのメール送信失敗 <%s> 対象で: "%s"');
 
 // toggle on/off
-  define('TEXT_HTML_AREA', 'htmlArea');
+  define('TEXT_TINYMCE', 'TinyMCE');
   define('TEXT_EDITOR_INFO', 'テキストエディタ');
   define('TEXT_CATEGORIES_PRODUCTS_SORT_ORDER_INFO', 'カテゴリ/商品 注文形式: ');
   define('TEXT_SORT_PRODUCTS_SORT_ORDER_PRODUCTS_NAME', '商品のソート順決定, 商品');

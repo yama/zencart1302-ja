@@ -104,7 +104,7 @@
         if ($_GET['reset_editor'] == '0') {
           $_SESSION['html_editor_preference_status'] = 'NONE';
         } else {
-          $_SESSION['html_editor_preference_status'] = 'HTMLAREA';
+          $_SESSION['html_editor_preference_status'] = 'TINYMCE';
         }
         $action='';
         zen_redirect(zen_href_link(FILENAME_COUPON_ADMIN));
@@ -362,7 +362,7 @@ function check_form(form_name) {
 }
 //--></script>
 <?php if ($_SESSION['html_editor_preference_status']=="FCKEDITOR") include (DIR_WS_INCLUDES.'fckeditor.php'); ?>
-<?php if ($_SESSION['html_editor_preference_status']=="HTMLAREA")  include (DIR_WS_INCLUDES.'htmlarea.php'); ?>
+<?php if ($_SESSION['html_editor_preference_status']=="TINYMCE")  include (DIR_WS_INCLUDES.'tinymce.php'); ?>
 </head>
 <body>
 <div id="spiffycalendar" class="text"></div>
@@ -630,7 +630,7 @@ $customer = $db->Execute("select customers_firstname, customers_lastname
 					$oFCKeditor = new FCKeditor ;
 					$oFCKeditor->Value = ($_POST['message_html']=='') ? TEXT_COUPON_ANNOUNCE : stripslashes($_POST['message_html']) ;
 					$oFCKeditor->CreateFCKeditor( 'message_html', '97%', '250' ) ;  //instanceName, width, height (px or %)
-					} else { // using HTMLAREA or just raw "source"
+					} else { // using TINYMCE or just raw "source"
   if (EMAIL_USE_HTML == 'true') {
 					echo zen_draw_textarea_field('message_html', 'soft', '100%', '20', ($_POST['message_html']=='') ? TEXT_COUPON_ANNOUNCE : stripslashes($_POST['message_html']), 'id="message_html"');
 }
@@ -961,8 +961,8 @@ $customer = $db->Execute("select customers_firstname, customers_lastname
 <?php
 // toggle switch for editor
         $editor_array = array(array('id' => '0', 'text' => TEXT_NONE),
-                              array('id' => '1', 'text' => TEXT_HTML_AREA));
-        echo TEXT_EDITOR_INFO . zen_draw_form('set_editor_form', FILENAME_COUPON_ADMIN, '', 'get') . '&nbsp;&nbsp;' . zen_draw_pull_down_menu('reset_editor', $editor_array, ($_SESSION['html_editor_preference_status'] == 'HTMLAREA' ? '1' : '0'), 'onChange="this.form.submit();"') .
+                              array('id' => '1', 'text' => TEXT_TINYMCE));
+        echo TEXT_EDITOR_INFO . zen_draw_form('set_editor_form', FILENAME_COUPON_ADMIN, '', 'get') . '&nbsp;&nbsp;' . zen_draw_pull_down_menu('reset_editor', $editor_array, ($_SESSION['html_editor_preference_status'] == 'TINYMCE' ? '1' : '0'), 'onChange="this.form.submit();"') .
         zen_hide_session_id() .
         zen_draw_hidden_field('action', 'set_editor') .
         '</form>';

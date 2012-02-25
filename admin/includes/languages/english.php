@@ -601,7 +601,7 @@ define('ENTRY_NOTHING_TO_SEND','You haven\'t entered any content for your messag
  define('EMAIL_SEND_FAILED','ERROR: Failed sending email to: "%s" <%s> with subject: "%s"');
 
 // toggle on/off
-  define('TEXT_HTML_AREA', 'HTMLarea');
+  define('TEXT_TINYMCE', 'TinyMCE');
   define('TEXT_EDITOR_INFO', 'Text Editor');
   define('TEXT_CATEGORIES_PRODUCTS_SORT_ORDER_INFO', 'Categories/Product Display Order: ');
   define('TEXT_SORT_PRODUCTS_SORT_ORDER_PRODUCTS_NAME', 'Products Sort Order, Products Name');

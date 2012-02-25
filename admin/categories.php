@@ -32,7 +32,7 @@
       if ($_GET['reset_editor'] == '0') {
         $_SESSION['html_editor_preference_status'] = 'NONE';
       } else {
-        $_SESSION['html_editor_preference_status'] = 'HTMLAREA';
+        $_SESSION['html_editor_preference_status'] = 'TINYMCE';
       }
       $action='';
       zen_redirect(zen_href_link(FILENAME_CATEGORIES,  'cPath=' . $_GET['cPath'] . ((isset($_GET['pID']) and !empty($_GET['pID'])) ? '&pID=' . $_GET['pID'] : '') . ((isset($_GET['page']) and !empty($_GET['page'])) ? '&page=' . $_GET['page'] : '')));
@@ -537,7 +537,7 @@
 <script language="javascript" src="includes/general.js"></script>
 <?php if ($action != 'edit_category_meta_tags') { // bof: categories meta tags ?>
 <?php if ($_SESSION['html_editor_preference_status']=="FCKEDITOR") require(DIR_WS_INCLUDES.'fckeditor.php'); ?>
-<?php if ($_SESSION['html_editor_preference_status']=="HTMLAREA")  require(DIR_WS_INCLUDES.'htmlarea.php'); ?>
+<?php if ($_SESSION['html_editor_preference_status']=="TINYMCE")  require(DIR_WS_INCLUDES.'tinymce.php'); ?>
 <?php } // meta tags disable editor eof: categories meta tags?>
 </head>
 <body marginwidth="0" marginheight="0" topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" bgcolor="#FFFFFF">
@@ -566,8 +566,8 @@
 
       // toggle switch for editor
       $editor_array = array(array('id' => '0', 'text' => TEXT_NONE),
-      array('id' => '1', 'text' => TEXT_HTML_AREA));
-      echo TEXT_EDITOR_INFO . zen_draw_form('set_editor_form', FILENAME_CATEGORIES, '', 'get') . '&nbsp;&nbsp;' . zen_draw_pull_down_menu('reset_editor', $editor_array, ($_SESSION['html_editor_preference_status'] == 'HTMLAREA' ? '1' : '0'), 'onChange="this.form.submit();"') . zen_hide_session_id() .
+      array('id' => '1', 'text' => TEXT_TINYMCE));
+      echo TEXT_EDITOR_INFO . zen_draw_form('set_editor_form', FILENAME_CATEGORIES, '', 'get') . '&nbsp;&nbsp;' . zen_draw_pull_down_menu('reset_editor', $editor_array, ($_SESSION['html_editor_preference_status'] == 'TINYMCE' ? '1' : '0'), 'onChange="this.form.submit();"') . zen_hide_session_id() .
             zen_draw_hidden_field('cID', $cPath) .
             zen_draw_hidden_field('cPath', $cPath) .
             zen_draw_hidden_field('pID', $_GET['pID']) .

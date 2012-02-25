@@ -403,7 +403,7 @@ updateGross();
           $oFCKeditor = new FCKeditor ;
           $oFCKeditor->Value = (isset($products_description[$languages[$i]['id']])) ? stripslashes($products_description[$languages[$i]['id']]) : zen_get_products_description($pInfo->products_id, $languages[$i]['id']) ;
           $oFCKeditor->CreateFCKeditor( 'products_description[' . $languages[$i]['id'] . ']', '99%', '230' ) ;  //instanceName, width, height (px or %)
-          } else { // using HTMLAREA or just raw "source"
+          } else { // using TINYMCE or just raw "source"
 
           echo zen_draw_textarea_field('products_description[' . $languages[$i]['id'] . ']', 'soft', '100%', '20', (isset($products_description[$languages[$i]['id']])) ? stripslashes($products_description[$languages[$i]['id']]) : zen_get_products_description($pInfo->products_id, $languages[$i]['id'])); //,'id="'.'products_description' . $languages[$i]['id'] . '"');
           } ?>

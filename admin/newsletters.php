@@ -30,7 +30,7 @@
         if ($_GET['reset_editor'] == '0') {
           $_SESSION['html_editor_preference_status'] = 'NONE';
         } else {
-          $_SESSION['html_editor_preference_status'] = 'HTMLAREA';
+          $_SESSION['html_editor_preference_status'] = 'TINYMCE';
         }
         $action='';
         zen_redirect(zen_href_link(FILENAME_NEWSLETTERS, (isset($_GET['page']) ? 'page=' . $_GET['page'] . '&' : '') . 'nID=' . $newsletter_id));
@@ -187,7 +187,7 @@ check_select('audience_selected','',"<?php echo ERROR_PLEASE_SELECT_AUDIENCE; ?>
 }
 //--></script>
 <?php if ($_SESSION['html_editor_preference_status']=="FCKEDITOR") include (DIR_WS_INCLUDES.'fckeditor.php'); ?>
-<?php if ($_SESSION['html_editor_preference_status']=="HTMLAREA")  include (DIR_WS_INCLUDES.'htmlarea.php'); ?>
+<?php if ($_SESSION['html_editor_preference_status']=="TINYMCE")  include (DIR_WS_INCLUDES.'tinymce.php'); ?>
 </head>
 <body>
 <div id="spiffycalendar" class="text"></div>
@@ -208,8 +208,8 @@ check_select('audience_selected','',"<?php echo ERROR_PLEASE_SELECT_AUDIENCE; ?>
 <?php
 // toggle switch for editor
         $editor_array = array(array('id' => '0', 'text' => TEXT_NONE),
-                              array('id' => '1', 'text' => TEXT_HTML_AREA));
-        echo TEXT_EDITOR_INFO . zen_draw_form('set_editor_form', FILENAME_NEWSLETTERS, '', 'get') . '&nbsp;&nbsp;' . zen_draw_pull_down_menu('reset_editor', $editor_array, ($_SESSION['html_editor_preference_status'] == 'HTMLAREA' ? '1' : '0'), 'onChange="this.form.submit();"') .
+                              array('id' => '1', 'text' => TEXT_TINYMCE));
+        echo TEXT_EDITOR_INFO . zen_draw_form('set_editor_form', FILENAME_NEWSLETTERS, '', 'get') . '&nbsp;&nbsp;' . zen_draw_pull_down_menu('reset_editor', $editor_array, ($_SESSION['html_editor_preference_status'] == 'TINYMCE' ? '1' : '0'), 'onChange="this.form.submit();"') .
         zen_hide_session_id() . 
         zen_draw_hidden_field('action', 'set_editor') .
         '</form>';
@@ -289,7 +289,7 @@ check_select('audience_selected','',"<?php echo ERROR_PLEASE_SELECT_AUDIENCE; ?>
           $oFCKeditor = new FCKeditor ;
           $oFCKeditor->Value = $nInfo->content_html ;
           $oFCKeditor->CreateFCKeditor( 'content_html', '97%', '350' ) ;  //instanceName, width, height (px or %)
-          } else { // using HTMLAREA or just raw "source"
+          } else { // using TINYMCE or just raw "source"
           echo zen_draw_textarea_field('content_html', 'soft', '100%', '30', $nInfo->content_html,'id="content_html"');
           } ?>
           </td>

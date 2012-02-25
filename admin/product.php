@@ -115,7 +115,7 @@
 <link rel="stylesheet" type="text/css" href="includes/stylesheet.css">
 <script language="javascript" src="includes/general.js"></script>
 <?php if ($_SESSION['html_editor_preference_status']=="FCKEDITOR" and $action != 'new_product_meta_tags') include (DIR_WS_INCLUDES.'fckeditor.php'); ?>
-<?php if ($_SESSION['html_editor_preference_status']=="HTMLAREA" and $action != 'new_product_meta_tags')  include (DIR_WS_INCLUDES.'htmlarea.php'); ?>
+<?php if ($_SESSION['html_editor_preference_status']=="TINYMCE" and $action != 'new_product_meta_tags')  include (DIR_WS_INCLUDES.'tinymce.php'); ?>
 </head>
 <body>
 <div id="spiffycalendar" class="text"></div>

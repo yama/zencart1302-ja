@@ -77,7 +77,7 @@
         if ($_GET['reset_editor'] == '0') {
           $_SESSION['html_editor_preference_status'] = 'NONE';
         } else {
-          $_SESSION['html_editor_preference_status'] = 'HTMLAREA';
+          $_SESSION['html_editor_preference_status'] = 'TINYMCE';
         }
         $action='';
         zen_redirect(zen_href_link(FILENAME_DEFINE_PAGES_EDITOR));
@@ -120,7 +120,7 @@
 <link rel="stylesheet" type="text/css" href="includes/stylesheet.css">
 <script language="javascript" src="includes/general.js"></script>
 <?php if ($_SESSION['html_editor_preference_status']=="FCKEDITOR") include (DIR_WS_INCLUDES.'fckeditor.php'); ?>
-<?php if ($_SESSION['html_editor_preference_status']=="HTMLAREA")  include (DIR_WS_INCLUDES.'htmlarea.php'); ?>
+<?php if ($_SESSION['html_editor_preference_status']=="TINYMCE")  include (DIR_WS_INCLUDES.'tinymce.php'); ?>
 </head>
 <body>
 <div id="spiffycalendar" class="text"></div>
@@ -154,8 +154,8 @@
 <?php
 // toggle switch for editor
         $editor_array = array(array('id' => '0', 'text' => TEXT_NONE),
-                              array('id' => '1', 'text' => TEXT_HTML_AREA));
-        echo TEXT_EDITOR_INFO . zen_draw_form('set_editor_form', FILENAME_DEFINE_PAGES_EDITOR, '', 'get') . '&nbsp;&nbsp;' . zen_draw_pull_down_menu('reset_editor', $editor_array, ($_SESSION['html_editor_preference_status'] == 'HTMLAREA' ? '1' : '0'), 'onChange="this.form.submit();"') .
+                              array('id' => '1', 'text' => TEXT_TINYMCE));
+        echo TEXT_EDITOR_INFO . zen_draw_form('set_editor_form', FILENAME_DEFINE_PAGES_EDITOR, '', 'get') . '&nbsp;&nbsp;' . zen_draw_pull_down_menu('reset_editor', $editor_array, ($_SESSION['html_editor_preference_status'] == 'TINYMCE' ? '1' : '0'), 'onChange="this.form.submit();"') .
         zen_hide_session_id() . 
         zen_draw_hidden_field('action', 'set_editor') .
         '</form>';
@@ -195,7 +195,7 @@ if (isset($_GET['filename'])) {
 					$oFCKeditor = new FCKeditor ;
 					$oFCKeditor->Value = $file_contents ;
 					$oFCKeditor->CreateFCKeditor( 'file_contents', '700', '400' ) ;  //instanceName, width, height (px or %)
-					} else { // using HTMLAREA or just raw "source"
+					} else { // using TINYMCE or just raw "source"
 					echo zen_draw_textarea_field('file_contents', 'soft', '100%', '25', $file_contents, (($file_writeable) ? '' : 'readonly') . ' id="file_contents"');
 					} ?>
 				</td>
