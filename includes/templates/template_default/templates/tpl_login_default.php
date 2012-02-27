@@ -27,11 +27,11 @@
 <legend><?php echo HEADING_RETURNING_CUSTOMER; ?></legend>
 
 <label class="inputLabel" for="login-email-address"><?php echo ENTRY_EMAIL_ADDRESS; ?></label>
-<?php echo zen_draw_input_field('email_address', '', zen_set_field_length(TABLE_CUSTOMERS, 'customers_email_address', '40') . ' id="login-email-address"'); ?>
+<?php echo zen_draw_input_field('email_address', '', zen_set_field_length(TABLE_CUSTOMERS, 'customers_email_address', '30') . ' id="login-email-address"'); ?>
 <br class="clearBoth" />
 
 <label class="inputLabel" for="login-password"><?php echo ENTRY_PASSWORD; ?></label>
-<?php echo zen_draw_password_field('password', '', zen_set_field_length(TABLE_CUSTOMERS, 'customers_password') . ' id="login-password"'); ?>
+<?php echo zen_draw_password_field('password', '', zen_set_field_length(TABLE_CUSTOMERS, 'customers_password','30') . ' id="login-password"'); ?>
 <br class="clearBoth" />
 </fieldset>
 
