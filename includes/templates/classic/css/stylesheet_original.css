@@ -484,3 +484,4 @@ font-size:1em;
 }
 
 textarea,input,select,radio {font-size:inherit;}
+select,input[type=text],input[type=password] {border:1px solid #abadb3;}

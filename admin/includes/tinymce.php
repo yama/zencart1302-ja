@@ -48,5 +48,8 @@ theme_advanced_resize_horizontal  : false,
 content_css                       : '{$base_dir}editors/zenc_tinymce/add_style.css'
 });
 </script>
+<style type="text/css">
+.clearlooks2_modalBlocker {background-color:#333;}
+</style>
 EOT;
 echo $str;
