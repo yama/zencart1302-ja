@@ -22,30 +22,37 @@
 
   require('includes/application_top.php');
 
-  function zen_display_files() {
-    global $check_directory, $found, $configuration_key_lookup;
-    for ($i = 0, $n = sizeof($check_directory); $i < $n; $i++) {
-//echo 'I SEE ' . $check_directory[$i] . '<br>';
-
-      $dir_check = $check_directory[$i];
-      $file_extension = '.php';
-
-      if ($dir = @dir($dir_check)) {
-        while ($file = $dir->read()) {
-          if (!is_dir($dir_check . $file)) {
-            if (substr($file, strrpos($file, '.')) == $file_extension) {
-              $directory_array[] = $file;
-            }
-          }
-        }
-        if (sizeof($directory_array)) {
-          sort($directory_array);
-        }
-        $dir->close();
-      }
-    }
-    return $directory_array;
-  }
+	function zen_display_files()
+	{
+		global $check_directory, $found, $configuration_key_lookup;
+		for ($i = 0, $n = sizeof($check_directory); $i < $n; $i++)
+		{
+			//echo 'I SEE ' . $check_directory[$i] . '<br>';
+			
+			$dir_check = $check_directory[$i];
+			$file_extension = '.php';
+			
+			if ($dir = @dir($dir_check))
+			{
+				while ($file = $dir->read())
+				{
+					if (!is_dir($dir_check . $file))
+					{
+						if (substr($file, strrpos($file, '.')) == $file_extension)
+						{
+							$directory_array[] = $file;
+						}
+					}
+				}
+				if (sizeof($directory_array))
+				{
+					sort($directory_array);
+				}
+				$dir->close();
+			}
+		}
+		return $directory_array;
+	}
 
   $action = (isset($_GET['action']) ? $_GET['action'] : '');
 
