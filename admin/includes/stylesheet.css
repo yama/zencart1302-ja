@@ -29,13 +29,10 @@ text-decoration:none;
 }
 a.headerLink:hover{
 color:#ffffff;
-font-weight:bold;
 text-decoration:underline;
 }
 a.headerLink:active{
 color:#ffffff;
-font-weight:bold;
-text-decoration:none;
 }
 a.menuBoxContentLink:link{
 color:#0000ff;
