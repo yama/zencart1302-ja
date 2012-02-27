@@ -12,9 +12,9 @@ switch($_SESSION['language'])
 	default         : $language = 'en';
 }
 
-$plugins = 'advlist,save,autolink,lists,fullscreen,advimage,paste,advlink,media,contextmenu,table,advhr,inlinepopups';
+$plugins = 'imageupload,advlist,save,autolink,lists,fullscreen,advimage,paste,advlink,media,contextmenu,table,advhr,inlinepopups';
 $theme_advanced_buttons1  = 'fontselect,fontsizeselect,formatselect,bold,italic,underline,strikethrough,|,sup,sub,|,copy,cut,pastetext,pasteword';
-$theme_advanced_buttons2  = 'justifyleft,justifycenter,justifyright,justifyfull,|,numlist,bullist,outdent,indent,|,forecolor,backcolor,|,advhr,link,image,media,table,code,|,fullscreen,|,help';
+$theme_advanced_buttons2  = 'justifyleft,justifycenter,justifyright,justifyfull,|,numlist,bullist,outdent,indent,|,forecolor,backcolor,|,advhr,link,imageupload,image,media,table,code,|,fullscreen,|,help';
 $site_url = HTTP_CATALOG_SERVER . DIR_WS_CATALOG;
 $base_dir = DIR_WS_CATALOG;
 //<!-- load the main TinyMCE files -->
