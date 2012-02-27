@@ -215,6 +215,7 @@ mb_http_output("EUC-JP");
   define('ENTRY_LAST_NAME_KANA', '名ふりがな:');
   define('ENTRY_LAST_NAME_KANA_ERROR', '名ふりがなは最低' . ENTRY_LAST_NAME_MIN_LENGTH . '文字以上入力してください');
   define('ENTRY_LAST_NAME_KANA_TEXT', '*');
+  define('ENTRY_GREET', '様');
   // <-furikana
   define('ENTRY_DATE_OF_BIRTH', '誕生日:');
   define('ENTRY_DATE_OF_BIRTH_ERROR', '誕生日は[1970/05/21](西暦/月/日)の書式で入力してください。');

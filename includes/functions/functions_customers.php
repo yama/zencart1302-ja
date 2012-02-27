@@ -40,9 +40,9 @@
     $company = zen_output_string_protected($address['company']);
     if (isset($address['firstname']) && zen_not_null($address['firstname'])) {
       $firstname = zen_output_string_protected($address['firstname']);
-      $lastname = zen_output_string_protected($address['lastname']);
+      $lastname = zen_output_string_protected($address['lastname']) . ' ' . ENTRY_GREET;
     } elseif (isset($address['name']) && zen_not_null($address['name'])) {
-      $firstname = zen_output_string_protected($address['name']);
+      $firstname = zen_output_string_protected($address['name']) . ' ' . ENTRY_GREET;
       $lastname = '';
     } else {
       $firstname = '';
