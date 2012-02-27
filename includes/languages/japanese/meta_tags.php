@@ -27,7 +27,7 @@ define('META_TAGS_REVIEW', 'Reviews: ');
   define('SECONDARY_SECTION', ' - ');
 
 // Define Tertiary Section Output
-  define('TERTIARY_SECTION', ', ');
+  define('TERTIARY_SECTION', ' ');
 
 // Define which pages to tell robots/spiders not to index
 // This is generally used for account-management pages or typical SSL pages, and usually doesn't need to be touched.
