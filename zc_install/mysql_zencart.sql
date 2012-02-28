@@ -3447,8 +3447,8 @@ UPDATE configuration_group SET configuration_group_title = 'GZip圧縮の設定', con
 UPDATE configuration_group SET configuration_group_title = 'セッション管理の設定', configuration_group_description = 'セッション情報の管理について各種の設定をします。' WHERE  configuration_group_id = '15';
 UPDATE configuration_group SET configuration_group_title = 'ギフト券・クーポン券の設定', configuration_group_description = 'ギフト券・クーポン券について各種の設定をします。' WHERE  configuration_group_id = '16';
 UPDATE configuration_group SET configuration_group_title = 'クレジットカードの設定', configuration_group_description = 'クレジットカードについて各種の設定をします。' WHERE  configuration_group_id = '17';
-UPDATE configuration_group SET configuration_group_title = '商品情報の設定', configuration_group_description = '商品情報の表示について各種の設定をします。' WHERE  configuration_group_id = '18';
-UPDATE configuration_group SET configuration_group_title = 'レイアウトの設定', configuration_group_description = 'ショップの表示レイアウトについて各種の設定をします。' WHERE  configuration_group_id = '19';
+UPDATE configuration_group SET configuration_group_title = '商品ページの設定', configuration_group_description = '商品情報の表示について各種の設定をします。' WHERE  configuration_group_id = '18';
+UPDATE configuration_group SET configuration_group_title = '共通レイアウトの設定', configuration_group_description = 'ショップの表示レイアウトについて各種の設定をします。' WHERE  configuration_group_id = '19';
 UPDATE configuration_group SET configuration_group_title = 'メンテナンス表示の設定', configuration_group_description = '「メンテナンス中」表示などについて各種の設定をします。' WHERE  configuration_group_id = '20';
 UPDATE configuration_group SET configuration_group_title = '新着商品リストの設定', configuration_group_description = '新着商品リストについて各種の設定をします。' WHERE  configuration_group_id = '21';
 UPDATE configuration_group SET configuration_group_title = 'おすすめ商品リストの設定', configuration_group_description = 'おすすめ商品リストについて各種の設定をします。' WHERE  configuration_group_id = '22';
