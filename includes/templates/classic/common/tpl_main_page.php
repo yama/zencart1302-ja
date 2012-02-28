@@ -145,7 +145,7 @@ if (!isset($flag_disable_left) || !$flag_disable_left) {
 ?>
     <td valign="top">
 <!-- bof  breadcrumb -->
-<?php if (DEFINE_BREADCRUMB_STATUS == '1') { ?>
+<?php if (DEFINE_BREADCRUMB_STATUS == '1' && (1 < count($breadcrumb->_trail))) { ?>
     <div id="navBreadCrumb"><?php echo $breadcrumb->trail(BREAD_CRUMBS_SEPARATOR); ?></div>
 <?php } ?>
 <!-- eof breadcrumb -->
