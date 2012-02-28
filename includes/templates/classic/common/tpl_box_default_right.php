@@ -38,11 +38,6 @@
 <?php echo $content; ?>
     </td>
   </tr>
-  <tr>
-    <!-- Sidebox Footer -->
-    <td colspan="3" height="5px" class="rightboxfooter" id="<?php echo str_replace('_', '-', $box_id) . '-footer'; ?>">
-    </td>
-  </tr>
 </table>
 <!--// eof: <?php echo $box_id; ?> //-->
 
