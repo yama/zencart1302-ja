@@ -16,6 +16,21 @@
 
 <?php echo zen_draw_form('checkout_address', zen_href_link(FILENAME_CHECKOUT_PAYMENT_ADDRESS, '', 'SSL'), 'post', 'onsubmit="return check_form_optional(checkout_address);"'); ?>
 
+<table class="progress">
+<tr class="msg">
+	<td><?php echo TEXT_ORDER_STEPS_1; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_2; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_3; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_4; ?></td>
+</tr>
+<tr class="bar">
+	<td></td>
+	<td class="active"></td>
+	<td></td>
+	<td></td>
+</tr>
+</table>
+
 <h1 id="checkoutPayAddressDefaultHeading"><?php echo HEADING_TITLE; ?></h1>
 
 <?php if ($messageStack->size('checkout_address') > 0) echo $messageStack->output('checkout_address'); ?>

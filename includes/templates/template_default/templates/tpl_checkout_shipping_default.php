@@ -16,6 +16,21 @@
 
 <?php echo zen_draw_form('checkout_address', zen_href_link(FILENAME_CHECKOUT_SHIPPING, '', 'SSL')) . zen_draw_hidden_field('action', 'process'); ?>
 
+<table class="progress">
+<tr class="msg">
+	<td><?php echo TEXT_ORDER_STEPS_1; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_2; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_3; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_4; ?></td>
+</tr>
+<tr class="bar">
+	<td class="active"></td>
+	<td></td>
+	<td></td>
+	<td></td>
+</tr>
+</table>
+
 <h1 id="checkoutShippingHeading"><?php echo HEADING_TITLE; ?></h1>
 
 <h2 id="checkoutShippingHeadingAddress"><?php echo TITLE_SHIPPING_ADDRESS; ?></h2>

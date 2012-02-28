@@ -13,7 +13,7 @@ define('NAVBAR_TITLE_2', '配送情報');
 define('HEADING_TITLE', 'お届け先と配送方法を記入してください');
 
 define('TABLE_HEADING_SHIPPING_ADDRESS', 'お届け先住所');
-define('TEXT_CHOOSE_SHIPPING_DESTINATION', 'ご注文の品物は上記の住所にお届けします。「お届け先の変更」ボタンをクリックしてお届け先を変更できます。');
+define('TEXT_CHOOSE_SHIPPING_DESTINATION', 'ご注文の品物は左記の住所にお届けします。「住所を変更」ボタンをクリックしてお届け先を変更できます。');
 define('TITLE_SHIPPING_ADDRESS', 'お届け先:');
 
 define('TABLE_HEADING_SHIPPING_METHOD', '配送方法と配送料金:');
@@ -29,4 +29,4 @@ define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '→お支払い方法を選択');
 // when free shipping for orders over $XX.00 is active
   define('FREE_SHIPPING_TITLE', '配送料無料');
   define('FREE_SHIPPING_DESCRIPTION', '%s以上お買い上げの場合、配送料が無料になります。');
-?>
+

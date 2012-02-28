@@ -16,6 +16,21 @@
 <div class="centerColumn" id="checkoutPayment">
 <?php echo zen_draw_form('checkout_payment', zen_href_link(FILENAME_CHECKOUT_CONFIRMATION, '', 'SSL'), 'post', 'onsubmit="return check_form();"'); ?>
 
+<table class="progress">
+<tr class="msg">
+	<td><?php echo TEXT_ORDER_STEPS_1; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_2; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_3; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_4; ?></td>
+</tr>
+<tr class="bar">
+	<td></td>
+	<td class="active"></td>
+	<td></td>
+	<td></td>
+</tr>
+</table>
+
 <h1 id="checkoutPaymentHeading"><?php echo HEADING_TITLE; ?></h1>
 
 <?php if ($messageStack->size('redemptions') > 0) echo $messageStack->output('redemptions'); ?>

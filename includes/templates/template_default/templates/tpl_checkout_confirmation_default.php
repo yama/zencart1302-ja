@@ -14,6 +14,21 @@
 ?>
 <div class="centerColumn" id="checkoutConfirmDefault">
 
+<table class="progress">
+<tr class="msg">
+	<td><?php echo TEXT_ORDER_STEPS_1; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_2; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_3; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_4; ?></td>
+</tr>
+<tr class="bar">
+	<td></td>
+	<td></td>
+	<td class="active"></td>
+	<td></td>
+</tr>
+</table>
+
 <h1 id="checkoutConfirmDefaultHeading"><?php echo HEADING_TITLE; ?></h1>
 
 <?php if ($messageStack->size('redemptions') > 0) echo $messageStack->output('redemptions'); ?>

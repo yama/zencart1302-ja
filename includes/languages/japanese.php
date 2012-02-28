@@ -623,6 +623,10 @@ define('BOX_SEND_TO_FRIEND', ' ' . TEXT_GV_NAME . 'を贈る');
   define('TEXT_EZPAGES_STATUS_FOOTER_ADMIN', '警告: EZ-PAGES フッター - 管理者IPだけに表示');
   define('TEXT_EZPAGES_STATUS_SIDEBOX_ADMIN', '警告: EZ-PAGES サイドボックス - 管理者IPだけに表示');
 
+define('TEXT_ORDER_STEPS_1', 'お届け方法');
+define('TEXT_ORDER_STEPS_2', 'お支払い方法');
+define('TEXT_ORDER_STEPS_3', '最終確認');
+define('TEXT_ORDER_STEPS_4', 'ご注文確定');
 
 ///////////////////////////////////////////////////////////
 // include email extras

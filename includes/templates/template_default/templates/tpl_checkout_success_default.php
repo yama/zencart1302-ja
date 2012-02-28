@@ -27,6 +27,21 @@
 ?>
 <!--eof -gift certificate- send or spend box-->
 
+<table class="progress">
+<tr class="msg">
+	<td><?php echo TEXT_ORDER_STEPS_1; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_2; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_3; ?></td>
+	<td><?php echo TEXT_ORDER_STEPS_4; ?></td>
+</tr>
+<tr class="bar">
+	<td></td>
+	<td></td>
+	<td></td>
+	<td class="active"></td>
+</tr>
+</table>
+
 <h1 id="checkoutSuccessHeading"><?php echo HEADING_TITLE; ?></h1>
 
 <?php if (DEFINE_CHECKOUT_SUCCESS_STATUS >= 1 and DEFINE_CHECKOUT_SUCCESS_STATUS <= 2) { ?>
