@@ -80,7 +80,7 @@ mb_http_output("EUC-JP");
   define('DOB_FORMAT_STRING', 'yyyy/mm/dd');
 
 //text for sidebox heading links
-  define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[more]');
+  define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[詳細]');
 
 // categories box text in sideboxes/categories.php
   define('BOX_HEADING_CATEGORIES', 'カテゴリ');
@@ -114,7 +114,7 @@ mb_http_output("EUC-JP");
   define('BOX_REVIEWS_TEXT_OF_5_STARS', '%s点 / 5点満点');
 
 // shopping_cart box text in sideboxes/shopping_cart.php
-  define('BOX_HEADING_SHOPPING_CART', 'ショッピングカート');
+  define('BOX_HEADING_SHOPPING_CART', 'カートの中身');
   define('BOX_SHOPPING_CART_EMPTY', 'カートは空です');
   define('BOX_SHOPPING_CART_DIVIDER', '&nbsp;x&nbsp;');
 

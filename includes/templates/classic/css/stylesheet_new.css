@@ -591,3 +591,10 @@ background-color:#eee;
 padding:10px;
 padding-left:30px;
 }
+
+.accountProductDisplay {
+	font-weight:bold;
+}
+.accountProductDisplay ul {
+	font-weight:normal;
+}
