@@ -26,5 +26,5 @@ define('HEADER_LOGO_IMAGE', 'logo.gif');
 
 // header Search Button/Box Search Button
 define('HEADER_SEARCH_BUTTON','検索');
-define('HEADER_SEARCH_DEFAULT_TEXT','検索キーワードを入力してください');
+define('HEADER_SEARCH_DEFAULT_TEXT','キーワードを入力');
 ?>

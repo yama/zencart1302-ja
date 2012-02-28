@@ -26,7 +26,7 @@ define('NAVBAR_TITLE_2', '検索結果');
 //define('HEADING_TITLE_1', '詳細検索');
 define('HEADING_TITLE', '詳細検索');
 
-define('HEADING_SEARCH_CRITERIA', '検索キーワードを入力してください');
+define('HEADING_SEARCH_CRITERIA', 'キーワードを入力');
 
 define('TEXT_SEARCH_IN_DESCRIPTION', '商品説明から検索する');
 define('ENTRY_CATEGORIES', 'カテゴリー:');
