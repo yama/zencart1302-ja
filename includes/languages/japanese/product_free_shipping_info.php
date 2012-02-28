@@ -16,7 +16,7 @@ define('TEXT_ALSO_PURCHASED_PRODUCTS', 'この商品をお求めの方はこのような商品もお
 define('TEXT_PRODUCT_OPTIONS', '選択してください:');
 define('TEXT_PRODUCT_MANUFACTURER', 'メーカー: ');
 define('TEXT_PRODUCT_WEIGHT', '重量: ');
-define('TEXT_PRODUCT_QUANTITY', ' 在庫量');
+define('TEXT_PRODUCT_QUANTITY', ' 在庫数');
 define('TEXT_PRODUCT_MODEL', 'モデル: ');
 
 

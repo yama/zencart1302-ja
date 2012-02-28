@@ -19,7 +19,7 @@ define('TEXT_PRODUCT_RECORD_COMPANY', 'レコード会社: ');
 define('TEXT_PRODUCT_ARTIST', 'アーティスト: ');
 define('TEXT_PRODUCT_MUSIC_GENRE', '音楽ジャンル: ');
 define('TEXT_PRODUCT_WEIGHT', '重量: ');
-define('TEXT_PRODUCT_QUANTITY', ' 在庫量');
+define('TEXT_PRODUCT_QUANTITY', ' 在庫数');
 define('TEXT_PRODUCT_MODEL', 'モデル: ');
 define('TEXT_PRODUCT_COLLECTIONS', '収録曲: ');
 
