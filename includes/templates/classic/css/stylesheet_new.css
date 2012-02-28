@@ -38,7 +38,7 @@ h1 {
 	font-size: 1.5em;
 }
 h2 {
-	font-size: 1.4em;
+	font-size: 1.2em;
 }
 h3 {
 	font-size: 1.1em;
@@ -153,7 +153,10 @@ HR {
 	text-align: left;
 	width: 750px;
 	vertical-align: top;
-	}
+	box-shadow:0 0 15px #cdcdcd;
+	-moz-box-shadow:0 0 15px #cdcdcd;
+	-webkit-box-shadow:0 0 20px #e5e5e5
+}
 
 #headerWrapper, #contentMainWrapper, #logoWrapper, #cartBoxListWrapper, #ezPageBoxList, #cartBoxListWrapper ul, #ezPageBoxList ul, #mainWrapper, #popupAdditionalImage, #popupImage {
 	margin: 0em;
@@ -238,7 +241,7 @@ HR {
 	font-weight: bold;
 	float: right;
 	height: 1%;
-	border: 1px solid #000000;
+	border: 1px solid #ccc;
 	}
 #navEZPagesTOC ul  {
 	margin: 0;
@@ -262,10 +265,10 @@ HR {
 	background-image: url(../images/tile_back.jpg);
 	background-repeat: repeat-x;
 	border: 1px solid #9a9a9a;
+	border-width:0 1px;
 	}
 #navBreadCrumb, #navEZPagesTop {
 	font-size: 0.95em;
-	font-weight: bold;
 	margin: 0em;
 	padding: 0.5em;
 	}
@@ -574,4 +577,16 @@ LABEL#textAreaReviews {
 
 .content, #productDescription {
 	line-height:1.6;
+}
+
+h2#productPrices {
+letter-spacing:2px;
+}
+
+#productDetailsList {
+display:block;
+border:1px solid #ccc;
+background-color:#eee;
+padding:10px;
+padding-left:30px;
 }

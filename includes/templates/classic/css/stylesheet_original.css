@@ -22,7 +22,7 @@
 html {font-size:100.01%;}
 body {
 	background-color: #e5edf5;
-	color: #000000;
+	color: #333;
 	margin: 0px;
 	margin-bottom: 10px;
 	padding: 0px;
@@ -68,7 +68,6 @@ TABLE.header {
   background-color: #ffffff;
   border-right: 1px solid #9a9a9a;
   border-left: 1px solid #9a9a9a;
-  border-bottom: 1px solid #9a9a9a;
 }
 
 TABLE.headerNavigation {
@@ -76,7 +75,6 @@ TABLE.headerNavigation {
   background-color: #abbbd3;
   border-right: 1px solid #9a9a9a;
   border-left: 1px solid #9a9a9a;
-  border-bottom: 1px solid #9a9a9a;
   width: 100% !important;
 }
 
@@ -86,7 +84,7 @@ td.headerNavigation {
   font-family: Arial, sans-serif;
   color:#000000;
   letter-spacing:1px;
-  padding: 5px;
+  padding: 2px 5px;
 }
 
 td.breadCrumb {
@@ -96,8 +94,7 @@ td.breadCrumb {
   border-bottom: 1px dotted #9a9a9a;
 }
 
-td.headerNavigation A, td.headerNavigation A:visited, td.footertop a  {
-  font-weight: bold;
+td.headerNavigation a, td.headerNavigation a:visited, td.footertop a  {
   color: #ffffff;
 }
 
@@ -150,7 +147,6 @@ td.headerInfo {
 
 .leftboxheading, .rightboxheading, .centerboxheading, .singleboxheading {
   /*background-color: #abbbd3;*/
-  font-weight: bold;
   color: #ffffff;
   padding: 3px;
   height: 20px;
@@ -170,7 +166,6 @@ TR.leftboxheading, TR.rightboxheading, TR.centerboxheading, TR.singleboxheading 
   line-height: 125%;
   padding: 4px;
   border-top: 1px solid #9a9a9a;
-  border-bottom: 1px solid #9a9a9a;
 }
 
 .leftboxfooter, .rightboxfooter, .centerboxfooter, .singleboxfooter {
@@ -213,10 +208,10 @@ td.productListing-data {
 /*center main section
 -----------------------------------*/
 td.pageHeading, DIV.pageHeading, h1 {
-  font-size: 16px;
+  font-size: 1.2em;
   font-weight: bold;
-  color: #9a9a9a;
-  padding-top: 11px;
+  line-height:1.4;
+  color: #111;
 }
 
 .center_column {
