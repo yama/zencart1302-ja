@@ -25,7 +25,7 @@
   require(DIR_WS_CLASSES . 'currencies.php');
   $currencies = new currencies();
   
-  $_POST['amount'] = str_replace(array('$','%','#','Áß','Â£','Â¥','Áá'), '', $_POST['amount']);
+  $_POST['amount'] = str_replace(array('$','%','#'), '', $_POST['amount']);
   $_POST['amount'] = abs($_POST['amount']);
   
   if ($_GET['action'] == 'set_editor') {
@@ -254,7 +254,7 @@ function check_form(form_name) {
 }
 //--></script>
 <?php if ($_SESSION['html_editor_preference_status']=="FCKEDITOR") include (DIR_WS_INCLUDES.'fckeditor.php'); ?>
-<?php if ($_SESSION['html_editor_preference_status']=="TINYMCE")  include (DIR_WS_INCLUDES.'tinymce.php'); ?>
+<?php if ($_SESSION['html_editor_preference_status']=="TINYMCE" && EMAIL_USE_HTML == 'true')  include (DIR_WS_INCLUDES.'tinymce.php'); ?>
 </head>
 <body>
 <!-- header //-->

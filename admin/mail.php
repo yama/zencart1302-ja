@@ -123,7 +123,7 @@ if (EMAIL_ATTACHMENT_UPLOADS_ENABLED=='EMAIL_ATTACHMENT_UPLOADS_ENABLED') define
 <title><?php echo TITLE; ?></title>
 <link rel="stylesheet" type="text/css" href="includes/stylesheet.css">
 <?php if ($_SESSION['html_editor_preference_status']=="FCKEDITOR") include (DIR_WS_INCLUDES.'fckeditor.php'); ?>
-<?php if ($_SESSION['html_editor_preference_status']=="TINYMCE")  include (DIR_WS_INCLUDES.'tinymce.php'); ?>
+<?php if ($_SESSION['html_editor_preference_status']=="TINYMCE" && EMAIL_USE_HTML == 'true')  include (DIR_WS_INCLUDES.'tinymce.php'); ?>
 <script language="javascript" type="text/javascript"><!--
 var form = "";
 var submitted = false;

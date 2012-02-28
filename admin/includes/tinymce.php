@@ -25,6 +25,7 @@ tinyMCE.init({
 theme                             : 'advanced',
 mode                              : 'textareas',
 language                          : '{$language}',
+editor_deselector                 : 'plain_text',
 plugins                           : '{$plugins}',
 width                             : '600',
 height                            : '350',

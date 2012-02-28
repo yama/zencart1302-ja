@@ -602,8 +602,8 @@ define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING', '最大:');
 
 // Rich Text / HTML resources
 define('TEXT_HTML_EDITOR_NOT_DEFINED','HTMLエディタを設定していないかJavascriptをオフにしている場合は、直接HTMLテキストを入力してください。');
-define('TEXT_WARNING_HTML_DISABLED','<span class = "main">注意: あなたはテキスト形式のメールを使っています。HTML形式のメールを送りたい場合は「メールオプション」でHTML形式メールを有効にするオプションを設定してください。</span>');
-define('TEXT_WARNING_CANT_DISPLAY_HTML','<span class = "main">注意: あなたはテキスト形式のメールを使っています。HTML形式のメールを送りたい場合は、「メールオプション」でHTML形式メールを有効にするオプションを設定してください。</span>');
+define('TEXT_WARNING_HTML_DISABLED','<span class = "main">注意: あなたはテキスト形式のメールを使っています。HTML形式のメールを送りたい場合は一般設定→メールの設定で「メール送信にMIME HTMLを使用」オプションを設定してください。</span>');
+define('TEXT_WARNING_CANT_DISPLAY_HTML','<span class = "main">注意: あなたはテキスト形式のメールを使っています。HTML形式のメールを送りたい場合は、一般設定→メールの設定で「メール送信にMIME HTMLを使用」オプションを設定してください。</span>');
 define('TEXT_EMAIL_CLIENT_CANT_DISPLAY_HTML',"このメールはHTMLフォーマットです。あなたがお使いのメールソフトでは適切に表示できないようです。");
 define('ENTRY_EMAIL_PREFERENCE','メールフォーマット設定:');
 define('ENTRY_EMAIL_FORMAT_COMMENTS','「全て拒否(none)」か「オプトアウト(購読者から外す)」を選ぶと、注文確認メールを含む全てのメールを受信しない状態になります。');

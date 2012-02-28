@@ -290,13 +290,13 @@ check_select('audience_selected','',"<?php echo ERROR_PLEASE_SELECT_AUDIENCE; ?>
           $oFCKeditor->Value = $nInfo->content_html ;
           $oFCKeditor->CreateFCKeditor( 'content_html', '97%', '350' ) ;  //instanceName, width, height (px or %)
           } else { // using TINYMCE or just raw "source"
-          echo zen_draw_textarea_field('content_html', 'soft', '100%', '30', $nInfo->content_html,'id="content_html"');
+          echo zen_draw_textarea_field('content_html', 'soft', '100%', '30', $nInfo->content_html,'id="content_html" class="rich_text"');
           } ?>
           </td>
           </tr>
           <tr>
             <td class="main" valign="top"><?php echo TEXT_NEWSLETTER_CONTENT; ?></td>
-            <td class="main"><?php echo zen_draw_textarea_field('content', 'soft', '100%', '20', $nInfo->content); ?></td>
+            <td class="main"><?php echo zen_draw_textarea_field('content', 'soft', '50', '20', $nInfo->content, 'class="plain_text"'); ?></td>
           </tr>
         </table></td>
       </tr>
