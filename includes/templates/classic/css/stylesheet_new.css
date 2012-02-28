@@ -115,7 +115,8 @@ LABEL.selectLabel, LABEL.switchedLabel, LABEL.uploadsLabel  {
 	}
 
 P, ADDRESS {
-	padding: 0.5em;
+	padding: 0 0.5em 0.5em;
+	margin:0;
 }
 ADDRESS {
 	font-style: normal;

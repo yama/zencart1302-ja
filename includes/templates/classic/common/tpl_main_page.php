@@ -101,6 +101,7 @@ switch ($body_id)
 	case 'productmusicinfo':
 	case 'productfreeshippinginfo':
 	case 'documentproductinfo':
+	case 'documentgeneralinfo':
 	case 'page':
 		$flag_disable_right = true;
 		break;

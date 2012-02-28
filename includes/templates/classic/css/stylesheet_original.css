@@ -165,7 +165,6 @@ TR.leftboxheading, TR.rightboxheading, TR.centerboxheading, TR.singleboxheading 
 .leftboxcontent, .rightboxcontent, .centerboxcontent, .singleboxcontent {
   line-height: 125%;
   padding: 4px;
-  border-top: 1px solid #9a9a9a;
 }
 
 .leftboxfooter, .rightboxfooter, .centerboxfooter, .singleboxfooter {
