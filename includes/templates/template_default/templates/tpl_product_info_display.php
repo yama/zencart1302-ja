@@ -41,6 +41,7 @@ require($template->get_template_dir('/tpl_products_next_previous.php',DIR_WS_TEM
 <?php } ?>
 <!--eof Prev/Next top position-->
 
+<div style="overflow:hidden;zoom:1;">
 <!--bof Main Product Image -->
 <?php
   if (zen_not_null($products_image)) {
@@ -72,19 +73,6 @@ require($template->get_template_dir('/tpl_products_next_previous.php',DIR_WS_TEM
 ?></h2>
 <!--eof Product Price block -->
 
-<!--bof free ship icon  -->
-<?php if(zen_get_product_is_always_free_shipping($products_id_current)) { ?>
-<div id="freeShippingIcon"><?php echo TEXT_PRODUCT_FREE_SHIPPING_ICON; ?></div>
-<?php } ?>
-<!--eof free ship icon  -->
-
- <!--bof Product description -->
-<?php if ($products_description != '') { ?>
-<div id="productDescription" class="productGeneral biggerText"><?php echo stripslashes($products_description); ?></div>
-<?php } ?>
-<!--eof Product description -->
-<br class="clearBoth" />
-
 <!--bof Add to Cart Box -->
 <?php
 if (CUSTOMERS_APPROVAL == 3 and TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM == '') {
@@ -112,6 +100,20 @@ if (CUSTOMERS_APPROVAL == 3 and TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM == 
   <?php } // display qty and button ?>
 <?php } // CUSTOMERS_APPROVAL == 3 ?>
 <!--eof Add to Cart Box-->
+
+<!--bof free ship icon  -->
+<?php if(zen_get_product_is_always_free_shipping($products_id_current)) { ?>
+<div id="freeShippingIcon"><?php echo TEXT_PRODUCT_FREE_SHIPPING_ICON; ?></div>
+<?php } ?>
+</div>
+<!--eof free ship icon  -->
+
+ <!--bof Product description -->
+<?php if ($products_description != '') { ?>
+<div id="productDescription" class="productGeneral biggerText"><?php echo stripslashes($products_description); ?></div>
+<?php } ?>
+<!--eof Product description -->
+
 
 <!--bof Product details list  -->
 <?php if ( (($flag_show_product_info_model == 1 and $products_model != '') or ($flag_show_product_info_weight == 1 and $products_weight !=0) or ($flag_show_product_info_quantity == 1) or ($flag_show_product_info_manufacturer == 1 and !empty($manufacturers_name))) ) { ?>
