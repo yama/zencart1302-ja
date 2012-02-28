@@ -10,7 +10,7 @@
 
 body {
 	margin: 0;
-	font-family: verdana, arial, helvetica, sans-serif;
+	font-family: arial, helvetica, sans-serif;
 	/*font-size: 62.5%;*/
 	color: #000000;
 }
@@ -18,7 +18,6 @@ body {
 a img {border: none; }
 
 a:link, #navEZPagesTOC ul li a {
-	color: #3300FF;
 	text-decoration: none;
 	}
  
@@ -42,7 +41,7 @@ h2 {
 	font-size: 1.4em;
 }
 h3 {
-	font-size: 1.3em;
+	font-size: 1.1em;
 }
 
 h4, h5, h6, LABEL, h4.optionName, LEGEND, ADDRESS, .sideBoxContent, .larger{
@@ -177,7 +176,7 @@ HR {
 	margin: 0em 0em 1em 1em;
 	}
 
-.floatingBox, #accountLinksWrapper, #sendSpendWrapper, #checkoutShipto, #checkoutBillto, #csNotifications, #navEZPagesTOCWrapper {
+.floatingBox, #accountLinksWrapper, #sendSpendWrapper, #checkoutShipto, #checkoutBillto, #navEZPagesTOCWrapper {
 	margin: 10px 0px;
 	width: 46%;
 	}
@@ -270,6 +269,10 @@ HR {
 	margin: 0em;
 	padding: 0.5em;
 	}
+#navEZPagesTop a:link,
+#navEZPagesTop a:visited {
+color:#fff;
+}
 
 #navColumnOne {
 	padding: 0.5em;
@@ -316,7 +319,7 @@ HR {
 	float: right;
 	text-align: center;
 	margin: 1em;
-	border: 1px solid #000000;
+	border: 1px solid #ccc;
 	padding: 1em;
 	}
 
@@ -471,7 +474,7 @@ h3.rightBoxHeading a:hover {
 	margin-bottom: 1em;
 	}
 
-.centeredContent, TH, #cartEmptyText, #cartBoxGVButton, #navNextPrevWrapperTop, #navNextPrevWrapperBottom, #navCatTabsWrapper, #navEZPageNextPrev, #bannerOne, #bannerTwo,  #bannerThree,  #bannerFour,  #bannerFive,  #bannerSix, #siteinfoLegal, #siteinfoCredits, #siteinfoStatus, #siteinfoIP, .center, .cartRemoveItemDisplay, .cartQuantityUpdate, .cartQuantity, .cartTotalsDisplay, #cartBoxGVBalance, .leftBoxHeading, .centerBoxHeading,.rightBoxHeading, .productListing-data, .accountQuantityDisplay, .ratingRow, LABEL#textAreaReviews, #productMainImage, #reviewsInfoDefaultProductImage, #productReviewsDefaultProductImage, #reviewWriteMainImage, .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .additionalImages, .centerBoxContentsSpecials, .centerBoxContentsAlsoPurch, .centerBoxContentsFeatured, .centerBoxContentsNew, .gvBal, .attribImg {
+.centeredContent, TH, #cartEmptyText, #cartBoxGVButton, #navNextPrevWrapperTop, #navNextPrevWrapperBottom, #navCatTabsWrapper, #navEZPageNextPrev, #bannerOne, #bannerTwo,  #bannerThree,  #bannerFour,  #bannerFive,  #bannerSix, #siteinfoLegal, #siteinfoCredits, #siteinfoStatus, #siteinfoIP, .center, .cartRemoveItemDisplay, .cartQuantityUpdate, .cartQuantity, .cartTotalsDisplay, #cartBoxGVBalance, .leftBoxHeading, .centerBoxHeading,.rightBoxHeading, .accountQuantityDisplay, .ratingRow, LABEL#textAreaReviews, #productMainImage, #reviewsInfoDefaultProductImage, #productReviewsDefaultProductImage, #reviewWriteMainImage, .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .additionalImages, .centerBoxContentsSpecials, .centerBoxContentsAlsoPurch, .centerBoxContentsFeatured, .centerBoxContentsNew, .gvBal, .attribImg {
 text-align: center;
 }
 
@@ -563,3 +566,12 @@ LABEL#textAreaReviews {
 #popupShippingEstimator, #popupSearchHelp, #popupAdditionalImage, #popupImage, #popupCVVHelp, #popupCouponHelp, #popupAtrribsQuantityPricesHelp, #infoShoppingCart {
 	background-color: #ffffff;
 	}
+
+.imeoff {
+	ime-mode:disabled;
+	text-align:right;
+}
+
+.content, #productDescription {
+	line-height:1.6;
+}
