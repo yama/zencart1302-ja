@@ -164,7 +164,6 @@ if ((basename($PHP_SELF) != FILENAME_DEFINE_LANGUAGE . '.php') and (basename($PH
 // special spacing for alt_nav.php
   if (basename($PHP_SELF) == 'alt_nav.php') {
 ?>
-<tr><td>&nbsp;</td></tr>
 <?php } // alt_nav spacing ?>
   <tr>
     <td align="left" valign="top" height="<?php echo HEADER_LOGO_HEIGHT; ?>" width="<?php echo HEADER_LOGO_WIDTH; ?>"><?php echo '<a href="' . zen_href_link(FILENAME_DEFAULT) . '">' . zen_image(DIR_WS_IMAGES . HEADER_LOGO_IMAGE, HEADER_ALT_TEXT) . '</a>'; ?></td>

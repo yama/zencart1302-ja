@@ -28,26 +28,54 @@
 <meta http-equiv="Content-Type" content="text/html; charset=<?php echo CHARSET; ?>">
 <title><?php echo TITLE; ?></title>
 <link href="includes/stylesheet.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="includes/nde-basic.css" type="text/css" media="screen, projection">
+<link href="includes/nde-basic.css" rel="stylesheet" type="text/css" media="screen, projection">
 </head>
 <body>
 <!-- header //-->
 <?php require(DIR_WS_INCLUDES . 'header.php'); ?>
 <!-- header_eof //-->
-<?php
 
-  require(DIR_WS_BOXES . 'configuration_dhtml.php');
-  require(DIR_WS_BOXES . 'catalog_dhtml.php');
-  require(DIR_WS_BOXES . 'modules_dhtml.php');
-  require(DIR_WS_BOXES . 'customers_dhtml.php');
-  require(DIR_WS_BOXES . 'taxes_dhtml.php');
-  require(DIR_WS_BOXES . 'localization_dhtml.php');
-  require(DIR_WS_BOXES . 'reports_dhtml.php');
-  require(DIR_WS_BOXES . 'tools_dhtml.php');
-  require(DIR_WS_BOXES . 'gv_admin_dhtml.php');
-  require(DIR_WS_BOXES . 'extras_dhtml.php');
+<div style="float:left;">
+	<ul class="altnav">
+	<?php require(DIR_WS_BOXES . 'configuration_dhtml.php');?>
+	</ul>
+</div>
+<div style="float:left;">
+	<ul class="altnav">
+	<?php require(DIR_WS_BOXES . 'catalog_dhtml.php');?>
+	</ul>
+	<ul class="altnav">
+	<?php require(DIR_WS_BOXES . 'modules_dhtml.php');?>
+	</ul>
+</div>
 
-?>
+<div style="float:left;">
+	<ul class="altnav">
+	<?php require(DIR_WS_BOXES . 'customers_dhtml.php');?>
+	</ul>
+	<ul class="altnav">
+	<?php require(DIR_WS_BOXES . 'taxes_dhtml.php');?>
+	</ul>
+	<ul class="altnav">
+	<?php require(DIR_WS_BOXES . 'localization_dhtml.php');?>
+	</ul>
+	<ul class="altnav">
+	<?php require(DIR_WS_BOXES . 'reports_dhtml.php');?>
+	</ul>
+</div>
+
+<div style="float:left;">
+	<ul class="altnav">
+	<?php require(DIR_WS_BOXES . 'tools_dhtml.php');?>
+	</ul>
+	<ul class="altnav">
+	<?php require(DIR_WS_BOXES . 'gv_admin_dhtml.php');?>
+	</ul>
+	<ul class="altnav">
+	<?php require(DIR_WS_BOXES . 'extras_dhtml.php');?>
+	</ul>
+</div>
+
 </body>
 </html>
 <?php require('includes/application_bottom.php'); ?>
