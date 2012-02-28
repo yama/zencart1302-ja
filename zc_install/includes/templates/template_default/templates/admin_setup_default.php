@@ -43,8 +43,8 @@
 	  <fieldset>
       <legend><strong><?PHP echo UPGRADE_DETECTION; ?></strong></legend>
       <div class="input">
-      <input name="check_for_updates" type="checkbox" id="checkbox1" value="1"  tabindex="10" checked="checked"/>
-      <label for="checkbox1"><?php echo UPGRADE_INSTRUCTION_TITLE; ?></label>
+      <input name="check_for_updates" type="checkbox" id="checkbox1" value="1"  tabindex="10" disabled />
+      <label for="checkbox1" style="color:#999;"><?php echo UPGRADE_INSTRUCTION_TITLE; ?></label>
       <p><?php echo UPGRADE_INSTRUCTION_TEXT; ?></p>
     </div>
 	  </fieldset>

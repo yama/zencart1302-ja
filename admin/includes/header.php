@@ -97,57 +97,6 @@ if ((basename($PHP_SELF) != FILENAME_DEFINE_LANGUAGE . '.php') and (basename($PH
     echo $messageStack->output();
   }
 
-// check version with zen-cart server
-  // ignore version-check if INI file setting has been set
-  $version_from_ini = '';
-  $version_ini_sysinfo = '';
-  $version_ini_index_sysinfo = '';
-  if (!isset($version_check_sysinfo)) $version_check_sysinfo = false;
-  if (!isset($version_check_index))   $version_check_index = false;
-
-  if (file_exists(DIR_FS_ADMIN . 'includes/local/skip_version_check.ini')) {
-    $lines=@file(DIR_FS_ADMIN . 'includes/local/skip_version_check.ini');
-    foreach($lines as $line) {
-      if (substr(trim($line),0,14)=='version_check=') $version_from_ini=substr(trim(strtolower(str_replace('version_check=','',$line))),0,3);
-      if (substr(trim($line),0,41)=='display_update_link_only_on_sysinfo_page=') $version_ini_sysinfo=trim(strtolower(str_replace('display_update_link_only_on_sysinfo_page=','',$line)));
-      if (substr(trim($line),0,46)=='display_update_link_on_index_and_sysinfo_page=') $version_ini_index_sysinfo=trim(strtolower(str_replace('display_update_link_only_on_sysinfo_page=','',$line)));
-    }
-  }
-  // ignore version check if not enabled or if not on main page or sysinfo page
-  if ((SHOW_VERSION_UPDATE_IN_HEADER == 'true' && $version_from_ini !='off' && ($version_check_sysinfo==true || $version_check_index==true) && $zv_db_patch_ok == true) || $version_check_requested==true ) {
-    $new_version = TEXT_VERSION_CHECK_CURRENT; //set to "current" by default
-    $lines = @file(NEW_VERSION_CHECKUP_URL);
-    //check for major/minor version info
-    if ((trim($lines[0]) > PROJECT_VERSION_MAJOR) || (trim($lines[0]) == PROJECT_VERSION_MAJOR && trim($lines[1]) > PROJECT_VERSION_MINOR)) {
-      $new_version = TEXT_VERSION_CHECK_NEW_VER . trim($lines[0]) . '.' . trim($lines[1]) . ' :: ' . $lines[2];
-    }
-    //check for patch version info
-    // first confirm that we're at latest major/minor -- otherwise no need to check patches:
-    if (trim($lines[0]) == PROJECT_VERSION_MAJOR && trim($lines[1]) == PROJECT_VERSION_MINOR) {
-      //check to see if either patch needs to be applied
-      if (trim($lines[3]) > intval(PROJECT_VERSION_PATCH1) || trim($lines[4]) > intval(PROJECT_VERSION_PATCH2)) {
-        // reset update message, since we WILL be advising of an available upgrade
-        if ($new_version == TEXT_VERSION_CHECK_CURRENT) $new_version = '';
-        //check for patch #1
-        if (trim($lines[3]) > intval(PROJECT_VERSION_PATCH1)) {
-//          if ($new_version != '') $new_version .= '<br />';
-          $new_version .= (($new_version != '') ? '<br />' : '') . '<span class="alert">' . TEXT_VERSION_CHECK_NEW_PATCH . trim($lines[0]) . '.' . trim($lines[1]) . ' - ' .TEXT_VERSION_CHECK_PATCH .': [' . trim($lines[3]) . '] :: ' . $lines[5] . '</span>';
-        }
-        if (trim($lines[4]) > intval(PROJECT_VERSION_PATCH2)) {
-//          if ($new_version != '') $new_version .= '<br />';
-          $new_version .= (($new_version != '') ? '<br />' : '') . '<span class="alert">' . TEXT_VERSION_CHECK_NEW_PATCH . trim($lines[0]) . '.' . trim($lines[1]) . ' - ' .TEXT_VERSION_CHECK_PATCH .': [' . trim($lines[4]) . '] :: ' . $lines[5] . '</span>';
-        }
-      }
-    }
-    // display download link
-    if ($new_version != '' && $new_version != TEXT_VERSION_CHECK_CURRENT) $new_version .= '<br /><a href="' . $lines[6] . '" target="_blank">'. TEXT_VERSION_CHECK_DOWNLOAD .'</a>';
-  } else {
-    // display the "check for updated version" button.  The button link should be the current page and all param's
-    $url=(isset($_SERVER['REQUEST_URI'])) ? $_SERVER['REQUEST_URI'] : zen_href_link(FILENAME_DEFAULT);
-    $url .= (strpos($url,'?')>5) ? '&vcheck=yes' : '?vcheck=yes';
-    if ($zv_db_patch_ok == true || $version_check_sysinfo==true ) $new_version = '<a href="' . $url . '">' . zen_image_button('button_check_new_version.gif',IMAGE_CHECK_VERSION) . '</a>';
-  }
-
 // check GV release queue and alert store owner
   if (SHOW_GV_QUEUE==true) {
     $new_gv_queue= $db->Execute("select * from " . TABLE_COUPON_GV_QUEUE . " where release_flag='N'");
