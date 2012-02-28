@@ -50,7 +50,7 @@ content_css                       : '{$base_dir}editors/zenc_tinymce/add_style.c
 });
 </script>
 <style type="text/css">
-.clearlooks2_modalBlocker {background-color:#333;}
+div.clearlooks2_modalBlocker {background-color:#111;}
 </style>
 EOT;
 echo $str;

@@ -37,13 +37,14 @@ if (isset($_FILES['image']) && is_uploaded_file($_FILES['image']['tmp_name']))
   tinyMCEPopup.onInit.add(ImageDialog.init, ImageDialog);
 </script>
 <?php  } else {?>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Quick uploader</title>
 <script type="text/javascript" src="../editors/zenc_tinymce/tiny_mce/tiny_mce_popup.js></script>
 <script type="text/javascript" src="../editors/zenc_tinymce/tiny_mce/plugins/imageupload/js/dialog.js"></script>
 <link href="../editors/zenc_tinymce/tiny_mce/themes/advanced/skins/default/dialog.css" rel="stylesheet" type="text/css" />
-<title>uploader</title>
 </head>
 <body>
 <p>アップロード先：<?php echo DIR_WS_IMAGES . $target_dir;?>/</p>

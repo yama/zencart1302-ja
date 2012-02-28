@@ -15,6 +15,7 @@
       ed.addCommand('mceImageUpload', function() {
         ed.windowManager.open({
           file : url + '/upload.php',
+          title:'Upload Image',
           inline : 1
         }, {
           plugin_url : url
