@@ -620,7 +620,7 @@ define('ENTRY_NOTHING_TO_SEND','メッセージの入力内容がありません。');
   define('TEXT_CATEGORIES_PRODUCTS_SORT_ORDER_INFO', 'カテゴリ/商品 注文形式: ');
   define('TEXT_SORT_PRODUCTS_SORT_ORDER_PRODUCTS_NAME', '商品のソート順決定, 商品');
   define('TEXT_SORT_PRODUCTS_NAME', '商品');
-  define('TEXT_SORT_PRODUCTS_MODEL', 'モデル');
+  define('TEXT_SORT_PRODUCTS_MODEL', '商品コード');
   define('TEXT_SORT_PRODUCTS_QUANTITY', '注文数+, 商品');
   define('TEXT_SORT_PRODUCTS_QUANTITY_DESC', '注文数-, 商品');
   define('TEXT_SORT_PRODUCTS_PRICE', '価格+, 商品');

@@ -32,7 +32,7 @@ define('ENTRY_DATE_RANGE', '登録日で検索');
   define('TEXT_ALL_MANUFACTURERS', '全メーカー');
 
   define('TABLE_HEADING_IMAGE', '');
-  define('TABLE_HEADING_MODEL', 'モデル');
+  define('TABLE_HEADING_MODEL', '商品コード');
   define('TABLE_HEADING_PRODUCTS', '品名');
   define('TABLE_HEADING_MANUFACTURER', 'メーカー');
   define('TABLE_HEADING_QUANTITY', '数量');

@@ -27,7 +27,7 @@ define('TEXT_DATE_ADDED', '登録日:');
 define('TEXT_MANUFACTURER', 'メーカー:');
 define('TEXT_PRICE', '価格:');
 
-define('TEXT_PRODUCTS_MODEL','モデル: ');
+define('TEXT_PRODUCTS_MODEL','商品コード: ');
 define('TEXT_PRODUCTS_WEIGHT','重量: ');
 define('TEXT_PRODUCTS_QUANTITY','在庫: ');
 define('TEXT_OUT_OF_STOCK','在庫切れ');

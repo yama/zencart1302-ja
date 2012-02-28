@@ -27,13 +27,13 @@ define('TEXT_INFO_PRODUCTS_TO_CATEGORIES_AVAILABLE', 'リンクに利用可能な商品カテ
 
 define('TABLE_HEADING_PRODUCTS_ID', 'Prod ID');
 define('TABLE_HEADING_PRODUCT', '商品名');
-define('TABLE_HEADING_MODEL', 'モデル');
+define('TABLE_HEADING_MODEL', '商品コード');
 define('TABLE_HEADING_ACTION', '効果');
 
 define('TEXT_INFO_HEADING_EDIT_PRODUCTS_TO_CATEGORIES', '商品のカテゴリー情報を編集します。');
 define('TEXT_PRODUCTS_ID', '商品 ID# ');
 define('TEXT_PRODUCTS_NAME', '商品: ');
-define('TEXT_PRODUCTS_MODEL', 'モデル: ');
+define('TEXT_PRODUCTS_MODEL', '商品コード: ');
 define('TEXT_PRODUCTS_PRICE', '価格: ');
 define('BUTTON_UPDATE_CATEGORY_LINKS', 'アップデートカテゴリーリンク');
 define('BUTTON_NEW_PRODUCTS_TO_CATEGORIES', 'リンクする商品を選択してください。');

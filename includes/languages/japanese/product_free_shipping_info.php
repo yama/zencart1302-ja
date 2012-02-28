@@ -17,7 +17,7 @@ define('TEXT_PRODUCT_OPTIONS', '選択してください:');
 define('TEXT_PRODUCT_MANUFACTURER', 'メーカー: ');
 define('TEXT_PRODUCT_WEIGHT', '重量: ');
 define('TEXT_PRODUCT_QUANTITY', ' 在庫数');
-define('TEXT_PRODUCT_MODEL', 'モデル: ');
+define('TEXT_PRODUCT_MODEL', '商品コード: ');
 
 
 

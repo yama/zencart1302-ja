@@ -35,7 +35,7 @@ if ( ($category_depth == 'products') || (zen_check_url_get_terms()) ) {
   // This section deals with product-listing page contents
   define('HEADING_TITLE', '購入可能商品');
   define('TABLE_HEADING_IMAGE', '商品画像');
-  define('TABLE_HEADING_MODEL', 'モデル');
+  define('TABLE_HEADING_MODEL', '商品コード');
   define('TABLE_HEADING_PRODUCTS', '商品名');
   define('TABLE_HEADING_MANUFACTURER', 'メーカー');
   define('TABLE_HEADING_QUANTITY', '数量');

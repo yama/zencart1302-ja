@@ -48,7 +48,7 @@ define('TEXT_SEARCH_HELP', '╛▄║┘╕б║ўд╟д╧бв├▒╕ьдф╩╕╗·╬єдЄ AND дф OR д╟╢ш└┌дыд│д╚д
 define('TEXT_CLOSE_WINDOW', 'ежедеєе╔еждЄ╩─д╕ды[x]');
 
 define('TABLE_HEADING_IMAGE', '');
-define('TABLE_HEADING_MODEL', 'ете╟еы');
+define('TABLE_HEADING_MODEL', '╛ж╔╩е│б╝е╔');
 define('TABLE_HEADING_PRODUCTS', '╛ж╔╩╠╛');
 define('TABLE_HEADING_MANUFACTURER', 'есб╝елб╝');
 define('TABLE_HEADING_QUANTITY', '┐Ї╬╠');

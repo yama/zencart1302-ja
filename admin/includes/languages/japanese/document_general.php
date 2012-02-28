@@ -118,7 +118,7 @@ define('TEXT_COPY_AS_DUPLICATE', '商品を複製する');
   define('TEXT_COPY_ATTRIBUTES_NO','いいえ');
 
   define('TEXT_INFO_CURRENT_PRODUCT', '現在の商品: ');
-  define('TABLE_HEADING_MODEL', 'モデル');
+  define('TABLE_HEADING_MODEL', '商品コード');
 
   define('TEXT_INFO_HEADING_ATTRIBUTE_FEATURES','ID#の商品のアトリビュートの変更');
   define('TEXT_INFO_ATTRIBUTES_FEATURES_DELETE','Delete <strong>全ての</strong>商品アトリビュート:<br />');
@@ -177,7 +177,7 @@ define('TEXT_COPY_AS_DUPLICATE', '商品を複製する');
   define('TEXT_META_TAG_TITLE_INCLUDES','<strong>この商品のメタタグタイトルが何を含んでいるべきかマークする:</strong>');
   define('TEXT_PRODUCTS_METATAGS_PRODUCTS_NAME_STATUS','<strong>商品名:</strong>');
   define('TEXT_PRODUCTS_METATAGS_TITLE_STATUS','<strong>タイトル:</strong>');
-  define('TEXT_PRODUCTS_METATAGS_MODEL_STATUS','<strong>モデル:</strong>');
+  define('TEXT_PRODUCTS_METATAGS_MODEL_STATUS','<strong>商品コード:</strong>');
   define('TEXT_PRODUCTS_METATAGS_PRICE_STATUS','<strong>価格:</strong>');
   define('TEXT_PRODUCTS_METATAGS_TITLE_TAGLINE_STATUS','<strong>タイトル/タグライン:</strong>');
   define('TEXT_META_TAGS_TITLE','<strong>メタタグタイトル:</strong>');

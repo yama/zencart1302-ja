@@ -13,7 +13,7 @@ define('HEADING_TITLE_EMPTY', 'ショッピングカート');
 define('TEXT_INFORMATION', 'ここにショッピングカートの使い方を書いて下さい (includes/languages/japanese/shopping_cart.phpで定義されています)');
 define('TABLE_HEADING_REMOVE', '削除');
 define('TABLE_HEADING_QUANTITY', '数量');
-define('TABLE_HEADING_MODEL', 'モデル');
+define('TABLE_HEADING_MODEL', '商品コード');
 define('TABLE_HEADING_PRICE','単価');
 define('TEXT_CART_EMPTY', 'カートには何も入っていません。');
 define('SUB_TITLE_SUB_TOTAL', '小計:');

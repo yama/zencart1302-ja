@@ -578,7 +578,7 @@ define('BOX_SEND_TO_FRIEND', ' ' . TEXT_GV_NAME . '¤òÂ£¤ë');
   define('TEXT_INFO_SORT_BY_PRODUCTS_NAME_DESC', '¾¦ÉÊÌ¾ - ¹ß½ç');
   define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE', '²Á³Ê - Äã¡Á¹â');
   define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE_DESC', '²Á³Ê - ¹â¡ÁÄã');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', '¥â¥Ç¥ë');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', '¾¦ÉÊ¥³¡¼¥É');
   define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'ÅÐÏ¿Æü - ¿·¡Áµì');
   define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'ÅÐÏ¿Æü - µì¡Á¿·');
   define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', '´ûÄê¤ÎÉ½¼¨');
