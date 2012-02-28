@@ -20,8 +20,8 @@
 <table border="0" width="100%" cellspacing="0" cellpadding="0" summary="Itemized listing of previous order, includes number ordered, items and prices">
 <caption><h2 id="orderHistoryDetailedOrder"><?php echo HEADING_TITLE . ORDER_HEADING_DIVIDER . sprintf(HEADING_ORDER_NUMBER, $_GET['order_id']); ?></h2></caption>
     <tr class="tableHeading">
-        <th scope="col" id="myAccountQuantity"><?php echo HEADING_QUANTITY; ?></th>
         <th scope="col" id="myAccountProducts"><?php echo HEADING_PRODUCTS; ?></th>
+        <th scope="col" id="myAccountQuantity"><?php echo HEADING_QUANTITY; ?></th>
 <?php
   if (sizeof($order->info['tax_groups']) > 1) {
 ?>
@@ -35,7 +35,6 @@
   for ($i=0, $n=sizeof($order->products); $i<$n; $i++) {
   ?>
     <tr>
-        <td class="accountQuantityDisplay"><?php echo  $order->products[$i]['qty'] . QUANTITY_SUFFIX; ?></td>
         <td class="accountProductDisplay"><?php echo  $order->products[$i]['name'];
 
     if ( (isset($order->products[$i]['attributes'])) && (sizeof($order->products[$i]['attributes']) > 0) ) {
@@ -49,6 +48,7 @@ nl2br(zen_output_string_protected($order->products[$i]['attributes'][$j]['value'
     }
 ?>
         </td>
+        <td class="accountQuantityDisplay"><?php echo  $order->products[$i]['qty']; ?></td>
 <?php
     if (sizeof($order->info['tax_groups']) > 1) {
 ?>

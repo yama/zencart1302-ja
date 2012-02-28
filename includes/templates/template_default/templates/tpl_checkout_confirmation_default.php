@@ -104,8 +104,8 @@
 <br class="clearBoth" />
       <table border="0" width="100%" cellspacing="0" cellpadding="0" id="cartContentsDisplay">
         <tr class="cartTableHeading">
-        <th scope="col" id="ccQuantityHeading" width="30"><?php echo TABLE_HEADING_QUANTITY; ?></th>
         <th scope="col" id="ccProductsHeading"><?php echo TABLE_HEADING_PRODUCTS; ?></th>
+        <th scope="col" id="ccQuantityHeading" width="30"><?php echo TABLE_HEADING_QUANTITY; ?></th>
 <?php
   // If there are tax groups, display the tax columns for price breakdown
   if (sizeof($order->info['tax_groups']) > 1) {
@@ -119,7 +119,6 @@
 <?php // now loop thru all products to display quantity and price ?>
 <?php for ($i=0, $n=sizeof($order->products); $i<$n; $i++) { ?>
         <tr class="<?php echo $product['rowClass']; ?>">
-          <td  class="cartQuantity"><?php echo $order->products[$i]['qty']; ?>&nbsp;x</td>
           <td class="cartProductDisplay"><?php echo $order->products[$i]['name']; ?>
           <?php  echo $stock_check; ?>
 
@@ -136,6 +135,7 @@ nl2br(zen_output_string_protected($order->products[$i]['attributes'][$j]['value'
     } // endif attribute-info
 ?>
         </td>
+          <td  class="cartQuantity"><?php echo $order->products[$i]['qty']; ?></td>
 
 <?php // display tax info if exists ?>
 <?php if (sizeof($order->info['tax_groups']) > 1)  { ?>
