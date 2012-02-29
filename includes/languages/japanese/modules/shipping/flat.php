@@ -20,7 +20,7 @@
 // $Id: flat.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_FLAT_TEXT_TITLE', '年驰瘟垛');
-define('MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION', '年驰瘟垛');
+define('MODULE_SHIPPING_FLAT_TEXT_TITLE', '年驰流瘟');
+define('MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION', '年驰流瘟');
 define('MODULE_SHIPPING_FLAT_TEXT_WAY', '世家回年吗芹サ〖ビス');
 ?>

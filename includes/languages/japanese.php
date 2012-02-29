@@ -626,7 +626,7 @@ define('BOX_SEND_TO_FRIEND', ' ' . TEXT_GV_NAME . 'を贈る');
 define('TEXT_ORDER_STEPS_1', 'お届け方法');
 define('TEXT_ORDER_STEPS_2', 'お支払い方法');
 define('TEXT_ORDER_STEPS_3', '最終確認');
-define('TEXT_ORDER_STEPS_4', 'ご注文確定');
+define('TEXT_ORDER_STEPS_4', 'ご注文完了');
 
 ///////////////////////////////////////////////////////////
 // include email extras
