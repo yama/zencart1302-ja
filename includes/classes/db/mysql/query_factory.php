@@ -33,25 +33,38 @@ class queryFactory extends base {
     // pconnect disabled ... leaving it as "connect" here instead of "pconnect"
       $this->link = @mysql_connect($zf_host, $zf_user, $zf_password, true);
     }
-    if ($this->link) {
+	if ($this->link)
+	{
       //Check MySQL version and set character_set
       $mysql_version = (function_exists('mysql_get_server_info')) ? @mysql_get_server_info() : '';
-      if ($mysql_version >= '4.1') {
-        $character_set_name = 'ujis';
-        if (function_exists('mysql_set_charset')) {
-          @mysql_set_charset($character_set_name);
-        } else {
-          @mysql_query("set names '" . $character_set_name . "';");
+		if (version_compare($mysql_version,'4.1','>='))
+		{
+			if (function_exists('mysql_set_charset'))
+			{
+				mysql_set_charset('utf8');
+			}
+			else
+			{
+				@mysql_query('set names utf8');
         }
       }
-      if (@mysql_select_db($zf_database, $this->link)) {
+		if (@mysql_select_db($zf_database, $this->link))
+		{
         $this->db_connected = true;
+			if (function_exists('mysql_set_charset'))
+			{
+				@mysql_query('SET CHARACTER SET utf8', $this->link);
+			}
         return true;
-      } else {
+		}
+		else
+		{
         $this->set_error(mysql_errno(),mysql_error(), $zp_real);
         return false;
       }
-    } else {
+	}
+	else
+	{
       $this->set_error(mysql_errno(),mysql_error(), $zp_real);
       return false;
     }

@@ -3,7 +3,7 @@
  * PHPMailer language file.  
  * Japanese Version
  * By Mitsuhiro Yoshida - http://mitstek.com/
- * This file is written in EUC-JP.
+ * This file is written in UTF-8.
  */
 
 $PHPMAILER_LANG = array();

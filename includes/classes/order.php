@@ -863,10 +863,13 @@ class order extends base {
       $zco_notifier->notify('NOTIFY_ORDER_PROCESSING_ONE_TIME_CHARGES_BEGIN');
 
       // include onetime charges
-      $this->products_ordered .=  $this->products[$i]['qty'] . ' x ' . $this->products[$i]['name'] . ($this->products[$i]['model'] != '' ? ' (' . $this->products[$i]['model'] . ') ' : '') . ' = ' .
-      $currencies->display_price($this->products[$i]['final_price'], $this->products[$i]['tax'], $this->products[$i]['qty']) .
-      ($this->products[$i]['onetime_charges'] !=0 ? "\n" . TEXT_ONETIME_CHARGES_EMAIL . $currencies->display_price($this->products[$i]['onetime_charges'], $this->products[$i]['tax'], 1) : '') .
-      $this->products_ordered_attributes . "\n";
+      $p_model = ($this->products[$i]['model'] != '' ? ' (' . $this->products[$i]['model'] . ') ' : '');
+      $p_name = $this->products[$i]['name'] ;
+      $p_qty = $this->products[$i]['qty'];
+      $p_price = $currencies->display_price($this->products[$i]['final_price'], $this->products[$i]['tax'], $p_qty);
+      $onetime_charges = ($this->products[$i]['onetime_charges'] !=0 ? "\n" . TEXT_ONETIME_CHARGES_EMAIL . $currencies->display_price($this->products[$i]['onetime_charges'], $this->products[$i]['tax'], 1) : '');
+      $ordered_attributes = $this->products_ordered_attributes;
+      $this->products_ordered .=  "{$p_model}{$p_name} x {$p_qty} = {$p_price} {$onetime_charges} {$ordered_attributes}\n";
       $this->products_ordered_html .=
       '<tr>' .
       '<td class="product-details" align="right" valign="top" width="30">' . $this->products[$i]['qty'] . '&nbsp;x</td>' .
