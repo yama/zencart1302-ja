@@ -85,7 +85,7 @@ define('TEXT_CATEGORIES_IMAGE', 'カテゴリ画像:');
 define('TEXT_SORT_ORDER', 'ソート順:');
 
 define('TEXT_PRODUCTS_STATUS', '商品ステータス:');
-define('TEXT_PRODUCTS_VIRTUAL', 'ヴァーチャル商品:');
+define('TEXT_PRODUCTS_VIRTUAL', 'バーチャル商品:');
 define('TEXT_PRODUCTS_IS_ALWAYS_FREE_SHIPPING', '常に送料無料:');
 define('TEXT_PRODUCTS_QTY_BOX_STATUS', '商品の数量欄は:');
 define('TEXT_PRODUCTS_DATE_AVAILABLE', '提供可能日:');
