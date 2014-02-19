@@ -20,7 +20,7 @@
 // $Id: flat.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_FLAT_TEXT_TITLE', 'Äê³ÛÎÁ¶â');
-define('MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION', 'Äê³ÛÎÁ¶â');
-define('MODULE_SHIPPING_FLAT_TEXT_WAY', '');
+define('MODULE_SHIPPING_FLAT_TEXT_TITLE', 'å®šé¡é€æ–™');
+define('MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION', 'å®šé¡é€æ–™');
+define('MODULE_SHIPPING_FLAT_TEXT_WAY', 'å¼Šç¤¾æŒ‡å®šå®…é…ã‚µãƒ¼ãƒ“ã‚¹');
 ?>

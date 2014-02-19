@@ -20,7 +20,7 @@
 // $Id: item.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_ITEM_TEXT_TITLE', '1¸Ä¤¢¤¿¤êÎÁ¶â');
-define('MODULE_SHIPPING_ITEM_TEXT_DESCRIPTION', '1¸Ä¤¢¤¿¤êÎÁ¶â');
+define('MODULE_SHIPPING_ITEM_TEXT_TITLE', '1å€‹ã‚ãŸã‚Šæ–™é‡‘');
+define('MODULE_SHIPPING_ITEM_TEXT_DESCRIPTION', '1å€‹ã‚ãŸã‚Šæ–™é‡‘');
 define('MODULE_SHIPPING_ITEM_TEXT_WAY', '');
 ?>

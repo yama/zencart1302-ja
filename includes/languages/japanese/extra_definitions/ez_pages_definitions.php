@@ -11,8 +11,8 @@
 
 
 // ez-pages sidebox title name
-define('BOX_HEADING_EZPAGES','Ω≈Õ◊§ •Í•Û•Ø');
-define('TEXT_EZ_PAGES_TABLE_CONTEXT', 'Ã‹º°');
+define('BOX_HEADING_EZPAGES','ÈáçË¶Å„Å™„É™„É≥„ÇØ');
+define('TEXT_EZ_PAGES_TABLE_CONTEXT', 'ÁõÆÊ¨°');
 define('CURRENT_PAGE_INDICATOR', '&nbsp;*&nbsp;');
 define('NOT_CURRENT_PAGE_INDICATOR', '&nbsp;-&nbsp;');
 

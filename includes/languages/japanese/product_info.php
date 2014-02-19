@@ -7,36 +7,36 @@
  * @version $Id: product_info.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 
-define('TEXT_PRODUCT_NOT_FOUND', '�������뾦�ʤϸ��Ĥ���ޤ���Ǥ�����');
-define('TEXT_CURRENT_REVIEWS', '���ߤΥ�ӥ塼:');
-define('TEXT_MORE_INFORMATION', '���ܤ�������ϡ����ξ��ʤ�<a href="%s" target="_blank">Web�ڡ���</a>������������');
-define('TEXT_DATE_ADDED', '���ξ��ʤ�%s����Ͽ����ޤ�����');
-define('TEXT_DATE_AVAILABLE', '���ξ��ʤ�%s������ͽ��Ǥ���');
-define('TEXT_ALSO_PURCHASED_PRODUCTS', '���ξ��ʤ򤪵��Τ����ͤϤ���ʾ��ʤ⤪���Ǥ���');
-define('TEXT_PRODUCT_OPTIONS', '���򤷤Ʋ�����: ');
-define('TEXT_PRODUCT_MANUFACTURER', '�᡼����: ');
-define('TEXT_PRODUCT_WEIGHT', '����: ');
-define('TEXT_PRODUCT_QUANTITY', ' �߸���');
-define('TEXT_PRODUCT_MODEL', '��ǥ�: ');
+define('TEXT_PRODUCT_NOT_FOUND', '該当する商品は見つかりませんでした。');
+define('TEXT_CURRENT_REVIEWS', '現在のレビュー:');
+define('TEXT_MORE_INFORMATION', 'より詳しい情報は、この商品の<a href="%s" target="_blank">Webページ</a>をご覧ください');
+define('TEXT_DATE_ADDED', 'この商品は%sに登録されました。');
+define('TEXT_DATE_AVAILABLE', 'この商品は%sに入荷予定です。');
+define('TEXT_ALSO_PURCHASED_PRODUCTS', 'この商品をお求めのお客様はこんな商品もお求めです。');
+define('TEXT_PRODUCT_OPTIONS', '選択して下さい: ');
+define('TEXT_PRODUCT_MANUFACTURER', 'メーカー: ');
+define('TEXT_PRODUCT_WEIGHT', '重量: ');
+define('TEXT_PRODUCT_QUANTITY', ' 在庫数');
+define('TEXT_PRODUCT_MODEL', 'モデル: ');
 
 
 
 // previous next product
-define('PREV_NEXT_PRODUCT', '����');
+define('PREV_NEXT_PRODUCT', '商品');
 define('PREV_NEXT_FROM', ' from ');
-define('IMAGE_BUTTON_PREVIOUS','���Υ����ƥ�');
-define('IMAGE_BUTTON_NEXT','���Υ����ƥ�');
-define('IMAGE_BUTTON_RETURN_TO_PRODUCT_LIST','���ʥꥹ�Ȥ����');
+define('IMAGE_BUTTON_PREVIOUS','前のアイテム');
+define('IMAGE_BUTTON_NEXT','次のアイテム');
+define('IMAGE_BUTTON_RETURN_TO_PRODUCT_LIST','商品リストに戻る');
 
 // missing products
-//define('TABLE_HEADING_NEW_PRODUCTS', '%s�ο��徦��');
-//define('TABLE_HEADING_UPCOMING_PRODUCTS', '����ͽ�꾦��');
-//define('TABLE_HEADING_DATE_EXPECTED', '��Ͽͽ����');
+//define('TABLE_HEADING_NEW_PRODUCTS', '%sの新着商品');
+//define('TABLE_HEADING_UPCOMING_PRODUCTS', '入荷予定商品');
+//define('TABLE_HEADING_DATE_EXPECTED', '登録予定日');
 
-define('TEXT_ATTRIBUTES_PRICE_WAS',' [��: ');
-define('TEXT_ATTRIBUTE_IS_FREE',' ���ʤ�: ̵��]');
+define('TEXT_ATTRIBUTES_PRICE_WAS',' [は: ');
+define('TEXT_ATTRIBUTE_IS_FREE',' 今なら: 無料]');
 define('TEXT_ONETIME_CHARGE_SYMBOL', ' *');
-define('TEXT_ONETIME_CHARGE_DESCRIPTION', ' ��������������ޤ�');
-define('TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK','�����Ͱ�������ޤ�');
+define('TEXT_ONETIME_CHARGE_DESCRIPTION', ' 基本料がかかります');
+define('TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK','数量値引があります');
 define('ATTRIBUTES_QTY_PRICE_SYMBOL', zen_image(DIR_WS_TEMPLATE_ICONS . 'icon_status_green.gif', TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK, 10, 10) . '&nbsp;');
 ?>

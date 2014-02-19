@@ -7,26 +7,26 @@
  * @version $Id: checkout_shipping.php 3027 2006-02-13 17:15:51Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', '¥ì¥¸¤Ø¿Ê¤à');
-define('NAVBAR_TITLE_2', 'ÇÛÁ÷¾ðÊó');
+define('NAVBAR_TITLE_1', 'ãƒ¬ã‚¸ã¸é€²ã‚€');
+define('NAVBAR_TITLE_2', 'é…é€æƒ…å ±');
 
-define('HEADING_TITLE', '¤ªÆÏ¤±Àè¤ÈÇÛÁ÷ÊýË¡¤òµ­Æþ¤·¤Æ¤¯¤À¤µ¤¤');
+define('HEADING_TITLE', 'ãŠå±Šã‘å…ˆã¨é…é€æ–¹æ³•ã‚’è¨˜å…¥ã—ã¦ãã ã•ã„');
 
-define('TABLE_HEADING_SHIPPING_ADDRESS', '¤ªÆÏ¤±Àè½»½ê');
-define('TEXT_CHOOSE_SHIPPING_DESTINATION', '¤´ÃíÊ¸¤ÎÉÊÊª¤Ïº¸µ­¤Î½»½ê¤Ë¤ªÆÏ¤±¤·¤Þ¤¹¡£<em>¤ªÆÏ¤±Àè¤ÎÊÑ¹¹</em>¥Ü¥¿¥ó¤ò¥¯¥ê¥Ã¥¯¤·¤Æ¤ªÆÏ¤±Àè¤òÊÑ¹¹¤Ç¤­¤Þ¤¹¡£');
-define('TITLE_SHIPPING_ADDRESS', '¤ªÆÏ¤±Àè:');
+define('TABLE_HEADING_SHIPPING_ADDRESS', 'ãŠå±Šã‘å…ˆä½æ‰€');
+define('TEXT_CHOOSE_SHIPPING_DESTINATION', 'ã”æ³¨æ–‡ã®å“ç‰©ã¯å·¦è¨˜ã®ä½æ‰€ã«ãŠå±Šã‘ã—ã¾ã™ã€‚ã€Œä½æ‰€ã‚’å¤‰æ›´ã€ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãŠå±Šã‘å…ˆã‚’å¤‰æ›´ã§ãã¾ã™ã€‚');
+define('TITLE_SHIPPING_ADDRESS', 'ãŠå±Šã‘å…ˆ:');
 
-define('TABLE_HEADING_SHIPPING_METHOD', 'ÇÛÁ÷ÊýË¡¤ÈÇÛÁ÷ÎÁ¶â:');
-define('TEXT_CHOOSE_SHIPPING_METHOD', '¤´´õË¾¤ÎÇÛÁ÷ÊýË¡¤ò¤ªÁª¤Ó²¼¤µ¤¤¡£');
-define('TITLE_PLEASE_SELECT', 'ÁªÂò¤·¤Æ¤¯¤À¤µ¤¤');
-define('TEXT_ENTER_SHIPPING_INFORMATION', 'º£²ó¤Î¤´ÃíÊ¸¤Ç¤´ÍøÍÑ¤¤¤¿¤À¤±¤ëÇÛÁ÷ÊýË¡¤Ï¤³¤Á¤é¤Î¤ß¤Ç¤¹¡£');
+define('TABLE_HEADING_SHIPPING_METHOD', 'é…é€æ–¹æ³•ã¨é…é€æ–™é‡‘:');
+define('TEXT_CHOOSE_SHIPPING_METHOD', 'ã”å¸Œæœ›ã®é…é€æ–¹æ³•ã‚’ãŠé¸ã³ä¸‹ã•ã„ã€‚');
+define('TITLE_PLEASE_SELECT', 'é¸æŠžã—ã¦ãã ã•ã„');
+define('TEXT_ENTER_SHIPPING_INFORMATION', 'ä»Šå›žã®ã”æ³¨æ–‡ã§ã”åˆ©ç”¨ã„ãŸã ã‘ã‚‹é…é€æ–¹æ³•ã¯ã“ã¡ã‚‰ã®ã¿ã§ã™ã€‚');
 
-define('TABLE_HEADING_COMMENTS', '¤´Ï¢Íí»ö¹à¤¬¤´¤¶¤¤¤Þ¤·¤¿¤é¤´µ­Æþ¤¯¤À¤µ¤¤¡£');
+define('TABLE_HEADING_COMMENTS', 'ã”é€£çµ¡äº‹é …ãŒã”ã–ã„ã¾ã—ãŸã‚‰ã”è¨˜å…¥ãã ã•ã„ã€‚');
 
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '¼¡²èÌÌ¤Ë¿Ê¤ó¤Ç¤¯¤À¤µ¤¤');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '¢ª¤ª»ÙÊ§¤¤ÊýË¡¤òÁªÂò');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', 'æ¬¡ç”»é¢ã«é€²ã‚“ã§ãã ã•ã„');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', 'â†’ãŠæ”¯æ‰•ã„æ–¹æ³•ã‚’é¸æŠž');
 
 // when free shipping for orders over $XX.00 is active
-  define('FREE_SHIPPING_TITLE', 'ÇÛÁ÷ÎÁÌµÎÁ');
-  define('FREE_SHIPPING_DESCRIPTION', '%s°Ê¾å¤ªÇã¤¤¾å¤²¤Î¾ì¹ç¡¢ÇÛÁ÷ÎÁ¤¬ÌµÎÁ¤Ë¤Ê¤ê¤Þ¤¹¡£');
-?>
+  define('FREE_SHIPPING_TITLE', 'é…é€æ–™ç„¡æ–™');
+  define('FREE_SHIPPING_DESCRIPTION', '%sä»¥ä¸ŠãŠè²·ã„ä¸Šã’ã®å ´åˆã€é…é€æ–™ãŒç„¡æ–™ã«ãªã‚Šã¾ã™ã€‚');
+

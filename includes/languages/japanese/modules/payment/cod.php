@@ -20,6 +20,6 @@
 // $Id: cod.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_PAYMENT_COD_TEXT_TITLE', 'Âå¶â°ú´¹');
-  define('MODULE_PAYMENT_COD_TEXT_DESCRIPTION', 'Âå¶â°ú´¹');
+  define('MODULE_PAYMENT_COD_TEXT_TITLE', 'ä»£é‡‘å¼•æ›');
+  define('MODULE_PAYMENT_COD_TEXT_DESCRIPTION', 'ä»£é‡‘å¼•æ›');
 ?>

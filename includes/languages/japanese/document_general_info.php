@@ -7,36 +7,36 @@
  * @version $Id: document_general_info.php 2842 2006-01-13 06:21:11Z drbyte $
  */
 
-define('TEXT_PRODUCT_NOT_FOUND', '╬╕ий╓╛╦╚╓д╓╚╓Й╓ч╓╩╓С╓г╓╥╓©║ё');
-define('TEXT_CURRENT_REVIEWS', '╦╫╨ъ╓н╔Л╔с╔Е║╪:');
-define('TEXT_MORE_INFORMATION', '╓Х╓Й╬э╓╥╓╓╬ПйС╓о╓Ё╓н╬╕ий╓н<a href="%s" target="_blank">Web╔з║╪╔╦</a>╓ь║ё');
-define('TEXT_DATE_ADDED', '╓Ё╓н╬╕ий╓о %s ╓кепо©╓╣╓Л╓ч╓╥╓©║ё');
-define('TEXT_DATE_AVAILABLE', '╓Ё╓н╬╕ий╓о %s ╓кфЧ╡ым╫дЙ╓г╓╧║ё');
-define('TEXT_ALSO_PURCHASED_PRODUCTS', '╓Ё╓н╬╕ий╓Р╓╙╣А╓А╓нйЩ╓о║╒б╬╓к╓Ё╓н╓Х╓╕╓й╬╕ий╓Б╓╙╣А╓А╓к╓й╓ц╓ф╓╓╓ч╓╧');
-define('TEXT_PRODUCT_OPTIONS', 'а╙бР╓╥╓ф╓╞╓ю╓╣╓╓: ');
-define('TEXT_PRODUCT_MANUFACTURER', '╔А║╪╔╚║╪: ');
-define('TEXT_PRODUCT_WEIGHT', '╫енл: ');
-define('TEXT_PRODUCT_QUANTITY', ' ╨ъ╦кнл');
-define('TEXT_PRODUCT_MODEL', '╔Б╔г╔К: ');
+define('TEXT_PRODUCT_NOT_FOUND', 'Е∙├Е⌠│Ц│▄Х╕▀Ц│╓Ц│▀Ц┌┼Ц│╬Ц│⌡Ц┌⌠Ц│╖Ц│≈Ц│÷Ц─┌');
+define('TEXT_CURRENT_REVIEWS', 'Г▐╬Е°╗Ц│╝Ц┐╛Ц┐⌠Ц┐╔Ц┐╪:');
+define('TEXT_MORE_INFORMATION', 'Ц┌┬Ц┌┼Х╘ЁЦ│≈Ц│└Ф┐┘Е═╠Ц│╞Ц│⌠Ц│╝Е∙├Е⌠│Ц│╝<a href="%s" target="_blank">WebЦ┐ Ц┐╪Ц┌╦</a>Ц│╦Ц─┌');
+define('TEXT_DATE_ADDED', 'Ц│⌠Ц│╝Е∙├Е⌠│Ц│╞ %s Ц│╚Г≥╩И▄╡Ц│∙Ц┌▄Ц│╬Ц│≈Ц│÷Ц─┌');
+define('TEXT_DATE_AVAILABLE', 'Ц│⌠Ц│╝Е∙├Е⌠│Ц│╞ %s Ц│╚Е┘╔Х█╥Д╨┬Е╝ Ц│╖Ц│≥Ц─┌');
+define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Ц│⌠Ц│╝Е∙├Е⌠│Ц┌▓Ц│┼Ф╠┌Ц┌│Ц│╝Ф√╧Ц│╞Ц─│Д╩√Ц│╚Ц│⌠Ц│╝Ц┌┬Ц│├Ц│╙Е∙├Е⌠│Ц┌┌Ц│┼Ф╠┌Ц┌│Ц│╚Ц│╙Ц│ёЦ│╕Ц│└Ц│╬Ц│≥');
+define('TEXT_PRODUCT_OPTIONS', 'И│╦Ф┼·Ц│≈Ц│╕Ц│▐Ц│═Ц│∙Ц│└: ');
+define('TEXT_PRODUCT_MANUFACTURER', 'Ц┐║Ц┐╪Ц┌╚Ц┐╪: ');
+define('TEXT_PRODUCT_WEIGHT', 'И┤█И┤▐: ');
+define('TEXT_PRODUCT_QUANTITY', ' Е°╗Е╨╚Ф∙╟');
+define('TEXT_PRODUCT_MODEL', 'Ц┐╒Ц┐┤Ц┐╚: ');
 
 
 
 // previous next product
-define('PREV_NEXT_PRODUCT', '╬╕ий ');
+define('PREV_NEXT_PRODUCT', 'Е∙├Е⌠│ ');
 define('PREV_NEXT_FROM', ' from '); 
-define('IMAGE_BUTTON_PREVIOUS','а╟╓н╔╒╔╓╔ф╔Ю');
-define('IMAGE_BUTTON_NEXT','╪║╓н╔╒╔╓╔ф╔Ю');
-define('IMAGE_BUTTON_RETURN_TO_PRODUCT_LIST','╬╕ий╔Й╔╧╔х╓клА╓К');
+define('IMAGE_BUTTON_PREVIOUS','Е┴█Ц│╝Ц┌╒Ц┌╓Ц┐├Ц┐═');
+define('IMAGE_BUTTON_NEXT','Ф╛║Ц│╝Ц┌╒Ц┌╓Ц┐├Ц┐═');
+define('IMAGE_BUTTON_RETURN_TO_PRODUCT_LIST','Е∙├Е⌠│Ц┐╙Ц┌╧Ц┐┬Ц│╚Ф┬╩Ц┌▀');
 
 // missing products
 //define('TABLE_HEADING_NEW_PRODUCTS', 'New Products For %s');
 //define('TABLE_HEADING_UPCOMING_PRODUCTS', 'Upcoming Products');
 //define('TABLE_HEADING_DATE_EXPECTED', 'Date Expected');
 
-define('TEXT_ATTRIBUTES_PRICE_WAS',' [╓о: ');
-define('TEXT_ATTRIBUTE_IS_FREE',' ╨ё╓й╓И: л╣на]');
+define('TEXT_ATTRIBUTES_PRICE_WAS',' [Ц│╞: ');
+define('TEXT_ATTRIBUTE_IS_FREE',' Д╩┼Ц│╙Ц┌┴: Г└║Ф√≥]');
 define('TEXT_ONETIME_CHARGE_SYMBOL', ' *');
-define('TEXT_ONETIME_CHARGE_DESCRIPTION', ' ╢Пкэна╤Б╓╛е╛мя╓╣╓Л╓ч╓╧');
-define('TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK','©ТнлЁД╟З╓╛╓╒╓Й╓ч╓╧');
+define('TEXT_ONETIME_CHARGE_DESCRIPTION', ' Е÷╨Ф°╛Ф√≥И┤▒Ц│▄И│╘Г■╗Ц│∙Ц┌▄Ц│╬Ц│≥');
+define('TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK','Ф∙╟И┤▐Е┴╡Е╪∙Ц│▄Ц│┌Ц┌┼Ц│╬Ц│≥');
 define('ATTRIBUTES_QTY_PRICE_SYMBOL', zen_image(DIR_WS_TEMPLATE_ICONS . 'icon_status_green.gif', TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK, 10, 10) . '&nbsp;');
 ?>

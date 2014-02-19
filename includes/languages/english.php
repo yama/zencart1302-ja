@@ -46,7 +46,7 @@
   define('HTML_PARAMS','dir="ltr" lang="en"');
 
 // charset for web pages and emails
-  define('CHARSET', 'EUC-JP');
+  define('CHARSET', 'UTF-8');
 
 // footer text in includes/footer.php
   define('FOOTER_TEXT_REQUESTS_SINCE', 'requests since');
