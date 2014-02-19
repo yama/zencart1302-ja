@@ -30,7 +30,7 @@
   define('HTML_PARAMS','dir="ltr" lang="ja"');
 
   // charset for web pages and emails
-  define('CHARSET', 'EUC-JP');
+  define('CHARSET', 'UTF-8');
 
   // META TAG TITLE
   define('META_TAG_TITLE', 'Zen Cartインストーラ');
@@ -343,7 +343,7 @@ switch ($error_code) {
   break;
   case ('22'):
     define('POPUP_ERROR_HEADING', 'データベースセッション');
-    define('POPUP_ERROR_TEXT', 'これは、ファイルあるいはデータベースにセッション情報を格納するかどうかを決めます。ファイルベースのセッションの方が速いのですが、安全性を考慮すると、SSL接続を使用するすべてのオンラインショップにはデータベースセッションの方が好ましいです。');
+    define('POPUP_ERROR_TEXT', 'これは、ファイルあるいはデータベースにセッション情報を格納するかどうかを決めます。ファイルベースのセッションの方が速いのですが、安全性を考慮すると、SSL接続を使用するすべてのオンラインストアにはデータベースセッションの方が好ましいです。');
     
   break;
   case ('23'):
@@ -553,7 +553,7 @@ switch ($error_code) {
   break;
   case ('64'):
     define('POPUP_ERROR_HEADING', '同じサーバ上にインストールしているphpBBフォーラムとリンクさせますか? ');
-    define('POPUP_ERROR_TEXT', 'Zen Cartショップを、既に設置してあるphpBBフォーラムとリンクするには、はいを選択してください。');
+    define('POPUP_ERROR_TEXT', 'Zen Cartストアを、既に設置してあるphpBBフォーラムとリンクするには、はいを選択してください。');
     
   break;
   case ('65'):

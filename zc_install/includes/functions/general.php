@@ -128,12 +128,15 @@ function executeSql($sql_file, $database, $table_prefix = '', $isupgrade=false) 
             // check to see if table exists
             $table = (strtoupper($param[2].' '.$param[3].' '.$param[4]) == 'IF NOT EXISTS') ? $param[5] : $param[2];
             $result=zen_table_exists($table);
-            if ($result==true) {
+				if ($result==true)
+				{
               zen_write_to_upgrade_exceptions_table($line, sprintf(REASON_TABLE_ALREADY_EXISTS,$table), $sql_file);
               $ignore_line=true;
               $result=sprintf(REASON_TABLE_ALREADY_EXISTS,$table); //duplicated here for on-screen error-reporting
               break;
-            } else {
+				}
+				else
+				{
               $line = (strtoupper($param[2].' '.$param[3].' '.$param[4]) == 'IF NOT EXISTS') ? 'CREATE TABLE IF NOT EXISTS ' . $table_prefix . substr($line, 27) : 'CREATE TABLE ' . $table_prefix . substr($line, 13);
             }
             break;

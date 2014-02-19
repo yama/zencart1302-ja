@@ -24,6 +24,6 @@
   define('ADMIN_EMAIL_INSTRUCTION', 'メールアドレスを記入してください。');
   define('UPGRADE_DETECTION','最新版の検出');
   define('UPGRADE_INSTRUCTION_TITLE','ログインのたびにZen Cartの最新バージョンをチェックする');
-  define('UPGRADE_INSTRUCTION_TEXT','Zen Cartのバージョンチェックサーバーに接続して最新バージョンのZen Cartの存在をチェックします。Zen Cartの新バージョンがリリースされている場合にメッセージを表示しますが、自動的に更新されることはありません。<br />この設定はインストール完了後にAdmin-&gt;Config-&gt;My Store-&gt;Check if version update is availableで変更することができます。');
+  define('UPGRADE_INSTRUCTION_TEXT','※当機能は現在利用できません。');
 
 ?>

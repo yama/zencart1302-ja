@@ -25,7 +25,7 @@
   define('DATABASE_NAME', 'データベース名');
   define('DATABASE_NAME_INSTRUCTION', 'データベース名を入力してください。(例）\'zencart\'。');
   define('DATABASE_PREFIX', 'テーブルプレフィクス');
-  define('DATABASE_PREFIX_INSTRUCTION', 'データベーステーブルに付けるプレフィクスを入力してください。(例）\'zen_\'。必要でなければ空白にしてください。<br />プレフィクスを設定すると、ひとつのデータベースで複数のショップを運用したり、他のCMSと共存したりすることができます。');
+  define('DATABASE_PREFIX_INSTRUCTION', 'テーブル名に付けるプレフィクスを入力してください。(例）\'zen_\'<br />プレフィクスを設定すると、ひとつのデータベースで複数のショップを運用したり、他のCMSと共存したりすることができます。');
   define('DATABASE_CREATE', 'データベース作成');
   define('DATABASE_CREATE_INSTRUCTION', 'データベースを新規作成しますか? ');
   define('DATABASE_CONNECTION', '持続的接続');
@@ -35,7 +35,7 @@
   define('CACHE_TYPE', 'SQLキャッシュの方法');
   define('CACHE_TYPE_INSTRUCTION', 'SQLキャッシュを使用するための方法を選択してください。');
   define('SQL_CACHE', 'セッション/SQLキャッシュディレクトリ');
-  define('SQL_CACHE_INSTRUCTION', 'ファイルベースの SQLキャッシュを使用するためのディレクトリを入力してください。');
+  define('SQL_CACHE_INSTRUCTION', 'データベースセッションまたはファイルベースのSQLキャッシュを使用する場合は、ディレクトリ名を入力してください。');
   define('ONLY_UPDATE_CONFIG_FILES','設定ファイルのみ更新');
 
 
