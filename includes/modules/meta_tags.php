@@ -134,7 +134,7 @@ switch ($_GET['main_page']) {
         } // EOF
       }
     } else {
-      define('META_TAG_TITLE', TITLE . TAGLINE);
+      define('META_TAG_TITLE', STORE_NAME . TAGLINE);
       define('META_TAG_DESCRIPTION', TITLE . PRIMARY_SECTION . str_replace(array("'",'"'),'',strip_tags(HEADING_TITLE)) . SECONDARY_SECTION . KEYWORDS);
       define('META_TAG_KEYWORDS', KEYWORDS . ',' . str_replace(array("'",'"'),'',strip_tags(HEADING_TITLE)));
     }

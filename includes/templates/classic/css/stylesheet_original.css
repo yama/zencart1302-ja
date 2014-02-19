@@ -19,13 +19,12 @@
 // +----------------------------------------------------------------------+
 // $Id: stylesheet_original.css 3286 2006-03-28 01:14:04Z drbyte $
 */
-BODY {
+body {
 	background-color: #e5edf5;
 	color: #000000;
 	margin: 0px;
 	margin-bottom: 10px;
 	padding: 0px;
-   font: 11px Verdana, Arial, sans-serif;
 }
 
 .centershop {
@@ -36,8 +35,7 @@ BODY {
 	width: 750px !important;
 }
 
-TD.main, P.main {
-  font-size: 11px;
+td.main, P.main {
   line-height: 1.5;
 }
 
@@ -78,7 +76,7 @@ TABLE.headerNavigation {
   width: 100% !important;
 }
 
-TD.headerNavigation {
+td.headerNavigation {
   position: relative;
   vertical-align: middle;
   font-family: Verdana, Arial, sans-serif;
@@ -89,20 +87,20 @@ TD.headerNavigation {
   padding: 5px;
 }
 
-TD.breadCrumb {
-  font-size: 10px;
+td.breadCrumb {
+  font-size: 12px;
   font-weight: bold;
   color: #9a9a9a;
   padding: 3px;
   border-bottom: 1px dotted #9a9a9a;
 }
 
-TD.headerNavigation A, TD.headerNavigation A:visited, td.footertop a  {
+td.headerNavigation A, td.headerNavigation A:visited, td.footertop a  {
   font-weight: bold;
   color: #ffffff;
 }
 
-TD.headerNavigation A:hover, td.footertop a:hover  {
+td.headerNavigation A:hover, td.footertop a:hover  {
   color: #a8cfff;
 }
 
@@ -110,7 +108,7 @@ TR.headerError {
   background: #ff0000;
 }
 
-TD.headerError {
+td.headerError {
   font-family: Verdana, Arial, sans-serif;
   font-size: 12px;
   background: #ff0000;
@@ -123,7 +121,7 @@ TR.headerInfo {
   background: #00ff00;
 }
 
-TD.headerInfo {
+td.headerInfo {
   font-family: Verdana, Arial, sans-serif;
   font-size: 12px;
   background: #00ff00;
@@ -140,12 +138,9 @@ TD.headerInfo {
 }
 
 .boxText {
-  font-size: 11px;
   line-height: 125%;
 }
 .leftbox, .rightbox, .centerbox, .singlebox {
-  font-family: Verdana, Arial, sans-serif;
-  font-size: 11px;
   background: #ffffff;
   border: 1px solid #9a9a9a;
   margin-bottom: 15px;
@@ -153,7 +148,6 @@ TD.headerInfo {
 
 .leftboxheading, .rightboxheading, .centerboxheading, .singleboxheading {
   /*background-color: #abbbd3;*/
-  font-size: 10px;
   font-weight: bold;
   color: #ffffff;
   padding: 3px;
@@ -185,12 +179,11 @@ TR.leftboxheading, TR.rightboxheading, TR.centerboxheading, TR.singleboxheading 
 
 .plainBox, .plainbox-description {
   font-family: Verdana, Arial, sans-serif;
-  font-size: 11px;
   background: #ffffff;
   border:1px solid #9a9a9a;
   padding: 5px;
 }
-.plainBoxHeading, TD.tableHeading {
+.plainBoxHeading, td.tableHeading {
   font-size: 12px;
   font-weight: bold;
   padding: 11px 5px 5px;
@@ -203,26 +196,26 @@ TR.leftboxheading, TR.rightboxheading, TR.centerboxheading, TR.singleboxheading 
   height: 20px;
 }
 
-TD.productListing-heading{
+td.productListing-heading{
   background-color: #abbbd3;
   background-image: url(../images/tile_back.jpg);
 }
 
-TD.productlisting {
+td.productlisting {
   border:1px solid #9a9a9a;
 }
 
-TD.productListing-data {
-  font-size: 10px;
+td.productListing-data {
   padding: 5px;
+  text-align:left;
 }
 
 /*center main section
 -----------------------------------*/
-TD.pageHeading, DIV.pageHeading, h1 {
+td.pageHeading, div.pageHeading, h1 {
   font-size: 16px;
   font-weight: bold;
-  color: #9a9a9a;
+  color: #000;
   padding-top: 11px;
 }
 
@@ -256,13 +249,13 @@ TR.footertop {
   font-size: 11px;
 }
 
-TD.footertop, TD.footerbottom {
+td.footertop, td.footerbottom {
   padding: 5px;
 }
 
 /*miscellaneous areas
 -------------------------------------*/
-TD.cartBox {
+td.cartBox {
    background: #eff4f8;
    font-size: 10px;
    padding: 3px;
@@ -277,7 +270,7 @@ TR.productListing-even, TR.upcomingProducts-even, .productsNotifications {
   background: #eff4f8;
 }
 
-TD.productListing-data-description-odd {
+td.productListing-data-description-odd {
   background: #ffffff;
   font-size: 10px;
   padding-left: 10px;
@@ -286,7 +279,7 @@ TD.productListing-data-description-odd {
   border-bottom: 1px solid #9a9a9a;
 }
 
-TD.productListing-data-description-even {
+td.productListing-data-description-even {
   background: #eff4f8;
   font-size: 10px;
   padding-left: 10px;
@@ -308,16 +301,16 @@ SPAN.newItemInCart {
   font-weight: bold;
 }
 
-TD.smallText, SPAN.smallText, P.smallText, td.pageresults{
+td.smallText, SPAN.smallText, P.smallText, td.pageresults{
    font-size: 10px;
 }
 
-TD.fieldKey {
+td.fieldKey {
   font-size: 12px;
   font-weight: bold;
 }
 
-TD.fieldValue {
+td.fieldValue {
   font-size: 12px;
 }
 
@@ -380,19 +373,19 @@ SPAN.productPriceDiscount, .inputRequirement {
 .messageStackCaution { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #ffff00; }
 
 /* checkout totals */
-TD.ot-subtotal-Text, TD.ot-cod-fee-Text, TD.ot-total-Text, TD.ot-group-pricing-Text, TD.ot-gv-Text, TD.ot-loworderfee-Text, TD.ot-shipping-Text, TD.ot-subtotal-Text, TD.ot-tax-Text, TD.ot-coupon-Text {
+td.ot-subtotal-Text, td.ot-cod-fee-Text, td.ot-total-Text, td.ot-group-pricing-Text, td.ot-gv-Text, td.ot-loworderfee-Text, td.ot-shipping-Text, td.ot-subtotal-Text, td.ot-tax-Text, td.ot-coupon-Text {
   font-weight: bold;
 }
-TD.ot-total-Amount {
+td.ot-total-Amount {
   font-weight: bold;
   border-top: 1px solid #9a9a9a;
 }
-TD.ot-subtotal-Amount, TD.ot-cod-fee-Amount, TD.ot-group-pricing-Amount, TD.ot-gv-Amount, TD.ot-loworderfee-Amount, TD.ot-shipping-Amount, TD.ot-subtotal-Amount, TD.ot-tax-Amount, TD.ot-coupon-Amount {}
+td.ot-subtotal-Amount, td.ot-cod-fee-Amount, td.ot-group-pricing-Amount, td.ot-gv-Amount, td.ot-loworderfee-Amount, td.ot-shipping-Amount, td.ot-subtotal-Amount, td.ot-tax-Amount, td.ot-coupon-Amount {}
 
 
 /* product_info attribute comments */
 
-.ProductInfoComments, TD.ProductInfoComments, SPAN.ProductInfoComments {
+.ProductInfoComments, td.ProductInfoComments, SPAN.ProductInfoComments {
   color: #ff0000;
   font-size: 10px;
   text-align : left;
@@ -403,13 +396,13 @@ TD.ot-subtotal-Amount, TD.ot-cod-fee-Amount, TD.ot-group-pricing-Amount, TD.ot-g
 }
 
 /* General alert span class */
-/*TD.alert, SPAN.alert {
+/*td.alert, SPAN.alert {
   color: #FF0000;
   font-weight: bold;
 }*/
 
 /* General alert span class */
-TD.alertBlack, SPAN.alertBlack {
+td.alertBlack, SPAN.alertBlack {
   color: #000000;
   font-weight: bold;
 }
@@ -430,7 +423,7 @@ TABLE.categoriesdescription {
   border:1px solid #9a9a9a;
 }
 
-TD.categoriesdescription {
+td.categoriesdescription {
   font-size: 11px;
   line-height: 1.0;
 }
@@ -483,4 +476,10 @@ h4, h5, h6, LABEL, h4.optionName, LEGEND, ADDRESS, .sideBoxContent, .larger {
 font-size:1em;
 }
 
-textarea,input,select,radio {font-size:inherit;}
+input[type=text],input[type=password],textarea {
+border:1px solid #abadb3;
+}
+
+input,textarea,select {
+font:inherit;
+}

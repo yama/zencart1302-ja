@@ -10,7 +10,6 @@
 
 body {
 	margin: 0;
-	font-family: verdana, arial, helvetica, sans-serif;
 	/*font-size: 62.5%;*/
 	color: #000000;
 }
@@ -50,7 +49,7 @@ h4, h5, h6, LABEL, h4.optionName, LEGEND, ADDRESS, .sideBoxContent, .larger{
 }
 
 .biggerText {
-	font-size: 1.1em;
+	font-size: 1.2em;
 	}
 
 h1, h2, h3, h4, h5, h6 {
@@ -266,7 +265,6 @@ HR {
 	}
 #navBreadCrumb, #navEZPagesTop {
 	font-size: 0.95em;
-	font-weight: bold;
 	margin: 0em;
 	padding: 0.5em;
 	}
@@ -316,7 +314,7 @@ HR {
 	float: right;
 	text-align: center;
 	margin: 1em;
-	border: 1px solid #000000;
+	border: 1px solid #999;
 	padding: 1em;
 	}
 
