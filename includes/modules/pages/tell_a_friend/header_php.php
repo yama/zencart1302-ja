@@ -8,6 +8,7 @@
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: header_php.php 3000 2006-02-09 21:11:37Z wilt $
  */
+exit;
 
 //
 if (!$_SESSION['customer_id'] && (ALLOW_GUEST_TO_TELL_A_FRIEND == 'false')) {
