@@ -114,7 +114,7 @@ gromit
 grub-client
 gulliver
 gulperbot
-h‰m‰h‰kki
+h√§m√§h√§kki
 hambot
 harvest
 henrythemiragorobot

@@ -19,17 +19,17 @@
 // +----------------------------------------------------------------------+
 
 //
-// ÇÛÁ÷¥â¥¸¥å¡¼¥ë º´ÀîµŞÊØ
+// é…é€ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« ä½å·æ€¥ä¾¿
 // TAMURA Toshihiko (tamura@bitscope.co.jp)
 // 2004/02/27 modified for ZenCart by HISASUE Takahiro ( hisa@flatz.jp )
 //
-// [´ØÏ¢¥Õ¥¡¥¤¥ë]
+// [é–¢é€£ãƒ•ã‚¡ã‚¤ãƒ«]
 // catalog/includes/modules/shipping/sagawaex.php
 // catalog/includes/classes/_sagawaex.php
 // catalog/includes/languages/japanese/modules/shipping/sagawaex.php
 // catalog/images/icons/shipping_sagawaex.gif
 //
-// [»²¾È]
+// [å‚ç…§]
 // http://www.sagawa-exp.co.jp/business/budjetserch-j.html
 //
   class sagawaex {
@@ -95,7 +95,7 @@
           $a_zonevalues = $zoneinfo->fields;
           $s_zone_code = $a_zonevalues['zone_code'];
 
-          // Á÷ÎÁ¤¬¾ò·ï¤Ë¤è¤Ã¤ÆÌµÎÁ¤Ë¤Ê¤Ã¤Æ¤·¤Ş¤¦(¤³¤³¤Ç¤Ïtotal¤Ç¤Ï¤Ê¤¯subtotal¤ò³ÎÇ§¤¹¤Ù¤­)
+          // é€æ–™ãŒæ¡ä»¶ã«ã‚ˆã£ã¦ç„¡æ–™ã«ãªã£ã¦ã—ã¾ã†(ã“ã“ã§ã¯totalã§ã¯ãªãsubtotalã‚’ç¢ºèªã™ã¹ã)
           if ( (MODULE_SHIPPING_SAGAWAEX_FREE_SHIPPING != 'True') || ((int)$order->info['subtotal'] < (int)MODULE_SHIPPING_SAGAWAEX_OVER) ) {
               include_once(DIR_WS_CLASSES . '_sagawaex.php');
               $rate = new _SagawaEx($this->code, MODULE_SHIPPING_SAGAWAEX_TEXT_WAY_NORMAL,
@@ -112,11 +112,11 @@
                       . ' (' . $shipping_num_boxes . ' x ' . $shipping_weight . 'kg)';
 
                   $tmpQuote['cost'] *= $shipping_num_boxes;
-                  // Á÷ÎÁ¥Ç¥£¥¹¥«¥¦¥ó¥È
+                  // é€æ–™ãƒ‡ã‚£ã‚¹ã‚«ã‚¦ãƒ³ãƒˆ
                   if (defined('MODULE_SHIPPING_SAGAWAEX_DISCOUNT') && 0 < (int)MODULE_SHIPPING_SAGAWAEX_DISCOUNT) {
                       $tmpQuote['cost'] -= (int)($tmpQuote['cost'] * MODULE_SHIPPING_SAGAWAEX_DISCOUNT / 100);
                   }
-                  // ¼ê¿ôÎÁ
+                  // æ‰‹æ•°æ–™
                   $tmpQuote['cost'] += MODULE_SHIPPING_SAGAWAEX_HANDLING;
               }
           } else {
@@ -124,7 +124,7 @@
           }
 
           if (!isset($tmpQuote['error'])) {
-              // ÇÛÁ÷»ş¹ï»ØÄê
+              // é…é€æ™‚åˆ»æŒ‡å®š
               $timespec = $this->get_timespec();
               $tmpQuote['option'] = TEXT_TIME_SPECIFY
                   . zen_draw_pull_down_menu('sagawaex_timespec', $a_sagawaex_time, $timespec);
@@ -142,7 +142,7 @@
         return $this->quotes;
     }
 
-    // »ş¹ï¤ò»ØÄê¤¹¤ë¥×¥ë¥À¥¦¥ó¥á¥Ë¥å¡¼¤Î'value'¤òÊÖ¤¹
+    // æ™‚åˆ»ã‚’æŒ‡å®šã™ã‚‹ãƒ—ãƒ«ãƒ€ã‚¦ãƒ³ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®'value'ã‚’è¿”ã™
     function get_timespec() {
         global $a_sagawaex_time;
         global $shipping;
@@ -172,21 +172,21 @@
     function install() {
 			global $db;
       $db->Execute("insert into " . TABLE_CONFIGURATION .
-      " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('º´ÀîµŞÊØ¤ÎÇÛÁ÷¤òÍ­¸ú¤Ë¤¹¤ë', 'MODULE_SHIPPING_SAGAWAEX_STATUS', 'True', 'º´ÀîµŞÊØ¤ÎÇÛÁ÷¤òÄó¶¡¤·¤Ş¤¹¤«?', '6', '0', 'zen_cfg_select_option(array(\'True\', \'False\'), ', now())");
+      " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('ä½å·æ€¥ä¾¿ã®é…é€ã‚’æœ‰åŠ¹ã«ã™ã‚‹', 'MODULE_SHIPPING_SAGAWAEX_STATUS', 'True', 'ä½å·æ€¥ä¾¿ã®é…é€ã‚’æä¾›ã—ã¾ã™ã‹?', '6', '0', 'zen_cfg_select_option(array(\'True\', \'False\'), ', now())");
 
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('¼è°·¤¤¼ê¿ôÎÁ', 'MODULE_SHIPPING_SAGAWAEX_HANDLING', '0', 'Á÷ÎÁ¤ËÅ¬ÍÑ¤¹¤ë¼è°·¼ê¿ôÎÁ¤òÀßÄê¤Ç¤­¤Ş¤¹.', '6', '1', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('å–æ‰±ã„æ‰‹æ•°æ–™', 'MODULE_SHIPPING_SAGAWAEX_HANDLING', '0', 'é€æ–™ã«é©ç”¨ã™ã‚‹å–æ‰±æ‰‹æ•°æ–™ã‚’è¨­å®šã§ãã¾ã™.', '6', '1', now())");
 
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('Á÷ÎÁÌµÎÁÀßÄê', 'MODULE_SHIPPING_SAGAWAEX_FREE_SHIPPING', 'False', 'Á÷ÎÁÌµÎÁÀßÄê¤òÍ­¸ú¤Ë¤·¤Ş¤¹¤«? [¹ç·×¥â¥¸¥å¡¼¥ë]-[Á÷ÎÁ]-[Á÷ÎÁÌµÎÁÀßÄê]¤òÍ¥Àè¤¹¤ë¾ì¹ç¤Ï False ¤òÁª¤ó¤Ç¤¯¤À¤µ¤¤.', '6', '2', 'zen_cfg_select_option(array(\'True\', \'False\'), ', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('é€æ–™ç„¡æ–™è¨­å®š', 'MODULE_SHIPPING_SAGAWAEX_FREE_SHIPPING', 'False', 'é€æ–™ç„¡æ–™è¨­å®šã‚’æœ‰åŠ¹ã«ã—ã¾ã™ã‹? [åˆè¨ˆãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«]-[é€æ–™]-[é€æ–™ç„¡æ–™è¨­å®š]ã‚’å„ªå…ˆã™ã‚‹å ´åˆã¯ False ã‚’é¸ã‚“ã§ãã ã•ã„.', '6', '2', 'zen_cfg_select_option(array(\'True\', \'False\'), ', now())");
 
-      $db->Execute("INSERT INTO " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) VALUES ('Á÷ÎÁ¤òÌµÎÁ¤Ë¤¹¤ë¹ØÆş¶â³ÛÀßÄê', 'MODULE_SHIPPING_SAGAWAEX_OVER', '5000', 'ÀßÄê¶â³Û°Ê¾å¤ò¤´¹ØÆş¤Î¾ì¹ç¤ÏÁ÷ÎÁ¤òÌµÎÁ¤Ë¤·¤Ş¤¹.', '6', '3', now())");
+      $db->Execute("INSERT INTO " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) VALUES ('é€æ–™ã‚’ç„¡æ–™ã«ã™ã‚‹è³¼å…¥é‡‘é¡è¨­å®š', 'MODULE_SHIPPING_SAGAWAEX_OVER', '5000', 'è¨­å®šé‡‘é¡ä»¥ä¸Šã‚’ã”è³¼å…¥ã®å ´åˆã¯é€æ–™ã‚’ç„¡æ–™ã«ã—ã¾ã™.', '6', '3', now())");
 
-      $db->Execute("INSERT INTO " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) VALUES ('Á÷ÎÁ¤ÎÃÍ°úÎ¨', 'MODULE_SHIPPING_SAGAWAEX_DISCOUNT', '0', 'Á÷ÎÁ¤ÎÃÍ°úÎ¨¤ò»ØÄê¤·¤Ş¤¹.(¡ó)', '6', '4', now())");
+      $db->Execute("INSERT INTO " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) VALUES ('é€æ–™ã®å€¤å¼•ç‡', 'MODULE_SHIPPING_SAGAWAEX_DISCOUNT', '0', 'é€æ–™ã®å€¤å¼•ç‡ã‚’æŒ‡å®šã—ã¾ã™.(ï¼…)', '6', '4', now())");
 
-//    $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, use_function, set_function, date_added) values ('ÀÇ¼ïÊÌ', 'MODULE_SHIPPING_SAGAWAEX_TAX_CLASS', '0', 'ÇÛÁ÷ÎÁ¶â¤ËÅ¬ÍÑ¤µ¤ì¤ëÀÇ¼ïÊÌ¤òÁª¤ó¤Ç¤¯¤À¤µ¤¤.', '6', '3', 'zen_get_tax_class_title', 'zen_cfg_pull_down_tax_classes(', now())");
+//    $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, use_function, set_function, date_added) values ('ç¨ç¨®åˆ¥', 'MODULE_SHIPPING_SAGAWAEX_TAX_CLASS', '0', 'é…é€æ–™é‡‘ã«é©ç”¨ã•ã‚Œã‚‹ç¨ç¨®åˆ¥ã‚’é¸ã‚“ã§ãã ã•ã„.', '6', '3', 'zen_get_tax_class_title', 'zen_cfg_pull_down_tax_classes(', now())");
 
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, use_function, set_function, date_added) values ('ÇÛÁ÷ÃÏ°è', 'MODULE_SHIPPING_SAGAWAEX_ZONE', '0', 'ÇÛÁ÷ÃÏ°è¤òÁªÂò¤¹¤ë¤ÈÁªÂò¤µ¤ì¤¿ÃÏ°è¤Î¤ß¤ÇÍøÍÑ²ÄÇ½¤È¤Ê¤ê¤Ş¤¹.', '6', '5', 'zen_get_zone_class_title', 'zen_cfg_pull_down_zone_classes(', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, use_function, set_function, date_added) values ('é…é€åœ°åŸŸ', 'MODULE_SHIPPING_SAGAWAEX_ZONE', '0', 'é…é€åœ°åŸŸã‚’é¸æŠã™ã‚‹ã¨é¸æŠã•ã‚ŒãŸåœ°åŸŸã®ã¿ã§åˆ©ç”¨å¯èƒ½ã¨ãªã‚Šã¾ã™.', '6', '5', 'zen_get_zone_class_title', 'zen_cfg_pull_down_zone_classes(', now())");
 
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('É½¼¨¤ÎÀ°Îó½ç', 'MODULE_SHIPPING_SAGAWAEX_SORT_ORDER', '0', 'É½¼¨¤ÎÀ°Îó½ç¤òÀßÄê¤Ç¤­¤Ş¤¹. ¿ô»ú¤¬¾®¤µ¤¤¤Û¤É¾å°Ì¤ËÉ½¼¨¤µ¤ì¤Ş¤¹.', '6', '6', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('è¡¨ç¤ºã®æ•´åˆ—é †', 'MODULE_SHIPPING_SAGAWAEX_SORT_ORDER', '0', 'è¡¨ç¤ºã®æ•´åˆ—é †ã‚’è¨­å®šã§ãã¾ã™. æ•°å­—ãŒå°ã•ã„ã»ã©ä¸Šä½ã«è¡¨ç¤ºã•ã‚Œã¾ã™.', '6', '6', now())");
     }
 
     function remove() {

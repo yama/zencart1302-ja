@@ -19,103 +19,103 @@
 // +----------------------------------------------------------------------+
 // $Id$
 // 
-// »ÙÊ§¤¤¥â¥¸¥å¡¼¥ë ¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È
+// æ”¯æ‰•ã„ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆ
 //
-// ºî¼Ô
-// Í­¸Â²ñ¼Ò¥Ó¥Ã¥°¥Ş¥¦¥¹¡¡º´¡¹ÌÚ¡¡¹ä¼£
+// ä½œè€…
+// æœ‰é™ä¼šç¤¾ãƒ“ãƒƒã‚°ãƒã‚¦ã‚¹ã€€ä½ã€…æœ¨ã€€å‰›æ²»
 // sasaki@bigmouse.jp
 // http://www.bigmouse.jp
 //
 // 
-// ¹¹¿·ÍúÎò
+// æ›´æ–°å±¥æ­´
 // 2005/03/21
-// ¡¦ºÇÄãÅ¬ÍÑ¶â³Û¤òÀßÄê¤Ç¤­¤ë¤è¤¦¤Ë¤·¤Ş¤·¤¿¡£
+// ãƒ»æœ€ä½é©ç”¨é‡‘é¡ã‚’è¨­å®šã§ãã‚‹ã‚ˆã†ã«ã—ã¾ã—ãŸã€‚
 // 
 // 
-// ¥Ñ¥Ã¥±¡¼¥¸¤ÎÆâÍÆ ----------------------------------------------------
+// ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã®å†…å®¹ ----------------------------------------------------
 // 
-// ¡¦¥¯¥í¥Í¥³@¥Ú¥¤¥á¥ó¥È¥â¥¸¥å¡¼¥ë¥¯¥é¥¹¥Õ¥¡¥¤¥ë
+// ãƒ»ã‚¯ãƒ­ãƒã‚³@ãƒšã‚¤ãƒ¡ãƒ³ãƒˆãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚¯ãƒ©ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«
 // includes/modules/payment/kuroneko_at_payment.php
 // 
-// ¡¦¥¯¥í¥Í¥³@¥Ú¥¤¥á¥ó¥È¥â¥¸¥å¡¼¥ë¸À¸ì¥Õ¥¡¥¤¥ë¡Êjapanese¡Ë
+// ãƒ»ã‚¯ãƒ­ãƒã‚³@ãƒšã‚¤ãƒ¡ãƒ³ãƒˆãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«è¨€èªãƒ•ã‚¡ã‚¤ãƒ«ï¼ˆjapaneseï¼‰
 // includes/languages/japanese/modules/payment/kuroneko_at_payment.php
 // 
-// ¡¦¥¯¥í¥Í¥³@¥Ú¥¤¥á¥ó¥È¥ê¥ó¥¯¥Ü¥¿¥ó²èÁü¥Õ¥¡¥¤¥ë¡Êjapanese¡Ë
+// ãƒ»ã‚¯ãƒ­ãƒã‚³@ãƒšã‚¤ãƒ¡ãƒ³ãƒˆãƒªãƒ³ã‚¯ãƒœã‚¿ãƒ³ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«ï¼ˆjapaneseï¼‰
 // includes/templates/template_default/buttons/japanese/button_kuroneko_at_payment.gif
 // 
-// ¡¦tpl_checkout_success_default.php¥Æ¥ó¥×¥ì¡¼¥È¥Õ¥¡¥¤¥ë½¤ÀµÎã
+// ãƒ»tpl_checkout_success_default.phpãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ä¿®æ­£ä¾‹
 // includes/templates/template_default/templates/tpl_checkout_success_default.php
-// ¡¡$,1s;(B23¹ÔÌÜ¤Ë < ?php if (isset($_SESSION['kuroneko_at_payment'])) echo $_SESSION['kuroneko_at_payment']['box']; ? >¡¡¤òÁŞÆş
+// ã€€$,1s;(B23è¡Œç›®ã« < ?php if (isset($_SESSION['kuroneko_at_payment'])) echo $_SESSION['kuroneko_at_payment']['box']; ? >ã€€ã‚’æŒ¿å…¥
 // 
 // ----------------------------------------------------------------------
 // 
 // 
-// ÃíÊ¸³ÎÇ§¸å¡¢$_SESSION['kuroneko_at_payment']¡¡¤Ë¥ê¥ó¥¯¥Ü¥¿¥ó¤ÎHTML¥½¡¼¥¹¤¬
-// ÇÛÎó¤ÇÂåÆş¤µ¤ì¤Ş¤¹¡£
+// æ³¨æ–‡ç¢ºèªå¾Œã€$_SESSION['kuroneko_at_payment']ã€€ã«ãƒªãƒ³ã‚¯ãƒœã‚¿ãƒ³ã®HTMLã‚½ãƒ¼ã‚¹ãŒ
+// é…åˆ—ã§ä»£å…¥ã•ã‚Œã¾ã™ã€‚
 // 
-// ÇÛÎó¤ÎÆâÍÆ
-// $_SESSION['kuroneko_at_payment']['link_button'] ¡¡¥ê¥ó¥¯¥Ü¥¿¥ó¤Î¤ß¤Îhtml¥½¡¼¥¹
-// $_SESSION['kuroneko_at_payment']['text_urge']¡¡·èºÑ¼êÂ³¤­¤ØÂ¥¤¹Ê¸¾Ï¤Îhtml¥½¡¼¥¹
-// $_SESSION['kuroneko_at_payment']['box']¡¡¾åµ­£²¤Ä¤ò´Ş¤àplainBox¤Îhtml¥½¡¼¥¹
+// é…åˆ—ã®å†…å®¹
+// $_SESSION['kuroneko_at_payment']['link_button'] ã€€ãƒªãƒ³ã‚¯ãƒœã‚¿ãƒ³ã®ã¿ã®htmlã‚½ãƒ¼ã‚¹
+// $_SESSION['kuroneko_at_payment']['text_urge']ã€€æ±ºæ¸ˆæ‰‹ç¶šãã¸ä¿ƒã™æ–‡ç« ã®htmlã‚½ãƒ¼ã‚¹
+// $_SESSION['kuroneko_at_payment']['box']ã€€ä¸Šè¨˜ï¼’ã¤ã‚’å«ã‚€plainBoxã®htmlã‚½ãƒ¼ã‚¹
 // 
-// includes/templates/template_default/templates/tpl_checkout_success_default.php¡¡Æâ¤Ç
-// É¬Í×¤Ê¥½¡¼¥¹¤òecho¤¹¤ë
+// includes/templates/template_default/templates/tpl_checkout_success_default.phpã€€å†…ã§
+// å¿…è¦ãªã‚½ãƒ¼ã‚¹ã‚’echoã™ã‚‹
 // 
-// Îã¡Ë¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È·èºÑ¤Ø¤Î¥Ü¥Ã¥¯¥¹¤ÎÉ½¼¨
+// ä¾‹ï¼‰ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆæ±ºæ¸ˆã¸ã®ãƒœãƒƒã‚¯ã‚¹ã®è¡¨ç¤º
 // < ?php if (isset($_SESSION['kuroneko_at_payment'])) echo $_SESSION['kuroneko_at_payment']['box'];  ? >
 // 
 // ----------------------------------------------------------------------
 // 
 // 
 // 
-// ¥â¥¸¥å¡¼¥ëÀßÄê -------------------------------------------------------
+// ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«è¨­å®š -------------------------------------------------------
 // 
-// ¡¦¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È¥â¥¸¥å¡¼¥ë¤òÍ­¸ú¤Ë¤¹¤ë
-// ¡¡¡¡True¡¡¡¦¡¦¡¦ Í­¸ú
-// ¡¡¡¡False ¡¦¡¦¡¦ Ìµ¸ú
-// ¡¡¡¡¥Ç¥Õ¥©¥ë¥ÈÃÍ¡¡True
+// ãƒ»ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’æœ‰åŠ¹ã«ã™ã‚‹
+// ã€€ã€€Trueã€€ãƒ»ãƒ»ãƒ» æœ‰åŠ¹
+// ã€€ã€€False ãƒ»ãƒ»ãƒ» ç„¡åŠ¹
+// ã€€ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ã€€True
 // 
-// ¡¦ËÜÈÖ¥Ú¡¼¥¸¤Ø¤ÎÀÚÂØ¤¨
-// ¡¡¡¡True¡¡¡¦¡¦¡¦ ËÜÅö¤Î·èºÑ¥Ú¡¼¥¸¤Ø¤Ä¤Ê¤¬¤ê¤Ş¤¹¡£
-// ¡¡¡¡False ¡¦¡¦¡¦ Æ°ºî¥Æ¥¹¥ÈÍÑ¤Î¥Ú¡¼¥¸¤Ë¤Ä¤Ê¤¬¤ê¤Ş¤¹¡£
-// ¡¡¡¡$,1s;(B ËÜÈÖ²ÔÆ°¤ÎÁ°¤ËÆ°ºî¥Æ¥¹¥ÈÍÑ¤Î¥Ú¡¼¥¸¤Ç½½Ê¬¥Æ¥¹¥È¤·¤Æ¤¯¤À¤µ¤¤¡£
-// ¡¡¡¡¥Ç¥Õ¥©¥ë¥ÈÃÍ¡¡False
+// ãƒ»æœ¬ç•ªãƒšãƒ¼ã‚¸ã¸ã®åˆ‡æ›¿ãˆ
+// ã€€ã€€Trueã€€ãƒ»ãƒ»ãƒ» æœ¬å½“ã®æ±ºæ¸ˆãƒšãƒ¼ã‚¸ã¸ã¤ãªãŒã‚Šã¾ã™ã€‚
+// ã€€ã€€False ãƒ»ãƒ»ãƒ» å‹•ä½œãƒ†ã‚¹ãƒˆç”¨ã®ãƒšãƒ¼ã‚¸ã«ã¤ãªãŒã‚Šã¾ã™ã€‚
+// ã€€ã€€$,1s;(B æœ¬ç•ªç¨¼å‹•ã®å‰ã«å‹•ä½œãƒ†ã‚¹ãƒˆç”¨ã®ãƒšãƒ¼ã‚¸ã§ååˆ†ãƒ†ã‚¹ãƒˆã—ã¦ãã ã•ã„ã€‚
+// ã€€ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ã€€False
 // 
-// ¡¦²ÃÌÁÅ¹¥³¡¼¥É
-// ¡¡¡¡²ÃÌÁÅ¹¥³¡¼¥É¤òÈ¾³Ñ¿ô»ú¤ÇÆşÎÏ¤·¤Ş¤¹¡£
-// ¡¡¡¡¥Ç¥Õ¥©¥ë¥ÈÃÍ¡¡¶õÍó
+// ãƒ»åŠ ç›Ÿåº—ã‚³ãƒ¼ãƒ‰
+// ã€€ã€€åŠ ç›Ÿåº—ã‚³ãƒ¼ãƒ‰ã‚’åŠè§’æ•°å­—ã§å…¥åŠ›ã—ã¾ã™ã€‚
+// ã€€ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ã€€ç©ºæ¬„
 // 
-// ¡¦ºÇÄã¶â³Û
-// ¡¡¡¡¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È¤òÅ¬ÍÑ¤¹¤ëºÇÄã¶â³Û¤òÆşÎÏ¤·¤Ş¤¹¡£
-// ¡¡¡¡ÆâÀÇ³°ÀÇ¤Î·×»»¤Ë´Ø·¸¤Ê¤¯¥«¡¼¥È¤Î¾®·×¤¬ÆşÎÏ¤·¤¿¶â³Û°Ê¾å¤Ç
-// ¡¡¡¡É½¼¨¤µ¤ì¤Ş¤¹¡£
-// ¡¡¡¡¥Ç¥Õ¥©¥ë¥ÈÃÍ¡¡0
+// ãƒ»æœ€ä½é‡‘é¡
+// ã€€ã€€ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆã‚’é©ç”¨ã™ã‚‹æœ€ä½é‡‘é¡ã‚’å…¥åŠ›ã—ã¾ã™ã€‚
+// ã€€ã€€å†…ç¨å¤–ç¨ã®è¨ˆç®—ã«é–¢ä¿‚ãªãã‚«ãƒ¼ãƒˆã®å°è¨ˆãŒå…¥åŠ›ã—ãŸé‡‘é¡ä»¥ä¸Šã§
+// ã€€ã€€è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
+// ã€€ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ã€€0
 // 
-// ¡¦Á÷¿®ÀèURL
-// ¡¡¡¡¥ê¥ó¥¯¥Ü¥¿¥ó¡Ê¥Õ¥©¡¼¥à¡Ë¤ÎÁ÷¿®Àè¤ÎURL¤òÆşÎÏ¤·¤Ş¤¹¡£
-// ¡¡¡¡¥Ç¥Õ¥©¥ë¥ÈÃÍ¡¡https://payment.kuronekoyamato.co.jp/kuroneko/servlet/YCS_ServletC
+// ãƒ»é€ä¿¡å…ˆURL
+// ã€€ã€€ãƒªãƒ³ã‚¯ãƒœã‚¿ãƒ³ï¼ˆãƒ•ã‚©ãƒ¼ãƒ ï¼‰ã®é€ä¿¡å…ˆã®URLã‚’å…¥åŠ›ã—ã¾ã™ã€‚
+// ã€€ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ã€€https://payment.kuronekoyamato.co.jp/kuroneko/servlet/YCS_ServletC
 // 
-// ¡¦¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È¥ê¥ó¥¯¥Ğ¥Ê¡¼
-// ¡¡¡¡¤ª»ÙÊ§¤¤ÊıË¡ÁªÂò¥Ú¡¼¥¸¤Ç¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È¤ÎÀâÌÀ¥Ú¡¼¥¸¤Ø¤Î¥ê¥ó¥¯¥Ğ¥Ê¡¼¤Î¥½¡¼¥¹¤ò
-// ¡¡¡¡ÆşÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£¥ê¥ó¥¯¥Ğ¥Ê¡¼¤Î¥½¡¼¥¹¤Ï¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È¤ÎWEB¥µ¥¤¥È¤«¤éÆş¼ê
-// ¡¡¡¡½ĞÍè¤Ş¤¹¡£
-// ¡¡¡¡¥Ç¥Õ¥©¥ë¥ÈÃÍ¡¡<a href="http://payment.kuronekoyamato.co.jp/help/hanbai/card.html" target="_blank"><img src=http://payment.kuronekoyamato.co.jp/help/images/payment04.gif width="50" height="50" border="0" alt="¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È"></a>
+// ãƒ»ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆãƒªãƒ³ã‚¯ãƒãƒŠãƒ¼
+// ã€€ã€€ãŠæ”¯æ‰•ã„æ–¹æ³•é¸æŠãƒšãƒ¼ã‚¸ã§ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆã®èª¬æ˜ãƒšãƒ¼ã‚¸ã¸ã®ãƒªãƒ³ã‚¯ãƒãƒŠãƒ¼ã®ã‚½ãƒ¼ã‚¹ã‚’
+// ã€€ã€€å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚ãƒªãƒ³ã‚¯ãƒãƒŠãƒ¼ã®ã‚½ãƒ¼ã‚¹ã¯ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆã®WEBã‚µã‚¤ãƒˆã‹ã‚‰å…¥æ‰‹
+// ã€€ã€€å‡ºæ¥ã¾ã™ã€‚
+// ã€€ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ã€€<a href="http://payment.kuronekoyamato.co.jp/help/hanbai/card.html" target="_blank"><img src=http://payment.kuronekoyamato.co.jp/help/images/payment04.gif width="50" height="50" border="0" alt="ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆ"></a>
 // 
-// ¡¦Å¬ÍÑÃÏ°è
-// ¡¡¡¡ÆüËÜ°Ê³°¤ÎÃÏ°è¤¬ÁªÂò²ÄÇ½¤Ë¤Ê¤Ã¤Æ¤¤¤Ş¤¹¤¬É¬¤ºÆüËÜ¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤¡£
-// ¡¡¡¡¥Ç¥Õ¥©¥ë¥ÈÃÍ¡¡ÆüËÜ
+// ãƒ»é©ç”¨åœ°åŸŸ
+// ã€€ã€€æ—¥æœ¬ä»¥å¤–ã®åœ°åŸŸãŒé¸æŠå¯èƒ½ã«ãªã£ã¦ã„ã¾ã™ãŒå¿…ãšæ—¥æœ¬ã‚’é¸æŠã—ã¦ãã ã•ã„ã€‚
+// ã€€ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ã€€æ—¥æœ¬
 // 
-// ¡¦½é´üÃíÊ¸¥¹¥Æ¡¼¥¿¥¹
-// ¡¡¡¡ÃíÊ¸³ÎÇ§´°Î»¸å¤ÎÃíÊ¸¥¹¥Æ¡¼¥¿¥¹¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤¡£
-// ¡¡¡¡¥Ç¥Õ¥©¥ë¥ÈÃÍ¡¡¥Ç¥Õ¥©¥ë¥È
+// ãƒ»åˆæœŸæ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹
+// ã€€ã€€æ³¨æ–‡ç¢ºèªå®Œäº†å¾Œã®æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã‚’é¸æŠã—ã¦ãã ã•ã„ã€‚
+// ã€€ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ
 // 
-// ¡¦É½¼¨¤ÎÀ°Îó½ç
-// ¡¡¡¡¤ª»ÙÊ§¤¤ÊıË¡ÁªÂò¥Ú¡¼¥¸¤Ç¤ÎÉ½¼¨¤ÎÀ°Îó½ç¤òÀßÄê¤Ç¤­¤Ş¤¹¡£¿ô»ú¤¬¾®¤µ¤¤¤Û¤É¾å°Ì¤ËÉ½¼¨¤µ¤ì¤Ş¤¹¡£
-// ¡¡¡¡¥Ç¥Õ¥©¥ë¥ÈÃÍ¡¡0
+// ãƒ»è¡¨ç¤ºã®æ•´åˆ—é †
+// ã€€ã€€ãŠæ”¯æ‰•ã„æ–¹æ³•é¸æŠãƒšãƒ¼ã‚¸ã§ã®è¡¨ç¤ºã®æ•´åˆ—é †ã‚’è¨­å®šã§ãã¾ã™ã€‚æ•°å­—ãŒå°ã•ã„ã»ã©ä¸Šä½ã«è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
+// ã€€ã€€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå€¤ã€€0
 // 
 // ----------------------------------------------------------------------
 //
-// [»²¾È]
+// [å‚ç…§]
 // http://www.zen-cart.jp/bbs/7/tree.php?all=126
 // http://www.zen-cart.jp/bbs/7/tree.php?all=166
 // http://www.zen-cart.jp/bbs/7/tree.php?all=230
@@ -290,15 +290,15 @@
 
     function install() {
       global $db;
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È¥â¥¸¥å¡¼¥ë¤òÍ­¸ú¤Ë¤¹¤ë', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_STATUS', 'True', '¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È¤ò¼õ¤±ÉÕ¤±¤Ş¤¹¤«¡©', '6', '1', 'zen_cfg_select_option(array(\'True\', \'False\'), ', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('ËÜÈÖ¥Ú¡¼¥¸¤Ø¤ÎÀÚÂØ¤¨', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_NO_TEST', 'False', 'ËÜÈÖ¥Ú¡¼¥¸¤ØÀÚ¤êÂØ¤¨¤Ş¤¹¤«¡©<br />ËÜÈÖ¥Ú¡¼¥¸¤ØÀÚ¤êÂØ¤¨¤Ï¡¢½½Ê¬¤Ë¥Æ¥¹¥È¤ò¤·¤Æ¤«¤é¹Ô¤Ã¤Æ¤¯¤À¤µ¤¤¡£', '6', '2', 'zen_cfg_select_option(array(\'True\', \'False\'), ', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('²ÃÌÁÅ¹¥³¡¼¥É', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TRADER_CODE', '', '²ÃÌÁÅ¹¥³¡¼¥É', '6', '3', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('ºÇÄã¶â³Û', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_MINIMUM_TOTAL_PRICE', '0', '¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È¤òÅ¬ÍÑ¤¹¤ëºÇÄã¶â³Û¤òÆşÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£', '6', '4', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('Á÷¿®ÀèURL', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_ACTION_URL', 'https://payment.kuronekoyamato.co.jp/kuroneko/servlet/YCS_ServletC', '¥ê¥ó¥¯¥Ü¥¿¥ó¤ÎÁ÷¿®Àè¤ÎURL¤ò»ØÄê¤·¤Ş¤¹¡£', '6', '5', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È¥ê¥ó¥¯¥Ğ¥Ê¡¼', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_LINK_BANNER', '<a href=\"http://payment.kuronekoyamato.co.jp/help/hanbai/card.html\" target=\"_blank\"><img src=http://payment.kuronekoyamato.co.jp/help/images/payment04.gif width=\"50\" height=\"50\" border=\"0\" alt=\"¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È\"></a>', '¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È¥ê¥ó¥¯¥Ğ¡¼¥Ê¡¼¤ÎHTML¥½¡¼¥¹¤òÆşÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£', '6', '6', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, use_function, set_function, date_added) values ('Å¬ÍÑÃÏ°è', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_ZONE', '2', 'É¬¤ºÆüËÜ¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤¡£<br />¥¯¥í¥Í¥³¡÷¥Ú¥¤¥á¥ó¥È¤ÏÆüËÜ¹ñ³°¤Ç¤ÏÍøÍÑ¤Ç¤­¤Ş¤»¤ó¡£', '6', '7', 'zen_get_zone_class_title', 'zen_cfg_pull_down_zone_classes(', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('É½¼¨¤ÎÀ°Îó½ç', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_SORT_ORDER', '0', 'É½¼¨¤ÎÀ°Îó½ç¤òÀßÄê¤Ç¤­¤Ş¤¹¡£¿ô»ú¤¬¾®¤µ¤¤¤Û¤É¾å°Ì¤ËÉ½¼¨¤µ¤ì¤Ş¤¹¡£', '6', '8', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, use_function, date_added) values ('½é´üÃíÊ¸¥¹¥Æ¡¼¥¿¥¹', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_ORDER_STATUS_ID', '0', 'ÀßÄê¤·¤¿¥¹¥Æ¡¼¥¿¥¹¤¬¼õÃí»ş¤ËÅ¬ÍÑ¤µ¤ì¤Ş¤¹¡£', '6', '9', 'zen_cfg_pull_down_order_statuses(', 'zen_get_order_status_name', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’æœ‰åŠ¹ã«ã™ã‚‹', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_STATUS', 'True', 'ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆã‚’å—ã‘ä»˜ã‘ã¾ã™ã‹ï¼Ÿ', '6', '1', 'zen_cfg_select_option(array(\'True\', \'False\'), ', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('æœ¬ç•ªãƒšãƒ¼ã‚¸ã¸ã®åˆ‡æ›¿ãˆ', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_NO_TEST', 'False', 'æœ¬ç•ªãƒšãƒ¼ã‚¸ã¸åˆ‡ã‚Šæ›¿ãˆã¾ã™ã‹ï¼Ÿ<br />æœ¬ç•ªãƒšãƒ¼ã‚¸ã¸åˆ‡ã‚Šæ›¿ãˆã¯ã€ååˆ†ã«ãƒ†ã‚¹ãƒˆã‚’ã—ã¦ã‹ã‚‰è¡Œã£ã¦ãã ã•ã„ã€‚', '6', '2', 'zen_cfg_select_option(array(\'True\', \'False\'), ', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('åŠ ç›Ÿåº—ã‚³ãƒ¼ãƒ‰', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TRADER_CODE', '', 'åŠ ç›Ÿåº—ã‚³ãƒ¼ãƒ‰', '6', '3', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('æœ€ä½é‡‘é¡', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_MINIMUM_TOTAL_PRICE', '0', 'ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆã‚’é©ç”¨ã™ã‚‹æœ€ä½é‡‘é¡ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚', '6', '4', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('é€ä¿¡å…ˆURL', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_ACTION_URL', 'https://payment.kuronekoyamato.co.jp/kuroneko/servlet/YCS_ServletC', 'ãƒªãƒ³ã‚¯ãƒœã‚¿ãƒ³ã®é€ä¿¡å…ˆã®URLã‚’æŒ‡å®šã—ã¾ã™ã€‚', '6', '5', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆãƒªãƒ³ã‚¯ãƒãƒŠãƒ¼', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_LINK_BANNER', '<a href=\"http://payment.kuronekoyamato.co.jp/help/hanbai/card.html\" target=\"_blank\"><img src=http://payment.kuronekoyamato.co.jp/help/images/payment04.gif width=\"50\" height=\"50\" border=\"0\" alt=\"ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆ\"></a>', 'ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆãƒªãƒ³ã‚¯ãƒãƒ¼ãƒŠãƒ¼ã®HTMLã‚½ãƒ¼ã‚¹ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚', '6', '6', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, use_function, set_function, date_added) values ('é©ç”¨åœ°åŸŸ', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_ZONE', '2', 'å¿…ãšæ—¥æœ¬ã‚’é¸æŠã—ã¦ãã ã•ã„ã€‚<br />ã‚¯ãƒ­ãƒã‚³ï¼ ãƒšã‚¤ãƒ¡ãƒ³ãƒˆã¯æ—¥æœ¬å›½å¤–ã§ã¯åˆ©ç”¨ã§ãã¾ã›ã‚“ã€‚', '6', '7', 'zen_get_zone_class_title', 'zen_cfg_pull_down_zone_classes(', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('è¡¨ç¤ºã®æ•´åˆ—é †', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_SORT_ORDER', '0', 'è¡¨ç¤ºã®æ•´åˆ—é †ã‚’è¨­å®šã§ãã¾ã™ã€‚æ•°å­—ãŒå°ã•ã„ã»ã©ä¸Šä½ã«è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚', '6', '8', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, use_function, date_added) values ('åˆæœŸæ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹', 'MODULE_PAYMENT_KURONEKO_AT_PAYMENT_ORDER_STATUS_ID', '0', 'è¨­å®šã—ãŸã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ãŒå—æ³¨æ™‚ã«é©ç”¨ã•ã‚Œã¾ã™ã€‚', '6', '9', 'zen_cfg_pull_down_order_statuses(', 'zen_get_order_status_name', now())");
    }
 
     function remove() {

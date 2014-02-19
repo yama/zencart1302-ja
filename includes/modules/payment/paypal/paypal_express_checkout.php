@@ -169,7 +169,7 @@ class paypal_express_checkout {
     $parm .= "&NOSHIPPING=".(($order->content_type=="virtual")?"1":"0");
     $parm .= "&LOCALECODE=".paypal_language_convert($_SESSION['language']);
 
-    // ¡˜…’¿Ë
+    // ÈÄÅ‰ªòÂÖà
     $parm .= "&PAYMENTREQUEST_0_SHIPTONAME=".paypal_esacpe_parm($order->delivery['firstname'].' '.$order->delivery['lastname']);
     $parm .= "&PAYMENTREQUEST_0_SHIPTOSTREET=".paypal_esacpe_parm($order->delivery['street_address']);
     $parm .= "&PAYMENTREQUEST_0_SHIPTOSTREET2=".paypal_esacpe_parm($order->delivery['suburb']);
@@ -179,7 +179,7 @@ class paypal_express_checkout {
     $parm .= "&PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE=".paypal_esacpe_parm($order->delivery['country']['iso_code_2']);
     $parm .= "&PAYMENTREQUEST_0_SHIPTOPHONENUM=".paypal_esacpe_parm($order->delivery['telephone']);
 
-    // ƒÃ≤ﬂ
+    // ÈÄöË≤®
     if (MODULE_PAYMENT_PAYPAL_EC_CURRENCY == 'USER') {
       $amt = paypal_get_ot_total($order, $order_total_modules);
       $currency = $_SESSION['currency'];
@@ -191,7 +191,7 @@ class paypal_express_checkout {
       $amt = paypal_convert_money_string($amt);
     }
 
-    // ∂‚≥€
+    // ÈáëÈ°ç
 //    $tax   = paypal_get_ot_tax($order, $order_total_modules);
     $parm .= "&PAYMENTREQUEST_0_AMT=".$amt;
     $parm .= "&PAYMENTREQUEST_0_CURRENCYCODE=".paypal_esacpe_parm($currency);
@@ -209,7 +209,7 @@ class paypal_express_checkout {
     $parm .= "&L_PAYMENTREQUEST_0_AMT0=".$amt;
     $parm .= "&L_PAYMENTREQUEST_0_QTY0=1";
 
-    // æ¶… æ Û
+    // ÂïÜÂìÅÊÉÖÂ†±
 //    $no = 0;
 //    foreach($order->products as $product) {
 //      $tax   = 0;//$product['final_price']*$product['tax']/100;
@@ -221,7 +221,7 @@ class paypal_express_checkout {
 //    }
 //print str_replace("&", "<br/>", $parm);die;
 
-    // API∏∆§”Ω–§∑
+    // APIÂëº„Å≥Âá∫„Åó
     $resArray = paypal_hash_call($method, $parm);
     $ack      = strtoupper($resArray["ACK"]);
     if ($ack == "SUCCESS") {
@@ -248,7 +248,7 @@ class paypal_express_checkout {
     $method = "GetExpressCheckoutDetails";
     $parm   = "&TOKEN=".$token;
 
-    // API∏∆§”Ω–§∑
+    // APIÂëº„Å≥Âá∫„Åó
     $resArray = paypal_hash_call($method, $parm);
     $ack      = strtoupper($resArray["ACK"]);
     if ($ack != 'SUCCESS') {
@@ -258,7 +258,7 @@ class paypal_express_checkout {
       exit;
     }
 
-    // ƒÃ≤ﬂ
+    // ÈÄöË≤®
     if (MODULE_PAYMENT_PAYPAL_EC_CURRENCY == 'USER') {
       $currency = $_SESSION['currency'];
     }
@@ -273,7 +273,7 @@ class paypal_express_checkout {
             . "&PAYMENTREQUEST_0_AMT=".$resArray["PAYMENTREQUEST_0_AMT"]
             . "&PAYMENTREQUEST_0_CURRENCYCODE=".paypal_esacpe_parm($currency);
 
-    // API∏∆§”Ω–§∑
+    // APIÂëº„Å≥Âá∫„Åó
     $resArray = paypal_hash_call($method, $parm);
     $ack      = strtoupper($resArray["ACK"]);
     if ($ack == 'SUCCESS' || $ack == 'SUCCESSWITHWARNING') {
@@ -296,7 +296,7 @@ class paypal_express_checkout {
     $parm  = "";
     $parm .= "&REFERENCEID=".$billing_agreement_id;
 
-    // ¡˜…’¿Ë
+    // ÈÄÅ‰ªòÂÖà
     $parm .= "&SHIPTONAME=".paypal_esacpe_parm($order->delivery['firstname'].' '.$order->delivery['lastname']);
     $parm .= "&SHIPTOSTREET=".paypal_esacpe_parm($order->delivery['street_address']);
     $parm .= "&SHIPTOSTREET2=".paypal_esacpe_parm($order->delivery['suburb']);
@@ -306,7 +306,7 @@ class paypal_express_checkout {
     $parm .= "&SHIPTOCOUNTRYCODE=".paypal_esacpe_parm($order->delivery['country']['iso_code_2']);
     $parm .= "&SHIPTOPHONENUM=".paypal_esacpe_parm($order->delivery['telephone']);
 
-    // ƒÃ≤ﬂ
+    // ÈÄöË≤®
     if (MODULE_PAYMENT_PAYPAL_EC_CURRENCY == 'USER') {
       $amt = paypal_get_ot_total($order, $order_total_modules);
       $currency = $_SESSION['currency'];
@@ -318,7 +318,7 @@ class paypal_express_checkout {
       $amt = paypal_convert_money_string($amt);
     }
 
-    // ∂‚≥€
+    // ÈáëÈ°ç
 //    $tax   = paypal_get_ot_tax($order, $order_total_modules);
     $parm .= "&AMT=".$amt;
     $parm .= "&CURRENCYCODE=".paypal_esacpe_parm($currency);
@@ -333,7 +333,7 @@ class paypal_express_checkout {
     $parm .= "&L_PAYMENTREQUEST_0_AMT0=".$amt;
     $parm .= "&L_PAYMENTREQUEST_0_QTY0=1";
 
-    // æ¶… æ Û
+    // ÂïÜÂìÅÊÉÖÂ†±
 //    $no = 0;
 //    foreach($order->products as $product) {
 //      $tax   = 0;//$product['final_price']*$product['tax']/100;
@@ -344,7 +344,7 @@ class paypal_express_checkout {
 //      $no++;
 //    }
 
-    // API∏∆§”Ω–§∑
+    // APIÂëº„Å≥Âá∫„Åó
     $resArray = paypal_hash_call($method, $parm);
     $ack      = strtoupper($resArray["ACK"]);
     if ($ack == "SUCCESS") {

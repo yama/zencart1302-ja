@@ -86,7 +86,7 @@ class paypal extends base {
       $this->order_status = MODULE_PAYMENT_PAYPAL_ORDER_STATUS_ID;
     }
 
-    // �ʲ���UPDATE�ϴ������̤����Ф줿���ܤΤ�ɽ�����뤿�������Ǥ���
+    // 以下のUPDATEは管理画面で選ばれた項目のみ表示するための設定である
     $this->model = NULL;
     if (MODULE_PAYMENT_PAYPAL_SETTLEMENT_TYPE == 'ExpressCheckout') {
       $this->model = new paypal_express_checkout($this->code, $this->title, $this->description, $this->sort_order, $this->enabled);
@@ -262,56 +262,56 @@ class paypal extends base {
     $script = str_replace("'", "\'", $script);
     $script = str_replace('"', '\"', $script);
 
-    define('MODULE_PAYMENT_PAYPAL_TEXT_STATUS',                'PayPal ��ͭ���ˤ���');
-    define('MODULE_PAYMENT_PAYPAL_DESC_STATUS',                'PayPal ��ͭ���ˤ���');
-    define('MODULE_PAYMENT_PAYPAL_TEXT_SETTLEMENT_TYPE',       '����������');
-    define('MODULE_PAYMENT_PAYPAL_DESC_SETTLEMENT_TYPE',       '���������פ����򤷤Ƥ�������'.$script);
-    define('MODULE_PAYMENT_PAYPAL_TEXT_ZONE',                  'Ŭ���ϰ�');
-    define('MODULE_PAYMENT_PAYPAL_DESC_ZONE',                  'Ŭ���ϰ�����򤹤�ȡ����򤷤��ϰ�Τߤ����Ѳ�ǽ�Ȥʤ�ޤ���');
-    define('MODULE_PAYMENT_PAYPAL_TEXT_ORDER_STATUS_ID',       '�����ʸ���ơ�����');
-    define('MODULE_PAYMENT_PAYPAL_DESC_ORDER_STATUS_ID',       '���ꤷ�����ơ���������������Ŭ�Ѥ���ޤ���');
-    define('MODULE_PAYMENT_PAYPAL_TEXT_SORT_ORDER',            'ɽ���������');
-    define('MODULE_PAYMENT_PAYPAL_DESC_SORT_ORDER',            'ɽ��������������Ǥ��ޤ����������������ۤɾ�̤�ɽ������ޤ�');
+    define('MODULE_PAYMENT_PAYPAL_TEXT_STATUS',                'PayPal を有効にする');
+    define('MODULE_PAYMENT_PAYPAL_DESC_STATUS',                'PayPal を有効にする');
+    define('MODULE_PAYMENT_PAYPAL_TEXT_SETTLEMENT_TYPE',       '処理タイプ');
+    define('MODULE_PAYMENT_PAYPAL_DESC_SETTLEMENT_TYPE',       '処理タイプを選択してください'.$script);
+    define('MODULE_PAYMENT_PAYPAL_TEXT_ZONE',                  '適用地域');
+    define('MODULE_PAYMENT_PAYPAL_DESC_ZONE',                  '適用地域を選択すると、選択した地域のみで利用可能となります。');
+    define('MODULE_PAYMENT_PAYPAL_TEXT_ORDER_STATUS_ID',       '初期注文ステータス');
+    define('MODULE_PAYMENT_PAYPAL_DESC_ORDER_STATUS_ID',       '設定したステータスが受注時に適用されます。');
+    define('MODULE_PAYMENT_PAYPAL_TEXT_SORT_ORDER',            '表示の整列順');
+    define('MODULE_PAYMENT_PAYPAL_DESC_SORT_ORDER',            '表示の整列順を設定できます。数字が小さいほど上位に表示されます');
     define('MODULE_PAYMENT_PAYPAL_TEXT_SELECTOPTION',           '');
-    define('MODULE_PAYMENT_PAYPAL_DESC_SELECTOPTION',           'WebPaymentPlus�ϡ���Ѳ��̤Υ������ޥ�����PayPal�����쥸�åȥ����ɷ�Ѥ����Ѳ�ǽ�Ǥ���');
+    define('MODULE_PAYMENT_PAYPAL_DESC_SELECTOPTION',           'WebPaymentPlusは、決済画面のカスタマイズ、PayPal／クレジットカード決済の利用可能です。');
 
     // for Express Checkout
-    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_BUSINESS_ID',        'PayPal �ӥ��ͥ���������Ȥ�ID');
-    define('MODULE_PAYMENT_PAYPAL_EC_DESC_BUSINESS_ID',        'PayPal �ӥ��ͥ���������Ȥ�ID�����Ϥ��Ƥ���������');
-    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_BUSINESS_PASS',      'PayPal �ӥ��ͥ���������ȤΥѥ����');
-    define('MODULE_PAYMENT_PAYPAL_EC_DESC_BUSINESS_PASS',      'PayPal �ӥ��ͥ���������ȤΥѥ���ɤ����Ϥ��Ƥ���������');
-    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_BUSINESS_SIGNATURE', 'API��̾');
-    define('MODULE_PAYMENT_PAYPAL_EC_DESC_BUSINESS_SIGNATURE', '�嵭��������Ȥ�API��̾�����ꤷ�Ƥ���������');
-    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_SETTLEMENT_TYPE',    '�������');
-    define('MODULE_PAYMENT_PAYPAL_EC_DESC_SETTLEMENT_TYPE',    'Sale(���)�⤷����Authorization(Ϳ��)�����򤷤Ƥ�������');
-    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_CURRENCY',           '�̲�');
-    define('MODULE_PAYMENT_PAYPAL_EC_DESC_CURRENCY',           '�̲ߤ����򤷤Ƥ�������');
-    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_REFERENCE',          'Reference Transaction������');
-    define('MODULE_PAYMENT_PAYPAL_EC_DESC_REFERENCE',          '������դˤ��PayPal���°�����Ȥ���ͭ���ˤ���<br/>�� Reference Transaction�����Ѥ��뤿��ˤϻ����˿�����ɬ�פǤ���<br/>�� <a href="https://www.paypal.com/jp/cgi-bin/helpscr?cmd=_help&t=escalateTab" target="_blank">�����Τ�����ϥե�����</a>');
-    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_TEST',               'Test�Ķ�');
-    define('MODULE_PAYMENT_PAYPAL_EC_DESC_TEST',               '�ƥ��Ȼ���True�������Ǥʤ����False�Ȥ��Ƥ���������');
+    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_BUSINESS_ID',        'PayPal ビジネスアカウントのID');
+    define('MODULE_PAYMENT_PAYPAL_EC_DESC_BUSINESS_ID',        'PayPal ビジネスアカウントのIDを入力してください。');
+    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_BUSINESS_PASS',      'PayPal ビジネスアカウントのパスワード');
+    define('MODULE_PAYMENT_PAYPAL_EC_DESC_BUSINESS_PASS',      'PayPal ビジネスアカウントのパスワードを入力してください。');
+    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_BUSINESS_SIGNATURE', 'API署名');
+    define('MODULE_PAYMENT_PAYPAL_EC_DESC_BUSINESS_SIGNATURE', '上記アカウントのAPI署名を設定してください。');
+    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_SETTLEMENT_TYPE',    '決済方式');
+    define('MODULE_PAYMENT_PAYPAL_EC_DESC_SETTLEMENT_TYPE',    'Sale(売上)もしくはAuthorization(与信)を選択してください');
+    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_CURRENCY',           '通貨');
+    define('MODULE_PAYMENT_PAYPAL_EC_DESC_CURRENCY',           '通貨を選択してください');
+    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_REFERENCE',          'Reference Transactionを利用');
+    define('MODULE_PAYMENT_PAYPAL_EC_DESC_REFERENCE',          '事前合意によるPayPal口座引き落としを有効にする<br/>※ Reference Transactionを利用するためには事前に審査が必要です。<br/>→ <a href="https://www.paypal.com/jp/cgi-bin/helpscr?cmd=_help&t=escalateTab" target="_blank">審査のご依頼はフォーム</a>');
+    define('MODULE_PAYMENT_PAYPAL_EC_TEXT_TEST',               'Test環境');
+    define('MODULE_PAYMENT_PAYPAL_EC_DESC_TEST',               'テスト時はTrue、そうでなければFalseとしてください。');
 
     // for Web Payment Plus
-    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_LINK',               'WebPaymentPlus�����Ѥ���ˤϤ��������ߤ�ɬ�פǤ���');
-    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_LINK',               '<p>������URL���鿽�����ߤ���ǽ�Ǥ���<br><a href="https://www.paypal-japan.com/wpp/">�����֥ڥ����ȥץ饹�Τ��Ҳ�</a></p>'.
-                                                                '<b>WebPaymentPlus�����ꡧ</b><br>'.
-                                                                '<p>������ˡ��<a href="...">WPP����ޥ˥奢��</a>��������������</p>'.
-                                                                '<b>�����͡�</b><br>'.
-                                                                '<p>(A)IPN�ؤ�URL��<br>'. str_replace('index.php?main_page=index','paypal_ipn.php',zen_catalog_href_link(FILENAME_DEFAULT, '', 'SSL')) .'<br><br>'.
-                                                                '(B)zen-cart�ؤ����URL��<br>'. zen_catalog_href_link(FILENAME_CHECKOUT_SUCCESS_PAYPAL_IPN_WAITING, '', 'SSL',false) .
+    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_LINK',               'WebPaymentPlusを利用するにはお申し込みが必要です。');
+    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_LINK',               '<p>下記のURLから申し込みが可能です。<br><a href="https://www.paypal-japan.com/wpp/">ウェブペイメントプラスのご紹介</a></p>'.
+                                                                '<b>WebPaymentPlusの設定：</b><br>'.
+                                                                '<p>設定方法は<a href="...">WPP設定マニュアル</a>をご覧ください。</p>'.
+                                                                '<b>設定値：</b><br>'.
+                                                                '<p>(A)IPNへのURL：<br>'. str_replace('index.php?main_page=index','paypal_ipn.php',zen_catalog_href_link(FILENAME_DEFAULT, '', 'SSL')) .'<br><br>'.
+                                                                '(B)zen-cartへの戻りURL：<br>'. zen_catalog_href_link(FILENAME_CHECKOUT_SUCCESS_PAYPAL_IPN_WAITING, '', 'SSL',false) .
                                                                 '</p>');
-    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_MERCHANT_ID',        'PayPal �ӥ��ͥ���������ȤΡ֥����奢�ʥޡ�������ID��');
-    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_MERCHANT_ID',        'PayPal�إ������󤷤ơָĿ�����פΥڡ��������˽񤤤Ƥ���ޤ���');
-    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_SETTLEMENT_TYPE',    '�������');
-    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_SETTLEMENT_TYPE',    '��ʸ�塢¨���Ȥʤ�ޤ�(sale)');
-    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_CURRENCY',           '�̲�');
-    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_CURRENCY',           '����ʧ���̲ߡ�');
-    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_TEST',               '�ƥ��ȴĶ� (Sandbox������̵ͭ)');
-    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_TEST',               '�ƥ��Ȼ���True�������Ǥʤ����False�Ȥ��Ƥ���������');
-    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_CUSTOM_KEY',         '�ѥ����롼�ѿ��������������å�����');
-    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_CUSTOM_KEY',         '�ѥ����롼�ѿ������������Ȥ�����å����륭�������Ϥ��Ƥ���������');
-    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_EMAIL',              '���顼ȯ������������᡼�륢�ɥ쥹');
-    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_EMAIL',              '���顼ȯ������������᡼�륢�ɥ쥹�����Ϥ��Ƥ���������');
+    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_MERCHANT_ID',        'PayPal ビジネスアカウントの「セキュアなマーチャントID」');
+    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_MERCHANT_ID',        'PayPalへログインして「個人設定」のページ上部に書いてあります。');
+    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_SETTLEMENT_TYPE',    '決済方式');
+    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_SETTLEMENT_TYPE',    '注文後、即売上となります(sale)');
+    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_CURRENCY',           '通貨');
+    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_CURRENCY',           'お支払い通貨。');
+    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_TEST',               'テスト環境 (Sandboxの利用有無)');
+    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_TEST',               'テスト時はTrue、そうでなければFalseとしてください。');
+    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_CUSTOM_KEY',         'パススルー変数の正当性チェックキー');
+    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_CUSTOM_KEY',         'パススルー変数が正しいことをチェックするキーを入力してください。');
+    define('MODULE_PAYMENT_PAYPAL_WPP_TEXT_EMAIL',              'エラー発生時の通知先メールアドレス');
+    define('MODULE_PAYMENT_PAYPAL_WPP_DESC_EMAIL',              'エラー発生時の通知先メールアドレスを入力してください。');
 
     $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function,               date_added) values ('".MODULE_PAYMENT_PAYPAL_TEXT_STATUS."',          'MODULE_PAYMENT_PAYPAL_STATUS',          'True',            '".MODULE_PAYMENT_PAYPAL_DESC_STATUS."',          '6', '0', 'zen_cfg_select_option(array(\'True\', \'False\'), ', now())");
     $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function,               date_added) values ('".MODULE_PAYMENT_PAYPAL_TEXT_SETTLEMENT_TYPE."', 'MODULE_PAYMENT_PAYPAL_SETTLEMENT_TYPE', 'ExpressCheckout', '".MODULE_PAYMENT_PAYPAL_DESC_SETTLEMENT_TYPE."', '6', '1', 'zen_cfg_select_option(array(\'ExpressCheckout\', \'WebPaymentPlus\'), ', now())");

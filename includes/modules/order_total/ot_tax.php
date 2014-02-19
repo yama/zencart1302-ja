@@ -61,8 +61,8 @@
 
     function install() {
 	  global $db;
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('¥¤¥ó¥¹¥È¡¼¥ë¾õÂÖ', 'MODULE_ORDER_TOTAL_TAX_STATUS', 'true', '', '6', '1','zen_cfg_select_option(array(\'true\'), ', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('É½¼¨¤ÎÀ°Îó½ç', 'MODULE_ORDER_TOTAL_TAX_SORT_ORDER', '300', 'É½¼¨¤ÎÀ°Îó½ç¤òÀßÄê¤Ç¤­¤Ş¤¹. ¿ô»ú¤¬¾®¤µ¤¤¤Û¤É¾å°Ì¤ËÉ½¼¨¤µ¤ì¤Ş¤¹¡£', '6', '2', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«çŠ¶æ…‹', 'MODULE_ORDER_TOTAL_TAX_STATUS', 'true', '', '6', '1','zen_cfg_select_option(array(\'true\'), ', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('è¡¨ç¤ºã®æ•´åˆ—é †', 'MODULE_ORDER_TOTAL_TAX_SORT_ORDER', '300', 'è¡¨ç¤ºã®æ•´åˆ—é †ã‚’è¨­å®šã§ãã¾ã™. æ•°å­—ãŒå°ã•ã„ã»ã©ä¸Šä½ã«è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚', '6', '2', now())");
     }
 
     function remove() {

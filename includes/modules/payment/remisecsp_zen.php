@@ -16,9 +16,9 @@
 // +----------------------------------------------------------------------+
 
 /*
-Ê¸»ú²½¤±¡¢¥¨¥é¡¼Åù¤¬È¯À¸¤¹¤ë¾ì¹ç¤Ï²¼µ­¤Î¤É¤Á¤é¤«¤ÇÂĞ½è¤·¤Æ¤¯¤À¤µ¤¤¡£
+æ–‡å­—åŒ–ã‘ã€ã‚¨ãƒ©ãƒ¼ç­‰ãŒç™ºç”Ÿã™ã‚‹å ´åˆã¯ä¸‹è¨˜ã®ã©ã¡ã‚‰ã‹ã§å¯¾å‡¦ã—ã¦ãã ã•ã„ã€‚
 
-apache¤Îhttpd.conf¤ËÀßÄê¤¹¤ë¾ì¹ç¤Î¿ä¾©Îã
+apacheã®httpd.confã«è¨­å®šã™ã‚‹å ´åˆã®æ¨å¥¨ä¾‹
 
 AddDefaultCharset                       Off
 php_flag  output_buffering              Off
@@ -32,7 +32,7 @@ php_value mbstring.internal_encoding    UTF-8
 php_value mbstring.substitute_character none
 php_value mbstring.detect_order         eucJP-win,UTF-8,SJIS-win,jis
 
-php.ini¤ËÀßÄê¤¹¤ë¾ì¹ç¤Î¿ä¾©Îã
+php.iniã«è¨­å®šã™ã‚‹å ´åˆã®æ¨å¥¨ä¾‹
 
 output_buffering      = Off
 output_handler      = none
@@ -45,7 +45,7 @@ mbstring.substitute_character = none
 mbstring.encoding_translation = Off
 
 */
-// PHP¤Ï¡¢4.0.6°Ê¾å
+// PHPã¯ã€4.0.6ä»¥ä¸Š
 
   class remisecsp_zen {
     var $code, $title, $description, $enabled;
@@ -216,14 +216,14 @@ mbstring.encoding_translation = Off
     function install() {
       global $db;
       
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('Enable REMISECSP Module', 'MODULE_PAYMENT_REMISECSP_STATUS', 'True', '¥ë¥ß¡¼¥º¥³¥ó¥Ó¥Ë·èºÑ¤òÍ­¸ú¤Ë¤·¤Ş¤¹¤«?', '6', '0', 'zen_cfg_select_option(array(\'True\', \'False\'), ', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('REMISECSP Url', 'MODULE_PAYMENT_REMISECSP_URL', 'https://www.remise.jp/', '·èºÑ¾ğÊóÁ÷¿®ÀèURL', '6', '0', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('Shop Code', 'MODULE_PAYMENT_REMISECSP_SHOP_CODE', '00000000', '²ÃÌÁÅ¹¥³¡¼¥É', '6', '0', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('Host Id', 'MODULE_PAYMENT_REMISECSP_HOST_ID', '00000000', '¥Û¥¹¥ÈÈÖ¹æ', '6', '0', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('Pay Date', 'MODULE_PAYMENT_REMISECSP_PAYDATE', '10', '»ÙÊ§¤¤´ü¸Â(2Æü°Ê¾å59Æü°ÊÆâ)', '6', '0', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('É½¼¨¤ÎÀ°Îó½ç', 'MODULE_PAYMENT_REMISECSP_SORT_ORDER', '0', 'É½¼¨¤ÎÀ°Îó½ç¤òÀßÄê¤Ç¤­¤Ş¤¹¡£¿ô»ú¤¬¾®¤µ¤¤¤Û¤É¾å°Ì¤ËÉ½¼¨¤µ¤ì¤Ş¤¹¡£', '6', '0', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('Enable REMISECSP Module', 'MODULE_PAYMENT_REMISECSP_STATUS', 'True', 'ãƒ«ãƒŸãƒ¼ã‚ºã‚³ãƒ³ãƒ“ãƒ‹æ±ºæ¸ˆã‚’æœ‰åŠ¹ã«ã—ã¾ã™ã‹?', '6', '0', 'zen_cfg_select_option(array(\'True\', \'False\'), ', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('REMISECSP Url', 'MODULE_PAYMENT_REMISECSP_URL', 'https://www.remise.jp/', 'æ±ºæ¸ˆæƒ…å ±é€ä¿¡å…ˆURL', '6', '0', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('Shop Code', 'MODULE_PAYMENT_REMISECSP_SHOP_CODE', '00000000', 'åŠ ç›Ÿåº—ã‚³ãƒ¼ãƒ‰', '6', '0', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('Host Id', 'MODULE_PAYMENT_REMISECSP_HOST_ID', '00000000', 'ãƒ›ã‚¹ãƒˆç•ªå·', '6', '0', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('Pay Date', 'MODULE_PAYMENT_REMISECSP_PAYDATE', '10', 'æ”¯æ‰•ã„æœŸé™(2æ—¥ä»¥ä¸Š59æ—¥ä»¥å†…)', '6', '0', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('è¡¨ç¤ºã®æ•´åˆ—é †', 'MODULE_PAYMENT_REMISECSP_SORT_ORDER', '0', 'è¡¨ç¤ºã®æ•´åˆ—é †ã‚’è¨­å®šã§ãã¾ã™ã€‚æ•°å­—ãŒå°ã•ã„ã»ã©ä¸Šä½ã«è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚', '6', '0', now())");
       $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, use_function, set_function, date_added) values ('Payment Zone', 'MODULE_PAYMENT_REMISECSP_ZONE', '0', 'If a zone is selected, only enable this payment method for that zone.', '6', '2', 'zen_get_zone_class_title', 'zen_cfg_pull_down_zone_classes(', now())");
-      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, use_function, date_added) values ('½é´üÃíÊ¸¥¹¥Æ¡¼¥¿¥¹', 'MODULE_PAYMENT_REMISECSP_ORDER_STATUS_ID', '0', 'ÀßÄê¤·¤¿¥¹¥Æ¡¼¥¿¥¹¤¬¼õÃí»ş¤ËÅ¬ÍÑ¤µ¤ì¤Ş¤¹¡£', '6', '0', 'zen_cfg_pull_down_order_statuses(', 'zen_get_order_status_name', now())");
+      $db->Execute("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, use_function, date_added) values ('åˆæœŸæ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹', 'MODULE_PAYMENT_REMISECSP_ORDER_STATUS_ID', '0', 'è¨­å®šã—ãŸã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ãŒå—æ³¨æ™‚ã«é©ç”¨ã•ã‚Œã¾ã™ã€‚', '6', '0', 'zen_cfg_pull_down_order_statuses(', 'zen_get_order_status_name', now())");
 
     }
 
