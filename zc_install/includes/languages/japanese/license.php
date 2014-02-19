@@ -10,10 +10,10 @@
 /**
  * defining language components for the page
  */
-  define('TEXT_MAIN', 'Zen Cartv' . PROJECT_VERSION_MAJOR .'.'.PROJECT_VERSION_MINOR. '¤Î¥»¥Ã¥È¥¢¥Ã¥×¥×¥í¥°¥é¥à¤Ø¤è¤¦¤³¤½¡£¥é¥¤¥»¥ó¥¹µ¬Ìó¤ò¤ªÆÉ¤ß¤¤¤¿¤À¤­¡¢¾µÂú¤·¤Æ¤¯¤À¤µ¤¤¡£');
-  define('TEXT_PAGE_HEADING', 'Zen Cart&trade; ¥»¥Ã¥È¥¢¥Ã¥×¡¡-¡¡¥é¥¤¥»¥ó¥¹µ¬Ìó');
-  define('INSTALL', 'Â³¤±¤ë');
+  define('TEXT_MAIN', 'Zen Cartv' . PROJECT_VERSION_MAJOR .'.'.PROJECT_VERSION_MINOR. 'ã®ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¸ã‚ˆã†ã“ãã€‚ãƒ©ã‚¤ã‚»ãƒ³ã‚¹è¦ç´„ã‚’ãŠèª­ã¿ã„ãŸã ãã€æ‰¿è«¾ã—ã¦ãã ã•ã„ã€‚');
+  define('TEXT_PAGE_HEADING', 'Zen Cart&trade; ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—ã€€-ã€€ãƒ©ã‚¤ã‚»ãƒ³ã‚¹è¦ç´„');
+  define('INSTALL', 'ç¶šã‘ã‚‹');
 
-  define('AGREE', '¾åµ­¤ò³ÎÇ§¤·¤¿¤¦¤¨¤Ç¤³¤ì¤ËÆ±°Õ¤·¤Þ¤¹¡£');
-  define('DISAGREE', '¾åµ­¤ò³ÎÇ§¤·¤¿¤¦¤¨¤Ç¤³¤ì¤ËÆ±°Õ¤·¤Þ¤»¤ó¡£');
+  define('AGREE', 'ä¸Šè¨˜ã‚’ç¢ºèªã—ãŸã†ãˆã§ã“ã‚Œã«åŒæ„ã—ã¾ã™ã€‚');
+  define('DISAGREE', 'ä¸Šè¨˜ã‚’ç¢ºèªã—ãŸã†ãˆã§ã“ã‚Œã«åŒæ„ã—ã¾ã›ã‚“ã€‚');
 ?>

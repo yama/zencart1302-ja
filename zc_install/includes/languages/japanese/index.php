@@ -10,8 +10,8 @@
 /**
  * defining language components for the page
  */
-  define('TEXT_MAIN', 'Zen Cart&trade; v' . PROJECT_VERSION_MAJOR .'.'.PROJECT_VERSION_MINOR. '¤Î¥¤¥ó¥¹¥È¡¼¥ë¥×¥í¥°¥é¥à¤òÍøÍÑ¤¤¤¿¤À¤­¤¢¤ê¤¬¤È¤¦¤´¤¶¤¤¤Þ¤¹¡£¤¢¤Ê¤¿¤Î´Ä¶­¤ËZen Cart&trade; ¤òÅ¬ÀÚ¤Ë¥¤¥ó¥¹¥È¡¼¥ë¤¹¤ë¤¿¤á¤ÎÉ¬Í×¤Ê¼ê½ç¤ò¤ª¶µ¤¨¤·¤Þ¤¹¡£');
-  define('TEXT_PAGE_HEADING', 'Zen Cart&trade; ¥»¥Ã¥È¥¢¥Ã¥×¡¡-¡¡¤è¤¦¤³¤½');
-  define('INSTALL', 'Â³¤±¤ë');
+  define('TEXT_MAIN', 'Zen Cart&trade; v' . PROJECT_VERSION_MAJOR .'.'.PROJECT_VERSION_MINOR. 'ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’åˆ©ç”¨ã„ãŸã ãã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ã€‚ã‚ãªãŸã®ç’°å¢ƒã«Zen Cart&trade; ã‚’é©åˆ‡ã«ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹ãŸã‚ã®å¿…è¦ãªæ‰‹é †ã‚’ãŠæ•™ãˆã—ã¾ã™ã€‚');
+  define('TEXT_PAGE_HEADING', 'Zen Cart&trade; ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—ã€€-ã€€ã‚ˆã†ã“ã');
+  define('INSTALL', 'ç¶šã‘ã‚‹');
 
 ?>

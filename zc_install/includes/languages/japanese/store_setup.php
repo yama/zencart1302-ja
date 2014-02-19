@@ -10,27 +10,27 @@
 /**
  * defining language components for the page
  */
-  define('SAVE_STORE_SETTINGS', '����å��������¸');//this comes before TEXT_MAIN
-  define('TEXT_MAIN', '����åפδ���Ū�������Ԥ��ޤ�������������ϴ������ѤΥġ���ˤ��夫�餤�ĤǤ��ѹ���ǽ�Ǥ���Ŭ�ڤ��ͤ����Ϥ�<em>'.SAVE_STORE_SETTINGS.'</em> �򥯥�å����Ƥ���������');
-  define('TEXT_PAGE_HEADING', 'Zen Cart&trade; ���åȥ��å� - ����å�����');
-  define('STORE_INFORMATION', '����å׾���');
-  define('STORE_NAME', '����å�̾');
-  define('STORE_NAME_INSTRUCTION', '����å�̾�����Ϥ��Ƥ���������');
-  define('STORE_OWNER', '����åץ����ʡ���̾��');
-  define('STORE_OWNER_INSTRUCTION', '����åץ����ʡ���̾�������Ϥ��Ƥ���������');
-  define('STORE_OWNER_EMAIL', '����åץ����ʡ��Υ᡼�륢�ɥ쥹');
-  define('STORE_OWNER_EMAIL_INSTRUCTION', '����åץ����ʡ��Υ᡼�륢�ɥ쥹�����Ϥ��Ƥ���������');
-  define('STORE_COUNTRY', '��');
-  define('STORE_COUNTRY_INSTRUCTION', '������򤷤Ƥ���������');
-  define('STORE_ZONE', '������');
-  define('STORE_ZONE_INSTRUCTION', '����������򤷤Ƥ���������');
-  define('STORE_ADDRESS', '����åפν���');
-  define('STORE_ADDRESS_INSTRUCTION', '���ν���ϰ�����ǽ�ʥɥ�����Ȥǻ��Ѥ��졢����饤���ɽ������ޤ���');
-  define('STORE_DEFAULT_LANGUAGE', '�ǥե���Ȥθ���');
-  define('STORE_DEFAULT_LANGUAGE_INSTRUCTION', '�ǥե���Ȥǻ��Ѥ�������������򤷤Ƥ���������');
-  define('STORE_DEFAULT_CURRENCY', '�ǥե���Ȥ��̲�');
-  define('STORE_DEFAULT_CURRENCY_INSTRUCTION', '�ǥե���Ȥǻ��Ѥ������̲ߤ����򤷤Ƥ���������');
-  define('DEMO_INFORMATION', '�ǥ����');
-  define('DEMO_INSTALL', '����åפΥǥ�');
-  define('DEMO_INSTALL_INSTRUCTION', '�ǥ��ѤΥ��ƥ��ꤪ��Ӿ��ʥǡ����򥤥󥹥ȡ��뤷�ޤ�����');
+  define('SAVE_STORE_SETTINGS', 'ショップ設定を保存');//this comes before TEXT_MAIN
+  define('TEXT_MAIN', 'ショップの基本的な設定を行います。これらの設定は管理者用のツールにより後からいつでも変更可能です。適切な値を入力し<em>'.SAVE_STORE_SETTINGS.'</em> をクリックしてください。');
+  define('TEXT_PAGE_HEADING', 'Zen Cart&trade; セットアップ - ショップ設定');
+  define('STORE_INFORMATION', 'ショップ情報');
+  define('STORE_NAME', 'ショップ名');
+  define('STORE_NAME_INSTRUCTION', 'ショップ名を入力してください。');
+  define('STORE_OWNER', 'ショップオーナーの名前');
+  define('STORE_OWNER_INSTRUCTION', 'ショップオーナーの名前を入力してください。');
+  define('STORE_OWNER_EMAIL', 'ショップオーナーのメールアドレス');
+  define('STORE_OWNER_EMAIL_INSTRUCTION', 'ショップオーナーのメールアドレスを入力してください。');
+  define('STORE_COUNTRY', '国');
+  define('STORE_COUNTRY_INSTRUCTION', '国を選択してください。');
+  define('STORE_ZONE', 'ゾーン');
+  define('STORE_ZONE_INSTRUCTION', 'ゾーンを選択してください。');
+  define('STORE_ADDRESS', 'ショップの住所');
+  define('STORE_ADDRESS_INSTRUCTION', 'この住所は印刷可能なドキュメントで使用され、オンラインで表示されます。');
+  define('STORE_DEFAULT_LANGUAGE', 'デフォルトの言語');
+  define('STORE_DEFAULT_LANGUAGE_INSTRUCTION', 'デフォルトで使用したい言語を選択してください。');
+  define('STORE_DEFAULT_CURRENCY', 'デフォルトの通貨');
+  define('STORE_DEFAULT_CURRENCY_INSTRUCTION', 'デフォルトで使用したい通貨を選択してください。');
+  define('DEMO_INFORMATION', 'デモ情報');
+  define('DEMO_INSTALL', 'ショップのデモ');
+  define('DEMO_INSTALL_INSTRUCTION', 'デモ用のカテゴリおよび商品データをインストールしますか？');
 ?>

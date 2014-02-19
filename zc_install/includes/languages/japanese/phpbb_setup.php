@@ -10,18 +10,18 @@
 /**
  * defining language components for the page
  */
-  define('SAVE_PHPBB_SETTINGS', 'phpBB���������¸'); //this comes before TEXT_MAIN
-  define('TEXT_MAIN', 'Ʊ�������Ф�phpBB�����󥹥ȡ���Ѥߤξ�硢Zen Cart����phpBB�˥�󥯤��뤳�Ȥ��Ǥ��ޤ����Ƽ�������ܤ�Ŭ�ڤ����Ϥ���<em>'.SAVE_PHPBB_SETTINGS.'</em> �򥯥�å����Ƥ���������');
-  define('TEXT_PAGE_HEADING', 'Zen Cart������ - phpBB ������');
-  define('PHPBB_INFORMATION', 'phpBB����');
-  define('PHPBB_USE', 'phpBB�ե������ȥ�󥯤����ޤ���');
-  define('PHPBB_USE_INSTRUCTION', '���󥹥ȡ���Ѥߤ�phpBB�ե������ȥ�󥯤��뤫�ɤ������򤷤Ƥ���������');
-  define('PHPBB_DIR', 'phpBB�ǥ��쥯�ȥ�');
-  define('PHPBB_DIR_INSTRUCTION', 'phpBB�����󥹥ȡ��뤵��Ƥ���ǥ��쥯�ȥ�');
+  define('SAVE_PHPBB_SETTINGS', 'phpBBの設定を保存'); //this comes before TEXT_MAIN
+  define('TEXT_MAIN', '同じサーバにphpBBがインストール済みの場合、Zen CartからphpBBにリンクすることができます。各種設定項目を適切に入力し、<em>'.SAVE_PHPBB_SETTINGS.'</em> をクリックしてください。');
+  define('TEXT_PAGE_HEADING', 'Zen Cartの設定 - phpBB の設定');
+  define('PHPBB_INFORMATION', 'phpBB情報');
+  define('PHPBB_USE', 'phpBBフォーラムとリンクさせますか');
+  define('PHPBB_USE_INSTRUCTION', 'インストール済みのphpBBフォーラムとリンクするかどうか選択してください。');
+  define('PHPBB_DIR', 'phpBBディレクトリ');
+  define('PHPBB_DIR_INSTRUCTION', 'phpBBがインストールされているディレクトリ');
 
 //possible future use:
-  define('PHPBB_DATABASE_NAME', 'phpBB �Υǡ����١�����̾��');
-  define('PHPBB_DATABASE_NAME_INSTRUCTION', 'phpBB �Υǡ�������Ǽ����Ƥ���ǡ����١�����̾�Τ������Ƥ���������');
-  define('PHPBB_DATABASE_PREFIX', 'phpBB �Υǡ����١����ơ��֥�ץ�ե�����');
-  define('PHPBB_DATABASE_PREFIX_INSTRUCTION', 'phpBB �Υǡ����١����ơ��֥�ǻ��Ѥ���ץ�ե�����̾�����Ϥ��Ƥ����������ץ�ե�������ɬ�פǤʤ����϶���Ǥ��ޤ��ޤ���');
+  define('PHPBB_DATABASE_NAME', 'phpBB のデータベースの名前');
+  define('PHPBB_DATABASE_NAME_INSTRUCTION', 'phpBB のデータが格納されているデータベースの名称を記入してください。');
+  define('PHPBB_DATABASE_PREFIX', 'phpBB のデータベーステーブルプレフィクス');
+  define('PHPBB_DATABASE_PREFIX_INSTRUCTION', 'phpBB のデータベーステーブルで使用するプレフィクス名を入力してください。プレフィクスが必要でない場合は空欄でかまいません。');
 ?>

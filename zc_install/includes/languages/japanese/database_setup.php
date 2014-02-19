@@ -10,46 +10,46 @@
 /**
  * defining language components for the page
  */
-  define('SAVE_DATABASE_SETTINGS', '�ǡ����١����������¸');//this comes before TEXT_MAIN
-  define('TEXT_MAIN', "�ǡ����١����������Ԥ��ޤ���" . SAVE_DATABASE_SETTINGS . " �򥯥�å�����ȡ����꤬��¸���졢�ǡ����١����ؤν񤭹��ߤ��¹Ԥ���ޤ���");
-  define('TEXT_PAGE_HEADING', 'Zen Cart���ꡡ-���ǡ����١�������');
-  define('DATABASE_INFORMATION', '�ǡ����١�������');
-  define('DATABASE_TYPE', '�ǡ����١���������');
-  define('DATABASE_TYPE_INSTRUCTION', '���Ѥ���ǡ����١��������פ����򤷤Ƥ���������');
-  define('DATABASE_HOST', '�ǡ����١����ۥ���̾');
-  define('DATABASE_HOST_INSTRUCTION', '��³����ۥ���̾�����Ϥ��Ƥ���������(���\'db1.myserver.com\', \'192.168.0.1\', \'localhost\'��');
-  define('DATABASE_USERNAME', '�ǡ����١����桼��̾');
-  define('DATABASE_USERNAME_INSTRUCTION', '�ǡ����١�����³�˻��Ѥ���桼��̾�����Ϥ��Ƥ���������(���\'root\'��');
-  define('DATABASE_PASSWORD', '�ǡ����١����ѥ����');
-  define('DATABASE_PASSWORD_INSTRUCTION', '�ǡ����١�����³�˻��Ѥ���ѥ���ɤ����Ϥ��Ƥ���������');
-  define('DATABASE_NAME', '�ǡ����١���̾');
-  define('DATABASE_NAME_INSTRUCTION', '�ǡ����١���̾�����Ϥ��Ƥ���������(���\'zencart\'��');
-  define('DATABASE_PREFIX', '�ơ��֥�ץ�ե�����');
-  define('DATABASE_PREFIX_INSTRUCTION', '�ơ��֥�̾���դ���ץ�ե����������Ϥ��Ƥ���������(���\'zen_\'<br />�ץ�ե����������ꤹ��ȡ��ҤȤĤΥǡ����١�����ʣ���Υ���åפ��Ѥ����ꡢ¾��CMS�ȶ�¸�����ꤹ�뤳�Ȥ��Ǥ��ޤ���');
-  define('DATABASE_CREATE', '�ǡ����١�������');
-  define('DATABASE_CREATE_INSTRUCTION', '�ǡ����١����򿷵��������ޤ���? ');
-  define('DATABASE_CONNECTION', '��³Ū��³');
-  define('DATABASE_CONNECTION_INSTRUCTION', '��³Ū��³(Persistent connection)��ͭ���ˤ��ޤ�����<br>ʬ����ʤ�����\�֤������פ����򤷤Ƥ���������');
-  define('DATABASE_SESSION', '�ǡ����١������å����');
-  define('DATABASE_SESSION_INSTRUCTION', '�ǡ����١����ǤΥ��å�����������Ĥ��ޤ�����<br>ʬ����ʤ����ϡ֤Ϥ��פ����򤷤Ƥ���������');
-  define('CACHE_TYPE', 'SQL����å������ˡ');
-  define('CACHE_TYPE_INSTRUCTION', 'SQL����å������Ѥ��뤿�����ˡ�����򤷤Ƥ���������');
-  define('SQL_CACHE', '���å����/SQL����å���ǥ��쥯�ȥ�');
-  define('SQL_CACHE_INSTRUCTION', '�ǡ����١������å����ޤ��ϥե�����١�����SQL����å������Ѥ�����ϡ��ǥ��쥯�ȥ�̾�����Ϥ��Ƥ���������');
-  define('ONLY_UPDATE_CONFIG_FILES','����ե�����Τ߹���');
+  define('SAVE_DATABASE_SETTINGS', 'データベース設定を保存');//this comes before TEXT_MAIN
+  define('TEXT_MAIN', "データベースの設定を行います。" . SAVE_DATABASE_SETTINGS . " をクリックすると、設定が保存され、データベースへの書き込みが実行されます。");
+  define('TEXT_PAGE_HEADING', 'Zen Cart設定　-　データベース設定');
+  define('DATABASE_INFORMATION', 'データベース設定');
+  define('DATABASE_TYPE', 'データベースタイプ');
+  define('DATABASE_TYPE_INSTRUCTION', '使用するデータベースタイプを選択してください。');
+  define('DATABASE_HOST', 'データベースホスト名');
+  define('DATABASE_HOST_INSTRUCTION', '接続するホスト名を入力してください。(例）\'db1.myserver.com\', \'192.168.0.1\', \'localhost\'。');
+  define('DATABASE_USERNAME', 'データベースユーザ名');
+  define('DATABASE_USERNAME_INSTRUCTION', 'データベース接続に使用するユーザ名を入力してください。(例）\'root\'。');
+  define('DATABASE_PASSWORD', 'データベースパスワード');
+  define('DATABASE_PASSWORD_INSTRUCTION', 'データベース接続に使用するパスワードを入力してください。');
+  define('DATABASE_NAME', 'データベース名');
+  define('DATABASE_NAME_INSTRUCTION', 'データベース名を入力してください。(例）\'zencart\'。');
+  define('DATABASE_PREFIX', 'テーブルプレフィクス');
+  define('DATABASE_PREFIX_INSTRUCTION', 'テーブル名に付けるプレフィクスを入力してください。(例）\'zen_\'<br />プレフィクスを設定すると、ひとつのデータベースで複数のショップを運用したり、他のCMSと共存したりすることができます。');
+  define('DATABASE_CREATE', 'データベース作成');
+  define('DATABASE_CREATE_INSTRUCTION', 'データベースを新規作成しますか? ');
+  define('DATABASE_CONNECTION', '持続的接続');
+  define('DATABASE_CONNECTION_INSTRUCTION', '持続的接続(Persistent connection)を有効にしますか？<br>分からない場合は\「いいえ」を選択してください。');
+  define('DATABASE_SESSION', 'データベースセッション');
+  define('DATABASE_SESSION_INSTRUCTION', 'データベースでのセッション管理を許可しますか？<br>分からない場合は「はい」を選択してください。');
+  define('CACHE_TYPE', 'SQLキャッシュの方法');
+  define('CACHE_TYPE_INSTRUCTION', 'SQLキャッシュを使用するための方法を選択してください。');
+  define('SQL_CACHE', 'セッション/SQLキャッシュディレクトリ');
+  define('SQL_CACHE_INSTRUCTION', 'データベースセッションまたはファイルベースのSQLキャッシュを使用する場合は、ディレクトリ名を入力してください。');
+  define('ONLY_UPDATE_CONFIG_FILES','設定ファイルのみ更新');
 
 
-  define('REASON_TABLE_ALREADY_EXISTS','���ꤵ�줿�ǡ����١����ơ��֥��%s�פϤ��Ǥ�¸�ߤ��Ƥ���Τǡ��������뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_TABLE_DOESNT_EXIST','���ꤵ�줿�ǡ����١����ơ��֥��%s�פ����Ĥ���ʤ��Τǡ�������뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_CONFIG_KEY_ALREADY_EXISTS','���ꥭ����%s�פϤ��Ǥ�¸�ߤ��Ƥ���Τǡ��������뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_COLUMN_ALREADY_EXISTS','������%s�פϤ��Ǥ�¸�ߤ��Ƥ���Τǡ��ä��뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_COLUMN_DOESNT_EXIST_TO_DROP','������%s�פ����Ĥ���ʤ��Τǡ�������뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_COLUMN_DOESNT_EXIST_TO_CHANGE','������%s�פ����Ĥ���ʤ��Τǡ��ѹ����뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_PRODUCT_TYPE_LAYOUT_KEY_ALREADY_EXISTS','���ꥭ����%s�פϤ��Ǥ�¸�ߤ��Ƥ���Τ��������뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_INDEX_DOESNT_EXIST_TO_DROP','����ǥå�����%s��(�ơ��֥��%s��)�����Ĥ���ʤ��Τǡ�������뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_PRIMARY_KEY_DOESNT_EXIST_TO_DROP','�ơ��֥��%s�פμ��ץ��������Ĥ���ʤ��Τǡ�������뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_INDEX_ALREADY_EXISTS','����ǥå�����%s��(�ơ��֥��%s��)�Ϥ��Ǥ�¸�ߤ��Ƥ���Τǡ��ä��뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_PRIMARY_KEY_ALREADY_EXISTS','�ơ��֥��%s�פμ��ץ����Ϥ��Ǥ�¸�ߤ��Ƥ���Τǡ��ä��뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_NO_PRIVILEGES','�桼����%s@%s�פϡ�%s�פθ��¤���äƤ��ޤ���');
+  define('REASON_TABLE_ALREADY_EXISTS','指定されたデータベーステーブル「%s」はすでに存在しているので、作成することができません。');
+  define('REASON_TABLE_DOESNT_EXIST','指定されたデータベーステーブル「%s」が見つからないので、削除することができません。');
+  define('REASON_CONFIG_KEY_ALREADY_EXISTS','設定キー「%s」はすでに存在しているので、挿入することができません。');
+  define('REASON_COLUMN_ALREADY_EXISTS','コラム「%s」はすでに存在しているので、加えることができません。');
+  define('REASON_COLUMN_DOESNT_EXIST_TO_DROP','コラム「%s」が見つからないので、削除することができません。');
+  define('REASON_COLUMN_DOESNT_EXIST_TO_CHANGE','コラム「%s」が見つからないので、変更することができません。');
+  define('REASON_PRODUCT_TYPE_LAYOUT_KEY_ALREADY_EXISTS','設定キー「%s」はすでに存在しているので挿入することができません。');
+  define('REASON_INDEX_DOESNT_EXIST_TO_DROP','インデックス「%s」(テーブル「%s」)が見つからないので、削除することができません。');
+  define('REASON_PRIMARY_KEY_DOESNT_EXIST_TO_DROP','テーブル「%s」の主要キーが見つからないので、削除することができません。');
+  define('REASON_INDEX_ALREADY_EXISTS','インデックス「%s」(テーブル「%s」)はすでに存在しているので、加えることができません。');
+  define('REASON_PRIMARY_KEY_ALREADY_EXISTS','テーブル「%s」の主要キーはすでに存在しているので、加えることができません。');
+  define('REASON_NO_PRIVILEGES','ユーザ「%s@%s」は「%s」の権限を持っていません。');
 
 ?>

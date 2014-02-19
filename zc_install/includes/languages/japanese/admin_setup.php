@@ -10,20 +10,20 @@
 /**
  * defining language components for the page
  */
-  define('TEXT_PAGE_HEADING', 'Zen Cart���� - �����ԥ������������');
-  define('SAVE_ADMIN_SETTINGS', '�������������¸');//this comes before TEXT_MAIN
-  define('TEXT_MAIN', "�������ѤΥ�������Ȥ򤳤��Ǻ������ޤ���������ID�ȥѥ���ɡ������ƥѥ���ɤ�˺��Ƥ��ޤä��ݤ˥ѥ���ɺ�����ڡ�����URL����������᡼�륢�ɥ쥹�������Ƥ������������Ƥ��ǧ���Ƥ��顢<em>".SAVE_ADMIN_SETTINGS.'</em>�򥯥�å����Ƥ���������');
-  define('ADMIN_INFORMATION', '�����Ծ���');
-  define('ADMIN_USERNAME', '������ID');
-  define('ADMIN_USERNAME_INSTRUCTION', '�桼��̾�������Ƥ���������');
-  define('ADMIN_PASS', '�����ԥѥ����');
-  define('ADMIN_PASS_INSTRUCTION', '�ѥ���ɤ������Ƥ���������');
-  define('ADMIN_PASS_CONFIRM', '�����ԥѥ���ɡʳ�ǧ��');
-  define('ADMIN_PASS_CONFIRM_INSTRUCTION', '��ǧ�Τ���⤦���٥ѥ���ɤ����Ϥ��Ƥ���������');
-  define('ADMIN_EMAIL', '�����ԤΥ᡼�륢�ɥ쥹');
-  define('ADMIN_EMAIL_INSTRUCTION', '�᡼�륢�ɥ쥹�������Ƥ���������');
-  define('UPGRADE_DETECTION','�ǿ��Ǥθ���');
-  define('UPGRADE_INSTRUCTION_TITLE','��������Τ��Ӥ�Zen Cart�κǿ��С�����������å�����');
-  define('UPGRADE_INSTRUCTION_TEXT','������ǽ�ϸ������ѤǤ��ޤ���');
+  define('TEXT_PAGE_HEADING', 'Zen Cart設定 - 管理者アカウント設定');
+  define('SAVE_ADMIN_SETTINGS', '管理者設定を保存');//this comes before TEXT_MAIN
+  define('TEXT_MAIN', "管理者用のアカウントをここで作成します。管理者IDとパスワード、そしてパスワードを忘れてしまった際にパスワード再設定ページのURLを送信するメールアドレスを記入してください。内容を確認してから、<em>".SAVE_ADMIN_SETTINGS.'</em>をクリックしてください。');
+  define('ADMIN_INFORMATION', '管理者情報');
+  define('ADMIN_USERNAME', '管理者ID');
+  define('ADMIN_USERNAME_INSTRUCTION', 'ユーザ名を記入してください。');
+  define('ADMIN_PASS', '管理者パスワード');
+  define('ADMIN_PASS_INSTRUCTION', 'パスワードを記入してください。');
+  define('ADMIN_PASS_CONFIRM', '管理者パスワード（確認）');
+  define('ADMIN_PASS_CONFIRM_INSTRUCTION', '確認のためもう一度パスワードを入力してください。');
+  define('ADMIN_EMAIL', '管理者のメールアドレス');
+  define('ADMIN_EMAIL_INSTRUCTION', 'メールアドレスを記入してください。');
+  define('UPGRADE_DETECTION','最新版の検出');
+  define('UPGRADE_INSTRUCTION_TITLE','ログインのたびにZen Cartの最新バージョンをチェックする');
+  define('UPGRADE_INSTRUCTION_TEXT','※当機能は現在利用できません。');
 
 ?>

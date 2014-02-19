@@ -10,52 +10,52 @@
 /**
  * defining language components for the page
  */
-  define('PAGE_HEADING', 'Zen Cart&trade; ���åȥ��åס�-���ǡ����١������åץ��졼��');
-  define('UPDATE_DATABASE_NOW','�ǡ����١����򥢥åץǡ��Ȥ���');//this comes before TEXT_MAIN
-  define('TEXT_MAIN', '<em>����: </em> ���Υ�����ץȤϲ��˥ꥹ�Ȥ��줿�С�����󤫤顢���ʤ���Zen Cart�ǡ����١����������ޤ򥢥åץ��졼�ɤ��뤿������˻��Ѥ����٤��Ǥ���  ' .
-                      '<span class="emphasis"><strong>���åץ��졼�ɤ������ˤ��ʤ��Υǡ����١����Υե�Хå����åפ�Ԥ����Ȥ򶯤��侩���ޤ�!</strong></span>');
-  define('TEXT_MAIN_2','<span class="emphasis">���ξܺ٤��������տ��������å����Ƥ���������</span>���ξ���Ϥ��ʤ���configure.php���꤫�������Ƥ��ޤ���<br />' .
-                      '�⤷����餬���ΤǤ���ȳο��Ǥ��ʤ���С���˿ʤޤʤ��Ǥ�������������ʤ��ȡ����ʤ��Υǡ����١�������»�������������ޤ���');
+  define('PAGE_HEADING', 'Zen Cart&trade; セットアップ　-　データベースアップグレード');
+  define('UPDATE_DATABASE_NOW','データベースをアップデートする');//this comes before TEXT_MAIN
+  define('TEXT_MAIN', '<em>注意: </em> このスクリプトは下にリストされたバージョンから、あなたのZen Cartデータベーススキーマをアップグレードするためだけに使用されるべきです。  ' .
+                      '<span class="emphasis"><strong>アップグレードする前にあなたのデータベースのフルバックアップを行うことを強く推奨します!</strong></span>');
+  define('TEXT_MAIN_2','<span class="emphasis">下の詳細を非常に注意深くチェックしてください。</span>この情報はあなたのconfigure.php設定から得られています。<br />' .
+                      'もしそれらが正確であると確信できなければ、先に進まないでください。さもないと、あなたのデータベースを破損する危険があります。');
 
-  define('DATABASE_INFORMATION', '�ǡ����١�������');
-  define('DATABASE_TYPE', '�ǡ����١���������');
-  define('DATABASE_HOST', '�ǡ����١����ۥ���');
-  define('DATABASE_USERNAME', '�ǡ����١����桼��̾');
-  define('DATABASE_PASSWORD', '�ǡ����١����ѥ����');
-  define('DATABASE_NAME', '�ǡ����١���̾');
-  define('DATABASE_PREFIX', '�ǡ����١����ơ��֥�ץ�ե�����');
-  define('DATABASE_PRIVILEGES', '�ǡ����١�������');
+  define('DATABASE_INFORMATION', 'データベース情報');
+  define('DATABASE_TYPE', 'データベースタイプ');
+  define('DATABASE_HOST', 'データベースホスト');
+  define('DATABASE_USERNAME', 'データベースユーザ名');
+  define('DATABASE_PASSWORD', 'データベースパスワード');
+  define('DATABASE_NAME', 'データベース名');
+  define('DATABASE_PREFIX', 'データベーステーブルプレフィクス');
+  define('DATABASE_PRIVILEGES', 'データベース権限');
 
   define('SNIFFER_PREDICTS','<em>Upgrade Sniffer</em> predicts: ');
-  define('CHOOSE_UPGRADES','���åץ��졼�ɥ��ƥåפ����򤷤Ƥ�������');
-  define('TITLE_DATABASE_PREFIX_CHANGE','�ǡ����١����ơ��֥�ץ�ե������ѹ�');
-  define('ERROR_PREFIX_CHANGE_NEEDED','<span class="errors">���ʤ��Υǡ����١��������Zen Cart�Υơ��֥�򸫤Ĥ��뤳�Ȥ��Ǥ��ޤ���Ǥ�����<br />���餯���ʤ��Υǡ����١����ơ��֥�Υץ�ե������������Τ˻��ꤵ��ޤ�����</span><br />�⤷�ץ�ե��������Ѥ��Ƥ����꤬��褷�ʤ��ʤ顢phpMyAdmin�ޤ��Ϥ��ʤ��Υ����֥����ФΥ���ȥ�����ѥͥ��Ȥä�configure.php������ȸ��ԤΥǡ����١����򡢼��Ȥ���Ӥ���ɬ�פ�����Ǥ��礦��');
-  define('TEXT_DATABASE_PREFIX_CHANGE','�⤷�ǡ����١����ơ��֥�Υץ�ե��������ѹ���������С����˿������ץ�ե����������Ϥ��Ƥ���������<span class="emphasis">����: ��ʣ�����å��ϹԤ��ޤ���Τǡ����˻��Ѥ���Ƥ���ץ�ե������ǤϤʤ����Ȥ��ǧ���Ƥ���������</span>����¸�ߤ���ơ��֥�ץ�ե�������Ȥ��ȥǡ����١�����������Ȥˤʤ�ޤ���');
-  define('TEXT_DATABASE_PREFIX_CHANGE_WARNING','<span class="errors"><strong>����: �⤷���ǡ����١����δ����ǿ���Ǥ���Ƕ�ΥХå����åפ��ʤ��ΤǤ���С��ơ��֥�ץ�ե��������ѹ����Τϻߤ�Ƥ����������⤷������˲������ޤ������ʤ��ä���硢���ʤ��ΥХå����åפ������줹��ɬ�פ�����Ǥ��礦���⤷���ۤ��ä���ο������Ƥʤ��ΤǤ���С��ơ��֥�̾���ѹ������ȤϤ��Ƥ���������</strong></span>');
-  define('DATABASE_OLD_PREFIX','�Ť��ơ��֥�ץ�ե�����');
-  define('DATABASE_OLD_PREFIX_INSTRUCTION','�Ť��ơ��֥�ץ�ե����������Ϥ��Ƥ�������');
-  define('ENTRY_NEW_PREFIX','�������ơ��֥�ץ�ե�����');
-  define('DATABASE_NEW_PREFIX_INSTRUCTION','�������ơ��֥�ץ�ե����������Ϥ��Ƥ�������');
-  define('ENTRY_ADMIN_ID','�����Ԥ�ID (Zen Cart�δ����ԥ��ꥢ)');
-  define('ENTRY_ADMIN_PASSWORD','�ѥ����');
-  define('ADMIN_PASSSWORD_INSTRUCTION','�ǡ����١������ѹ���Ԥ��ˤϴ����ԤΥ桼�����͡���ȥѥ���ɡʴ������̤˥��������Ǥ��륢������ȡˤ�ɬ�פˤʤ�ޤ���<em> (MySQL�Υѥ���ɤǤϤ���ޤ���) </em>');
-  define('TITLE_SECURITY','�ǡ����١����Υ������ƥ�');
+  define('CHOOSE_UPGRADES','アップグレードステップを選択してください');
+  define('TITLE_DATABASE_PREFIX_CHANGE','データベーステーブルプレフィクス変更');
+  define('ERROR_PREFIX_CHANGE_NEEDED','<span class="errors">あなたのデータベースの中にZen Cartのテーブルを見つけることができませんでした。<br />恐らくあなたのデータベーステーブルのプレフィクスは不正確に指定されました。</span><br />もしプレフィクスを変えても問題が解決しないなら、phpMyAdminまたはあなたのウェブサーバのコントロールパネルを使ってconfigure.phpの設定と現行のデータベースを、手作業で比較する必要があるでしょう。');
+  define('TEXT_DATABASE_PREFIX_CHANGE','もしデータベーステーブルのプレフィクスを変更したければ、下に新しいプレフィクスを入力してください。<span class="emphasis">注意: 重複チェックは行いませんので、既に使用されているプレフィクスではないことを確認してください。</span>既に存在するテーブルプレフィクスを使うとデータベースを壊すことになります。');
+  define('TEXT_DATABASE_PREFIX_CHANGE_WARNING','<span class="errors"><strong>注意: もし、データベースの完全で信頼できる最近のバックアップがないのであれば、テーブルプレフィクスの変更を試すのは止めてください。もし処理中に何かうまくいかなかった場合、あなたのバックアップから復旧する必要があるでしょう。もし心配だったり確信が持てないのであれば、テーブル名の変更を試すことはやめてください。</strong></span>');
+  define('DATABASE_OLD_PREFIX','古いテーブルプレフィクス');
+  define('DATABASE_OLD_PREFIX_INSTRUCTION','古いテーブルプレフィクスを入力してください');
+  define('ENTRY_NEW_PREFIX','新しいテーブルプレフィクス');
+  define('DATABASE_NEW_PREFIX_INSTRUCTION','新しいテーブルプレフィクスを入力してください');
+  define('ENTRY_ADMIN_ID','管理者のID (Zen Cartの管理者エリア)');
+  define('ENTRY_ADMIN_PASSWORD','パスワード');
+  define('ADMIN_PASSSWORD_INSTRUCTION','データベースの変更を行うには管理者のユーザーネームとパスワード（管理画面にアクセスできるアカウント）が必要になります。<em> (MySQLのパスワードではありません) </em>');
+  define('TITLE_SECURITY','データベースのセキュリティ');
 
-  define('UPDATE_DATABASE_WARNING_DO_NOT_INTERRUPT','<span class="emphasis">���򥯥�å������塢���Ǥ��ʤ��Ǥ������������åץ��졼�ɤδ֤��Ԥ�����������</span>');
-  define('SKIP_UPDATES','���åץ��졼�ɤ򥹥��åפ���');
+  define('UPDATE_DATABASE_WARNING_DO_NOT_INTERRUPT','<span class="emphasis">下をクリックした後、中断しないでください。アップグレードの間お待ちください。</span>');
+  define('SKIP_UPDATES','アップグレードをスキップする');
 
 
-  define('REASON_TABLE_ALREADY_EXISTS','����¸�ߤ��뤿��ơ��֥�򹹿����뤳�Ȥ��Ǥ��ޤ���Ǥ�����');
-  define('REASON_TABLE_DOESNT_EXIST','�ơ��֥뤬¸�ߤ��ʤ�����ơ��֥�������뤳�Ȥ��Ǥ��ޤ���Ǥ�����');
-  define('REASON_CONFIG_KEY_ALREADY_EXISTS','����ե�����졼����󥭡�������¸�ߤ��뤿�ῷ�����������뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_COLUMN_ALREADY_EXISTS','����ब����¸�ߤ��뤿�ῷ�����ɲä��뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_COLUMN_DOESNT_EXIST_TO_DROP','����ब¸�ߤ��ʤ����ᥫ���������뤳�Ȥ��Ǥ��ޤ���Ǥ�����');
-  define('REASON_COLUMN_DOESNT_EXIST_TO_CHANGE','����ब¸�ߤ��ʤ����ᥫ�����ѹ����뤳�Ȥ��Ǥ��ޤ���Ǥ�����');
-  define('REASON_PRODUCT_TYPE_LAYOUT_KEY_ALREADY_EXISTS','�ץ������ȥ����ץ쥤�����ȥ���ե�����졼����󥭡�������¸�ߤ��뤿�ῷ�����������뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_INDEX_DOESNT_EXIST_TO_DROP','����ǥå�����¸�ߤ��ʤ����ᥤ��ǥå����������뤳�Ȥ��Ǥ��ޤ���Ǥ�����');
-  define('REASON_PRIMARY_KEY_DOESNT_EXIST_TO_DROP','�ץ饤�ޥ꡼������¸�ߤ��ʤ�����ץ饤�ޥ꡼�����������뤳�Ȥ��Ǥ��ޤ���Ǥ�����');
-  define('REASON_INDEX_ALREADY_EXISTS','����ǥå���������¸�ߤ��뤿�ῷ�����ɲä��뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_PRIMARY_KEY_ALREADY_EXISTS','�ץ饤�ޥ꡼����������¸�ߤ��뤿��ơ��֥�˿����˥ץ饤�ޥ꡼�������ɲä��뤳�Ȥ��Ǥ��ޤ���');
-  define('REASON_NO_PRIVILEGES','���Υ桼�����ϥǡ����١����Խ����¤�����ޤ���');
+  define('REASON_TABLE_ALREADY_EXISTS','既に存在するためテーブルを更新することができませんでした。');
+  define('REASON_TABLE_DOESNT_EXIST','テーブルが存在しないためテーブルを削除することができませんでした。');
+  define('REASON_CONFIG_KEY_ALREADY_EXISTS','コンフィギュレーションキーが既に存在するため新規に挿入することができません。');
+  define('REASON_COLUMN_ALREADY_EXISTS','カラムが既に存在するため新規に追加することができません。');
+  define('REASON_COLUMN_DOESNT_EXIST_TO_DROP','カラムが存在しないためカラムを削除することができませんでした。');
+  define('REASON_COLUMN_DOESNT_EXIST_TO_CHANGE','カラムが存在しないためカラムを変更することができませんでした。');
+  define('REASON_PRODUCT_TYPE_LAYOUT_KEY_ALREADY_EXISTS','プロダクトタイプレイアウトコンフィギュレーションキーが既に存在するため新規に挿入することができません。');
+  define('REASON_INDEX_DOESNT_EXIST_TO_DROP','インデックスが存在しないためインデックスを削除することができませんでした。');
+  define('REASON_PRIMARY_KEY_DOESNT_EXIST_TO_DROP','プライマリーキーが存在しないためプライマリーキーを削除することができませんでした。');
+  define('REASON_INDEX_ALREADY_EXISTS','インデックスが既に存在するため新規に追加することができません。');
+  define('REASON_PRIMARY_KEY_ALREADY_EXISTS','プライマリーキーが既に存在するためテーブルに新規にプライマリーキーを追加することができません。');
+  define('REASON_NO_PRIVILEGES','このユーザーはデータベース編集権限がありません。');
 
 ?>
