@@ -1,0 +1,358 @@
+<!--
+/**
+ * @package documentation
+ * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: whatsnew_1.3.0.2-l10n-jp-3.html 3812 2006-06-19 22:02:29Z drbyte $
+ */
+//-->
+<html>
+<style type="text/css">
+<!--
+body, table{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; }
+table.intro {border-color:C96E29; }
+td.intro{background-color:#EEEEEE ; border-color:5778ce; font-size:11px; }
+td.plainbox, div.callout {border: 1px dashed; border-color: C96E29; margin:5 40 5 40;}
+.heading {background-color:5778CE; font-weight:bold; font-size:14px;	width: 100%; }
+
+.title1 {color:C96E29; font-weight:bold; font-size:22px; }
+.title2 {color:C96E29; font-weight:bold; font-size:13px; }
+.small {font-size:10px ;}
+.error {color:FF0000; }
+.filename {font-family: mono, "Courier New", Courier ; font-size:14px; color: c96e29;}
+.pseudolink {text-decoration:underline; color:5778CE;}
+h1.intro { color: #ffffff; border:1px solid #aca893; background-color: #c96e29;  font-size: 22px;   padding: 4px;}
+h1 { color: #ffffff;    border:1px solid #aca893;   background-color: #5778ce;   font-size: 20px;   padding: 4px;}
+h2 { color: #c96e29; 	font-size: 18px;}
+h3 { color: #5778ce;	font-size: 16px; margin-bottom:0px;}
+h4 { color: #c96e29;	font-size: 14px;}
+h5 { color: #5778ce;	font-size: 16px; margin-bottom:0px; margin-top:0px; }
+
+
+-->
+</style>
+<title>What's New in Zen Cart(tm) v1.3.0.2-l10n-jp-8</title><body>
+
+<table class="intro" cellspacing="4" cellpadding="6" border="3" width="748px" align="center">
+<tr><td class="intro">
+<center><h1 class="intro">Welcome to Zen Cart&trade; ...</h1></center>
+<br />
+The Zen Cart&trade; software is made available to you for use, additions, changes, modifications, etc. without charge, under the GNU General Public License.
+<br />
+<br />
+While we do not charge for this software, donations are greatly appreciated each time you download a new version, to help cover the expenses of maintenance, upgrades, updates, the free support forum and the continued development of this software for your online e-commerce store.
+<br />
+<br />
+Donations can be made at:
+<a href="http://www.zen-cart.com/index.php?main_page=infopages&pages_id=14" target="_blank">The Zen Cart&trade; Team Page</a>
+<br />
+<br />
+We appreciate your support.<br />
+<em>The Zen Cart&trade; Team</em><br />
+<br />
+
+<center>
+<span class="small">
+Zen Cart&trade; is derived from: Copyright  2003 osCommerce<br />
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;<br />
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE<br />
+and is redistributable under the GNU General Public License<br /><br />
+</span>
+</center>
+</td></tr></table>
+
+<br />
+<table border="3" width="748px" align="center" cellpadding="6">
+  <tr>
+<td align="center"><img src="osi-certified-120x100.png" /><br />
+This software is OSI Certified Open Source Software.<br />
+OSI Certified is a certification mark of the Open Source Initiative.
+</td></tr></table>
+<br />
+
+<table border="3" width="748px" align="center" cellpadding="6">
+  <tr>
+<td>
+<h1>v1.3.0.2-l10n-jp-7から1.3.0.2-l10n-jp-8(EUC-JP版)へのアップデート方法</h1>
+<p>
+v1.3.0.2-l10n-jp-7からアップデートするにはzen-cart-1.3.0.2-l10n-euc-jp-7-to-v1.3.0.2-l10n-jp-8-patch.zipをダウンロードし以下の手順で進めてください。<br />
+※EUC-JP版のみアップデート可能です。jp-8より提供されるUTF-8版は新規インストール専用です。
+<br>
+<br>
+
+1.各ファイルをサーバにアップロードしてください。<br>
+   -----------------------------------------------
+<br>
+   次のファイルはZen Cartオリジナルファイルを修正しています。
+   もし、1.3.0.2-l10n-jp-7のZen Cartを使用しており、これらのファイルを独自にカスタマイズしていなければ
+   そのまま上書きしてください。<br>
+<br>
+   もし、そうでなければ、WinMergeを使用して、
+   あなたが運用しているZen Cart上のこれらのファイルとの修正差分を確認し、手動で差分をマージしてください。<br>
+<br>
+   上書きまたは差分マージが必要なファイル<br>
+mb-emulator/mb-emulator.php<br />
+htmlarea/htmlarea.js<br />
+<br />
+admin/attributes_controller.php<br />
+admin/configuration.php<br />
+admin/coupon_admin.php<br />
+admin/define_pages_editor.php<br />
+admin/index.php<br />
+admin/layout_controller.php<br />
+admin/media_manager.php<br />
+admin/modules.php<br />
+admin/options_name_manager.php<br />
+admin/product_types.php<br />
+admin/server_info.php<br />
+admin/sqlpatch.php<br />
+admin/whos_online.php<br />
+<br />
+admin/includes/application_top.php<br />
+admin/includes/attributes_preview.php<br />
+admin/includes/classes/language.php<br />
+admin/includes/classes/phplot.php<br />
+admin/includes/classes/sessions.php<br />
+admin/includes/footer.php<br />
+admin/includes/functions/compatibility.php<br />
+admin/includes/functions/functions_prices.php<br />
+admin/includes/functions/general.php<br />
+admin/includes/functions/html_graphs.php<br />
+admin/includes/functions/password_funcs.php<br />
+admin/includes/header.php<br />
+admin/includes/index.css<br />
+admin/includes/javascript/spiffyCal/spiffyCal_v2_1.css<br />
+admin/includes/languages/japanese.php<br />
+admin/includes/languages/japanese/admin.php<br />
+admin/includes/languages/japanese/attributes_controller.php<br />
+admin/includes/languages/japanese/categories.php<br />
+admin/includes/languages/japanese/coupon_admin.php<br />
+admin/includes/languages/japanese/coupon_restrict.php<br />
+admin/includes/languages/japanese/document_general.php<br />
+admin/includes/languages/japanese/document_product.php<br />
+admin/includes/languages/japanese/email_extras.php<br />
+admin/includes/languages/japanese/gv_mail.php<br />
+admin/includes/languages/japanese/gv_queue.php<br />
+admin/includes/languages/japanese/modules/newsletters/product_notification.php<br />
+admin/includes/languages/japanese/product.php<br />
+admin/includes/languages/japanese/product_free_shipping.php<br />
+admin/includes/languages/japanese/product_music.php<br />
+admin/includes/languages/japanese/specials.php<br />
+admin/includes/languages/japanese/store_manager.php<br />
+admin/includes/languages/japanese/tax_classes.php<br />
+admin/includes/modules/product/collect_info.php<br />
+admin/includes/modules/product_music/update_product.php<br />
+admin/includes/modules/update_product.php<br />
+admin/includes/stylesheet.css<br />
+<br />
+docs/0.about_zen_cart.html<br />
+docs/1.readme_installation.html<br />
+docs/4.readme_html_email_templates.html<br />
+docs/5.renaming_the_admin_directory.html<br />
+docs/INSTALL.TXT<br />
+docs/whatsnew_1.3.0.2-l10n-jp-7.html<br />
+<br />
+includes/version.php<br />
+includes/classes/cc_validation.php<br />
+includes/classes/db/mysql/query_factory.php<br />
+includes/classes/http_client.php<br />
+includes/classes/language.php<br />
+includes/classes/order.php<br />
+includes/classes/shipping.php<br />
+includes/classes/shopping_cart.php<br />
+includes/classes/template_func.php<br />
+includes/extra_configures/security_patch_v138_20080919.php<br />
+includes/functions/functions_email.php<br />
+includes/functions/functions_general.php<br />
+includes/functions/functions_lookups.php<br />
+includes/functions/functions_prices.php<br />
+includes/functions/html_output.php<br />
+includes/index_filters/default_filter.php<br />
+includes/index_filters/music_genre_filter.php<br />
+includes/index_filters/record_company_filter.php<br />
+includes/init_includes/init_sanitize.php<br />
+includes/languages/english/html_includes/define_checkout_success.php<br />
+includes/languages/english/html_includes/define_conditions.php<br />
+includes/languages/english/html_includes/define_contact_us.php<br />
+includes/languages/japanese.php<br />
+includes/languages/japanese/advanced_search_result.php<br />
+includes/languages/japanese/checkout_confirmation.php<br />
+includes/languages/japanese/checkout_payment.php<br />
+includes/languages/japanese/checkout_shipping.php<br />
+includes/languages/japanese/checkout_shipping_address.php<br />
+includes/languages/japanese/classic/header.php<br />
+includes/languages/japanese/document_general_info.php<br />
+includes/languages/japanese/document_product_info.php<br />
+includes/languages/japanese/email_extras.php<br />
+includes/languages/japanese/meta_tags.php<br />
+includes/languages/japanese/modules/order_total/ot_coupon.php<br />
+includes/languages/japanese/modules/shipping/flat.php<br />
+includes/languages/japanese/modules/shipping/freeshipper.php<br />
+includes/languages/japanese/product_free_shipping_info.php<br />
+includes/languages/japanese/product_info.php<br />
+includes/languages/japanese/product_music_info.php<br />
+includes/languages/japanese/product_reviews_write.php<br />
+includes/languages/japanese/products_new.php<br />
+includes/modules/additional_images.php<br />
+includes/modules/attributes.php<br />
+includes/modules/main_product_image.php<br />
+includes/modules/meta_tags.php<br />
+includes/modules/order_total/ot_cod_fee.php<br />
+includes/modules/order_total/ot_gv.php<br />
+includes/modules/order_total/ot_loworderfee.php<br />
+includes/modules/pages/advanced_search_result/header_php.php<br />
+includes/modules/pages/contact_us/header_php.php<br />
+includes/modules/pages/gv_send/header_php.php<br />
+includes/modules/pages/popup_image/header_php.php<br />
+includes/modules/pages/popup_image_additional/header_php.php<br />
+includes/modules/pages/tell_a_friend/header_php.php<br />
+includes/modules/pages/unsubscribe/header_php.php<br />
+includes/modules/payment/authorizenet_aim.php<br />
+includes/modules/payment/paypal/paypal_functions.php<br />
+includes/modules/payment/remise_zen.php<br />
+includes/modules/payment/remisecsp_zen.php<br />
+includes/modules/shipping/flat.php<br />
+includes/modules/shipping/freeshipper.php<br />
+includes/modules/shipping/table.php<br />
+includes/modules/shipping/usps.php<br />
+includes/modules/shipping/zones.php<br />
+includes/templates/classic/css/stylesheet_new.css<br />
+includes/templates/classic/css/stylesheet_original.css<br />
+includes/templates/template_default/popup_attributes_qty_prices/tpl_main_page.php<br />
+includes/templates/template_default/sideboxes/tpl_currencies.php<br />
+images/samples/thehunter.mp3<br />
+media/thehunter.mp3<br />
+zc_install/demo/mysql_demo.sql<br />
+zc_install/includes/functions/general.php<br />
+zc_install/includes/languages/japanese.php<br />
+zc_install/includes/languages/japanese/admin_setup.php<br />
+zc_install/includes/languages/japanese/database_setup.php<br />
+zc_install/includes/languages/japanese/phpbb_setup.php<br />
+zc_install/includes/languages/japanese/store_setup.php<br />
+zc_install/includes/languages/japanese/system_setup.php<br />
+zc_install/includes/modules/pages/database_setup/header_php.php<br />
+zc_install/includes/modules/pages/inspect/header_php.php<br />
+zc_install/includes/modules/pages/store_setup/header_php.php<br />
+zc_install/includes/templates/template_default/common/tpl_main_page.php<br />
+zc_install/includes/templates/template_default/css/stylesheet.css<br />
+zc_install/includes/templates/template_default/templates/admin_setup_default.php<br />
+zc_install/includes/templates/template_default/templates/system_setup_default.php<br />
+zc_install/mysql_upgrade_zencart_104_to_111.sql<br />
+zc_install/mysql_upgrade_zencart_114_to_120.sql<br />
+zc_install/mysql_upgrade_zencart_120jp3_to_1302jp1.sql<br />
+zc_install/mysql_upgrade_zencart_121_to_122.sql<br />
+zc_install/mysql_upgrade_zencart_124_to_125.sql<br />
+zc_install/mysql_upgrade_zencart_127_to_130.sql<br />
+zc_install/mysql_upgrade_zencart_1302_to_1302jp1.sql<br />
+zc_install/mysql_zencart.sql<br />
+zc_install/version.php<br />
+<br>
+2. 次のファイルは削除します。(そのままにしておいても問題ありません)<br>
+<br>
+   修正ファイルと同様に、これらのファイルを独自にカスタマイズしている場合は、これらは利用しませんのでマージする際にご注意ください。<br>
+<br>
+htmlarea/lang/b5.js<br />
+htmlarea/lang/cz.js<br />
+htmlarea/lang/da.js<br />
+htmlarea/lang/de.js<br />
+htmlarea/lang/ee.js<br />
+htmlarea/lang/el.js<br />
+htmlarea/lang/es.js<br />
+htmlarea/lang/fi.js<br />
+htmlarea/lang/fr.js<br />
+htmlarea/lang/gb.js<br />
+htmlarea/lang/he.js<br />
+htmlarea/lang/hu.js<br />
+htmlarea/lang/it.js<br />
+htmlarea/lang/lt.js<br />
+htmlarea/lang/lv.js<br />
+htmlarea/lang/nb.js<br />
+htmlarea/lang/nl.js<br />
+htmlarea/lang/no.js<br />
+htmlarea/lang/pl.js<br />
+htmlarea/lang/pt_br.js<br />
+htmlarea/lang/ro.js<br />
+htmlarea/lang/ru.js<br />
+htmlarea/lang/se.js<br />
+htmlarea/lang/si.js<br />
+htmlarea/lang/vn.js<br />
+<br />
+htmlarea/plugins/SpellChecker/lang/cz.js<br />
+htmlarea/plugins/SpellChecker/lang/da.js<br />
+htmlarea/plugins/SpellChecker/lang/de.js<br />
+htmlarea/plugins/SpellChecker/lang/hu.js<br />
+htmlarea/plugins/SpellChecker/lang/it.js<br />
+htmlarea/plugins/SpellChecker/lang/ro.js<br />
+<br />
+htmlarea/plugins/TableOperations/lang/cz.js<br />
+htmlarea/plugins/TableOperations/lang/da.js<br />
+htmlarea/plugins/TableOperations/lang/de.js<br />
+htmlarea/plugins/TableOperations/lang/el.js<br />
+htmlarea/plugins/TableOperations/lang/fi.js<br />
+htmlarea/plugins/TableOperations/lang/hu.js<br />
+htmlarea/plugins/TableOperations/lang/it.js<br />
+htmlarea/plugins/TableOperations/lang/nl.js<br />
+htmlarea/plugins/TableOperations/lang/no.js<br />
+htmlarea/plugins/TableOperations/lang/ro.js<br />
+<br>
+<h1>v1.3.0.2-l10n-jp-7からの修正点</h1>
+
+<h3><strong>v1.3.0.2-l10n-jp-8で修正された内容: </strong></h3>
+<ul>
+<li>クレジット表記の2006を2012に</li>
+<li>言語ファイル - エントリーの抜けや誤訳などを修正</li>
+<li>PHP5.3対応 ereg関数をpreg関数に置き換え</li>
+<li>PHP5.3対応(split関数置き換え)</li>
+<li>PHP5.3対応(& newを修正)</li>
+<li>PHPバージョンの評価順が誤っているため修正</li>
+<li>MySQL5.5対応(インストーラのsqlファイルのTYPE=MyISAMをENGINE=MyISAMに変更)</li>
+<li>MySQL5.5で警告を出さないように調整</li>
+<li>InnoDB対応(UTF-8版のみ)</li>
+<li>サンプルサイトのCSSを調整</li>
+<li>管理画面のCSSを調整</li>
+<li>インストーラのCSSを調整</li>
+<li>ドキュメントファイルのエンコード指定が誤っているため修正</li>
+<li>インストール時のデフォルトの通貨を円にセット</li>
+<li>インストール時のデフォルトの言語を日本語にセット</li>
+<li>インストール時のstore_zoneの初期値を東京にセット</li>
+<li>インストール時の国名選択の初期値を日本にセット</li>
+<li>テーブルプレフィックスの初期値をzen_にセット</li>
+<li>インストーラの翻訳を調整</li>
+<li>日本語・英語の並び順を日本語優先に</li>
+<li>「ヤマト運輸」が「佐川」になっている箇所があるため修正</li>
+<li>カテゴリー属性設定・デザイン調整</li>
+<li>サンプルサイト・フォントサイズ調整</li>
+<li>「よこ」→「横」</li>
+<li>「配送料無料」が分かりにくい http://zen-cart.jp/bbs/viewtopic.php?p=8911#p8911</li>
+<li>「既に設定された住所にお届けする場合、ご希望のお届け先を選択してください</li>
+<li>「利用付加」 http://zen-cart.jp/bbs/viewtopic.php?p=8408#p8408</li>
+<li>「バナーボックス2に使用しますか」 http://zen-cart.jp/bbs/viewtopic.php?p=12964#p12964</li>
+<li>「在庫あり」 http://zen-cart.jp/bbs/viewtopic.php?p=9176#p9176</li>
+<li>「この商品をお求めの客様」 文言見直し要望を反映 http://zen-cart.jp/bbs/viewtopic.php?p=12394</li>
+<li>オン・オフが逆 - 文言見直し要望を反映 http://zen-cart.jp/bbs/viewtopic.php?p=9104#p9104</li>
+<li>ネット・グロス 文言見直し要望を反映 http://zen-cart.jp/bbs/viewtopic.php?p=9058#p9058</li>
+<li>管理画面翻訳調整</li>
+<li>htmlarea デザイン調整</li>
+<li>オプション属性管理画面デザイン調整</li>
+<li>投稿画面各部調整</li>
+<li>投稿画面のプレビューボタンを左寄せ</li>
+<li>Yes/Noを翻訳</li>
+<li>翻訳表現を調整（シンプルな表現に）</li>
+<li>typo修正 perg_match→preg_match</li>
+<li>改行コードの不揃いを修正</li>
+</ul>
+<h1>修正されたファイル一覧</h1>
+
+<p> 
+v1.3.0.2-l10n-jp-7から修正されたファイルのリスト：
+<a
+href="changelog-v1-3-0-2-l10n-jp-8.html" target="_blank">changelog-v1-3-0-2-l10n-jp-8.html</a> </p>
+<br>
+</ul>
+</td>
+</tr>
+</table>
+<br /><br />
+<br /><br />
+</body>
+</html>
