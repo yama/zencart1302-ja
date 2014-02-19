@@ -32,56 +32,56 @@ h4 { color: #c96e29;	font-size: 14px;}
 -->
 </style>
 <title>OnLoad() Overrides in Zen Cart(tm)</title>
-<h1><strong>On_Load </strong>�����С��饤�ɤ���ˡ</h1>
-<p><em>Zen Magic����</em><br />
+<h1><strong>On_Load </strong>オーバーライドの方法</h1>
+<p><em>Zen Magicの例</em><br />
   <br />
-  Zen Cart�Υ⥸�塼�륷���ƥ��<span class="filename">&lt;BODY&gt;</span> ������ &quot;onload&quot; 
-  �η�̤��ȤƤ��ñ�˥��������Τˤ⤷���ϥڡ����١����ǰ����ޤ���<br>
-  ���ʤ���<span class="filename">/includes/templates/YOURTEMPLATE</span> �ե����������ˡ���ǽ�����뤿��� 
-  <span class="heading">/jscript/on_load</span>�ե����������ޤ���<br />
+  Zen Cartのモジュールシステムは<span class="filename">&lt;BODY&gt;</span> タグの &quot;onload&quot; 
+  の結果がとても簡単にサイト全体にもしくはページベースで扱われます。<br>
+  あなたの<span class="filename">/includes/templates/YOURTEMPLATE</span> フォルダーの中に、機能させるために 
+  <span class="heading">/jscript/on_load</span>フォルダーを作れます。<br />
   <br />
-  ���Υǥ��쥯�ȥ꡼�Τɤ�<span class="heading">on_load_*.js</span>��javascript��on_load()��ǽ��body������������Τ˻��Ѥ���ޤ���
-<h2>���������Τ�����Site-Wide Use</h2>
-<p>���������Τؤ����ϡ�<code class="filename">on_load.js</code>�ե������̾�����դ� <span class="filename">/includes/templates/YOURTEMPLATE/jscript/on_load</span>�ե���������֤��Ƥ���������¿���Υե������Ϳ�����뤫���Τ�ޤ��󤷡��ե�����̾�˲������դ��ä���ʸ�������դ��ä����ܤ�����ǽ��������ޤ���
-<h2>Page-Specific������</h2>
-<p>page-specific�����ϡ�<code class="filename">/includes/modules/pages/{pagename}/</code> 
-  �ʲ��˥ե�������֤��Ƥ���������<br />
+  このディレクトリーのどの<span class="heading">on_load_*.js</span>もjavascriptのon_load()機能でbodyタグを修正するのに使用されます。
+<h2>サイト全体の利用Site-Wide Use</h2>
+<p>サイト全体への操作は、<code class="filename">on_load.js</code>ファイルに名前を付け <span class="filename">/includes/templates/YOURTEMPLATE/jscript/on_load</span>フォルダーに置いてください。多数のファイルは与えられるかも知れませんし、ファイル名に下線の付け加えや文字数の付け加えが施される可能性があります。
+<h2>Page-Specificの利用</h2>
+<p>page-specificの操作は、<code class="filename">/includes/modules/pages/{pagename}/</code> 
+  以下にファイルを置いてください。<br />
 
-<h1>�ե����������File Contents </h1>
-<p>NOTE:<span class="style1">on_load_*.js</span>�ե������̤�����Υ����ɤ�����<code class="filename">on_load=""</code> 
-  �ѥ�᡼������<code class="filename">&lt;body&gt;</code>��������������ޤޤ�ޤ��� <br>
+<h1>ファイルの内容File Contents </h1>
+<p>NOTE:<span class="style1">on_load_*.js</span>ファイルは未処理のコードだけが<code class="filename">on_load=""</code> 
+  パラメーターの<code class="filename">&lt;body&gt;</code>タグに挿入され含まれます。 <br>
   <br />
-  ��̤Ϥ��Τ褦�ˤʤ�ޤ���<br />
+  結果はこのようになります：<br />
   <code class="filename">&lt;body onload=&quot;WHATEVER_YOUR_FILE_CONTAINS_GOES_HERE&quot;&gt;</code><br />
   <br />
-  ����Ū�ˡ��ե��������Ƥ�DOM�˵�ǽ��Ƥӹ��फ�⤷����jscript�ե�����˵�ǽ���ɤ߹���褦�ˤʤ�ޤ���
-<h2><strong>OVERRIDE����</strong></h2>
-<p>1. �Ϥ����<strong>�ġ��Υڡ���</strong>��&quot;on_load&quot;������ץȤ����뤫�����å����ޤ��礦��<br />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"<code class="filename">/includes/modules/pages/<span class="style2">{PAGENAME}</span>/</code>"��"<span class="style1">on_load_*.js</span>"��̾�դ���줿�ե������Ĵ�٤ޤ���<br />
-  2. ������"<code class="filename">includes/templates/<span class="style2">TEMPLATE</span>/jscript/on_load/<span class="style1">on_load_*.js</span></code>"�Υ��������Τ�OVERRIDE��Ĵ�٤ޤ���<br>
+  基本的に、ファイル内容はDOMに機能を呼び込むかもしくはjscriptファイルに機能を読み込むようになります。
+<h2><strong>OVERRIDEの操作：</strong></h2>
+<p>1. はじめに<strong>個々のページ</strong>の&quot;on_load&quot;スクリプトがあるかチェックしましょう。<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"<code class="filename">/includes/modules/pages/<span class="style2">{PAGENAME}</span>/</code>"の"<span class="style1">on_load_*.js</span>"と名付けられたファイルを調べます。<br />
+  2. そして"<code class="filename">includes/templates/<span class="style2">TEMPLATE</span>/jscript/on_load/<span class="style1">on_load_*.js</span></code>"のサイト全体のOVERRIDEを調べます。<br>
 <h1>EXAMPLES</h1>
-<h3><strong>EXAMPLE #1 (�ʥڡ������Ȥ�on_load�����ǥ��󥰡�per-page on_load coding)</strong></h3>
-<p> ���Ĥ�Zen Cart�Υǥե���Ȥ�&quot;login&quot; �� &quot;contact us&quot; �Υڡ�����¸�ߤ�����Two 
+<h3><strong>EXAMPLE #1 (（ページごとのon_loadコーディング）per-page on_load coding)</strong></h3>
+<p> ２つのZen Cartのデフォルトの&quot;login&quot; と &quot;contact us&quot; のページが存在する例Two 
   live examples of this exist for the default &quot;login&quot; and &quot;contact 
   us&quot; pages in Zen Cart.<br />
-  ��������ڡ����򸫤Ƥߤޤ��礦��</p>
-<p>/includes/modules/pages/login/on_load_main.js�򸫤�Ȥ狼��ޤ�����&lt;body&gt;�����˥����ɤ���������Ƥ��ޤ���You'll 
+  ログインページを見てみましょう：</p>
+<p>/includes/modules/pages/login/on_load_main.jsを見るとわかりますが、&lt;body&gt;タグにコードが挿入されています：You'll 
   see that in /includes/modules/pages/login/on_load_main.js the code that is inserted 
   into the &lt;body&gt; tag for that page is this:<br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="filename">document.getElementById('email_address').focus();</code></p>
-<p>�����DOM���ڡ����������줿���˥������뤬���Ǥ���ǽ�Υ��ݥåȤȤ��ƤΥڡ����ξ���&quot;email_address&quot;�Ǥξ��������Ƥ�褦�ˤ��Ƥ��ޤ���</p>
-<p>��������ڡ������ɤ߹��ޤ줿�Ȥ������Τ褦��&lt;body&gt;�������ɤޤ�Ƥ��ޤ���When the login page is loaded, 
+<p>これはDOMがページが開かれた時にカーソルが点滅する最初のスポットとしてのページの場所で&quot;email_address&quot;での焦点を当てるようにしています。</p>
+<p>ログインページが読み込まれたとき、このように&lt;body&gt;タグが読まれています。When the login page is loaded, 
   the &lt;body&gt; tag will read like this:<br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="filename">&lt;body id=&quot;login&quot; 
   onload=&quot;document.getElementById('email_address').focus();&quot;&gt; </code><br />
 </p>
-<h3><strong>EXAMPLE #2 ��on_load�Ϥ��ʤ��Υ���åפ����ƤΥڡ����ɤ߹��ޤ�ޤ���</strong></h3>
-<p>WEB�ǥ����ʤϥ�˥塼�����Τ���˥ڡ����˥����륪���С����᡼����ץ�����ɤ��������ȹͤ��ޤ��������ξ�硢��ˡ�ϣ����Ǥ���ޤ���</p>
-<p>1. �ץ�����ɤ�Ư���򤵤��뤿���javascript��ǽ������򤹤�ե��������ޤ����������֤��ޤ���<br />
+<h3><strong>EXAMPLE #2 （on_loadはあなたのショップの全てのページ読み込まれます）</strong></h3>
+<p>WEBデザイナはメニュー作成のためにページにロールオーバーイメージをプリロードさせたいと考えますが、この場合、方法は２要素あります：</p>
+<p>1. プリロードの働きをさせるためにjavascript機能の定義をするファイルを作ります。そして置きます。<br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="filename">includes/templates/<span class="style2">{template_directory}</span>/jscript/jscript_preloadimages.js</code></p>
-<p>2. onload�����ɤΥե�����ʲ��Τ褦�˺��ޤ���<br />
+<p>2. onloadコードのファイル以下のように作ります：<br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="filename">includes/templates/<span class="style2">{template_directory}</span>/jscript/on_load/on_load_image_preload.js</code><br />
-  &nbsp;&nbsp;&nbsp;&nbsp;�����ƥե�����ˤ��ʤ���js�ե�����˥ץ�����ɵ�ǽ��Ƥӹ�������ȥޥå����뤿��ε�ǽ���֤��ޤ����ʲ��Τ褦�ˡ�<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;そしてファイルにあなたのjsファイルにプリロード機能を呼び込む定義とマッチするための機能を置きます。以下のように：<br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="filename">preloadImages();</code></p>
-<p>3. ������󡢥ץ�����ɤ�Ư���򥵥ݡ��Ȥ��뤿��μºݤ˻Ȥ��륤�᡼���ե������¾�Υե�����Υ��åץ����ɤ�ɬ���Τ���Ƥ���������<br /></p> 
+<p>3. もちろん、プリロードの働きをサポートするための実際に使われるイメージファイルや他のファイルのアップロードは必ず確かめてください。<br /></p> 
 </p>

@@ -2,69 +2,69 @@ Zen Cart(tm) - The Art of E-Commerce
 Welcome to Zen Cart(tm) E-Commerce
 Version 1.3.0.2-l10n-jp-8
 
-���Υɥ�����Ȥϥ��󥹥ȡ���˴ؤ������˴ʰפʥɥ�����ȤǤ���
-���󥹥ȡ���˴ؤ�����ܺ٤ʾ�������뤿��ˡ�/docs�ǥ��쥯�ȥ�ˤ���
-HTML�С������Υɥ�����Ȥ򻲾Ȥ��뤳�Ȥ򤪤����ᤷ�ޤ���
+このドキュメントはインストールに関する非常に簡易なドキュメントです。
+インストールに関するより詳細な情報を得るために、/docsディレクトリにある
+HTMLバージョンのドキュメントを参照することをおすすめします。
 
-���Ƥ�README�ɥ�����Ȥ�/docs�ǥ��쥯�ȥ�˳�Ǽ����Ƥ��ޤ���
+全てのREADMEドキュメントは/docsディレクトリに格納されています。
 
 --------------------------------------------------------------------------
 
-Zen Cart��Ƴ���ϼ�ư���󥹥ȡ��륷���ƥ�ˤ�äƹԤ��ޤ���
-��ư���󥹥ȡ��륷���ƥ��Ȥ��ˤϡ��ޤ��ץ������򥤥󥹥ȡ��뤷����
-Web������/�ǥ��쥯�ȥ�˲��ह��ɬ�פ�����ޤ���
+Zen Cartの導入は自動インストールシステムによって行います。
+自動インストールシステムを使うには、まずプログラムをインストールしたい
+Webサーバ/ディレクトリに解凍する必要があります。
    
-��������ޥ���˥��󥹥ȡ��뤹����ϡ�����Apache(Web�����Х��եȥ�����)��
-PHP(������ץȸ���)�Υ��󥹥ȡ��롢���꤬�Ѥ�Ǥ���ɬ�פ�����ޤ���
+ローカルマシンにインストールする場合は、既にApache(Webサーバソフトウェア)、
+PHP(スクリプト言語)のインストール、設定が済んでいる必要があります。
    
-Zen Cart�Υ��󥹥ȡ�����ˡ
+Zen Cartのインストール方法
 ==========================
    
-1. ���󥹥ȡ���򳫻Ϥ���ˤϡ�Zen Cart�Υ��������֥ե�����(.zip�����ʤ�)
-   ����ष�ޤ������ह��ȡ�Zen Cart�Υץ�������ब���ä��ǥ��쥯�ȥ꤬
-   ���������Ϥ��Ǥ���
+1. インストールを開始するには、Zen Cartのアーカイブファイル(.zip形式など)
+   を解凍します。解凍すると、Zen Cartのプログラム類が入ったディレクトリが
+   作成されるはずです。
    
-2. ���Υǥ��쥯�ȥ�򡢤��ʤ���Web�����Ф˥��ԡ����뤫ftp�ʤɤǥ��åץ���
-   �ɤ��Ƥ���������
+2. このディレクトリを、あなたのWebサーバにコピーするかftpなどでアップロー
+   ドしてください。
    
-3. ���ˡ���ư���󥹥ȡ��륷���ƥ��ư���ޤ�����ư���뤿��ˤϡ�Web�֥�
-   �����򳫤����ʲ�����˽��ä�URL���Ǥ�����Ǥ���������
+3. 次に、自動インストールシステムを起動します。起動するためには、Webブラ
+   ウザを開き、以下の例に従ってURLを打ち込んでください。
    
-   a. Zen Cart�ץ�����ब���󥿡��ͥåȾ��Web�����Фˤ�����
+   a. Zen Cartプログラムがインターネット上のWebサーバにある場合
    
      http://www.mydomain.com/zc_install/
    
-     "www.mydomain.com"�ˤϤ��ʤ��Υɥᥤ�󡢥ǥ��쥯�ȥ�ʤɤ�����ޤ���
+     "www.mydomain.com"にはあなたのドメイン、ディレクトリなどが入ります。
 
-   b. Windows���Apache�ǥ��쥯�ȥ��htdocs�ǥ��쥯�ȥ��Zen Cart�򥳥ԡ�
-      �������
+   b. Windows上でApacheディレクトリのhtdocsディレクトリにZen Cartをコピー
+      した場合
 
-   ��http://localhost/zen-cart/zc_install/
+   　http://localhost/zen-cart/zc_install/
 
-4. Web�֥饦���ˡ�Zen Cart Setup�פβ��̤�ɽ�����줿�顢��ϲ��̤������˽���
-   �ƥ��󥹥ȡ����ʤ�Ƥ���������
-    /docs/1.readme_installation.html�ˤ⥤�󥹥ȡ���˴ؤ�����ܺ٤�����������ޤ��Τǡ�����
-   ��⻲�ͤˤ��Ʋ�������
+4. Webブラウザに「Zen Cart Setup」の画面が表示されたら、後は画面の説明に従っ
+   てインストールを進めてください。
+    /docs/1.readme_installation.htmlにもインストールに関するより詳細な説明がありますので、こち
+   らも参考にして下さい。
 
 
 
-�ȥ�֥륷�塼�ƥ���
+トラブルシューティング
 ======================
 
-Zen Cart�Υ��󥹥ȡ��뤬���ޤ������ʤ����ˤϡ��ʲ��ξ���򻲾Ȥ��Ƥߤޤ���
-����
+Zen Cartのインストールがうまくいかない場合には、以下の情報を参照してみましょ
+う。
 
-Zen Cart ���ܸ���������� ���󥹥ȡ������
+Zen Cart 日本語公式サイト インストール情報
 http://www.zen-cart.jp/63.html
 http://www.zen-cart.jp/index.php?cmd=read&page=FAQ%2F%A5%A4%A5%F3%A5%B9%A5%C8%A1%BC%A5%EB%A4%CB%A4%C4%A4%A4%A4%C6
 
-Zen Cart Frequently Asked Questions (�Ѹ�)
+Zen Cart Frequently Asked Questions (英語)
 http://www.zen-cart.com/modules/xoopsfaq/
 
-�嵭�ξ�������꤬��褷�ʤ����ϡ�Zen Cart.JP�ηǼ��ĤǼ��䤷�Ƥߤ�ȼ꤬
-���꤬�����뤫���Τ�ޤ���
+上記の情報で問題が解決しない場合は、Zen Cart.JPの掲示板で質問してみると手が
+かりが得られるかも知れません。
 
-Zen Cart.JP ���ߥ�˥ƥ��Ǽ���
+Zen Cart.JP コミュニティ掲示板
 http://www.zen-cart.jp/bbs/
 
 --------------------------------------------------------------------------
