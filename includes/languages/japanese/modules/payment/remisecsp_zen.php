@@ -15,20 +15,20 @@
 // | Released under GPL                                                   |
 // +----------------------------------------------------------------------+
 //
-  define('MODULE_PAYMENT_REMISECSP_TEXT_TITLE', 'REMISE¥³¥ó¥Ó¥Ë¥¨¥ó¥¹¥¹¥È¥¢·èºÑ');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_TITLE', 'REMISEã‚³ãƒ³ãƒ“ãƒ‹ã‚¨ãƒ³ã‚¹ã‚¹ãƒˆã‚¢æ±ºæ¸ˆ');
   define('MODULE_PAYMENT_REMISECSP_TEXT_DESCRIPTION', 'REMISECSP');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_EXPLAIN','REMISE¥³¥ó¥Ó¥Ë¥¨¥ó¥¹¥¹¥È¥¢·èºÑ¥·¥¹¥Æ¥à¤ò»ÈÍÑ¤·¤Þ¤¹¡£');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_NAME', '»áÌ¾:');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_KANA', '¥Õ¥ê¥¬¥Ê¡ÊÁ´³Ñ¡Ë:');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_INDISPEN', '¡¡¡ÊÉ¬¿Ü¡Ë');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_TYPE', '¥¿¥¤¥×:');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_INPUT_KANA', '¥ß¥Ë¥å¥¦¥ê¥ç¥¯');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_GOODS_NAME', '¾¦ÉÊ°ì¼°');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_GOODS_UNIT', 'ÅÀ');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_ERROR_MESSAGE', 'REMISE¥³¥ó¥Ó¥Ë¥¨¥ó¥¹¥¹¥È¥¢·èºÑ¤Î½èÍý¤Ë¥¨¥é¡¼¤¬È¯À¸¤·¤Þ¤·¤¿. ¤â¤¦°ìÅÙ»î¤·¤Æ¤¯¤À¤µ¤¤.');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_ERROR', 'REMISE¥³¥ó¥Ó¥Ë¥¨¥ó¥¹¥¹¥È¥¢·èºÑÆþÎÏ ¥¨¥é¡¼!');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_ERROR_INVALID_KANA','¥Õ¥ê¥¬¥Ê¤ÏÁ´³Ñ¥«¥¿¥«¥Ê¤ÇÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤');
-  define('MODULE_PAYMENT_REMISECSP_TEXT_ERROR_INVALID_PHONE_NUM','ÅÅÏÃÈÖ¹æ¤¬ÉÔÀµ¤Ç¤¹¡£¥¢¥«¥¦¥ó¥È¾ðÊó¤òÊÔ½¸¤·¡¢ÅÅÏÃÈÖ¹æ¤ò½¤Àµ¤·¤Æ¤¯¤À¤µ¤¤');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_EXPLAIN','REMISEã‚³ãƒ³ãƒ“ãƒ‹ã‚¨ãƒ³ã‚¹ã‚¹ãƒˆã‚¢æ±ºæ¸ˆã‚·ã‚¹ãƒ†ãƒ ã‚’ä½¿ç”¨ã—ã¾ã™ã€‚');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_NAME', 'æ°å:');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_KANA', 'ãƒ•ãƒªã‚¬ãƒŠï¼ˆå…¨è§’ï¼‰:');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_INDISPEN', 'ã€€ï¼ˆå¿…é ˆï¼‰');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_TYPE', 'ã‚¿ã‚¤ãƒ—:');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_INPUT_KANA', 'ãƒŸãƒ‹ãƒ¥ã‚¦ãƒªãƒ§ã‚¯');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_GOODS_NAME', 'å•†å“ä¸€å¼');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_GOODS_UNIT', 'ç‚¹');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_ERROR_MESSAGE', 'REMISEã‚³ãƒ³ãƒ“ãƒ‹ã‚¨ãƒ³ã‚¹ã‚¹ãƒˆã‚¢æ±ºæ¸ˆã®å‡¦ç†ã«ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸ. ã‚‚ã†ä¸€åº¦è©¦ã—ã¦ãã ã•ã„.');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_ERROR', 'REMISEã‚³ãƒ³ãƒ“ãƒ‹ã‚¨ãƒ³ã‚¹ã‚¹ãƒˆã‚¢æ±ºæ¸ˆå…¥åŠ› ã‚¨ãƒ©ãƒ¼!');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_ERROR_INVALID_KANA','ãƒ•ãƒªã‚¬ãƒŠã¯å…¨è§’ã‚«ã‚¿ã‚«ãƒŠã§å…¥åŠ›ã—ã¦ãã ã•ã„');
+  define('MODULE_PAYMENT_REMISECSP_TEXT_ERROR_INVALID_PHONE_NUM','é›»è©±ç•ªå·ãŒä¸æ­£ã§ã™ã€‚ã‚¢ã‚«ã‚¦ãƒ³ãƒˆæƒ…å ±ã‚’ç·¨é›†ã—ã€é›»è©±ç•ªå·ã‚’ä¿®æ­£ã—ã¦ãã ã•ã„');
   define('MODULE_PAYMENT_REMISECSP_TEXT_EMAIL_FOOTER', '');
 
 ?>

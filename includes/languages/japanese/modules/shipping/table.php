@@ -20,9 +20,9 @@
 // $Id: table.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_TABLE_TEXT_TITLE', '¼ÂººË¡');
-define('MODULE_SHIPPING_TABLE_TEXT_DESCRIPTION', '¼ÂººË¡');
-define('MODULE_SHIPPING_TABLE_TEXT_WAY', 'ºÇÎÉ¤ÎÊýË¡');
-define('MODULE_SHIPPING_TABLE_TEXT_WEIGHT', '½ÅÎÌ');
-define('MODULE_SHIPPING_TABLE_TEXT_AMOUNT', '¹ç·×');
+define('MODULE_SHIPPING_TABLE_TEXT_TITLE', 'å®ŸæŸ»æ³•');
+define('MODULE_SHIPPING_TABLE_TEXT_DESCRIPTION', 'å®ŸæŸ»æ³•');
+define('MODULE_SHIPPING_TABLE_TEXT_WAY', 'æœ€è‰¯ã®æ–¹æ³•');
+define('MODULE_SHIPPING_TABLE_TEXT_WEIGHT', 'é‡é‡');
+define('MODULE_SHIPPING_TABLE_TEXT_AMOUNT', 'åˆè¨ˆ');
 ?>

@@ -1,2 +1,2 @@
-<p><strong>��³��λ[����ץ�ʸ��]</strong></p><p>������ʬ���������֡���������������ޤ���</p>
-<p>������ʬ�ϡ������Բ��̤Ρ��ɲ����ꡦ�ġ���ס�����֥ڡ������Խ��פ�define_checkout_success.php���Խ��Ǥ��ޤ���</p>
+<p><strong>手続完了[サンプル文章]</strong></p><p>この部分に配送時間・配送規約を記入します。</p>
+<p>この部分は、管理者画面の「追加設定・ツール」＞「定番ページの編集」のdefine_checkout_success.phpで編集できます。</p>

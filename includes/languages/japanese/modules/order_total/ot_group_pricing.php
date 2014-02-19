@@ -20,6 +20,6 @@
 // $Id: ot_group_pricing.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_GROUP_PRICING_TITLE', '�ܵҳ��');
-  define('MODULE_ORDER_TOTAL_GROUP_PRICING_DESCRIPTION', '�ܵҳ��');
+  define('MODULE_ORDER_TOTAL_GROUP_PRICING_TITLE', '顧客割引');
+  define('MODULE_ORDER_TOTAL_GROUP_PRICING_DESCRIPTION', '顧客割引');
 ?>

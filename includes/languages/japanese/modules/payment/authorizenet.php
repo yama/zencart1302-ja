@@ -22,14 +22,14 @@
 
   define('MODULE_PAYMENT_AUTHORIZENET_TEXT_ADMIN_TITLE', 'Authorize.net');
   define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CATALOG_TITLE', 'Credit Card');  // Payment option title as displayed to the customer
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_DESCRIPTION', '¥¯¥ì¥¸¥Ã¥È¥«¡¼¥É ¥Æ¥¹¥È¾ðÊó:<br><br>CC#: 4111111111111111<br>Í­¸ú´ü¸Â: Ç¤°Õ');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_TYPE', '¥¿¥¤¥×:');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_OWNER', '¥«¡¼¥ÉÌ¾µÁ:');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_NUMBER', '¥«¡¼¥ÉÈÖ¹æ:');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_EXPIRES', 'Í­¸ú´ü¸Â:');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_OWNER', '* ¥«¡¼¥ÉÌ¾µÁ¤Ï' . CC_OWNER_MIN_LENGTH . 'Ê¸»ú°Ê¾åÉ¬Í×¤Ç¤¹¡£\n');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_NUMBER', '* ¥«¡¼¥ÉÈÖ¹æ¤Ï' . CC_NUMBER_MIN_LENGTH . 'Ê¸»ú°Ê¾åÉ¬Í×¤Ç¤¹¡£\n');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR_MESSAGE', '¥¯¥ì¥¸¥Ã¥È¥«¡¼¥É¤Î½èÍý¤Ë¥¨¥é¡¼¤¬È¯À¸¤·¤Þ¤·¤¿. ¤â¤¦°ìÅÙ»î¤·¤Æ¤¯¤À¤µ¤¤¡£.');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_DECLINED_MESSAGE', '¥¯¥ì¥¸¥Ã¥È¥«¡¼¥É¤Î¼õÉÕ¤¬µñÈÝ¤µ¤ì¤Þ¤·¤¿¡£Â¾¤Î¥¯¥ì¥¸¥Ã¥È¥«¡¼¥É¤ò»î¤¹¤«¾ÜºÙ¤ò²ÃÌÁ¥¯¥ì¥¸¥Ã¥È²ñ¼Ò¤ØÌä¤¤¹ç¤ï¤»¤Æ¤¯¤À¤µ¤¤¡£');
-  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR', '¥¯¥ì¥¸¥Ã¥È¥«¡¼¥É ¥¨¥é¡¼!!');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_DESCRIPTION', 'ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ ãƒ†ã‚¹ãƒˆæƒ…å ±:<br><br>CC#: 4111111111111111<br>æœ‰åŠ¹æœŸé™: ä»»æ„');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_TYPE', 'ã‚¿ã‚¤ãƒ—:');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_OWNER', 'ã‚«ãƒ¼ãƒ‰åç¾©:');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_NUMBER', 'ã‚«ãƒ¼ãƒ‰ç•ªå·:');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_CREDIT_CARD_EXPIRES', 'æœ‰åŠ¹æœŸé™:');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_OWNER', '* ã‚«ãƒ¼ãƒ‰åç¾©ã¯' . CC_OWNER_MIN_LENGTH . 'æ–‡å­—ä»¥ä¸Šå¿…è¦ã§ã™ã€‚\n');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_JS_CC_NUMBER', '* ã‚«ãƒ¼ãƒ‰ç•ªå·ã¯' . CC_NUMBER_MIN_LENGTH . 'æ–‡å­—ä»¥ä¸Šå¿…è¦ã§ã™ã€‚\n');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR_MESSAGE', 'ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ã®å‡¦ç†ã«ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸ. ã‚‚ã†ä¸€åº¦è©¦ã—ã¦ãã ã•ã„ã€‚.');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_DECLINED_MESSAGE', 'ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ã®å—ä»˜ãŒæ‹’å¦ã•ã‚Œã¾ã—ãŸã€‚ä»–ã®ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ã‚’è©¦ã™ã‹è©³ç´°ã‚’åŠ ç›Ÿã‚¯ãƒ¬ã‚¸ãƒƒãƒˆä¼šç¤¾ã¸å•ã„åˆã‚ã›ã¦ãã ã•ã„ã€‚');
+  define('MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR', 'ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ ã‚¨ãƒ©ãƒ¼!!');
 ?>

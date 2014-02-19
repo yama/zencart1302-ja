@@ -19,8 +19,8 @@
 // +----------------------------------------------------------------------+
 // $Id: 
 //
-define('BOX_HEADING_MUSIC_GENRES', '²»³Ú¥¸¥ã¥ó¥ë');
-define('BOX_HEADING_RECORD_COMPANY', '¥ì¥³¡¼¥É²ñ¼Ò');
-define('PULL_DOWN_RECORD_COMPANIES', '- ¥ê¥»¥Ã¥È -');
-define('PULL_DOWN_MUSIC_GENRES', '- ¥ê¥»¥Ã¥È -');
+define('BOX_HEADING_MUSIC_GENRES', 'éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«');
+define('BOX_HEADING_RECORD_COMPANY', 'ãƒ¬ã‚³ãƒ¼ãƒ‰ä¼šç¤¾');
+define('PULL_DOWN_RECORD_COMPANIES', '- ãƒªã‚»ãƒƒãƒˆ -');
+define('PULL_DOWN_MUSIC_GENRES', '- ãƒªã‚»ãƒƒãƒˆ -');
 ?>

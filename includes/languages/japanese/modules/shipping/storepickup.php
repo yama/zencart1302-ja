@@ -20,7 +20,7 @@
 // $Id: storepickup.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_STOREPICKUP_TEXT_TITLE', 'Å¹Æ¬¤Ç¼õ¤±¼è¤ê');
-define('MODULE_SHIPPING_STOREPICKUP_TEXT_DESCRIPTION', 'Å¹Æ¬¤ÇÄ¾ÀÜ¤ª¼õ¤±¼è¤ê¡£');
+define('MODULE_SHIPPING_STOREPICKUP_TEXT_TITLE', 'åº—é ­ã§å—ã‘å–ã‚Š');
+define('MODULE_SHIPPING_STOREPICKUP_TEXT_DESCRIPTION', 'åº—é ­ã§ç›´æŽ¥ãŠå—ã‘å–ã‚Šã€‚');
 define('MODULE_SHIPPING_STOREPICKUP_TEXT_WAY', '');
 ?>

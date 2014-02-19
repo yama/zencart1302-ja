@@ -14,7 +14,7 @@
     define('MODULE_PAYMENT_PAYPAL_TEXT_DESCRIPTION', '');
   }
 
-  define('MODULE_PAYMENT_PAYPAL_TEXT_TX_ID', '¼è°úID: ');
-  define('MODULE_PAYMENT_PAYPAL_TEXT_ITEMNAME', '¾¦ÉÊ°ì¼°');
+  define('MODULE_PAYMENT_PAYPAL_TEXT_TX_ID', 'å–å¼•ID: ');
+  define('MODULE_PAYMENT_PAYPAL_TEXT_ITEMNAME', 'å•†å“ä¸€å¼');
 
 ?>

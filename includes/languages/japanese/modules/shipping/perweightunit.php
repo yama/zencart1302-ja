@@ -7,7 +7,7 @@
  * @version $Id: perweightunit.php 2667 2005-12-24 05:31:58Z drbyte $
  */
 
-  define('MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_TITLE', '½ÅÎÌÃ±°Ì');
-  define('MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_DESCRIPTION', '½ÅÎÌÃ±°Ì');
-  define('MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_WAY', 'ºÇÎÉ¤ÎÊýË¡');
+  define('MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_TITLE', 'é‡é‡å˜ä½');
+  define('MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_DESCRIPTION', 'é‡é‡å˜ä½');
+  define('MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_WAY', 'æœ€è‰¯ã®æ–¹æ³•');
 ?>

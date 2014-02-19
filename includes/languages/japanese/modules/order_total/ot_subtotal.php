@@ -20,6 +20,6 @@
 // $Id: ot_subtotal.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_SUBTOTAL_TITLE', '¾®·×');
-  define('MODULE_ORDER_TOTAL_SUBTOTAL_DESCRIPTION', 'ÃíÊ¸¹ç·×¤Î¾®·×ÀßÄê');
+  define('MODULE_ORDER_TOTAL_SUBTOTAL_TITLE', 'å°è¨ˆ');
+  define('MODULE_ORDER_TOTAL_SUBTOTAL_DESCRIPTION', 'æ³¨æ–‡åˆè¨ˆã®å°è¨ˆè¨­å®š');
 ?>

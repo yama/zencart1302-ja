@@ -18,24 +18,24 @@
 // | license@zen-cart.com so we can mail you a copy immediately.          |
 // +----------------------------------------------------------------------+
 
-define('MODULE_SHIPPING_SAGAWAEX_TEXT_TITLE',       'º´ÀîµÞÊØ');
-define('MODULE_SHIPPING_SAGAWAEX_TEXT_DESCRIPTION', 'º´ÀîµÞÊØ¤ÎÇÛÁ÷ÎÁ¶â');
+define('MODULE_SHIPPING_SAGAWAEX_TEXT_TITLE',       'ä½å·æ€¥ä¾¿');
+define('MODULE_SHIPPING_SAGAWAEX_TEXT_DESCRIPTION', 'ä½å·æ€¥ä¾¿ã®é…é€æ–™é‡‘');
 
-define('MODULE_SHIPPING_SAGAWAEX_TEXT_WAY_NORMAL',  'ÄÌ¾ïÊØ');
-define('MODULE_SHIPPING_SAGAWAEX_TEXT_WAY_COOL',    'ÈôµÓ¥¯¡¼¥ëÊØ');
-define('MODULE_SHIPPING_SAGAWAEX_TEXT_WAY_TOP',     'ÈôµÓ¹Ò¶õÊØ¡¦ÈôµÓ¥È¥Ã¥×ÊØ');
+define('MODULE_SHIPPING_SAGAWAEX_TEXT_WAY_NORMAL',  'é€šå¸¸ä¾¿');
+define('MODULE_SHIPPING_SAGAWAEX_TEXT_WAY_COOL',    'é£›è„šã‚¯ãƒ¼ãƒ«ä¾¿');
+define('MODULE_SHIPPING_SAGAWAEX_TEXT_WAY_TOP',     'é£›è„šèˆªç©ºä¾¿ãƒ»é£›è„šãƒˆãƒƒãƒ—ä¾¿');
 
-define('MODULE_SHIPPING_SAGAWAEX_TEXT_NOTAVAILABLE', '¤³¤Î¥µ¡¼¥Ó¥¹¤Ï¡¢ÁªÂò¤µ¤ì¤¿ÃÏ°è´Ö¤Ç¤ÏÄó¶¡¤µ¤ì¤Þ¤»¤ó¡£');
-define('MODULE_SHIPPING_SAGAWAEX_TEXT_OVERSIZE',     '½ÅÎÌ¤Þ¤¿¤Ï¥µ¥¤¥º¤¬À©¸Â¤òÄ¶¤¨¤Æ¤¤¤Þ¤¹¡£');
-define('MODULE_SHIPPING_SAGAWAEX_TEXT_ILLEGAL_ZONE', '»ØÄê¤µ¤ì¤¿ÅÔÆ»ÉÜ¸©¤¬Àµ¤·¤¯¤¢¤ê¤Þ¤»¤ó¡£');
-define('MODULE_SHIPPING_SAGAWAEX_TEXT_OUT_OF_AREA',  'ÇÛÃ£¶è°è³°¤Ç¤¹¡£');
+define('MODULE_SHIPPING_SAGAWAEX_TEXT_NOTAVAILABLE', 'ã“ã®ã‚µãƒ¼ãƒ“ã‚¹ã¯ã€é¸æŠžã•ã‚ŒãŸåœ°åŸŸé–“ã§ã¯æä¾›ã•ã‚Œã¾ã›ã‚“ã€‚');
+define('MODULE_SHIPPING_SAGAWAEX_TEXT_OVERSIZE',     'é‡é‡ã¾ãŸã¯ã‚µã‚¤ã‚ºãŒåˆ¶é™ã‚’è¶…ãˆã¦ã„ã¾ã™ã€‚');
+define('MODULE_SHIPPING_SAGAWAEX_TEXT_ILLEGAL_ZONE', 'æŒ‡å®šã•ã‚ŒãŸéƒ½é“åºœçœŒãŒæ­£ã—ãã‚ã‚Šã¾ã›ã‚“ã€‚');
+define('MODULE_SHIPPING_SAGAWAEX_TEXT_OUT_OF_AREA',  'é…é”åŒºåŸŸå¤–ã§ã™ã€‚');
 
-// »þ´ÖÂÓ¥µ¡¼¥Ó¥¹
+// æ™‚é–“å¸¯ã‚µãƒ¼ãƒ“ã‚¹
 $GLOBALS['a_sagawaex_time']=array(
-  array('id'=>'´õË¾¤Ê¤·',  'text'=>'´õË¾¤Ê¤·'),
-  array('id'=>'¸áÁ°Ãæ',    'text'=>'¸áÁ°Ãæ'),
-  array('id'=>'12»þ¡Á15»þ','text'=>'12»þ¡Á15»þ'),
-  array('id'=>'15»þ¡Á18»þ','text'=>'15»þ¡Á18»þ'),
-  array('id'=>'18»þ¡Á21»þ','text'=>'18»þ¡Á21»þ'),
+  array('id'=>'å¸Œæœ›ãªã—',  'text'=>'å¸Œæœ›ãªã—'),
+  array('id'=>'åˆå‰ä¸­',    'text'=>'åˆå‰ä¸­'),
+  array('id'=>'12æ™‚ï½ž15æ™‚','text'=>'12æ™‚ï½ž15æ™‚'),
+  array('id'=>'15æ™‚ï½ž18æ™‚','text'=>'15æ™‚ï½ž18æ™‚'),
+  array('id'=>'18æ™‚ï½ž21æ™‚','text'=>'18æ™‚ï½ž21æ™‚'),
 );
 ?>

@@ -20,17 +20,17 @@
 // $Id: cc.php 2424 2005-11-22 09:25:32Z drbyte $
 //
 
-  define('MODULE_PAYMENT_CC_TEXT_TITLE', '���쥸�åȥ�����');
-  define('MODULE_PAYMENT_CC_TEXT_DESCRIPTION', '���쥸�åȥ����ɥƥ��Ⱦ���:<br /><br />�ƥ������ֹ�: 4111111111111111<br />ͭ������: Ǥ��');
-  define('MODULE_PAYMENT_CC_TEXT_CREDIT_CARD_TYPE', '���쥸�åȥ����ɥ�����:');
-  define('MODULE_PAYMENT_CC_TEXT_CREDIT_CARD_OWNER', '������̾��:');
-  define('MODULE_PAYMENT_CC_TEXT_CREDIT_CARD_NUMBER', '�������ֹ�:');
-  define('MODULE_PAYMENT_CC_TEXT_CREDIT_CARD_CVV', 'CVV �ֹ� (<a href="javascript:popupWindow(\'' . zen_href_link(FILENAME_POPUP_CVV_HELP) . '\')">' . '�ܤ�������' . '</a>)');
-  define('MODULE_PAYMENT_CC_TEXT_CREDIT_CARD_EXPIRES', 'ͭ������:');
-  define('MODULE_PAYMENT_CC_TEXT_JS_CC_OWNER', '* ���쥸�åȥ����ɤ�̾����' . CC_OWNER_MIN_LENGTH . 'ʸ��ɬ�פǤ�.\n');
-  define('MODULE_PAYMENT_CC_TEXT_JS_CC_NUMBER', '* ���쥸�åȥ������ֹ��Ⱦ�ѿ�����' . CC_NUMBER_MIN_LENGTH . '�ʾ�ɬ�פǤ���\n');
-  define('MODULE_PAYMENT_CC_TEXT_ERROR', '���쥸�åȥ����� ���顼:');
-  define('MODULE_PAYMENT_CC_TEXT_JS_CC_CVV', '* CVV �ֹ��' . CC_CVV_MIN_LENGTH . 'ʸ���ʾ�ɬ�פǤ���\n');
-  define('MODULE_PAYMENT_CC_TEXT_EMAIL_ERROR','�ٹ� - ���ꥨ�顼: ');
-  define('MODULE_PAYMENT_CC_TEXT_EMAIL_WARNING','�ٹ�: ���쥸�åȥ����ɻ�ʧ���⥸�塼�뤬ͭ���ˤʤäƤ��ޤ����������ɾ����᡼����������褦�����ꤵ��Ƥ��ޤ��󡣤��η�̡�������ˡ�Ǥ���ʸ�˥������ֹ�ν������Ǥ��ʤ���ǽ��������ޤ�����������>�⥸�塼��>��ʧ��>���쥸�åȥ�����>�Խ��ǥ����ɾ������������E�᡼�륢�ɥ쥹�����ꤷ�Ƥ���������' . "\n\n\n\n");
+  define('MODULE_PAYMENT_CC_TEXT_TITLE', 'クレジットカード');
+  define('MODULE_PAYMENT_CC_TEXT_DESCRIPTION', 'クレジットカードテスト情報:<br /><br />テスト用番号: 4111111111111111<br />有効期限: 任意');
+  define('MODULE_PAYMENT_CC_TEXT_CREDIT_CARD_TYPE', 'クレジットカードタイプ:');
+  define('MODULE_PAYMENT_CC_TEXT_CREDIT_CARD_OWNER', 'カード名義:');
+  define('MODULE_PAYMENT_CC_TEXT_CREDIT_CARD_NUMBER', 'カード番号:');
+  define('MODULE_PAYMENT_CC_TEXT_CREDIT_CARD_CVV', 'CVV 番号 (<a href="javascript:popupWindow(\'' . zen_href_link(FILENAME_POPUP_CVV_HELP) . '\')">' . '詳しい情報' . '</a>)');
+  define('MODULE_PAYMENT_CC_TEXT_CREDIT_CARD_EXPIRES', '有効期限:');
+  define('MODULE_PAYMENT_CC_TEXT_JS_CC_OWNER', '* クレジットカードの名義は' . CC_OWNER_MIN_LENGTH . '文字必要です.\n');
+  define('MODULE_PAYMENT_CC_TEXT_JS_CC_NUMBER', '* クレジットカード番号は半角数字で' . CC_NUMBER_MIN_LENGTH . '以上必要です。\n');
+  define('MODULE_PAYMENT_CC_TEXT_ERROR', 'クレジットカード エラー:');
+  define('MODULE_PAYMENT_CC_TEXT_JS_CC_CVV', '* CVV 番号は' . CC_CVV_MIN_LENGTH . '文字以上必要です。\n');
+  define('MODULE_PAYMENT_CC_TEXT_EMAIL_ERROR','警告 - 設定エラー: ');
+  define('MODULE_PAYMENT_CC_TEXT_EMAIL_WARNING','警告: クレジットカード支払いモジュールが有効になっていますが、カード情報をメール送信するように設定されていません。その結果、この方法での注文にカード番号の処理ができない可能性があります。管理画面>モジュール>支払い>クレジットカード>編集でカード情報を送信するEメールアドレスを設定してください。' . "\n\n\n\n");
 ?>

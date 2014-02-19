@@ -18,26 +18,26 @@
 // | license@zen-cart.com so we can mail you a copy immediately.          |
 // +----------------------------------------------------------------------+
 
-define('MODULE_SHIPPING_YAMATO_TEXT_TITLE',       '¥ä¥Þ¥È±¿Í¢(ÂðµÞÊØ)');
-define('MODULE_SHIPPING_YAMATO_TEXT_DESCRIPTION', 'ÂðµÞÊØ¤ÎÇÛÁ÷ÎÁ¶â');
+define('MODULE_SHIPPING_YAMATO_TEXT_TITLE',       'ãƒ¤ãƒžãƒˆé‹è¼¸(å®…æ€¥ä¾¿)');
+define('MODULE_SHIPPING_YAMATO_TEXT_DESCRIPTION', 'å®…æ€¥ä¾¿ã®é…é€æ–™é‡‘');
 
-define('MODULE_SHIPPING_YAMATO_TEXT_WAY_NORMAL',  'ÂðµÞÊØ');
-define('MODULE_SHIPPING_YAMATO_TEXT_WAY_COOL',    '¥¯¡¼¥ëÂðµÞÊØ');
-define('MODULE_SHIPPING_YAMATO_TEXT_WAY_TOP',     'Ä¶Â®ÂðµÞÊØ');
+define('MODULE_SHIPPING_YAMATO_TEXT_WAY_NORMAL',  'å®…æ€¥ä¾¿');
+define('MODULE_SHIPPING_YAMATO_TEXT_WAY_COOL',    'ã‚¯ãƒ¼ãƒ«å®…æ€¥ä¾¿');
+define('MODULE_SHIPPING_YAMATO_TEXT_WAY_TOP',     'è¶…é€Ÿå®…æ€¥ä¾¿');
 
-define('MODULE_SHIPPING_YAMATO_TEXT_NOTAVAILABLE', '¤³¤Î¥µ¡¼¥Ó¥¹¤Ï¡¢ÁªÂò¤µ¤ì¤¿ÃÏ°è´Ö¤Ç¤ÏÄó¶¡¤µ¤ì¤Þ¤»¤ó¡£');
-define('MODULE_SHIPPING_YAMATO_TEXT_OVERSIZE',     '½ÅÎÌ¤Þ¤¿¤Ï¥µ¥¤¥º¤¬À©¸Â¤òÄ¶¤¨¤Æ¤¤¤Þ¤¹¡£');
-define('MODULE_SHIPPING_YAMATO_TEXT_ILLEGAL_ZONE', '»ØÄê¤µ¤ì¤¿ÅÔÆ»ÉÜ¸©¤¬Àµ¤·¤¯¤¢¤ê¤Þ¤»¤ó¡£');
-define('MODULE_SHIPPING_YAMATO_TEXT_OUT_OF_AREA',  'ÇÛÃ£¶è°è³°¤Ç¤¹¡£');
+define('MODULE_SHIPPING_YAMATO_TEXT_NOTAVAILABLE', 'ã“ã®ã‚µãƒ¼ãƒ“ã‚¹ã¯ã€é¸æŠžã•ã‚ŒãŸåœ°åŸŸé–“ã§ã¯æä¾›ã•ã‚Œã¾ã›ã‚“ã€‚');
+define('MODULE_SHIPPING_YAMATO_TEXT_OVERSIZE',     'é‡é‡ã¾ãŸã¯ã‚µã‚¤ã‚ºãŒåˆ¶é™ã‚’è¶…ãˆã¦ã„ã¾ã™ã€‚');
+define('MODULE_SHIPPING_YAMATO_TEXT_ILLEGAL_ZONE', 'æŒ‡å®šã•ã‚ŒãŸéƒ½é“åºœçœŒãŒæ­£ã—ãã‚ã‚Šã¾ã›ã‚“ã€‚');
+define('MODULE_SHIPPING_YAMATO_TEXT_OUT_OF_AREA',  'é…é”åŒºåŸŸå¤–ã§ã™ã€‚');
 
-// »þ´ÖÂÓ¥µ¡¼¥Ó¥¹
+// æ™‚é–“å¸¯ã‚µãƒ¼ãƒ“ã‚¹
 $GLOBALS['a_yamato_time']=array(
-  array('id'=>'´õË¾¤Ê¤·',  'text'=>'´õË¾¤Ê¤·'),
-  array('id'=>'¸áÁ°Ãæ',    'text'=>'¸áÁ°Ãæ'),
-  array('id'=>'12»þ¡Á14»þ','text'=>'12»þ¡Á14»þ'),
-  array('id'=>'14»þ¡Á16»þ','text'=>'14»þ¡Á16»þ'),
-  array('id'=>'16»þ¡Á18»þ','text'=>'16»þ¡Á18»þ'),
-  array('id'=>'18»þ¡Á20»þ','text'=>'18»þ¡Á20»þ'),
-  array('id'=>'20»þ¡Á21»þ','text'=>'20»þ¡Á21»þ'),
+  array('id'=>'å¸Œæœ›ãªã—',  'text'=>'å¸Œæœ›ãªã—'),
+  array('id'=>'åˆå‰ä¸­',    'text'=>'åˆå‰ä¸­'),
+  array('id'=>'12æ™‚ï½ž14æ™‚','text'=>'12æ™‚ï½ž14æ™‚'),
+  array('id'=>'14æ™‚ï½ž16æ™‚','text'=>'14æ™‚ï½ž16æ™‚'),
+  array('id'=>'16æ™‚ï½ž18æ™‚','text'=>'16æ™‚ï½ž18æ™‚'),
+  array('id'=>'18æ™‚ï½ž20æ™‚','text'=>'18æ™‚ï½ž20æ™‚'),
+  array('id'=>'20æ™‚ï½ž21æ™‚','text'=>'20æ™‚ï½ž21æ™‚'),
 );
 ?>

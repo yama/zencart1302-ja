@@ -20,7 +20,7 @@
 // $Id: freeshipper.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE', '世家回年吗芹サ〖ビス');
-define('MODULE_SHIPPING_FREESHIPPER_TEXT_DESCRIPTION', '芹流瘟痰瘟');
-define('MODULE_SHIPPING_FREESHIPPER_TEXT_WAY', '世家回年吗芹サ〖ビス(芹流瘟痰瘟)');
+define('MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE', '寮婄ぞ鎸囧畾瀹呴厤銈点兗銉撱偣');
+define('MODULE_SHIPPING_FREESHIPPER_TEXT_DESCRIPTION', '閰嶉�佹枡鐒℃枡');
+define('MODULE_SHIPPING_FREESHIPPER_TEXT_WAY', '寮婄ぞ鎸囧畾瀹呴厤銈点兗銉撱偣(閰嶉�佹枡鐒℃枡)');
 ?>

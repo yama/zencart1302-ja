@@ -20,9 +20,9 @@
 // $Id: ot_shipping.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_SHIPPING_TITLE', 'ÇÛÁ÷');
-  define('MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION', 'ÃíÊ¸¹ç·×¤ÎÁ÷ÎÁÀßÄê');
+  define('MODULE_ORDER_TOTAL_SHIPPING_TITLE', 'é…é€');
+  define('MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION', 'æ³¨æ–‡åˆè¨ˆã®é€æ–™è¨­å®š');
 
-  define('FREE_SHIPPING_TITLE', 'Á÷ÎÁÌµÎÁ');
-  define('FREE_SHIPPING_DESCRIPTION', '%s °Ê¾å¤Î¤´¹ØÆþ¤ÏÁ÷ÎÁÌµÎÁ¤È¤Ê¤ê¤Þ¤¹¡£');
+  define('FREE_SHIPPING_TITLE', 'é€æ–™ç„¡æ–™');
+  define('FREE_SHIPPING_DESCRIPTION', '%s ä»¥ä¸Šã®ã”è³¼å…¥ã¯é€æ–™ç„¡æ–™ã¨ãªã‚Šã¾ã™ã€‚');
 ?>

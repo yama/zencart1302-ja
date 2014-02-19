@@ -20,6 +20,6 @@
 // $Id: ot_tax.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_TAX_TITLE', 'ÀÇ¶â');
-  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'ÃíÊ¸¹ç·×¤ÎÀÇ¶âÀßÄê');
+  define('MODULE_ORDER_TOTAL_TAX_TITLE', 'ç¨Žé‡‘');
+  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'æ³¨æ–‡åˆè¨ˆã®ç¨Žé‡‘è¨­å®š');
 ?>

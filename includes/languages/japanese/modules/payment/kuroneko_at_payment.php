@@ -20,14 +20,14 @@
 // $Id$
 //
 
-  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TEXT_TITLE', 'епеэе═е│бўе┌едесеєе╚');
-  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TEXT_ABOUT', 'епеэе═е│бўе┌едесеєе╚д╧бвефе▐е╚▒┐═ве░еыб╝е╫ббефе▐е╚е╒еге╩еєе╖еуеы│Ї╝░▓ё╝╥д╬епеье╕е├е╚елб╝е╔╖ш║╤д╟д╣бг<br />╛▄д╖дпд╧бв▒жд╬е╨е╩б╝дЄепеъе├епд╖д╞дпд└д╡ддбг');
+  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TEXT_TITLE', 'уВпуГнуГНуВ│я╝ауГЪуВдуГбуГ│уГИ');
+  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TEXT_ABOUT', 'уВпуГнуГНуВ│я╝ауГЪуВдуГбуГ│уГИуБпуАБуГдуГЮуГИщБЛш╝╕уВ░уГлуГ╝уГЧуААуГдуГЮуГИуГХуВгуГКуГ│уВ╖уГгуГлцакх╝Пф╝Ъчд╛уБоуВпуГмуВ╕уГГуГИуВлуГ╝уГЙц▒║ц╕ИуБзуБЩуАВ<br />шй│уБЧуБПуБпуАБхП│уБоуГРуГКуГ╝уВТуВпуГкуГГуВпуБЧуБжуБПуБауБХуБДуАВ');
   define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_BUTTON_IMAGE', 'button_kuroneko_at_payment.gif');
-  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_BUTTON_ALT', 'епеэе═е│бўе┌едесеєе╚д╬дк╗┘╩з╝ъ┬│днд╪');
-  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TEXT_CONFIRMATION', '├э╩╕│╬╟з╕хд╦╔╜╝ид╡дьдыб╓' . MODULE_PAYMENT_KURONEKO_AT_PAYMENT_BUTTON_ALT . 'б╫д╬е▄е┐еєдЄ▓бд╖д╞дк╗┘╩зддд╬╝ъ┬│дн╣╘д├д╞дпд└д╡ддбг');
-  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TEXT_DESCRIPTION', 'епеэе═е│бўе┌едесеєе╚епеье╕е├е╚елб╝е╔╖ш║╤');
-  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TEXT_URGE', 'епеэе═е│бўе┌едесеєе╚б╩епеье╕е├е╚елб╝е╔б╦д╟дк╗┘╩зддд╡дьдыдк╡╥══д╧<br />е▄е┐еєдЄ▓бд╖д╞╝ъ┬│дндЄ╣╘д├д╞дпд└д╡ддбг<br />');
-  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_LEADING_PRODUCT', '%s x %d┼└');
-  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_OTHER_PRODUCTS', ' ┬╛%d┼└');
+  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_BUTTON_ALT', 'уВпуГнуГНуВ│я╝ауГЪуВдуГбуГ│уГИуБоуБКцФпцЙХцЙЛч╢ЪуБНуБ╕');
+  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TEXT_CONFIRMATION', 'ц│ицЦЗчв║шкНх╛МуБлшбичд║уБХуВМуВЛуАМ' . MODULE_PAYMENT_KURONEKO_AT_PAYMENT_BUTTON_ALT . 'уАНуБоуГЬуВ┐уГ│уВТцК╝уБЧуБжуБКцФпцЙХуБДуБоцЙЛч╢ЪуБНшбМуБгуБжуБПуБауБХуБДуАВ');
+  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TEXT_DESCRIPTION', 'уВпуГнуГНуВ│я╝ауГЪуВдуГбуГ│уГИуВпуГмуВ╕уГГуГИуВлуГ╝уГЙц▒║ц╕И');
+  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_TEXT_URGE', 'уВпуГнуГНуВ│я╝ауГЪуВдуГбуГ│уГИя╝ИуВпуГмуВ╕уГГуГИуВлуГ╝уГЙя╝ЙуБзуБКцФпцЙХуБДуБХуВМуВЛуБКховцзШуБп<br />уГЬуВ┐уГ│уВТцК╝уБЧуБжцЙЛч╢ЪуБНуВТшбМуБгуБжуБПуБауБХуБДуАВ<br />');
+  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_LEADING_PRODUCT', '%s x %dчВ╣');
+  define('MODULE_PAYMENT_KURONEKO_AT_PAYMENT_OTHER_PRODUCTS', ' ф╗Ц%dчВ╣');
 
 ?>

@@ -21,16 +21,16 @@
 //
 
   define('MODULE_PAYMENT_2CHECKOUT_TEXT_TITLE', '2CheckOut');
-  define('MODULE_PAYMENT_2CHECKOUT_TEXT_DESCRIPTION', '¥¯¥ì¥¸¥Ã¥È¥«¡¼¥É ¥Æ¥¹¥È¾ðÊó:<br><br>CC#: 4111111111111111<br>Í­¸ú´ü¸Â: Ç¤°Õ');
+  define('MODULE_PAYMENT_2CHECKOUT_TEXT_DESCRIPTION', 'ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ ãƒ†ã‚¹ãƒˆæƒ…å ±:<br><br>CC#: 4111111111111111<br>æœ‰åŠ¹æœŸé™: ä»»æ„');
   define('MODULE_PAYMENT_2CHECKOUT_TEXT_TYPE', 'Type:');
-  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_OWNER', '¥«¡¼¥ÉÌ¾µÁ:');
-  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_OWNER_FIRST_NAME', '¥«¡¼¥ÉÌ¾µÁ(Ì¾):');
-  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_OWNER_LAST_NAME', '¥«¡¼¥ÉÌ¾µÁ(À«):');
-  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_NUMBER', '¥«¡¼¥ÉÈÖ¹æ:');
-  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_EXPIRES', 'Í­¸ú´ü¸Â:');
-  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_CHECKNUMBER', '¥¯¥ì¥¸¥Ã¥È¥«¡¼¥É¥Á¥§¥Ã¥¯ÈÖ¹æ:');
+  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_OWNER', 'ã‚«ãƒ¼ãƒ‰åç¾©:');
+  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_OWNER_FIRST_NAME', 'ã‚«ãƒ¼ãƒ‰åç¾©(å):');
+  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_OWNER_LAST_NAME', 'ã‚«ãƒ¼ãƒ‰åç¾©(å§“):');
+  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_NUMBER', 'ã‚«ãƒ¼ãƒ‰ç•ªå·:');
+  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_EXPIRES', 'æœ‰åŠ¹æœŸé™:');
+  define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_CHECKNUMBER', 'ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ãƒã‚§ãƒƒã‚¯ç•ªå·:');
   define('MODULE_PAYMENT_2CHECKOUT_TEXT_CREDIT_CARD_CHECKNUMBER_LOCATION', '(located at the back of the credit card)');
-  define('MODULE_PAYMENT_2CHECKOUT_TEXT_JS_CC_NUMBER', '* ¥«¡¼¥ÉÈÖ¹æ¤Ï' . CC_NUMBER_MIN_LENGTH . 'Ê¸»ú°Ê¾åÉ¬Í×¤Ç¤¹¡£\n');
-  define('MODULE_PAYMENT_2CHECKOUT_TEXT_ERROR_MESSAGE', '¥¯¥ì¥¸¥Ã¥È¥«¡¼¥É¤Î½èÍý¤Ë¥¨¥é¡¼¤¬È¯À¸¤·¤Þ¤·¤¿. ¤â¤¦°ìÅÙ»î¤·¤Æ¤¯¤À¤µ¤¤¡£');
-  define('MODULE_PAYMENT_2CHECKOUT_TEXT_ERROR', '¥¯¥ì¥¸¥Ã¥È¥«¡¼¥É ¥¨¥é¡¼!');
+  define('MODULE_PAYMENT_2CHECKOUT_TEXT_JS_CC_NUMBER', '* ã‚«ãƒ¼ãƒ‰ç•ªå·ã¯' . CC_NUMBER_MIN_LENGTH . 'æ–‡å­—ä»¥ä¸Šå¿…è¦ã§ã™ã€‚\n');
+  define('MODULE_PAYMENT_2CHECKOUT_TEXT_ERROR_MESSAGE', 'ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ã®å‡¦ç†ã«ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸ. ã‚‚ã†ä¸€åº¦è©¦ã—ã¦ãã ã•ã„ã€‚');
+  define('MODULE_PAYMENT_2CHECKOUT_TEXT_ERROR', 'ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ ã‚¨ãƒ©ãƒ¼!');
 ?>

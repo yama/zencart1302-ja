@@ -20,6 +20,6 @@
 // $Id: ot_loworderfee.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_LOWORDERFEE_TITLE', 'Äã³Û¾¦ÉÊ¼è°·¤¤¼ê¿ôÎÁ');
-  define('MODULE_ORDER_TOTAL_LOWORDERFEE_DESCRIPTION', 'Äã³Û¾¦ÉÊ¼è°·¤¤¼ê¿ôÎÁ');
+  define('MODULE_ORDER_TOTAL_LOWORDERFEE_TITLE', 'ä½Žé¡å•†å“å–æ‰±ã„æ‰‹æ•°æ–™');
+  define('MODULE_ORDER_TOTAL_LOWORDERFEE_DESCRIPTION', 'ä½Žé¡å•†å“å–æ‰±ã„æ‰‹æ•°æ–™');
 ?>

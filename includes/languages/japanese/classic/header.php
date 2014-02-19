@@ -8,23 +8,23 @@
  */
 
 // header text in includes/header.php
-define('HEADER_TITLE_CREATE_ACCOUNT', '¿·µ¬ÅĞÏ¿');
-define('HEADER_TITLE_MY_ACCOUNT', '¥Ş¥¤¥Ú¡¼¥¸');
-define('HEADER_TITLE_CART_CONTENTS', '¥·¥ç¥Ã¥Ô¥ó¥°¥«¡¼¥È');
-define('HEADER_TITLE_CHECKOUT', 'Àº»»¤¹¤ë');
-define('HEADER_TITLE_TOP', '¥È¥Ã¥×');
-define('HEADER_TITLE_CATALOG', '¥Û¡¼¥à');
-define('HEADER_TITLE_LOGOFF', '¥í¥°¥¢¥¦¥È');
-define('HEADER_TITLE_LOGIN', '¥í¥°¥¤¥ó');
+define('HEADER_TITLE_CREATE_ACCOUNT', 'æ–°è¦ç™»éŒ²');
+define('HEADER_TITLE_MY_ACCOUNT', 'ãƒã‚¤ãƒšãƒ¼ã‚¸');
+define('HEADER_TITLE_CART_CONTENTS', 'ã‚·ãƒ§ãƒƒãƒ”ãƒ³ã‚°ã‚«ãƒ¼ãƒˆ');
+define('HEADER_TITLE_CHECKOUT', 'ç²¾ç®—ã™ã‚‹');
+define('HEADER_TITLE_TOP', 'ãƒˆãƒƒãƒ—');
+define('HEADER_TITLE_CATALOG', 'ãƒ›ãƒ¼ãƒ ');
+define('HEADER_TITLE_LOGOFF', 'ãƒ­ã‚°ã‚¢ã‚¦ãƒˆ');
+define('HEADER_TITLE_LOGIN', 'ãƒ­ã‚°ã‚¤ãƒ³');
 
 // added defines for header alt and text
-define('HEADER_ALT_TEXT', 'Powered by Zen Cart[ÆüËÜ¸ìÈÇ]: The Art of E-Commerce [home link]');
-define('HEADER_SALES_TEXT', '<h1>¤³¤³¤Ë¥¿¥°¥é¥¤¥ó¡¦¥­¥ã¥Ã¥Á¥³¥Ô¡¼¤Ê¤É¤òÆş¤ì¤Æ¤¯¤À¤µ¤¤¡£</h1>');
+define('HEADER_ALT_TEXT', 'Powered by Zen Cart[æ—¥æœ¬èªç‰ˆ]: The Art of E-Commerce [home link]');
+define('HEADER_SALES_TEXT', '<h1>ã“ã“ã«ã‚¿ã‚°ãƒ©ã‚¤ãƒ³ãƒ»ã‚­ãƒ£ãƒƒãƒã‚³ãƒ”ãƒ¼ãªã©ã‚’å…¥ã‚Œã¦ãã ã•ã„ã€‚</h1>');
 define('HEADER_LOGO_WIDTH', '200px');
 define('HEADER_LOGO_HEIGHT', '70px');
 define('HEADER_LOGO_IMAGE', 'logo.gif');
 
 // header Search Button/Box Search Button
-define('HEADER_SEARCH_BUTTON','¸¡º÷');
-define('HEADER_SEARCH_DEFAULT_TEXT','¥­¡¼¥ï¡¼¥É¤òÆşÎÏ');
+define('HEADER_SEARCH_BUTTON','æ¤œç´¢');
+define('HEADER_SEARCH_DEFAULT_TEXT','ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã‚’å…¥åŠ›');
 ?>

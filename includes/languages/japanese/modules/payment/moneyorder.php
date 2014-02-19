@@ -20,7 +20,7 @@
 // $Id: moneyorder.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_PAYMENT_MONEYORDER_TEXT_TITLE', '¶ä¹Ô¿¶¹þ');//'Âå¶âÀèÊ§¤¤' 'Í¹ÊØ¿¶ÂØ' '¸½¶â½ñÎ±'¡¡¤Ê¤É¤ËÃÖ¤­´¹¤¨²ÄÇ½
-  define('MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION', '¿¶¹þÀè:&nbsp;' . MODULE_PAYMENT_MONEYORDER_PAYTO . '<br /><br />Å¹ÊÞ½êºßÃÏ:<br />' . nl2br(STORE_NAME_ADDRESS) . '<br /><br />' . '¤´Æþ¶â¤ò³ÎÇ§¸å¡¢¾¦ÉÊ¤òÈ¯Á÷¤¤¤¿¤·¤Þ¤¹¡£');
-  define('MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER', "¿¶¹þÀè:" . "\n\n" . MODULE_PAYMENT_MONEYORDER_PAYTO . "\n\nÅ¹ÊÞ½êºßÃÏ:\n" . STORE_NAME_ADDRESS . "\n\n" . '¤´Æþ¶â¤ò³ÎÇ§¸å¡¢¾¦ÉÊ¤òÈ¯Á÷¤¤¤¿¤·¤Þ¤¹¡£');
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_TITLE', 'éŠ€è¡ŒæŒ¯è¾¼');//'ä»£é‡‘å…ˆæ‰•ã„' 'éƒµä¾¿æŒ¯æ›¿' 'ç¾é‡‘æ›¸ç•™'ã€€ãªã©ã«ç½®ãæ›ãˆå¯èƒ½
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION', 'æŒ¯è¾¼å…ˆ:&nbsp;' . MODULE_PAYMENT_MONEYORDER_PAYTO . '<br /><br />åº—èˆ—æ‰€åœ¨åœ°:<br />' . nl2br(STORE_NAME_ADDRESS) . '<br /><br />' . 'ã”å…¥é‡‘ã‚’ç¢ºèªå¾Œã€å•†å“ã‚’ç™ºé€ã„ãŸã—ã¾ã™ã€‚');
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER', "æŒ¯è¾¼å…ˆ:" . "\n\n" . MODULE_PAYMENT_MONEYORDER_PAYTO . "\n\nåº—èˆ—æ‰€åœ¨åœ°:\n" . STORE_NAME_ADDRESS . "\n\n" . 'ã”å…¥é‡‘ã‚’ç¢ºèªå¾Œã€å•†å“ã‚’ç™ºé€ã„ãŸã—ã¾ã™ã€‚');
 ?>

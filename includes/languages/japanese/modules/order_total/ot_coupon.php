@@ -7,17 +7,17 @@
  * @version $Id: ot_coupon.php 3253 2006-03-25 17:26:14Z birdbrain $
  */
 
-  define('MODULE_ORDER_TOTAL_COUPON_TITLE', '��������ݥ�');
-  define('MODULE_ORDER_TOTAL_COUPON_HEADER', TEXT_GV_NAMES . '/��������ݥ�');
-  define('MODULE_ORDER_TOTAL_COUPON_DESCRIPTION', '��������ݥ�');
+  define('MODULE_ORDER_TOTAL_COUPON_TITLE', '割引クーポン');
+  define('MODULE_ORDER_TOTAL_COUPON_HEADER', TEXT_GV_NAMES . '/割引クーポン');
+  define('MODULE_ORDER_TOTAL_COUPON_DESCRIPTION', '割引クーポン');
   define('MODULE_ORDER_TOTAL_COUPON_TEXT_ENTER_CODE', TEXT_GV_REDEEM);
-  define('MODULE_ORDER_TOTAL_COUPON_HEADER', TEXT_GV_NAMES . '/��������ݥ�');
-  define('SHIPPING_NOT_INCLUDED', ' [��������]');
-  define('TAX_NOT_INCLUDED', ' [����]');
-  define('IMAGE_REDEEM_VOUCHER', '��������������');
-  define('MODULE_ORDER_TOTAL_COUPON_REDEEM_INSTRUCTIONS', '<p>�����ݥ󥳡��ɤ򤪻����ξ��ϡ����������ɤβ��ˤ���ե���������Ϥ��Ƥ��������������ݥ�Ϲ�פ��Ф���Ŭ�Ѥ��졢��³����פ򥯥�å�������˥����Ȥ�ȿ�Ǥ���ޤ���
-</p><p>������ʸ���ȤˤҤȤĤΥ����ݥ󤷤������Ѥ��������ޤ���</p>');
-  define('MODULE_ORDER_TOTAL_COUPON_TEXT_CURRENT_CODE', '���ߤΰ���������: ');
-  define('MODULE_ORDER_TOTAL_COUPON_REMOVE_INSTRUCTIONS', '<p>��������ݥ�����Ѥ���ä��ˤϡ�REMOVE�פ����Ϥ���Enter���뤤��Return�����򲡤��Ʋ�������</p>');
-  define('TEXT_REMOVE_REDEEM_COUPON', '��������ݥ�����Ѥ���ä��ޤ�����');
+  define('MODULE_ORDER_TOTAL_COUPON_HEADER', TEXT_GV_NAMES . '/割引クーポン');
+  define('SHIPPING_NOT_INCLUDED', ' [配送料別]');
+  define('TAX_NOT_INCLUDED', ' [税別]');
+  define('IMAGE_REDEEM_VOUCHER', '引き換えコード');
+  define('MODULE_ORDER_TOTAL_COUPON_REDEEM_INSTRUCTIONS', '<p>クーポンコードをお持ちの場合は、引換コードの横にあるフォームに入力してください。クーポンは合計に対して適用され、「続ける」をクリックした後にカートに反映されます。
+</p><p>※ご注文ごとにひとつのクーポンしかご利用いただけません。</p>');
+  define('MODULE_ORDER_TOTAL_COUPON_TEXT_CURRENT_CODE', '現在の引換コード: ');
+  define('MODULE_ORDER_TOTAL_COUPON_REMOVE_INSTRUCTIONS', '<p>割引クーポンの利用を取り消すには「REMOVE」と入力してEnterあるいはReturnキーを押して下さい。</p>');
+  define('TEXT_REMOVE_REDEEM_COUPON', '割引クーポンの利用を取り消しました。');
 ?>

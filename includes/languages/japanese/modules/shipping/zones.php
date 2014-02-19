@@ -20,10 +20,10 @@
 // $Id: zones.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_ZONES_TEXT_TITLE', 'ÃÏ°èÎÁ¶â');
-define('MODULE_SHIPPING_ZONES_TEXT_DESCRIPTION', 'ÃÏ°èÎÁ¶â');
-define('MODULE_SHIPPING_ZONES_TEXT_WAY', 'ÇÛÁ÷Àè');
+define('MODULE_SHIPPING_ZONES_TEXT_TITLE', 'åœ°åŸŸæ–™é‡‘');
+define('MODULE_SHIPPING_ZONES_TEXT_DESCRIPTION', 'åœ°åŸŸæ–™é‡‘');
+define('MODULE_SHIPPING_ZONES_TEXT_WAY', 'é…é€å…ˆ');
 define('MODULE_SHIPPING_ZONES_TEXT_UNITS', 'kg');
-define('MODULE_SHIPPING_ZONES_INVALID_ZONE', 'ÁªÂò¤µ¤ì¤¿¹ñ¤Ë¤ÏÇÛÁ÷¤Ç¤­¤Þ¤»¤ó¡£');
-define('MODULE_SHIPPING_ZONES_UNDEFINED_RATE', '¸½ºß¤ÏÇÛÁ÷ÎÁ¶â¤¬·è¤Þ¤Ã¤Æ¤¤¤Þ¤»¤ó¡£');
+define('MODULE_SHIPPING_ZONES_INVALID_ZONE', 'é¸æŠžã•ã‚ŒãŸå›½ã«ã¯é…é€ã§ãã¾ã›ã‚“ã€‚');
+define('MODULE_SHIPPING_ZONES_UNDEFINED_RATE', 'ç¾åœ¨ã¯é…é€æ–™é‡‘ãŒæ±ºã¾ã£ã¦ã„ã¾ã›ã‚“ã€‚');
 ?>

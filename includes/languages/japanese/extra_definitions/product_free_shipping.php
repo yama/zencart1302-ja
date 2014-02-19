@@ -22,6 +22,6 @@
 // defined as an image, text or a combination for Always Free Shipping
 // comment out the ones you do not which to use
 // to show nothing, comment all out except one and define as ''
-//define('TEXT_PRODUCT_FREE_SHIPPING_ICON', 'ÇÛÁ÷ÎÁÌµÎÁ'); // for text or set to '' for nothing
-define('TEXT_PRODUCT_FREE_SHIPPING_ICON', zen_image(DIR_WS_TEMPLATE_IMAGES . 'always-free-shipping.gif', 'ÇÛÁ÷ÎÁÌµÎÁ')); // for an image or comment out to use another
+//define('TEXT_PRODUCT_FREE_SHIPPING_ICON', 'é…é€æ–™ç„¡æ–™'); // for text or set to '' for nothing
+define('TEXT_PRODUCT_FREE_SHIPPING_ICON', zen_image(DIR_WS_TEMPLATE_IMAGES . 'always-free-shipping.gif', 'é…é€æ–™ç„¡æ–™')); // for an image or comment out to use another
 ?>

@@ -8,7 +8,7 @@
 // | http://www.zen-cart.com/index.php                                    |
 // |                                                                      |
 // | Portions Copyright (c) 2003 osCommerce                               |
-// | Portions Copyright (c) 2002 Thomas PlçÏkers                          |
+// | Portions Copyright (c) 2002 Thomas Plèˆ…kers                          |
 // |                             http://www.oscommerce.at                 |
 // +----------------------------------------------------------------------+
 // | This source file is subject to version 2.0 of the GPL license,       |
@@ -22,7 +22,7 @@
 // $Id: ot_cod_fee.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_COD_TITLE', 'Âå¶â°ú´¹¼ê¿ôÎÁ');
-  define('MODULE_ORDER_TOTAL_COD_DESCRIPTION', 'Âå¶â°ú´¹¼ê¿ôÎÁ');
-  define('TEXT_INFO_COD_FEES', '<strong>Ãí°Õ¡§</strong> Âå¶â°ú´¹¼ê¿ôÎÁ¤¬¤«¤«¤ê¤Ş¤¹¡£');
+  define('MODULE_ORDER_TOTAL_COD_TITLE', 'ä»£é‡‘å¼•æ›æ‰‹æ•°æ–™');
+  define('MODULE_ORDER_TOTAL_COD_DESCRIPTION', 'ä»£é‡‘å¼•æ›æ‰‹æ•°æ–™');
+  define('TEXT_INFO_COD_FEES', '<strong>æ³¨æ„ï¼š</strong> ä»£é‡‘å¼•æ›æ‰‹æ•°æ–™ãŒã‹ã‹ã‚Šã¾ã™ã€‚');
 ?>

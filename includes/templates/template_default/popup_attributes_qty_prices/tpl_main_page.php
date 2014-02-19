@@ -20,7 +20,7 @@
         <td class="pageHeading"><?php echo TEXT_ATTRIBUTES_QTY_PRICES_HELP ?></td>
       </tr>
       <tr>
-        <td class="main">�ƥ��ץ�����������Ŭ�����������Ͱ��ȴ��ܿ����Ͱ��ξܺ٤Ǥ��������Ͱ���Ʊ�쾦��Ʊ�쥪�ץ����γƾ��ʤ��Ф��ƺ��Ѥ��ޤ������ܿ����Ͱ���Ʊ�쾦��Ʊ�쥪�ץ����ι����˹������̤�̵�ط��˰��������Ѥ��ޤ���</td>
+        <td class="main">各オプション選択時に適応される数量値引と基本数量値引の詳細です。数量値引は同一商品同一オプションの各商品に対して作用します。基本数量値引は同一商品同一オプションの購入に購入数量に無関係に一回だけ作用します。</td>
       </tr>
       <tr>
         <td>

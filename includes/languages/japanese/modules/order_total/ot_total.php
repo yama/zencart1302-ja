@@ -20,6 +20,6 @@
 // $Id: ot_total.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_TOTAL_TITLE', '¹ç·×');
-  define('MODULE_ORDER_TOTAL_TOTAL_DESCRIPTION', 'ÃíÊ¸¹ç·×¤Î¹ç·×ÀßÄê');
+  define('MODULE_ORDER_TOTAL_TOTAL_TITLE', 'åˆè¨ˆ');
+  define('MODULE_ORDER_TOTAL_TOTAL_DESCRIPTION', 'æ³¨æ–‡åˆè¨ˆã®åˆè¨ˆè¨­å®š');
 ?>
