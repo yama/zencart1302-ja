@@ -20,27 +20,29 @@
 
 apacheのhttpd.confに設定する場合の推奨例
 
-php_flag output_buffering on
-php_value output_handler mb_output_handler
-php_value mbstring.http_output EUC-JP
-php_value mbstring.http_input auto
-php_value mbstring.internal_encoding EUC-JP
-php_value mbstring.language Japanese
-php_value mbstring.detect_order auto
+AddDefaultCharset                       Off
+php_flag  output_buffering              Off
+php_value output_handler                none
+php_value default_charset               UTF-8
+php_value mbstring.language             neutral
+php_flag  mbstring.encoding_translation Off
+php_value mbstring.http_input           pass
+php_value mbstring.http_output          pass
+php_value mbstring.internal_encoding    UTF-8
 php_value mbstring.substitute_character none
-php_flag mbstring.encoding_translation on
+php_value mbstring.detect_order         eucJP-win,UTF-8,SJIS-win,jis
 
 php.iniに設定する場合の推奨例
 
-output_buffering      = on
-output_handler	= mb_output_handler
-mbstring.http_output  = EUC-JP
-mbstring.http_input   = auto
-mbstring.internal_encoding = EUC-JP
-mbstring.language = Japanese
-mbstring.detect_order	= auto
+output_buffering      = Off
+output_handler      = none
+mbstring.http_output  = pass
+mbstring.http_input   = pass
+mbstring.internal_encoding = UTF-8
+mbstring.language = neutral
+mbstring.detect_order      = eucJP-win,UTF-8,SJIS-win,jis
 mbstring.substitute_character = none
-mbstring.encoding_translation = On
+mbstring.encoding_translation = Off
 
 */
 // PHPは、4.0.6以上
