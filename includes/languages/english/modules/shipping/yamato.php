@@ -30,14 +30,14 @@ define('MODULE_SHIPPING_YAMATO_TEXT_OVERSIZE',     'Too large to delivery.');
 define('MODULE_SHIPPING_YAMATO_TEXT_ILLEGAL_ZONE', 'Illegal zone.');
 define('MODULE_SHIPPING_YAMATO_TEXT_OUT_OF_AREA',  'Out of delivery area.');
 
-// »þ´ÖÂÓ¥µ¡¼¥Ó¥¹
+// æ™‚é–“å¸¯ã‚µãƒ¼ãƒ“ã‚¹
 $GLOBALS['a_yamato_time']=array(
-  array('id'=>'´õË¾¤Ê¤·',  'text'=>'None'),
-  array('id'=>'¸áÁ°Ãæ',    'text'=>'Morning'),
-  array('id'=>'12»þ¡Á14»þ','text'=>'12 a.m. - 2 p.m.'),
-  array('id'=>'14»þ¡Á16»þ','text'=>'2 p.m. - 4 p.m.'),
-  array('id'=>'16»þ¡Á18»þ','text'=>'4 p.m. - 6 p.m.'),
-  array('id'=>'18»þ¡Á20»þ','text'=>'6 p.m. - 8 p.m.'),
-  array('id'=>'20»þ¡Á21»þ','text'=>'8 p.m. - 9 p.m.'),
+  array('id'=>'å¸Œæœ›ãªã—',  'text'=>'None'),
+  array('id'=>'åˆå‰ä¸­',    'text'=>'Morning'),
+  array('id'=>'12æ™‚ï½ž14æ™‚','text'=>'12 a.m. - 2 p.m.'),
+  array('id'=>'14æ™‚ï½ž16æ™‚','text'=>'2 p.m. - 4 p.m.'),
+  array('id'=>'16æ™‚ï½ž18æ™‚','text'=>'4 p.m. - 6 p.m.'),
+  array('id'=>'18æ™‚ï½ž20æ™‚','text'=>'6 p.m. - 8 p.m.'),
+  array('id'=>'20æ™‚ï½ž21æ™‚','text'=>'8 p.m. - 9 p.m.'),
 );
 ?>

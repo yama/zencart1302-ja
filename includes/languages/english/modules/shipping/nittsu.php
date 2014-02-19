@@ -30,12 +30,12 @@ define('MODULE_SHIPPING_NITTSU_TEXT_OVERSIZE',     'Too large to delivery.');
 define('MODULE_SHIPPING_NITTSU_TEXT_ILLEGAL_ZONE', 'Illegal zone.');
 define('MODULE_SHIPPING_NITTSU_TEXT_OUT_OF_AREA',  'Out of delivery area.');
 
-// »þ´ÖÂÓ¥µ¡¼¥Ó¥¹
+// æ™‚é–“å¸¯ã‚µãƒ¼ãƒ“ã‚¹
 $GLOBALS['a_nittsu_time']=array(
-  array('id'=>'´õË¾¤Ê¤·',  'text'=>'None'),
-  array('id'=>'08»þ¡Á12»þ','text'=>'Morning'),
-  array('id'=>'12»þ¡Á16»þ','text'=>'12 a.m. - 4 p.m.'),
-  array('id'=>'16»þ¡Á19»þ','text'=>'4 p.m. - 7 p.m.'),
-  array('id'=>'19»þ¡Á22»þ','text'=>'7 p.m. - 10 p.m.'),
+  array('id'=>'å¸Œæœ›ãªã—',  'text'=>'None'),
+  array('id'=>'08æ™‚ï½ž12æ™‚','text'=>'Morning'),
+  array('id'=>'12æ™‚ï½ž16æ™‚','text'=>'12 a.m. - 4 p.m.'),
+  array('id'=>'16æ™‚ï½ž19æ™‚','text'=>'4 p.m. - 7 p.m.'),
+  array('id'=>'19æ™‚ï½ž22æ™‚','text'=>'7 p.m. - 10 p.m.'),
 );
 ?>
