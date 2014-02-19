@@ -52,11 +52,6 @@ a.cal-DayLink:active {
 	cursor: url('includes/javascript/spiffyCal/images/spiffycal2.cur');
 }
 .cal-TextBox{
-    color: Black;
-    font-family: Verdana,  Arial, sans-serif;
-    font-size: 8pt;
-    font-weight: normal;
-    background-color: #FFFFCC;
 }
 
 .cal-TextBoxInvalid{

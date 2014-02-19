@@ -33,8 +33,8 @@
     }
   }
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" <?php echo HTML_PARAMS; ?>>
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html <?php echo HTML_PARAMS; ?>>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=<?php echo CHARSET; ?>">
 <title><?php echo TITLE; ?></title>
@@ -183,7 +183,7 @@ appropriately.
 Please leave this comment intact together with the
 following copyright announcement. //-->
 
-<div class="copyrightrow"><a href="http://www.zen-cart.com" target="_blank"><img src="images/small_zen_logo.gif" alt="Zen Cart:: the art of e-commerce" border="0" /></a><br />E-Commerce Engine Copyright &copy; 2003-2012 <a href="http://www.zen-cart.com" target="_blank">Zen Cart&trade;</a>  Powered by <a href="http://www.zen-cart.com" target="_blank">zen-cart.com</a> / <a href="http://www.zen-cart.jp" target="_blank">zen-cart.jp</a></div><div class="warrantyrow">Zen Cart is derived from: Copyright &copy; 2003 osCommerce<br />This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;<br />without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE<br />and is redistributable under the <a href="http://www.zen-cart.com/license/2_0.txt" target="_blank">GNU General Public License</a>
+<div class="copyrightrow"><a href="http://www.zen-cart.com" target="_blank"><img src="images/small_zen_logo.gif" alt="Zen Cart:: the art of e-commerce" border="0" /></a><br /><br />E-Commerce Engine Copyright &copy; 2003 <a href="http://www.zen-cart.com" target="_blank">Zen Cart&trade;</a>  Powered by <a href="http://www.zen-cart.com" target="_blank">zen-cart.com</a> / <a href="http://www.zen-cart.jp" target="_blank">zen-cart.jp</a></div><div class="warrantyrow"><br /><br />Zen Cart is derived from: Copyright &copy; 2003 osCommerce<br />This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;<br />without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE<br />and is redistributable under the <a href="http://www.zen-cart.com/license/2_0.txt" target="_blank">GNU General Public License</a><br />
 </div>
 </body>
 </html>
