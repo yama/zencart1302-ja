@@ -118,11 +118,11 @@
     </div>
       <div class="input">
       <input <?php if ($needs_v1_3_0_2_jp_1_from_v1_2_0_0_jp_3) {echo "checked";} ?> name="version[]" type="checkbox" id="checkbox17" value="1.3.0.2jpfrom1.2.0jp3" tabindex="17" />
-      <label for="checkbox17">1.2.0-l10n-jp-3����1.3.0.2-l10n-jp-1�ޤǤ������ȼ���DB�β���</label>
+      <label for="checkbox17">1.2.0-l10n-jp-3から1.3.0.2-l10n-jp-1までの日本独自のDBの改修</label>
     </div>
       <div class="input">
       <input <?php if ($needs_v1_3_0_2_jp_1_from_v1_3_0_2) {echo "checked";} ?> name="version[]" type="checkbox" id="checkbox18" value="1.3.0.2jpfrom1.3.0.2" tabindex="18" />
-      <label for="checkbox18">1.3.0.2�Ѹ��ǤΤ���1.3.0.2-l10n-jp-1�ؤ�DB���åץ��졼��</label>
+      <label for="checkbox18">1.3.0.2英語版のから1.3.0.2-l10n-jp-1へのDBアップグレード</label>
     </div>
 
     </fieldset>

@@ -11,4 +11,4 @@ ALTER TABLE coupons MODIFY coupon_amount decimal(15,4) NOT NULL default '0.0000'
 ALTER TABLE coupons MODIFY coupon_minimum_order decimal(15,4) NOT NULL default '0.0000';
 
 UPDATE currencies SET decimal_places = 0 WHERE currencies_id = 3;
-UPDATE configuration SET configuration_title='¾¦ÉÊÌ¾¤ÎÉ½¼¨', configuration_description='¾¦ÉÊÌ¾¤òÉ½¼¨¤·¤Ş¤¹¤«?<br />\r\n<br />\r\n¡¦0= off<br />\r\n¡¦1·åÌÜ¡§º¸¤«±¦¤«<br />\r\n¡¦2¡¦3·åÌÜ¡§(Â¾¤ÎÉ½¼¨¹àÌÜ¤È¤Î)¥½¡¼¥È½ç<br />\r\n¡¦4·åÌÜ¡§É½¼¨¸å¤Î²ş¹Ô(br)¿ô<br />' WHERE configuration_key='PRODUCT_ALL_LIST_NAME';
+UPDATE configuration SET configuration_title='å•†å“åã®è¡¨ç¤º', configuration_description='å•†å“åã‚’è¡¨ç¤ºã—ã¾ã™ã‹?<br />\r\n<br />\r\nãƒ»0= off<br />\r\nãƒ»1æ¡ç›®ï¼šå·¦ã‹å³ã‹<br />\r\nãƒ»2ãƒ»3æ¡ç›®ï¼š(ä»–ã®è¡¨ç¤ºé …ç›®ã¨ã®)ã‚½ãƒ¼ãƒˆé †<br />\r\nãƒ»4æ¡ç›®ï¼šè¡¨ç¤ºå¾Œã®æ”¹è¡Œ(br)æ•°<br />' WHERE configuration_key='PRODUCT_ALL_LIST_NAME';

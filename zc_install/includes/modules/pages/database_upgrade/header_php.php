@@ -410,7 +410,7 @@ echo 'CAUTION: '.$value.'<br />';
           } // end if "no error"
      } // end while - version loop
 if ($failed_entries !=0) {
-  $zc_install->setError('<span class="errors">NOTE: '.$failed_entries.'�Ĥ�SQLʸ�������åפ���ޤ�����<br />�ܺ٤Ϥ��Υڡ��������򻲾Ȥ��Ƥ���������<br />(���ܺ٤ʾ���ϡ�upgrade_exceptions�ץơ��֥�˵�Ͽ����Ƥ��ޤ���)</span><br />Note: ���ʤ��Υ����Ȥˤϡ����Ǥˤ�����SQLʸ���¹Ԥ���Ƥ������ʤɤ���ͳ�ˤ��<br />�ۤȤ�ɤΥ������ǡ�����������̵�뤹�뤳�Ȥ��Ǥ��ޤ���<br />�⤷�����٤Ƥ���Ƥ��줿���åץ��졼�ɤΥ��ƥåפ���λ�����顢(no recommendations left), <br />���åץ��졼�ɤ򥹥��åפ��ƥ����Ȥ������³���뤳�Ȥ��Ǥ��ޤ���','85', false);
+  $zc_install->setError('<span class="errors">NOTE: '.$failed_entries.'個のSQL文がスキップされました。<br />詳細はこのページ下部を参照してください。<br />(より詳細な情報は「upgrade_exceptions」テーブルに記録されています。)</span><br />Note: あなたのサイトには、すでにこれらのSQL文が実行されていた、などの理由により<br />ほとんどのケースで、今回の問題は無視することができます。<br />もし、すべての提案されたアップグレードのステップが完了したら、(no recommendations left), <br />アップグレードをスキップしてサイトの設定を続けることができます。','85', false);
   }
 if (ZC_UPG_DEBUG2==true) {echo '<span class="errors">NOTE: Skipped upgrade statements: '.$failed_entries.'<br />See details at bottom of page for your inspection.<br />(Details also logged in the "upgrade_exceptions" table.)</span>';}
   } // end if-is-array-POST['version']

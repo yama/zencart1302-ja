@@ -176,7 +176,7 @@
       while (!$result->EOF) {
       if (ZC_UPG_DEBUG==true) echo "114patch-fields=" . $result->fields['configuration_title'] . '<br>';
 //        if  ($result->fields['configuration_title'] == 'Package Tare Small to Medium - added percentage:weight') {
-        if  ($result->fields['configuration_title'] == "¥Ñ¥Ã¥±¡¼¥¸¤ÎÉ÷ÂÞ - ¾®¡¦Ãæ¤ÎÈæÎ¨¤È½ÅÍ×\r\n") {
+        if  ($result->fields['configuration_title'] == "ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã®é¢¨è¢‹ - å°ãƒ»ä¸­ã®æ¯”çŽ‡ã¨é‡è¦\r\n") {
            $got_v1_1_4_patch1 = true;
         }
         $result->MoveNext();
@@ -210,7 +210,7 @@
       while (!$result->EOF) {
         if (ZC_UPG_DEBUG==true) echo "120c-cfggroup13=attrb ==" . $result->fields['configuration_group_title'] . '<br>';
 //        if ($result->fields['configuration_group_title'] == 'Attribute Settings') {
-        if ($result->fields['configuration_group_title'] == '¾¦ÉÊÂ°À­¤ÎÀßÄê') {
+        if ($result->fields['configuration_group_title'] == 'å•†å“å±žæ€§ã®è¨­å®š') {
           $got_v1_2_0c = true;
         }
         $result->MoveNext();
