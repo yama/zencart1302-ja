@@ -20,15 +20,15 @@
 //  $Id: product_notification.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('TEXT_COUNT_CUSTOMERS', '¤³¤Î¤ªÃÎ¤é¤»¥á¡¼¥ë¤ò¼õ¤±¼è¤ë¸ÜµÒ¿ô: %s');
-define('TEXT_PRODUCTS', '¾¦ÉÊ');
-define('TEXT_SELECTED_PRODUCTS', 'ÁªÂò¤µ¤ì¤¿¾¦ÉÊ');
+define('TEXT_COUNT_CUSTOMERS', 'ã“ã®ãŠçŸ¥ã‚‰ã›ãƒ¡ãƒ¼ãƒ«ã‚’å—ã‘å–ã‚‹é¡§å®¢æ•°: %s');
+define('TEXT_PRODUCTS', 'å•†å“');
+define('TEXT_SELECTED_PRODUCTS', 'é¸æŠžã•ã‚ŒãŸå•†å“');
 
-define('JS_PLEASE_SELECT_PRODUCTS', '¤¤¤¯¤Ä¤«¾¦ÉÊ¤òÁªÂò¤·¤Æ²¼¤µ¤¤¡£');
+define('JS_PLEASE_SELECT_PRODUCTS', 'ã„ãã¤ã‹å•†å“ã‚’é¸æŠžã—ã¦ä¸‹ã•ã„ã€‚');
 
-define('BUTTON_GLOBAL', '¥°¥í¡¼¥Ð¥ë');
+define('BUTTON_GLOBAL', 'ã‚°ãƒ­ãƒ¼ãƒãƒ«');
 define('BUTTON_SELECT', '&gt;&gt;&gt;');
 define('BUTTON_UNSELECT', '&lt;&lt;&lt;');
-define('BUTTON_SUBMIT', 'Á÷¿®');
-define('BUTTON_CANCEL', '¥­¥ã¥ó¥»¥ë');
+define('BUTTON_SUBMIT', 'é€ä¿¡');
+define('BUTTON_CANCEL', 'ã‚­ãƒ£ãƒ³ã‚»ãƒ«');
 ?>

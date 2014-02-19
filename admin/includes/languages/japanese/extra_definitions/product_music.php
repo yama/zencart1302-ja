@@ -19,9 +19,9 @@
 // +----------------------------------------------------------------------+
 //  $Id: product_music.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
-define('BOX_CATALOG_RECORD_ARTISTS', '¥¢¡¼¥Æ¥£¥¹¥È');
-define('BOX_CATALOG_RECORD_COMPANY', '¥ì¥³¡¼¥É²ñ¼Ò');
-define('BOX_CATALOG_MUSIC_GENRE', '²»³Ú¥¸¥ã¥ó¥ë');
-define('BOX_CATALOG_MEDIA_MANAGER', '¥á¥Ç¥£¥¢¥³¥ì¥¯¥·¥ç¥ó(¥¢¥ë¥Ð¥à)');
-define('BOX_CATALOG_MEDIA_TYPES', '¥á¥Ç¥£¥¢¥Õ¥©¡¼¥Þ¥Ã¥È');
+define('BOX_CATALOG_RECORD_ARTISTS', 'ã‚¢ãƒ¼ãƒ†ã‚£ã‚¹ãƒˆ');
+define('BOX_CATALOG_RECORD_COMPANY', 'ãƒ¬ã‚³ãƒ¼ãƒ‰ä¼šç¤¾');
+define('BOX_CATALOG_MUSIC_GENRE', 'éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«');
+define('BOX_CATALOG_MEDIA_MANAGER', 'ãƒ¡ãƒ‡ã‚£ã‚¢ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³(ã‚¢ãƒ«ãƒãƒ )');
+define('BOX_CATALOG_MEDIA_TYPES', 'ãƒ¡ãƒ‡ã‚£ã‚¢ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆ');
 ?>

@@ -20,33 +20,33 @@
 //  $Id: newsletter.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('TEXT_COUNT_CUSTOMERS', 'д│д╬есб╝еые▐еме╕еєдЄ╝їд▒╝шды╕▄╡╥┐Ї: %s');
-define('HEADING_TITLE', 'есб╝еые▐еме╕еє┤╔═¤');
+define('TEXT_COUNT_CUSTOMERS', 'уБУуБоуГбуГ╝уГлуГЮуВмуВ╕уГ│уВТхПЧуБСхПЦуВЛщбзховцХ░: %s');
+define('HEADING_TITLE', 'уГбуГ╝уГлуГЮуВмуВ╕уГ│чобчРЖ');
 
-define('TABLE_HEADING_NEWSLETTERS', 'есб╝еые▐еме╕еє');
-define('TABLE_HEADING_SIZE', 'е╡еде║');
-define('TABLE_HEADING_MODULE', 'ете╕ехб╝еы');
-define('TABLE_HEADING_SENT', '┴ў┐о║╤д▀');
-define('TABLE_HEADING_STATUS', 'е╣е╞б╝е┐е╣');
-define('TABLE_HEADING_ACTION', '┴р║ю');
+define('TABLE_HEADING_NEWSLETTERS', 'уГбуГ╝уГлуГЮуВмуВ╕уГ│');
+define('TABLE_HEADING_SIZE', 'уВ╡уВдуВ║');
+define('TABLE_HEADING_MODULE', 'уГвуВ╕уГеуГ╝уГл');
+define('TABLE_HEADING_SENT', 'щАБф┐бц╕ИуБ┐');
+define('TABLE_HEADING_STATUS', 'уВ╣уГЖуГ╝уВ┐уВ╣');
+define('TABLE_HEADING_ACTION', 'цУНф╜Ь');
 
-define('TEXT_NEWSLETTER_MODULE', 'ете╕ехб╝еы:');
-define('TEXT_NEWSLETTER_TITLE', '╖я╠╛:');
-define('TEXT_NEWSLETTER_CONTENT', 'е╞ене╣е╚╖┴╝░ <br />╞т═╞:');
-define('TEXT_NEWSLETTER_CONTENT_HTML', 'HTML(еъе├е┴е╞ене╣е╚)╖┴╝░ <br />╞т═╞:');
+define('TEXT_NEWSLETTER_MODULE', 'уГвуВ╕уГеуГ╝уГл:');
+define('TEXT_NEWSLETTER_TITLE', 'ф╗╢хРН:');
+define('TEXT_NEWSLETTER_CONTENT', 'уГЖуВнуВ╣уГИх╜вх╝П <br />хЖЕхо╣:');
+define('TEXT_NEWSLETTER_CONTENT_HTML', 'HTML(уГкуГГуГБуГЖуВнуВ╣уГИ)х╜вх╝П <br />хЖЕхо╣:');
 
-define('TEXT_NEWSLETTER_DATE_ADDED', '║ю└о╞№:');
-define('TEXT_NEWSLETTER_DATE_SENT', '┴ў┐о╞№:');
+define('TEXT_NEWSLETTER_DATE_ADDED', 'ф╜ЬцИРцЧе:');
+define('TEXT_NEWSLETTER_DATE_SENT', 'щАБф┐бцЧе:');
 
-define('TEXT_INFO_DELETE_INTRO', 'д│д╬есб╝еые▐еме╕еєдЄ╦▄┼Ўд╦║я╜№д╖д▐д╣дл?');
+define('TEXT_INFO_DELETE_INTRO', 'уБУуБоуГбуГ╝уГлуГЮуВмуВ╕уГ│уВТцЬмх╜УуБлхЙКщЩдуБЧуБ╛уБЩуБЛ?');
 
-define('TEXT_PLEASE_SELECT_AUDIENCE','д│д╬есб╝еые▐еме╕еєд╬╣╪╞╔╝╘дЄ┴к┬Єд╖д╞дпд└д╡дд: ');
-define('TEXT_PLEASE_WAIT', 'дк┬╘д┴дпд└д╡дд .. есб╝еые▐еме╕еє┴ў┐о├цд╟д╣...<br /><br />д│д╬┴ў┐о║ю╢╚дЄ├ц├╟д╖д╩ддд╟дпд└д╡дд!');
-define('TEXT_FINISHED_SENDING_EMAILS', 'есб╝еые▐еме╕еєдЄ┴ў┐од╖д▐д╖д┐!');
+define('TEXT_PLEASE_SELECT_AUDIENCE','уБУуБоуГбуГ╝уГлуГЮуВмуВ╕уГ│уБош│╝шкншАЕуВТщБ╕цКЮуБЧуБжуБПуБауБХуБД: ');
+define('TEXT_PLEASE_WAIT', 'уБКх╛ЕуБбуБПуБауБХуБД .. уГбуГ╝уГлуГЮуВмуВ╕уГ│щАБф┐бф╕нуБзуБЩ...<br /><br />уБУуБощАБф┐бф╜ЬценуВТф╕нцЦнуБЧуБкуБДуБзуБПуБауБХуБД!');
+define('TEXT_FINISHED_SENDING_EMAILS', 'уГбуГ╝уГлуГЮуВмуВ╕уГ│уВТщАБф┐буБЧуБ╛уБЧуБЯ!');
 
-define('ERROR_NEWSLETTER_TITLE', 'еиещб╝: есб╝еые▐еме╕еєд╬╖я╠╛дмдвдъд▐д╗дє');
-define('ERROR_NEWSLETTER_MODULE', 'еиещб╝: есб╝еые▐еме╕еєд╬ете╕ехб╝еыдм╔м═╫д╟д╣');
-define('ERROR_REMOVE_UNLOCKED_NEWSLETTER', 'еиещб╝: ║я╜№д╣ды┴░д╦есб╝еые▐еме╕еєдЄеэе├епд╖д╞дпд└д╡дд');
-define('ERROR_EDIT_UNLOCKED_NEWSLETTER', 'еиещб╝: ╩╘╜╕д╣ды┴░д╦есб╝еые▐еме╕еєдЄеэе├епд╖д╞дпд└д╡дд');
-define('ERROR_SEND_UNLOCKED_NEWSLETTER', 'еиещб╝: ┴ў┐од╣ды┴░д╦есб╝еые▐еме╕еєдЄеэе├епд╖д╞дпд└д╡дд');
+define('ERROR_NEWSLETTER_TITLE', 'уВиуГйуГ╝: уГбуГ╝уГлуГЮуВмуВ╕уГ│уБоф╗╢хРНуБМуБВуВКуБ╛уБЫуВУ');
+define('ERROR_NEWSLETTER_MODULE', 'уВиуГйуГ╝: уГбуГ╝уГлуГЮуВмуВ╕уГ│уБоуГвуВ╕уГеуГ╝уГлуБМх┐ЕшжБуБзуБЩ');
+define('ERROR_REMOVE_UNLOCKED_NEWSLETTER', 'уВиуГйуГ╝: хЙКщЩдуБЩуВЛхЙНуБлуГбуГ╝уГлуГЮуВмуВ╕уГ│уВТуГнуГГуВпуБЧуБжуБПуБауБХуБД');
+define('ERROR_EDIT_UNLOCKED_NEWSLETTER', 'уВиуГйуГ╝: ч╖ищЫЖуБЩуВЛхЙНуБлуГбуГ╝уГлуГЮуВмуВ╕уГ│уВТуГнуГГуВпуБЧуБжуБПуБауБХуБД');
+define('ERROR_SEND_UNLOCKED_NEWSLETTER', 'уВиуГйуГ╝: щАБф┐буБЩуВЛхЙНуБлуГбуГ╝уГлуГЮуВмуВ╕уГ│уВТуГнуГГуВпуБЧуБжуБПуБауБХуБД');
 ?>
