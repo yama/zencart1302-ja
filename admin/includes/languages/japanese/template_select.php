@@ -20,25 +20,25 @@
 //  $Id: template_select.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '¥Æ¥ó¥×¥ì¡¼¥È¤ÎÀßÄê');
+define('HEADING_TITLE', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã®è¨­å®š');
 
-define('TABLE_HEADING_LANGUAGE', '¥Æ¥ó¥×¥ì¡¼¥È¤Î¸À¸ì');
-define('TABLE_HEADING_NAME', '¥Æ¥ó¥×¥ì¡¼¥ÈÌ¾');
-define('TABLE_HEADING_DIRECTORY', '¥Æ¥ó¥×¥ì¡¼¥È¥Ç¥£¥ì¥¯¥È¥ê');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_LANGUAGE', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã®è¨€èªž');
+define('TABLE_HEADING_NAME', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆå');
+define('TABLE_HEADING_DIRECTORY', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_INFO_HEADING_EDIT_TEMPLATE', '¥Æ¥ó¥×¥ì¡¼¥È¤ÎÀßÄê¤òÊÔ½¸');
-define('TEXT_INFO_HEADING_DELETE_TEMPLATE', '¥Æ¥ó¥×¥ì¡¼¥È¤È¸À¸ì¤Î´ØÏ¢¤òºï½ü');
-define('TEXT_INFO_EDIT_INTRO', '¥Æ¥ó¥×¥ì¡¼¥ÈÊÑ¹¹');
-define('TEXT_INFO_DELETE_INTRO', '¥Æ¥ó¥×¥ì¡¼¥È¤È¸À¸ì¤Î´ØÏ¢¤òºï½ü¤¹¤ë');
-define('TEXT_INFO_TEMPLATE_NAME', '¥Æ¥ó¥×¥ì¡¼¥ÈÌ¾');
-define('TEXT_INFO_LANGUAGE_NAME', '¸À¸ìÌ¾');
-define('TEXT_INFO_TEMPLATE_VERSION', '¥Æ¥ó¥×¥ì¡¼¥È¥Ð¡¼¥¸¥ç¥ó : ');
-define('TEXT_INFO_TEMPLATE_AUTHOR', '¥Æ¥ó¥×¥ì¡¼¥ÈºîÀ®¼Ô : ');
-define('TEXT_INFO_TEMPLATE_DESCRIPTION', '¥Æ¥ó¥×¥ì¡¼¥È¤ÎÀâÌÀ');
-define('TEXT_INFO_TEMPLATE_INSTALLED', '¥¤¥ó¥¹¥È¡¼¥ë¤µ¤ì¤Æ¤¤¤ë¥Æ¥ó¥×¥ì¡¼¥È');
-define('TEXT_INFO_HEADING_NEW_TEMPLATE', '¥Æ¥ó¥×¥ì¡¼¥È¤È¸À¸ì¤Î´ØÏ¢');
-define('TEXT_INFO_INSERT_INTRO', '¥Æ¥ó¥×¥ì¡¼¥È¤È´ØÏ¢¤¹¤ë¸À¸ì¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤¡£');
-define('IMAGE_NEW_TEMPLATE', '¿·¤·¤¯¥Æ¥ó¥×¥ì¡¼¥È¤È¸À¸ì¤Î´ØÏ¢¤òºîÀ®¤¹¤ë');
+define('TEXT_INFO_HEADING_EDIT_TEMPLATE', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã®è¨­å®šã‚’ç·¨é›†');
+define('TEXT_INFO_HEADING_DELETE_TEMPLATE', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã¨è¨€èªžã®é–¢é€£ã‚’å‰Šé™¤');
+define('TEXT_INFO_EDIT_INTRO', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆå¤‰æ›´');
+define('TEXT_INFO_DELETE_INTRO', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã¨è¨€èªžã®é–¢é€£ã‚’å‰Šé™¤ã™ã‚‹');
+define('TEXT_INFO_TEMPLATE_NAME', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆå');
+define('TEXT_INFO_LANGUAGE_NAME', 'è¨€èªžå');
+define('TEXT_INFO_TEMPLATE_VERSION', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆãƒãƒ¼ã‚¸ãƒ§ãƒ³ : ');
+define('TEXT_INFO_TEMPLATE_AUTHOR', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆä½œæˆè€… : ');
+define('TEXT_INFO_TEMPLATE_DESCRIPTION', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã®èª¬æ˜Ž');
+define('TEXT_INFO_TEMPLATE_INSTALLED', 'ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ã‚‹ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ');
+define('TEXT_INFO_HEADING_NEW_TEMPLATE', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã¨è¨€èªžã®é–¢é€£');
+define('TEXT_INFO_INSERT_INTRO', 'ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã¨é–¢é€£ã™ã‚‹è¨€èªžã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚');
+define('IMAGE_NEW_TEMPLATE', 'æ–°ã—ããƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã¨è¨€èªžã®é–¢é€£ã‚’ä½œæˆã™ã‚‹');
 
 ?>

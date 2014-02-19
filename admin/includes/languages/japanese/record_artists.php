@@ -19,26 +19,26 @@
 // +----------------------------------------------------------------------+
 //  $Id: record_artists.php 276 2004-09-10 22:35:28Z wilt $
 //
-  define('HEADING_TITLE', 'евб╝е╞еге╣е╚');
-  define('TABLE_HEADING_RECORD_ARTISTS', 'евб╝е╞еге╣е╚');
-  define('TABLE_HEADING_ACTION', '┴р║ю');
-  define('TEXT_NEW_INTRO', 'евб╝е╞еге╣е╚д╬└т╠└дЄ╞■╬╧д╖д╞дпд└д╡ддбг');
-  define('TEXT_EDIT_INTRO', 'евб╝е╞еге╣е╚д╬└т╠└дЄ╜д└╡д╖д╞дпд└д╡ддбг');
-  define('TEXT_DELETE_INTRO', 'д│д╬евб╝е╞еге╣е╚дЄ╦▄┼Ўд╦║я╜№д╖д▐д╣дл?');
-  define('TEXT_DELETE_IMAGE', '▓ш┴№дЄ║я╜№д╖д▐д╣дл?');
-  define('TEXT_RECORD_ARTIST_NAME', 'евб╝е╞еге╣е╚╠╛');
-  define('TEXT_RECORD_ARTIST_IMAGE', 'евб╝е╞еге╣е╚д╬▓ш┴№');
-  define('TEXT_RECORD_ARTIST_URL', 'евб╝е╞еге╣е╚д╬Webе╡еде╚');
-  define('TEXT_ARTISTS_IMAGE_DIR', '▓ш┴№е╟егеьепе╚еъ&nbsp;');
+  define('HEADING_TITLE', 'уВвуГ╝уГЖуВгуВ╣уГИ');
+  define('TABLE_HEADING_RECORD_ARTISTS', 'уВвуГ╝уГЖуВгуВ╣уГИ');
+  define('TABLE_HEADING_ACTION', 'цУНф╜Ь');
+  define('TEXT_NEW_INTRO', 'уВвуГ╝уГЖуВгуВ╣уГИуБошкмцШОуВТхЕехКЫуБЧуБжуБПуБауБХуБДуАВ');
+  define('TEXT_EDIT_INTRO', 'уВвуГ╝уГЖуВгуВ╣уГИуБошкмцШОуВТф┐оцнгуБЧуБжуБПуБауБХуБДуАВ');
+  define('TEXT_DELETE_INTRO', 'уБУуБоуВвуГ╝уГЖуВгуВ╣уГИуВТцЬмх╜УуБлхЙКщЩдуБЧуБ╛уБЩуБЛ?');
+  define('TEXT_DELETE_IMAGE', 'чФ╗хГПуВТхЙКщЩдуБЧуБ╛уБЩуБЛ?');
+  define('TEXT_RECORD_ARTIST_NAME', 'уВвуГ╝уГЖуВгуВ╣уГИхРН');
+  define('TEXT_RECORD_ARTIST_IMAGE', 'уВвуГ╝уГЖуВгуВ╣уГИуБочФ╗хГП');
+  define('TEXT_RECORD_ARTIST_URL', 'уВвуГ╝уГЖуВгуВ╣уГИуБоWebуВ╡уВдуГИ');
+  define('TEXT_ARTISTS_IMAGE_DIR', 'чФ╗хГПуГЗуВгуГмуВпуГИуГк&nbsp;');
 
-  define('TEXT_HEADING_NEW_RECORD_ARTIST', '┐╖д╖ддевб╝е╞еге╣е╚');
-  define('TEXT_HEADING_EDIT_RECORD_ARTIST', 'евб╝е╞еге╣е╚дЄ─╔▓├');
-  define('TEXT_HEADING_DELETE_RECORD_ARTIST', 'евб╝е╞еге╣е╚дЄ║я╜№');
-  define('TEXT_DATE_ADDED', '║ю└о╞№');
-  define('TEXT_LAST_MODIFIED', '╣╣┐╖╞№');
-  define('TEXT_IMAGE_NONEXISTENT', '▓ш┴№д╩д╖');
-  define('TEXT_PRODUCTS', 'еъеєепд╡дьд┐╛ж╔╩');
-  define('TEXT_DISPLAY_NUMBER_OF_ARTISTS', ' <strong>%d</strong> длдщ <strong>%d</strong> д▐д╟дЄ╔╜╝и ( ┴┤<strong>%d</strong> ╖я)');
-  define('TEXT_DELETE_PRODUCTS', 'д│д╬евб╝е┴е╣е╚д╚бвд│д╬евб╝е╞еге╣е╚д╦еъеєепд╡дьд╞ддды┴┤д╞д╬еведе╞ердЄ╦▄┼Ўд╦║я╜№д╖д▐д╣дл?');
-  define('TEXT_DELETE_WARNING_PRODUCTS', '<b>╖┘╣Ё:</b> %sеведе╞ердмд│д╬евб╝е╞еге╣е╚д╦еъеєепд╡дьд╞ддд▐д╣!');
+  define('TEXT_HEADING_NEW_RECORD_ARTIST', 'цЦ░уБЧуБДуВвуГ╝уГЖуВгуВ╣уГИ');
+  define('TEXT_HEADING_EDIT_RECORD_ARTIST', 'уВвуГ╝уГЖуВгуВ╣уГИуВТш┐╜хКа');
+  define('TEXT_HEADING_DELETE_RECORD_ARTIST', 'уВвуГ╝уГЖуВгуВ╣уГИуВТхЙКщЩд');
+  define('TEXT_DATE_ADDED', 'ф╜ЬцИРцЧе');
+  define('TEXT_LAST_MODIFIED', 'цЫ┤цЦ░цЧе');
+  define('TEXT_IMAGE_NONEXISTENT', 'чФ╗хГПуБкуБЧ');
+  define('TEXT_PRODUCTS', 'уГкуГ│уВпуБХуВМуБЯхХЖхУБ');
+  define('TEXT_DISPLAY_NUMBER_OF_ARTISTS', ' <strong>%d</strong> уБЛуВЙ <strong>%d</strong> уБ╛уБзуВТшбичд║ ( хЕи<strong>%d</strong> ф╗╢)');
+  define('TEXT_DELETE_PRODUCTS', 'уБУуБоуВвуГ╝уГБуВ╣уГИуБиуАБуБУуБоуВвуГ╝уГЖуВгуВ╣уГИуБлуГкуГ│уВпуБХуВМуБжуБДуВЛхЕиуБжуБоуВвуВдуГЖуГауВТцЬмх╜УуБлхЙКщЩдуБЧуБ╛уБЩуБЛ?');
+  define('TEXT_DELETE_WARNING_PRODUCTS', '<b>шнжхСК:</b> %sуВвуВдуГЖуГауБМуБУуБоуВвуГ╝уГЖуВгуВ╣уГИуБлуГкуГ│уВпуБХуВМуБжуБДуБ╛уБЩ!');
 ?>

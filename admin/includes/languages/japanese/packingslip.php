@@ -20,16 +20,16 @@
 //  $Id: packingslip.php 1109 2005-04-04 23:55:35Z drbyte $
 //
 
-define('TABLE_HEADING_COMMENTS', '¥³¥á¥ó¥È');
-define('TABLE_HEADING_PRODUCTS_MODEL', '·¿ÈÖ');
-define('TABLE_HEADING_PRODUCTS', '¾¦ÉÊ');
+define('TABLE_HEADING_COMMENTS', 'ã‚³ãƒ¡ãƒ³ãƒˆ');
+define('TABLE_HEADING_PRODUCTS_MODEL', 'åž‹ç•ª');
+define('TABLE_HEADING_PRODUCTS', 'å•†å“');
 
-define('ENTRY_CUSTOMER', '¸ÜµÒ:');
+define('ENTRY_CUSTOMER', 'é¡§å®¢:');
 
-define('ENTRY_SOLD_TO', 'ÀÁµáÀè:');
-define('ENTRY_SHIP_TO', 'ÇÛÁ÷Àè:');
-define('ENTRY_PAYMENT_METHOD', '¤ª»ÙÊ§¤¤ÊýË¡:');
-define('ENTRY_DATE_PURCHASED', 'ÃíÊ¸Æü:');
+define('ENTRY_SOLD_TO', 'è«‹æ±‚å…ˆ:');
+define('ENTRY_SHIP_TO', 'é…é€å…ˆ:');
+define('ENTRY_PAYMENT_METHOD', 'ãŠæ”¯æ‰•ã„æ–¹æ³•:');
+define('ENTRY_DATE_PURCHASED', 'æ³¨æ–‡æ—¥:');
 
-define('ENTRY_ORDER_ID','ÃíÊ¸ÈÖ¹æ ');
+define('ENTRY_ORDER_ID','æ³¨æ–‡ç•ªå· ');
 ?>

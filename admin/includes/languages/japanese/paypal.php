@@ -24,70 +24,70 @@
 //
 
   // sort orders
-  define('TEXT_PAYPAL_IPN_SORT_ORDER_INFO', 'ÃíÊ¸¤òÉ½¼¨¤¹¤ë: ');
-  define('TEXT_SORT_PAYPAL_ID_DESC', '¼õ¤±¼è¤Ã¤¿PayPal¤ÎÃíÊ¸(¿·¤·¤¤¤â¤Î - ¸Å¤¤¤â¤Î)');
-  define('TEXT_SORT_PAYPAL_ID', '¼õ¤±¼è¤Ã¤¿PayPal¤ÎÃíÊ¸(¸Å¤¤¤â¤Î - ¿·¤·¤¤¤â¤Î)');
-  define('TEXT_SORT_ZEN_ORDER_ID_DESC', 'ÃíÊ¸ ID (¹ß½ç), ¼õ¤±¼è¤Ã¤¿PayPal¤ÎÃíÊ¸');
-  define('TEXT_SORT_ZEN_ORDER_ID', 'ÃíÊ¸ ID (¾º½ç), ¼õ¤±¼è¤Ã¤¿PayPal¤ÎÃíÊ¸');
-  define('TEXT_PAYMENT_AMOUNT_DESC', 'ÃíÊ¸¤ÎÁíÎÌ¡Ê¹ß½ç)');
-  define('TEXT_PAYMENT_AMOUNT', 'ÃíÊ¸¤ÎÁíÎÌ¡Ê¾º½ç)');
+  define('TEXT_PAYPAL_IPN_SORT_ORDER_INFO', 'æ³¨æ–‡ã‚’è¡¨ç¤ºã™ã‚‹: ');
+  define('TEXT_SORT_PAYPAL_ID_DESC', 'å—ã‘å–ã£ãŸPayPalã®æ³¨æ–‡(æ–°ã—ã„ã‚‚ã® - å¤ã„ã‚‚ã®)');
+  define('TEXT_SORT_PAYPAL_ID', 'å—ã‘å–ã£ãŸPayPalã®æ³¨æ–‡(å¤ã„ã‚‚ã® - æ–°ã—ã„ã‚‚ã®)');
+  define('TEXT_SORT_ZEN_ORDER_ID_DESC', 'æ³¨æ–‡ ID (é™é †), å—ã‘å–ã£ãŸPayPalã®æ³¨æ–‡');
+  define('TEXT_SORT_ZEN_ORDER_ID', 'æ³¨æ–‡ ID (æ˜‡é †), å—ã‘å–ã£ãŸPayPalã®æ³¨æ–‡');
+  define('TEXT_PAYMENT_AMOUNT_DESC', 'æ³¨æ–‡ã®ç·é‡ï¼ˆé™é †)');
+  define('TEXT_PAYMENT_AMOUNT', 'æ³¨æ–‡ã®ç·é‡ï¼ˆæ˜‡é †)');
 
   //begin ADMIN text
-  define('HEADING_ADMIN_TITLE', 'PayPal Instant Payment¤ÎÄÌÃÎ');
-  define('HEADING_PAYMENT_STATUS', '»ÙÊ§¤¤¤Î¥¹¥Æ¡¼¥¿¥¹');
-  define('TEXT_ALL_IPNS', 'Á´¤Æ');
+  define('HEADING_ADMIN_TITLE', 'PayPal Instant Paymentã®é€šçŸ¥');
+  define('HEADING_PAYMENT_STATUS', 'æ”¯æ‰•ã„ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+  define('TEXT_ALL_IPNS', 'å…¨ã¦');
 
-  define('TABLE_HEADING_ORDER_NUMBER', 'ÃíÊ¸ÈÖ¹æ');
-  define('TABLE_HEADING_PAYPAL_ID', 'PayPal¤ÎÈÖ¹æ');
-  define('TABLE_HEADING_TXN_TYPE', '½èÍý¤Î¥¿¥¤¥×');
-  define('TABLE_HEADING_PAYMENT_STATUS', '»ÙÊ§¤¤¤Î¥¹¥Æ¡¼¥¿¥¹');
-  define('TABLE_HEADING_PAYMENT_AMOUNT', 'ÁíÎÌ');
-  define('TABLE_HEADING_ACTION', '¥¢¥¯¥·¥ç¥ó');
-  define('TABLE_HEADING_DATE_ADDED', 'ÄÉ²ÃÆü»þ');
-  define('TABLE_HEADING_NUM_HISTORY_ENTRIES', '¥¹¥Æ¡¼¥¿¥¹¤ÎÍúÎò¤ÎÃæ¤Î¥¨¥ó¥È¥ê¡¼¿ô');
-  define('TABLE_HEADING_ENTRY_NUM', '¥¨¥ó¥È¥ê¡¼¿ô');
-  define('TABLE_HEADING_TRANS_ID', '½èÍýID');
+  define('TABLE_HEADING_ORDER_NUMBER', 'æ³¨æ–‡ç•ªå·');
+  define('TABLE_HEADING_PAYPAL_ID', 'PayPalã®ç•ªå·');
+  define('TABLE_HEADING_TXN_TYPE', 'å‡¦ç†ã®ã‚¿ã‚¤ãƒ—');
+  define('TABLE_HEADING_PAYMENT_STATUS', 'æ”¯æ‰•ã„ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+  define('TABLE_HEADING_PAYMENT_AMOUNT', 'ç·é‡');
+  define('TABLE_HEADING_ACTION', 'ã‚¢ã‚¯ã‚·ãƒ§ãƒ³');
+  define('TABLE_HEADING_DATE_ADDED', 'è¿½åŠ æ—¥æ™‚');
+  define('TABLE_HEADING_NUM_HISTORY_ENTRIES', 'ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã®å±¥æ­´ã®ä¸­ã®ã‚¨ãƒ³ãƒˆãƒªãƒ¼æ•°');
+  define('TABLE_HEADING_ENTRY_NUM', 'ã‚¨ãƒ³ãƒˆãƒªãƒ¼æ•°');
+  define('TABLE_HEADING_TRANS_ID', 'å‡¦ç†ID');
 
 
 
   define('TEXT_INFO_PAYPAL_IPN_HEADING', 'PayPal IPN');
-  define('TEXT_DISPLAY_NUMBER_OF_TRANSACTIONS', '(<strong>%d</strong> IPN¤Î)<strong>%d</strong> ¤«¤é <strong>%d</strong>¤òÉ½¼¨Ãæ');
+  define('TEXT_DISPLAY_NUMBER_OF_TRANSACTIONS', '(<strong>%d</strong> IPNã®)<strong>%d</strong> ã‹ã‚‰ <strong>%d</strong>ã‚’è¡¨ç¤ºä¸­');
 
   //Details section
-  define('HEADING_DEATILS_CUSTOMER_REGISTRATION_TITLE', 'PayPal ¸ÜµÒÅÐÏ¿¤Î¾ÜºÙ');
-  define('HEADING_DETAILS_REGISTRATION_TITLE', 'PayPal Instant Payment¤ÎÄÌÃÎ');
-  define('TEXT_INFO_ENTRY_ADDRESS', '½»½ê');
-  define('TEXT_INFO_ORDER_NUMBER', 'ÃíÊ¸ÈÖ¹æ');
-  define('TEXT_INFO_TXN_TYPE', '½èÍý¤Î¥¿¥¤¥×');
-  define('TEXT_INFO_PAYMENT_STATUS', '»ÙÊ§¤¤¤Î¥¹¥Æ¡¼¥¿¥¹');
-  define('TEXT_INFO_PAYMENT_AMOUNT', 'ÁíÎÌ');
-  define('ENTRY_FIRST_NAME', 'Ì¾');
-  define('ENTRY_LAST_NAME', 'À«');
-  define('ENTRY_BUSINESS_NAME', '¥Ó¥¸¥Í¥¹¥Í¡¼¥à');
-  define('ENTRY_ADDRESS', '½»½ê');
+  define('HEADING_DEATILS_CUSTOMER_REGISTRATION_TITLE', 'PayPal é¡§å®¢ç™»éŒ²ã®è©³ç´°');
+  define('HEADING_DETAILS_REGISTRATION_TITLE', 'PayPal Instant Paymentã®é€šçŸ¥');
+  define('TEXT_INFO_ENTRY_ADDRESS', 'ä½æ‰€');
+  define('TEXT_INFO_ORDER_NUMBER', 'æ³¨æ–‡ç•ªå·');
+  define('TEXT_INFO_TXN_TYPE', 'å‡¦ç†ã®ã‚¿ã‚¤ãƒ—');
+  define('TEXT_INFO_PAYMENT_STATUS', 'æ”¯æ‰•ã„ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+  define('TEXT_INFO_PAYMENT_AMOUNT', 'ç·é‡');
+  define('ENTRY_FIRST_NAME', 'å');
+  define('ENTRY_LAST_NAME', 'å§“');
+  define('ENTRY_BUSINESS_NAME', 'ãƒ“ã‚¸ãƒã‚¹ãƒãƒ¼ãƒ ');
+  define('ENTRY_ADDRESS', 'ä½æ‰€');
   //EMAIL ALREADY DEFINED IN ORDERS
-  define('ENTRY_PAYER_ID', '»ÙÊ§¤¤¼Ô¤ÎID');
-  define('ENTRY_PAYER_STATUS', '»ÙÊ§¤¤¼Ô¤Î¥¹¥Æ¡¼¥¿¥¹');
-  define('ENTRY_ADDRESS_STATUS', '½»½ê¤Î¥¹¥Æ¡¼¥¿¥¹');
-  define('ENTRY_PAYMENT_TYPE', '»ÙÊ§¤¤¤Î¥¿¥¤¥×');
-  define('TABLE_HEADING_ENTRY_PAYMENT_STATUS', '»ÙÊ§¤¤¤Î¥¹¥Æ¡¼¥¿¥¹');
-  define('TABLE_HEADING_PENDING_REASON', '¥Ú¥ó¥Ç¥£¥ó¥°¤ÎÍýÍ³');
-  define('TABLE_HEADING_IPN_DATE', 'IPN¤ÎÆü»þ');
-  define('ENTRY_INVOICE', 'ÆâÌõ');
-  define('ENTRY_PAYPAL_IPN_TXN', '½èÍýID');
-  define('ENTRY_PAYMENT_DATE', '»ÙÊ§¤¤Æü»þ');
-  define('ENTRY_PAYMENT_LAST_MODIFIED', 'ºÇ½ª¹¹¿·Æü');
-  define('ENTRY_MC_CURRENCY', 'MC¤ÎÄÌ²ß');
-  define('ENTRY_MC_GROSS', 'MC¤Î¹ç·×');
-  define('ENTRY_MC_FEE', 'MC¤Î¥Õ¥£¡¼');
-  define('ENTRY_PAYMENT_GROSS', '»ÙÊ§³Û¹ç·×');
-  define('ENTRY_PAYMENT_FEE', '»ÙÊ§¤¤¥Õ¥£¡¼');
-  define('ENTRY_SETTLE_AMOUNT', 'À¶»»¤Î¹ç·×');
-  define('ENTRY_SETTLE_CURRENCY', 'À¶»»¤ÎÄÌ²ß');
-  define('ENTRY_EXCHANGE_RATE', '´¹¶â¥ì¡¼¥È');
-  define('ENTRY_CART_ITEMS', '¥«¡¼¥ÈÆâ¤Î¥¢¥¤¥Æ¥à¿ô');
-  define('ENTRY_CUSTOMER_COMMENTS', '¸ÜµÒ¤Î¥³¥á¥ó¥È');
-  define('TEXT_NO_IPN_HISTORY', 'IPN¤ÎÍúÎò¤Ï»²¾È¤Ç¤­¤Þ¤»¤ó');
-  define('TEXT_TXN_SIGNATURE', '½èÍý¤Î½ðÌ¾');
+  define('ENTRY_PAYER_ID', 'æ”¯æ‰•ã„è€…ã®ID');
+  define('ENTRY_PAYER_STATUS', 'æ”¯æ‰•ã„è€…ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+  define('ENTRY_ADDRESS_STATUS', 'ä½æ‰€ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+  define('ENTRY_PAYMENT_TYPE', 'æ”¯æ‰•ã„ã®ã‚¿ã‚¤ãƒ—');
+  define('TABLE_HEADING_ENTRY_PAYMENT_STATUS', 'æ”¯æ‰•ã„ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+  define('TABLE_HEADING_PENDING_REASON', 'ãƒšãƒ³ãƒ‡ã‚£ãƒ³ã‚°ã®ç†ç”±');
+  define('TABLE_HEADING_IPN_DATE', 'IPNã®æ—¥æ™‚');
+  define('ENTRY_INVOICE', 'å†…è¨³');
+  define('ENTRY_PAYPAL_IPN_TXN', 'å‡¦ç†ID');
+  define('ENTRY_PAYMENT_DATE', 'æ”¯æ‰•ã„æ—¥æ™‚');
+  define('ENTRY_PAYMENT_LAST_MODIFIED', 'æœ€çµ‚æ›´æ–°æ—¥');
+  define('ENTRY_MC_CURRENCY', 'MCã®é€šè²¨');
+  define('ENTRY_MC_GROSS', 'MCã®åˆè¨ˆ');
+  define('ENTRY_MC_FEE', 'MCã®ãƒ•ã‚£ãƒ¼');
+  define('ENTRY_PAYMENT_GROSS', 'æ”¯æ‰•é¡åˆè¨ˆ');
+  define('ENTRY_PAYMENT_FEE', 'æ”¯æ‰•ã„ãƒ•ã‚£ãƒ¼');
+  define('ENTRY_SETTLE_AMOUNT', 'æ¸…ç®—ã®åˆè¨ˆ');
+  define('ENTRY_SETTLE_CURRENCY', 'æ¸…ç®—ã®é€šè²¨');
+  define('ENTRY_EXCHANGE_RATE', 'æ›é‡‘ãƒ¬ãƒ¼ãƒˆ');
+  define('ENTRY_CART_ITEMS', 'ã‚«ãƒ¼ãƒˆå†…ã®ã‚¢ã‚¤ãƒ†ãƒ æ•°');
+  define('ENTRY_CUSTOMER_COMMENTS', 'é¡§å®¢ã®ã‚³ãƒ¡ãƒ³ãƒˆ');
+  define('TEXT_NO_IPN_HISTORY', 'IPNã®å±¥æ­´ã¯å‚ç…§ã§ãã¾ã›ã‚“');
+  define('TEXT_TXN_SIGNATURE', 'å‡¦ç†ã®ç½²å');
   //end ADMIN text
 ?>

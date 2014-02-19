@@ -20,54 +20,54 @@
 //  $Id: index.php 2539 2005-12-11 05:17:05Z ajeh $
 //
 
-define('HEADING_TITLE', '���������򤷤Ƥ���������');
+define('HEADING_TITLE', '処理を選択してください。');
 
-define('BOX_TITLE_ORDERS', '��ʸ');
-define('BOX_TITLE_STATISTICS', '����');
+define('BOX_TITLE_ORDERS', '注文');
+define('BOX_TITLE_STATISTICS', '統計');
 
-define('BOX_ENTRY_SUPPORT_SITE', '���ݡ��ȥ�����');
-define('BOX_ENTRY_SUPPORT_FORUMS', '���ݡ��ȥե������');
-define('BOX_ENTRY_MAILING_LISTS', '�᡼��󥰥ꥹ��');
-define('BOX_ENTRY_BUG_REPORTS', '�Х���ݡ���');
+define('BOX_ENTRY_SUPPORT_SITE', 'サポートサイト');
+define('BOX_ENTRY_SUPPORT_FORUMS', 'サポートフォーラム');
+define('BOX_ENTRY_MAILING_LISTS', 'メーリングリスト');
+define('BOX_ENTRY_BUG_REPORTS', 'バグレポート');
 
-define('BOX_ENTRY_FAQ', '�褯�������');
-define('BOX_ENTRY_LIVE_DISCUSSIONS', '�ǥ������å����');
-define('BOX_ENTRY_CVS_REPOSITORY', 'CVS��ݥ��ȥ�');
-define('BOX_ENTRY_INFORMATION_PORTAL', '����ե��᡼�����');
+define('BOX_ENTRY_FAQ', 'よくある質問');
+define('BOX_ENTRY_LIVE_DISCUSSIONS', 'ディスカッション');
+define('BOX_ENTRY_CVS_REPOSITORY', 'CVSリポジトリ');
+define('BOX_ENTRY_INFORMATION_PORTAL', 'インフォメーション');
 
-define('BOX_CONNECTION_PROTECTED', '������³��%s secure SSL connection���ݸ��Ƥ��ޤ���');
-define('BOX_CONNECTION_UNPROTECTED', '������³��secure SSL connection�ˤ��<font color="#ff0000">�ݸ����ޤ���</font>');
-define('BOX_CONNECTION_UNKNOWN', '��³��������');
+define('BOX_CONNECTION_PROTECTED', 'この接続は%s secure SSL connectionで保護されています。');
+define('BOX_CONNECTION_UNPROTECTED', 'この接続はsecure SSL connectionによる<font color="#ff0000">保護がありません。</font>');
+define('BOX_CONNECTION_UNKNOWN', '接続状態不明');
 
-define('CATALOG_CONTENTS', '�ܵ�');
-define('TOOLS_BACKUP', '�Хå����å�');
-define('TOOLS_BANNERS', '�Хʡ�');
-define('TOOLS_FILES', '�ե�����');
+define('CATALOG_CONTENTS', '顧客');
+define('TOOLS_BACKUP', 'バックアップ');
+define('TOOLS_BANNERS', 'バナー');
+define('TOOLS_FILES', 'ファイル');
 
 // statistics
-define('REPORTS_PRODUCTS', '����');
-define('REPORTS_ORDERS', '��ʸ');
+define('REPORTS_PRODUCTS', '商品');
+define('REPORTS_ORDERS', '注文');
 
-define('BOX_ENTRY_CUSTOMERS', '�ܵҿ�:');
-define('BOX_ENTRY_NEWSLETTERS', '�᡼��ޥ�������Ͽ�Կ�:');
+define('BOX_ENTRY_CUSTOMERS', '顧客数:');
+define('BOX_ENTRY_NEWSLETTERS', 'メールマガジン登録者数:');
 
-define('BOX_ENTRY_PRODUCTS', '���ʿ�:');
-define('BOX_ENTRY_PRODUCTS_OFF', '�󥢥��ƥ��־���:');
-define('BOX_ENTRY_REVIEWS', '��ӥ塼��:');
-define('BOX_ENTRY_REVIEWS_PENDING', '��ǧ�Ԥ��Υ�ӥ塼:');
+define('BOX_ENTRY_PRODUCTS', '商品数:');
+define('BOX_ENTRY_PRODUCTS_OFF', '非アクティブ商品:');
+define('BOX_ENTRY_REVIEWS', 'レビュー数:');
+define('BOX_ENTRY_REVIEWS_PENDING', '承認待ちのレビュー:');
 
-define('BOX_ENTRY_NEW_CUSTOMERS', '�������ܵ�:');
-define('BOX_ENTRY_NEW_ORDERS', '��������ʸ:');
+define('BOX_ENTRY_NEW_CUSTOMERS', '新しい顧客:');
+define('BOX_ENTRY_NEW_ORDERS', '新しい注文:');
 
-define('BOX_ENTRY_SPECIALS_EXPIRED','�ò�����[�����ڤ�]');
-define('BOX_ENTRY_FEATURED_EXPIRED','�������ᾦ��[�����ڤ�]');
-define('BOX_ENTRY_SALEMAKER_EXPIRED','�����뾦��[�����ڤ�]');
+define('BOX_ENTRY_SPECIALS_EXPIRED','特価商品[期限切れ]');
+define('BOX_ENTRY_FEATURED_EXPIRED','おすすめ商品[期限切れ]');
+define('BOX_ENTRY_SALEMAKER_EXPIRED','セール商品[期限切れ]');
 
-define('BOX_ENTRY_SPECIALS_ACTIVE','�ò�����[�����ƥ���]');
-define('BOX_ENTRY_FEATURED_ACTIVE','�������ᾦ��[�����ƥ���]');
-define('BOX_ENTRY_SALEMAKER_ACTIVE','�����뾦��[�����ƥ���]');
+define('BOX_ENTRY_SPECIALS_ACTIVE','特価商品[アクティブ]');
+define('BOX_ENTRY_FEATURED_ACTIVE','おすすめ商品[アクティブ]');
+define('BOX_ENTRY_SALEMAKER_ACTIVE','セール商品[アクティブ]');
 
-define('LAST_10_DAYS', 'ľ��%s��������');
-define('SESSION', '���å����');
-define('TOTAL', '���');
+define('LAST_10_DAYS', '直近%s日の履歴');
+define('SESSION', 'セッション');
+define('TOTAL', '合計');
 ?>

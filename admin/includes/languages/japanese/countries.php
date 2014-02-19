@@ -20,20 +20,20 @@
 //  $Id: countries.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '¹ñÌ¾ÀßÄê');
+define('HEADING_TITLE', 'å›½åè¨­å®š');
 
-define('TABLE_HEADING_COUNTRY_NAME', '¹ñÌ¾');
-define('TABLE_HEADING_COUNTRY_CODES', 'ISO ¥³¡¼¥É');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_COUNTRY_NAME', 'å›½å');
+define('TABLE_HEADING_COUNTRY_CODES', 'ISO ã‚³ãƒ¼ãƒ‰');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_INFO_EDIT_INTRO', 'É¬Í×¤ÊÊÑ¹¹¤ò¹Ô¤Ã¤Æ¤¯¤À¤µ¤¤');
-define('TEXT_INFO_COUNTRY_NAME', 'Ì¾Á°:');
-define('TEXT_INFO_COUNTRY_CODE_2', 'ISO ¥³¡¼¥É (2):');
-define('TEXT_INFO_COUNTRY_CODE_3', 'ISO ¥³¡¼¥É (3):');
-define('TEXT_INFO_ADDRESS_FORMAT', '½»½ê¥Õ¥©¡¼¥Þ¥Ã¥È:');
-define('TEXT_INFO_INSERT_INTRO', '¿·¤·¤¤¹ñÌ¾¤È´ØÏ¢¤¹¤ë¥Ç¡¼¥¿¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤');
-define('TEXT_INFO_DELETE_INTRO', '¤³¤Î¹ñÌ¾¤òËÜÅö¤Ëºï½ü¤·¤Þ¤¹¤«¡©');
-define('TEXT_INFO_HEADING_NEW_COUNTRY', '¿·¤·¤¤¹ñÌ¾');
-define('TEXT_INFO_HEADING_EDIT_COUNTRY', '¹ñÌ¾¤òÊÔ½¸');
-define('TEXT_INFO_HEADING_DELETE_COUNTRY', '¹ñÌ¾¤òºï½ü');
+define('TEXT_INFO_EDIT_INTRO', 'å¿…è¦ãªå¤‰æ›´ã‚’è¡Œã£ã¦ãã ã•ã„');
+define('TEXT_INFO_COUNTRY_NAME', 'åå‰:');
+define('TEXT_INFO_COUNTRY_CODE_2', 'ISO ã‚³ãƒ¼ãƒ‰ (2):');
+define('TEXT_INFO_COUNTRY_CODE_3', 'ISO ã‚³ãƒ¼ãƒ‰ (3):');
+define('TEXT_INFO_ADDRESS_FORMAT', 'ä½æ‰€ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆ:');
+define('TEXT_INFO_INSERT_INTRO', 'æ–°ã—ã„å›½åã¨é–¢é€£ã™ã‚‹ãƒ‡ãƒ¼ã‚¿ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„');
+define('TEXT_INFO_DELETE_INTRO', 'ã“ã®å›½åã‚’æœ¬å½“ã«å‰Šé™¤ã—ã¾ã™ã‹ï¼Ÿ');
+define('TEXT_INFO_HEADING_NEW_COUNTRY', 'æ–°ã—ã„å›½å');
+define('TEXT_INFO_HEADING_EDIT_COUNTRY', 'å›½åã‚’ç·¨é›†');
+define('TEXT_INFO_HEADING_DELETE_COUNTRY', 'å›½åã‚’å‰Šé™¤');
 ?>

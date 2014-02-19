@@ -20,9 +20,9 @@
 //  $Id: audience.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('TEXT_SELECT_AN_OPTION', 'ÁªÂò¤·¤Æ¤¯¤À¤µ¤¤');
-define('TEXT_SELECT_CUSTOMER', '¸ÜµÒ¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤');
-define('TEXT_ALL_CUSTOMERS', 'Á´¤Æ¤Î¸ÜµÒ¤Ø');
-define('TEXT_NEWSLETTER_CUSTOMERS', 'Á´¤Æ¤Î¥á¡¼¥ë¥Þ¥¬¥¸¥óÅÐÏ¿¼Ô¤Ø');
+define('TEXT_SELECT_AN_OPTION', 'é¸æŠžã—ã¦ãã ã•ã„');
+define('TEXT_SELECT_CUSTOMER', 'é¡§å®¢ã‚’é¸æŠžã—ã¦ãã ã•ã„');
+define('TEXT_ALL_CUSTOMERS', 'å…¨ã¦ã®é¡§å®¢ã¸');
+define('TEXT_NEWSLETTER_CUSTOMERS', 'å…¨ã¦ã®ãƒ¡ãƒ¼ãƒ«ãƒžã‚¬ã‚¸ãƒ³ç™»éŒ²è€…ã¸');
 
 ?>

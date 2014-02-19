@@ -20,17 +20,17 @@
 //  $Id: server_info.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '¥µ¡¼¥Ð¾ðÊó¤Î¥Á¥§¥Ã¥¯');
+define('HEADING_TITLE', 'ã‚µãƒ¼ãƒæƒ…å ±ã®ãƒã‚§ãƒƒã‚¯');
 
-define('TITLE_SERVER_HOST', '¥µ¡¼¥Ð ¥Û¥¹¥È:');
-define('TITLE_SERVER_OS', '¥µ¡¼¥ÐOS:');
-define('TITLE_SERVER_DATE', '¥µ¡¼¥Ð¤Î¸½ºß»þ¹ï:');
-define('TITLE_SERVER_UP_TIME', '¥µ¡¼¥ÐÏ¢Â³²ÔÆ°»þ´Ö:');
-define('TITLE_HTTP_SERVER', 'HTTP ¥µ¡¼¥Ð:');
-define('TITLE_PHP_VERSION', 'PHP ¥Ð¡¼¥¸¥ç¥ó:');
-define('TITLE_ZEND_VERSION', 'Zend¤Î¥Ð¡¼¥¸¥ç¥ó:');
-define('TITLE_DATABASE_HOST', '¥Ç¡¼¥¿¥Ù¡¼¥¹ ¥Û¥¹¥È:');
-define('TITLE_DATABASE', '¥Ç¡¼¥¿¥Ù¡¼¥¹:');
-define('TITLE_DATABASE_DATE', '¥Ç¡¼¥¿¥Ù¡¼¥¹¤Î¸½ºß»þ¹ï:');
-define('PROJECT_DATABASE_LABEL','¥Ç¡¼¥¿¥Ù¡¼¥¹¤Î¥Ñ¥Ã¥Á¥ì¥Ù¥ë: ');
+define('TITLE_SERVER_HOST', 'ã‚µãƒ¼ãƒ ãƒ›ã‚¹ãƒˆ:');
+define('TITLE_SERVER_OS', 'ã‚µãƒ¼ãƒOS:');
+define('TITLE_SERVER_DATE', 'ã‚µãƒ¼ãƒã®ç¾åœ¨æ™‚åˆ»:');
+define('TITLE_SERVER_UP_TIME', 'ã‚µãƒ¼ãƒé€£ç¶šç¨¼å‹•æ™‚é–“:');
+define('TITLE_HTTP_SERVER', 'HTTP ã‚µãƒ¼ãƒ:');
+define('TITLE_PHP_VERSION', 'PHP ãƒãƒ¼ã‚¸ãƒ§ãƒ³:');
+define('TITLE_ZEND_VERSION', 'Zendã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³:');
+define('TITLE_DATABASE_HOST', 'ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ ãƒ›ã‚¹ãƒˆ:');
+define('TITLE_DATABASE', 'ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹:');
+define('TITLE_DATABASE_DATE', 'ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã®ç¾åœ¨æ™‚åˆ»:');
+define('PROJECT_DATABASE_LABEL','ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã®ãƒ‘ãƒƒãƒãƒ¬ãƒ™ãƒ«: ');
 ?>

@@ -21,30 +21,30 @@
 //
 
 // office use only
-  define('OFFICE_FROM','���п�:');
-  define('OFFICE_EMAIL','�᡼�륢�ɥ쥹:');
+  define('OFFICE_FROM','差出人:');
+  define('OFFICE_EMAIL','メールアドレス:');
 
-  define('OFFICE_SENT_TO','������:');
-  define('OFFICE_EMAIL_TO','�᡼�륢�ɥ쥹:');
-  define('OFFICE_USE','��ҤǤ����ѤΤ�:');
-  define('OFFICE_LOGIN_NAME','��������̾:');
-  define('OFFICE_LOGIN_EMAIL','��������᡼�륢�ɥ쥹:');
-  define('OFFICE_LOGIN_PHONE','<strong>����:</strong>');
-  define('OFFICE_IP_ADDRESS','IP���ɥ쥹:');
-  define('OFFICE_HOST_ADDRESS','�ۥ���̾:');
-  define('OFFICE_DATE_TIME','���ա�����:');
+  define('OFFICE_SENT_TO','宛て先:');
+  define('OFFICE_EMAIL_TO','メールアドレス:');
+  define('OFFICE_USE','会社での利用のみ:');
+  define('OFFICE_LOGIN_NAME','ログイン名:');
+  define('OFFICE_LOGIN_EMAIL','ログインメールアドレス:');
+  define('OFFICE_LOGIN_PHONE','<strong>電話:</strong>');
+  define('OFFICE_IP_ADDRESS','IPアドレス:');
+  define('OFFICE_HOST_ADDRESS','ホスト名:');
+  define('OFFICE_DATE_TIME','日付・時間:');
 
-  define('EMAIL_GREET', '��');
+  define('EMAIL_GREET', '様');
 
 // email disclaimer
-  define('EMAIL_DISCLAIMER', '���Υ᡼�륢�ɥ쥹�ϡ����ʤ��⤷���Ϥ��ʤ��Τ����ͤ��餤����������ΤǤ������Υ᡼��˿������꤬�ʤ����ϡ�������Ǥ��� %s �ޤǤ��Τ餻����������');
-  define('EMAIL_SPAM_DISCLAIMER','���Υ᡼��ϡ�US CAN-SPAM Law in effect 01/01/2004�˽�򤷤���������ޤ��������ɺ�����˾�������ϡ����пͥ��ɥ쥹�˥ꥯ�����Ȥ����������®�䤫���н褤�����ޤ���');
+  define('EMAIL_DISCLAIMER', 'このメールアドレスは、あなたもしくはあなたのお客様からいただいたものです。このメールに心当たりがない方は、お手数ですが %s までお知らせください。');
+  define('EMAIL_SPAM_DISCLAIMER','このメールは、US CAN-SPAM Law in effect 01/01/2004に準拠して送信されました。購読削除を希望される場合は、差出人アドレスにリクエストいただければ速やかに対処いたします。');
   define('EMAIL_FOOTER_COPYRIGHT','Copyright &copy; 2012 <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
-  define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[���եȷ�]');
-  define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[�����ݥ��]');
-  define('SEND_EXTRA_ORDERS_STATUS_ADMIN_EMAILS_TO_SUBJECT','[����ʸ����]');
-  define('TEXT_UNSUBSCRIBE', "\n\n���Υ᡼��ޥ�����ȥ���åפ���Τ��Τ餻����ɲ������ˤϰʲ��Υ�󥯤򥯥�å�: \n");
+  define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[ギフト券]');
+  define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[クーポン券]');
+  define('SEND_EXTRA_ORDERS_STATUS_ADMIN_EMAILS_TO_SUBJECT','[ご注文状況]');
+  define('TEXT_UNSUBSCRIBE', "\n\nこのメールマガジンとショップからのお知らせを購読解除するには以下のリンクをクリック: \n");
 
 // for whos_online when gethost is off
-  define('OFFICE_IP_TO_HOST_ADDRESS', '�Բ�ǽ');
+  define('OFFICE_IP_TO_HOST_ADDRESS', '不可能');
 ?>

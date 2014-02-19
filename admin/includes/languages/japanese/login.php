@@ -20,12 +20,12 @@
 //  $Id: login.php 3146 2006-03-09 07:12:11Z birdbrain $
 //
 
-define('HEADING_TITLE', '�����ԥ�������');
+define('HEADING_TITLE', '管理者ログイン');
 
-define('TEXT_ADMIN_NAME', '�����ԥ桼��ID: ');
-define('TEXT_ADMIN_PASS', '�����ԥѥ����: ');
+define('TEXT_ADMIN_NAME', '管理者ユーザID: ');
+define('TEXT_ADMIN_PASS', '管理者パスワード: ');
 
-define('ERROR_WRONG_LOGIN', '<p>�桼��ID�ޤ��ϥѥ���ɤ��ְ�äƤ��ޤ���</p>');
+define('ERROR_WRONG_LOGIN', '<p>ユーザIDまたはパスワードが間違っています。</p>');
 
-define('TEXT_PASSWORD_FORGOTTEN', '�ѥ���ɺ�����');
+define('TEXT_PASSWORD_FORGOTTEN', 'パスワード再送信');
 ?>

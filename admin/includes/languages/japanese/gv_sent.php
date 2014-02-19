@@ -20,22 +20,22 @@
 //  $Id: gv_sent.php 2388 2005-11-18 00:18:35Z ajeh $
 //
 
-define('HEADING_TITLE', TEXT_GV_NAMES . '¤ÎÁ÷ÉÕµ­Ï¿');
+define('HEADING_TITLE', TEXT_GV_NAMES . 'ã®é€ä»˜è¨˜éŒ²');
 
-define('TABLE_HEADING_SENDERS_NAME', 'Á÷¤ê¼ç');
-define('TABLE_HEADING_VOUCHER_VALUE', TEXT_GV_NAME . '¤Î³Û');
+define('TABLE_HEADING_SENDERS_NAME', 'é€ã‚Šä¸»');
+define('TABLE_HEADING_VOUCHER_VALUE', TEXT_GV_NAME . 'ã®é¡');
 define('TABLE_HEADING_VOUCHER_CODE', TEXT_GV_REDEEM);
-define('TABLE_HEADING_DATE_SENT', 'Á÷¿®Æü');
-define('TEXT_HEADING_DATE_REDEEMED', '°ú´¹´°Î»Æü');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_DATE_SENT', 'é€ä¿¡æ—¥');
+define('TEXT_HEADING_DATE_REDEEMED', 'å¼•æ›å®Œäº†æ—¥');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_INFO_SENDERS_ID', 'Á÷¤ê¼çID:');
-define('TEXT_INFO_AMOUNT_SENT', 'Á÷ÉÕ³Û:');
-define('TEXT_INFO_DATE_SENT', 'Á÷¿®Æü:');
+define('TEXT_INFO_SENDERS_ID', 'é€ã‚Šä¸»ID:');
+define('TEXT_INFO_AMOUNT_SENT', 'é€ä»˜é¡:');
+define('TEXT_INFO_DATE_SENT', 'é€ä¿¡æ—¥:');
 define('TEXT_INFO_VOUCHER_CODE', TEXT_GV_REDEEM . ':');
-define('TEXT_INFO_EMAIL_ADDRESS', '¥á¡¼¥ë¥¢¥É¥ì¥¹:');
-define('TEXT_INFO_DATE_REDEEMED', '°ú¤­´¹¤¨Æü:');
-define('TEXT_INFO_IP_ADDRESS', 'IP ¥¢¥É¥ì¥¹:');
-define('TEXT_INFO_CUSTOMERS_ID', '¸ÜµÒID:');
-define('TEXT_INFO_NOT_REDEEMED', '¤Þ¤À°ú¤­´¹¤¨¤é¤ì¤Æ¤¤¤Þ¤»¤ó¡£');
+define('TEXT_INFO_EMAIL_ADDRESS', 'ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹:');
+define('TEXT_INFO_DATE_REDEEMED', 'å¼•ãæ›ãˆæ—¥:');
+define('TEXT_INFO_IP_ADDRESS', 'IP ã‚¢ãƒ‰ãƒ¬ã‚¹:');
+define('TEXT_INFO_CUSTOMERS_ID', 'é¡§å®¢ID:');
+define('TEXT_INFO_NOT_REDEEMED', 'ã¾ã å¼•ãæ›ãˆã‚‰ã‚Œã¦ã„ã¾ã›ã‚“ã€‚');
 ?>

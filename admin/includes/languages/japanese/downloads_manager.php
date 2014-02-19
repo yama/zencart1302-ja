@@ -20,33 +20,33 @@
 //  $Id: downloads_manager.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE','¥À¥¦¥ó¥í¡¼¥É¾¦ÉÊ¤Î´ÉÍý');
-define('TABLE_HEADING_ATTRIBUTES_ID', 'Â°À­ID');
-define('TABLE_HEADING_PRODUCTS_ID', '¾¦ÉÊID');
-define('TABLE_HEADING_PRODUCT', '¾¦ÉÊÌ¾');
-define('TABLE_HEADING_MODEL', '·¿ÈÖ');
-define('TABLE_HEADING_OPT_NAME', '¥ª¥×¥·¥ç¥óÌ¾');
-define('TABLE_HEADING_OPT_VALUE', '¥ª¥×¥·¥ç¥óÃÍ¤ÎÌ¾Á°');
-define('TABLE_TEXT_FILENAME', '¥Õ¥¡¥¤¥ëÌ¾');
-define('TABLE_TEXT_MAX_DAYS', '¥À¥¦¥ó¥í¡¼¥É´üÆü');
-define('TABLE_TEXT_MAX_COUNT', '¥À¥¦¥ó¥í¡¼¥É²ó¿ô');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('HEADING_TITLE','ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰å•†å“ã®ç®¡ç†');
+define('TABLE_HEADING_ATTRIBUTES_ID', 'å±žæ€§ID');
+define('TABLE_HEADING_PRODUCTS_ID', 'å•†å“ID');
+define('TABLE_HEADING_PRODUCT', 'å•†å“å');
+define('TABLE_HEADING_MODEL', 'åž‹ç•ª');
+define('TABLE_HEADING_OPT_NAME', 'ã‚ªãƒ—ã‚·ãƒ§ãƒ³å');
+define('TABLE_HEADING_OPT_VALUE', 'ã‚ªãƒ—ã‚·ãƒ§ãƒ³å€¤ã®åå‰');
+define('TABLE_TEXT_FILENAME', 'ãƒ•ã‚¡ã‚¤ãƒ«å');
+define('TABLE_TEXT_MAX_DAYS', 'ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰æœŸæ—¥');
+define('TABLE_TEXT_MAX_COUNT', 'ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰å›žæ•°');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TABLE_HEADING_OPT_PRICE', '²Á³Ê');
-define('TABLE_HEADING_OPT_PRICE_PREFIX', 'ÀÜÆ¬¼­(Prefix)');
+define('TABLE_HEADING_OPT_PRICE', 'ä¾¡æ ¼');
+define('TABLE_HEADING_OPT_PRICE_PREFIX', 'æŽ¥é ­è¾ž(Prefix)');
 
-define('TEXT_PRODUCTS_NAME', '¾¦ÉÊ: ');
-define('TEXT_PRODUCTS_MODEL', '·¿ÈÖ: ');
+define('TEXT_PRODUCTS_NAME', 'å•†å“: ');
+define('TEXT_PRODUCTS_MODEL', 'åž‹ç•ª: ');
 
-define('TEXT_INFO_HEADING_EDIT_PRODUCTS_DOWNLOAD', '¥À¥¦¥ó¥í¡¼¥É¾ðÊó¤ÎÊÔ½¸');
-define('TEXT_INFO_HEADING_DELETE_PRODUCTS_DOWNLOAD', '¥À¥¦¥ó¥í¡¼¥É¾ðÊó¤Î³ÎÄê');
-define('TEXT_INFO_EDIT_INTRO', '¥À¥¦¥ó¥í¡¼¥É¾ðÊó¤ÎÊÔ½¸:');
-define('TEXT_DELETE_INTRO', '°Ê²¼¤Î¥Õ¥¡¥¤¥ëÌ¾¤ò¥Ç¡¼¥¿¥Ù¡¼¥¹¤«¤éºï½ü¤·¤Þ¤¹¡£¥Õ¥¡¥¤¥ë¼«ÂÎ¤Î¥µ¡¼¥Ð¤«¤é¤Îºï½ü¤Ï¹Ô¤ï¤ì¤Þ¤»¤ó¡£:');
+define('TEXT_INFO_HEADING_EDIT_PRODUCTS_DOWNLOAD', 'ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰æƒ…å ±ã®ç·¨é›†');
+define('TEXT_INFO_HEADING_DELETE_PRODUCTS_DOWNLOAD', 'ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰æƒ…å ±ã®ç¢ºå®š');
+define('TEXT_INFO_EDIT_INTRO', 'ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰æƒ…å ±ã®ç·¨é›†:');
+define('TEXT_DELETE_INTRO', 'ä»¥ä¸‹ã®ãƒ•ã‚¡ã‚¤ãƒ«åã‚’ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã‹ã‚‰å‰Šé™¤ã—ã¾ã™ã€‚ãƒ•ã‚¡ã‚¤ãƒ«è‡ªä½“ã®ã‚µãƒ¼ãƒã‹ã‚‰ã®å‰Šé™¤ã¯è¡Œã‚ã‚Œã¾ã›ã‚“ã€‚:');
 
-define('TEXT_INFO_FILENAME', '¥Õ¥¡¥¤¥ëÌ¾: ');
-define('TEXT_INFO_MAX_DAYS', '¥À¥¦¥ó¥í¡¼¥É´üÆü: ');
-define('TEXT_INFO_MAX_COUNT', '¥À¥¦¥ó¥í¡¼¥É²ó¿ô: ');
+define('TEXT_INFO_FILENAME', 'ãƒ•ã‚¡ã‚¤ãƒ«å: ');
+define('TEXT_INFO_MAX_DAYS', 'ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰æœŸæ—¥: ');
+define('TEXT_INFO_MAX_COUNT', 'ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰å›žæ•°: ');
 
-define('TEXT_INFO_FILENAME_MISSING','&nbsp;¥Õ¥¡¥¤¥ëÌ¾ÉÔÌÀ');
-define('TEXT_INFO_FILENAME_GOOD','&nbsp;¥Õ¥¡¥¤¥ëÌ¾Í­¸ú');
+define('TEXT_INFO_FILENAME_MISSING','&nbsp;ãƒ•ã‚¡ã‚¤ãƒ«åä¸æ˜Ž');
+define('TEXT_INFO_FILENAME_GOOD','&nbsp;ãƒ•ã‚¡ã‚¤ãƒ«åæœ‰åŠ¹');
 ?>

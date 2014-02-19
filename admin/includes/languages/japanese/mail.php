@@ -20,23 +20,23 @@
 //  $Id: mail.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('HEADING_TITLE', '�ܵҤؤΥ᡼������');
+define('HEADING_TITLE', '顧客へのメール送信');
 
-define('TEXT_CUSTOMER', '�ܵ�:');
-define('TEXT_SUBJECT', '��̾:');
-define('TEXT_FROM', '���п�:');
-define('TEXT_MESSAGE', '�ƥ����� <br />��ʸ:');
-define('TEXT_MESSAGE_HTML','HTML�ʥ�å��ƥ����ȡ� <br />��ʸ:');
-define('TEXT_SELECT_CUSTOMER', '�ܵҤ�����');
-define('TEXT_ALL_CUSTOMERS', '���Ƥθܵ�');
-define('TEXT_NEWSLETTER_CUSTOMERS', '�᡼��ޥ�������Ͽ��');
-define('TEXT_ATTACHMENTS_LIST','���򤵤줿ź�ս���: ');
-define('TEXT_SELECT_ATTACHMENT','�����о��<br />ź�ս���: ');
-define('TEXT_SELECT_ATTACHMENT_TO_UPLOAD','���åץ����ɤ���<br />ź�ս���<br />&amp; attach: ');
-define('TEXT_ATTACHMENTS_DIR','���åץ������ѥե����: ');
+define('TEXT_CUSTOMER', '顧客:');
+define('TEXT_SUBJECT', '件名:');
+define('TEXT_FROM', '差出人:');
+define('TEXT_MESSAGE', 'テキスト <br />本文:');
+define('TEXT_MESSAGE_HTML','HTML（リッチテキスト） <br />本文:');
+define('TEXT_SELECT_CUSTOMER', '顧客を選択');
+define('TEXT_ALL_CUSTOMERS', '全ての顧客');
+define('TEXT_NEWSLETTER_CUSTOMERS', 'メールマガジン登録者');
+define('TEXT_ATTACHMENTS_LIST','選択された添付書類: ');
+define('TEXT_SELECT_ATTACHMENT','サーバ上の<br />添付書類: ');
+define('TEXT_SELECT_ATTACHMENT_TO_UPLOAD','アップロードする<br />添付書類<br />&amp; attach: ');
+define('TEXT_ATTACHMENTS_DIR','アップロード用フォルダ: ');
 
-define('NOTICE_EMAIL_SENT_TO', 'Notice: %s �˥᡼����������ޤ�����');
-define('ERROR_NO_CUSTOMER_SELECTED', '���顼: ���򤵤줿�ܵҤ�¸�ߤ��ޤ���');
-define('ERROR_NO_SUBJECT', '���顼: ��̾�����Ϥ���Ƥ��ޤ���');
-define('ERROR_ATTACHMENTS', '���顼: ź�ս���򡢥��åץ����ɤ��ɲä�ξ���Ԥ����ȤϤǤ��ޤ��󡣤ɤ��餫��Ĥ�������Ǥ���������');
+define('NOTICE_EMAIL_SENT_TO', 'Notice: %s にメールを送信しました。');
+define('ERROR_NO_CUSTOMER_SELECTED', 'エラー: 選択された顧客は存在しません。');
+define('ERROR_NO_SUBJECT', 'エラー: 件名が入力されていません。');
+define('ERROR_ATTACHMENTS', 'エラー: 添付書類を、アップロードと追加の両方行うことはできません。どちらか一つだけ選んでください。');
 ?>

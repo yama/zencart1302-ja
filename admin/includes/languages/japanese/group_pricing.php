@@ -20,30 +20,30 @@
 //  $Id: group_pricing.php 2770 2006-01-02 07:52:42Z drbyte $
 //
 
-define('HEADING_TITLE', '����ܵҥ��롼�פδ���');
+define('HEADING_TITLE', '割引顧客グループの管理');
 
 define('TABLE_HEADING_GROUP_ID', 'ID');
-define('TABLE_HEADING_GROUP_NAME', '���롼��̾');
-define('TABLE_HEADING_GROUP_AMOUNT', '���Ψ(%)');
-define('TABLE_HEADING_ACTION', '���');
+define('TABLE_HEADING_GROUP_NAME', 'グループ名');
+define('TABLE_HEADING_GROUP_AMOUNT', '割引率(%)');
+define('TABLE_HEADING_ACTION', '操作');
 
-define('TEXT_HEADING_NEW_PRICING_GROUP', '����������ܵҥ��롼��');
-define('TEXT_HEADING_EDIT_PRICING_GROUP', '����ܵҥ��롼�פ��Խ�');
-define('TEXT_HEADING_DELETE_PRICING_GROUP', '����ܵҥ��롼�פ���');
+define('TEXT_HEADING_NEW_PRICING_GROUP', '新しい割引顧客グループ');
+define('TEXT_HEADING_EDIT_PRICING_GROUP', '割引顧客グループを編集');
+define('TEXT_HEADING_DELETE_PRICING_GROUP', '割引顧客グループを削除');
 
-define('TEXT_NEW_INTRO', '���������롼�פˤĤ��Ƥξ�������Ϥ��Ƥ�������');
-define('TEXT_EDIT_INTRO', 'ɬ�פ��ѹ���ԤäƤ�������');
-define('TEXT_DELETE_INTRO', '���Υ��롼�פ������˺�����ޤ���?');
-define('TEXT_DELETE_PRICING_GROUP', '���γ���ܵҥ��롼�פ������ޤ�����');
-define('TEXT_DELETE_WARNING_GROUP_MEMBERS','<b>�ٹ�:</b> %s�ͤθܵҤ����Υ��ƥ��꡼�ˤޤ���󥯤��Ƥ��ޤ�');
+define('TEXT_NEW_INTRO', '新しいグループについての情報を入力してください');
+define('TEXT_EDIT_INTRO', '必要な変更を行ってください');
+define('TEXT_DELETE_INTRO', 'このグループを本当に削除しますか?');
+define('TEXT_DELETE_PRICING_GROUP', 'この割引顧客グループを削除しますか？');
+define('TEXT_DELETE_WARNING_GROUP_MEMBERS','<b>警告:</b> %s人の顧客がこのカテゴリーにまだリンクしています');
 
-define('TEXT_GROUP_PRICING_NAME', '���롼��̾: ');
-define('TEXT_GROUP_PRICING_AMOUNT', '���Ψ(%): ');
-define('TEXT_DATE_ADDED', '�����ɲ���:');
-define('TEXT_LAST_MODIFIED', '�����ѹ���:');
-define('TEXT_CUSTOMERS', '���롼����θܵҿ�:');
+define('TEXT_GROUP_PRICING_NAME', 'グループ名: ');
+define('TEXT_GROUP_PRICING_AMOUNT', '割引率(%): ');
+define('TEXT_DATE_ADDED', '情報追加日:');
+define('TEXT_LAST_MODIFIED', '情報変更日:');
+define('TEXT_CUSTOMERS', 'グループ内の顧客数:');
 
-define('ERROR_GROUP_PRICING_CUSTOMERS_EXIST','���顼: �ܵҤ��ޤ����Υ��롼�פ˻ĤäƤ��ޤ������Υ��롼�פˤ�����С����ǧ���������˾õ�Ƥ����Τ���ǧ���Ƥ�������');
-define('ERROR_MODULE_NOT_CONFIGURED','����: ����ܵҥ��롼�פ������¸�ߤ��ޤ������ޤ��Υ⥸�塼�뤬ͭ���ˤʤäƤ��ޤ���<br />�������̡�⥸�塼���OrderTotal����С��γ���ʤ⤷���ϳ���ܵҥ��롼�סˤ򤫤饤�󥹥ȡ��뤹�뤫�������ԤäƤ�������');
+define('ERROR_GROUP_PRICING_CUSTOMERS_EXIST','エラー: 顧客がまだこのグループに残っています。このグループにいるメンバーを確認し、本当に消去していいのか確認してください');
+define('ERROR_MODULE_NOT_CONFIGURED','注意: 割引顧客グループの定義が存在しますが、まだのモジュールが有効になっていません。<br />管理画面＞モジュール＞OrderTotal＞メンバーの割引（もしくは割引顧客グループ）をからインストールするか、設定を行ってください');
 
 ?>

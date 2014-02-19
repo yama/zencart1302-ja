@@ -20,35 +20,35 @@
 //  $Id: specials.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '�ò����ʤδ���');
+define('HEADING_TITLE', '特価商品の管理');
 
-define('TABLE_HEADING_PRODUCTS', '����̾');
-define('TABLE_HEADING_PRODUCTS_MODEL','����');
-define('TABLE_HEADING_PRODUCTS_PRICE', '���ʲ���/�ò�����/���������');
-define('TABLE_HEADING_PRODUCTS_PERCENTAGE','�ѡ������');
-define('TABLE_HEADING_AVAILABLE_DATE', '�󶡳�����');
-define('TABLE_HEADING_EXPIRES_DATE','�󶡽�λ��');
-define('TABLE_HEADING_STATUS', '���ơ�����');
-define('TABLE_HEADING_ACTION', '���');
+define('TABLE_HEADING_PRODUCTS', '商品名');
+define('TABLE_HEADING_PRODUCTS_MODEL','型番');
+define('TABLE_HEADING_PRODUCTS_PRICE', '商品価格/特価価格/セール価格');
+define('TABLE_HEADING_PRODUCTS_PERCENTAGE','パーセント');
+define('TABLE_HEADING_AVAILABLE_DATE', '提供開始日');
+define('TABLE_HEADING_EXPIRES_DATE','提供終了日');
+define('TABLE_HEADING_STATUS', 'ステータス');
+define('TABLE_HEADING_ACTION', '操作');
 
-define('TEXT_SPECIALS_PRODUCT', '����̾:');
-define('TEXT_SPECIALS_SPECIAL_PRICE', '�ò�����:');
-define('TEXT_SPECIALS_EXPIRES_DATE', '�󶡽�λ��:');
-define('TEXT_SPECIALS_AVAILABLE_DATE', '�󶡳�����:');
-define('TEXT_SPECIALS_PRICE_TIP', '<b>��:</b><ul><li>���Ψ��ѡ�����Ȥ����ϤǤ��ޤ����㡧<b>20%</b></li><li>���������ʤ����Ϥ�����ˤϡ�������\'.\'�Ƕ��ڤäƤ����������㡧<b>49.99</b></li><li>���֤���ꤷ�����ʤ����ϡֽ�λ���פ�̤�����Τޤޤˤ��Ƥ����Ƥ���������</li></ul>');
+define('TEXT_SPECIALS_PRODUCT', '商品名:');
+define('TEXT_SPECIALS_SPECIAL_PRICE', '特価価格:');
+define('TEXT_SPECIALS_EXPIRES_DATE', '提供終了日:');
+define('TEXT_SPECIALS_AVAILABLE_DATE', '提供開始日:');
+define('TEXT_SPECIALS_PRICE_TIP', '<b>注:</b><ul><li>割引率をパーセントで入力できます。例：<b>20%</b></li><li>新しい価格を入力する場合には、小数点\'.\'で区切ってください。例：<b>49.99</b></li><li>期間を限定したくない場合は「終了日」を未記入のままにしておいてください。</li></ul>');
 
-define('TEXT_INFO_DATE_ADDED', '��Ͽ����');
-define('TEXT_INFO_LAST_MODIFIED', '��������');
-define('TEXT_INFO_NEW_PRICE', '�����ʡ�');
-define('TEXT_INFO_ORIGINAL_PRICE', '���β��ʡ�');
-define('TEXT_INFO_DISPLAY_PRICE', 'ɽ�����ʡ�<br />');
-define('TEXT_INFO_AVAILABLE_DATE', '�󶡳�������');
-define('TEXT_INFO_EXPIRES_DATE', '�󶡽�λ����');
-define('TEXT_INFO_STATUS_CHANGE', '���ơ������ѹ���');
-define('TEXT_IMAGE_NONEXISTENT', '������¸�ߤ��ޤ���');
+define('TEXT_INFO_DATE_ADDED', '登録日：');
+define('TEXT_INFO_LAST_MODIFIED', '更新日：');
+define('TEXT_INFO_NEW_PRICE', '新価格：');
+define('TEXT_INFO_ORIGINAL_PRICE', '元の価格：');
+define('TEXT_INFO_DISPLAY_PRICE', '表示価格：<br />');
+define('TEXT_INFO_AVAILABLE_DATE', '提供開始日：');
+define('TEXT_INFO_EXPIRES_DATE', '提供終了日：');
+define('TEXT_INFO_STATUS_CHANGE', 'ステータス変更：');
+define('TEXT_IMAGE_NONEXISTENT', '画像が存在しません。');
 
-define('TEXT_INFO_HEADING_DELETE_SPECIALS', '�ò����ʤ���');
-define('TEXT_INFO_DELETE_INTRO', '�����ò����ʤ������˺�����ޤ���?');
+define('TEXT_INFO_HEADING_DELETE_SPECIALS', '特価商品を削除');
+define('TEXT_INFO_DELETE_INTRO', 'この特価商品を本当に削除しますか?');
 
 define('SUCCESS_SPECIALS_PRE_ADD', 'Successful: Pre-Add of Special ... please update the price and dates ...');
 define('WARNING_SPECIALS_PRE_ADD_EMPTY', 'Warning: No Product ID specified ... nothing was added ...');

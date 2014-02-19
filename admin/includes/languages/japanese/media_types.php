@@ -20,23 +20,23 @@
 //  $Id: media_types.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '��ǥ����ե����ޥå�');
+define('HEADING_TITLE', 'メディアフォーマット');
 
-define('TABLE_HEADING_MEDIA_TYPE', '��ǥ����ե����ޥå�');
-define('TABLE_HEADING_MEDIA_TYPE_EXT', '��ĥ��');
-define('TABLE_HEADING_ACTION', '���');
+define('TABLE_HEADING_MEDIA_TYPE', 'メディアフォーマット');
+define('TABLE_HEADING_MEDIA_TYPE_EXT', '拡張子');
+define('TABLE_HEADING_ACTION', '操作');
 
-define('TEXT_HEADING_NEW_MEDIA_TYPE', '�������ե����ޥå�');
-define('TEXT_HEADING_EDIT_MEDIA_TYPE', '�ե����ޥåȤ��Խ�');
-define('TEXT_HEADING_DELETE_MEDIA_TYPES', '�ե����ޥåȤ���');
+define('TEXT_HEADING_NEW_MEDIA_TYPE', '新しいフォーマット');
+define('TEXT_HEADING_EDIT_MEDIA_TYPE', 'フォーマットを編集');
+define('TEXT_HEADING_DELETE_MEDIA_TYPES', 'フォーマットを削除');
 
-define('TEXT_MEDIA_TYPE_NAME', '�ե����ޥå�̾��');
-define('TEXT_MEDIA_TYPE_EXT', '�ե����ޥåȤγ�ĥ��');
-define('TEXT_EXTENSION', '��ĥ��: ');
+define('TEXT_MEDIA_TYPE_NAME', 'フォーマット名称');
+define('TEXT_MEDIA_TYPE_EXT', 'フォーマットの拡張子');
+define('TEXT_EXTENSION', '拡張子: ');
 
-define('TEXT_NEW_INTRO', '��������ǥ����ե����ޥåȤˤĤ��ƾ�������Ϥ��Ƥ���������');
-define('TEXT_EDIT_INTRO', 'ɬ�פ��ѹ���ԤäƤ���������');
+define('TEXT_NEW_INTRO', '新しいメディアフォーマットについて情報を入力してください。');
+define('TEXT_EDIT_INTRO', '必要な変更を行ってください。');
 
-define('TEXT_DELETE_INTRO', '���Υ�ǥ����ե����ޥåȤ������˺�����ޤ���?');
+define('TEXT_DELETE_INTRO', 'このメディアフォーマットを本当に削除しますか?');
 define('TEXT_DISPLAY_NUMBER_OF_MEDIA_TYPES', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> Media Types)');
 ?>

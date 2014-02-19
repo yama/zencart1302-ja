@@ -20,31 +20,31 @@
 //  $Id: featured.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '¤ª¤¹¤¹¤á¾¦ÉÊ¤Î´ÉÍý');
+define('HEADING_TITLE', 'ãŠã™ã™ã‚å•†å“ã®ç®¡ç†');
 
-define('TABLE_HEADING_PRODUCTS', '¾¦ÉÊ');
-define('TABLE_HEADING_PRODUCTS_MODEL','·¿ÈÖ');
-define('TABLE_HEADING_PRODUCTS_PRICE', '¾¦ÉÊ²Á³Ê/ÆÃÊÌ²Á³Ê/¥»¡¼¥ë²Á³Ê');
-define('TABLE_HEADING_PRODUCTS_PERCENTAGE','³ä°úÎ¨(%)');
-define('TABLE_HEADING_AVAILABLE_DATE', 'Äó¶¡³«»ÏÆü');
-define('TABLE_HEADING_EXPIRES_DATE','Äó¶¡½ªÎ»Æü');
-define('TABLE_HEADING_STATUS', '¥¹¥Æ¡¼¥¿¥¹');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_PRODUCTS', 'å•†å“');
+define('TABLE_HEADING_PRODUCTS_MODEL','åž‹ç•ª');
+define('TABLE_HEADING_PRODUCTS_PRICE', 'å•†å“ä¾¡æ ¼/ç‰¹åˆ¥ä¾¡æ ¼/ã‚»ãƒ¼ãƒ«ä¾¡æ ¼');
+define('TABLE_HEADING_PRODUCTS_PERCENTAGE','å‰²å¼•çŽ‡(%)');
+define('TABLE_HEADING_AVAILABLE_DATE', 'æä¾›é–‹å§‹æ—¥');
+define('TABLE_HEADING_EXPIRES_DATE','æä¾›çµ‚äº†æ—¥');
+define('TABLE_HEADING_STATUS', 'ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_FEATURED_PRODUCT', '¾¦ÉÊ:');
-define('TEXT_FEATURED_EXPIRES_DATE', 'Äó¶¡½ªÎ»Æü:');
-define('TEXT_FEATURED_AVAILABLE_DATE', 'Äó¶¡³«»ÏÆü:');
+define('TEXT_FEATURED_PRODUCT', 'å•†å“:');
+define('TEXT_FEATURED_EXPIRES_DATE', 'æä¾›çµ‚äº†æ—¥:');
+define('TEXT_FEATURED_AVAILABLE_DATE', 'æä¾›é–‹å§‹æ—¥:');
 
-define('TEXT_INFO_DATE_ADDED', 'ºîÀ®Æü:');
-define('TEXT_INFO_LAST_MODIFIED', '¹¹¿·Æü:');
-define('TEXT_INFO_NEW_PRICE', '¿·¤·¤¤²Á³Ê:');
-define('TEXT_INFO_ORIGINAL_PRICE', '¸µ¤Î²Á³Ê:');
-define('TEXT_INFO_PERCENTAGE', '³ä°úÎ¨(%):');
-define('TEXT_INFO_AVAILABLE_DATE', 'Äó¶¡³«»ÏÆü:');
-define('TEXT_INFO_EXPIRES_DATE', 'Äó¶¡½ªÎ»Æü:');
-define('TEXT_INFO_STATUS_CHANGE', '¥¹¥Æ¡¼¥¿¥¹ÊÑ¹¹:');
-define('TEXT_IMAGE_NONEXISTENT', '²èÁü¤Ê¤·');
+define('TEXT_INFO_DATE_ADDED', 'ä½œæˆæ—¥:');
+define('TEXT_INFO_LAST_MODIFIED', 'æ›´æ–°æ—¥:');
+define('TEXT_INFO_NEW_PRICE', 'æ–°ã—ã„ä¾¡æ ¼:');
+define('TEXT_INFO_ORIGINAL_PRICE', 'å…ƒã®ä¾¡æ ¼:');
+define('TEXT_INFO_PERCENTAGE', 'å‰²å¼•çŽ‡(%):');
+define('TEXT_INFO_AVAILABLE_DATE', 'æä¾›é–‹å§‹æ—¥:');
+define('TEXT_INFO_EXPIRES_DATE', 'æä¾›çµ‚äº†æ—¥:');
+define('TEXT_INFO_STATUS_CHANGE', 'ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹å¤‰æ›´:');
+define('TEXT_IMAGE_NONEXISTENT', 'ç”»åƒãªã—');
 
-define('TEXT_INFO_HEADING_DELETE_FEATURED', '¤ª¤¹¤¹¤á¾¦ÉÊ¤òºï½ü');
-define('TEXT_INFO_DELETE_INTRO', '¤³¤Î¤ª¤¹¤¹¤á¾¦ÉÊ¤òËÜÅö¤Ëºï½ü¤·¤Þ¤¹¤«?');
+define('TEXT_INFO_HEADING_DELETE_FEATURED', 'ãŠã™ã™ã‚å•†å“ã‚’å‰Šé™¤');
+define('TEXT_INFO_DELETE_INTRO', 'ã“ã®ãŠã™ã™ã‚å•†å“ã‚’æœ¬å½“ã«å‰Šé™¤ã—ã¾ã™ã‹?');
 ?>

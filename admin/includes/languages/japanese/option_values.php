@@ -19,18 +19,18 @@
 // +----------------------------------------------------------------------+
 //  $Id: option_values.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
-  define('HEADING_TITLE', ' ¥ª¥×¥·¥ç¥óÃÍ¤Î¥½¡¼¥È½çÀßÄê');
-  define('TEXT_UPDATE_OPTION_VALUES', '¥ª¥×¥·¥ç¥óÃÍ¤Î¥½¡¼¥È½ç¤ò¹¹¿·');
-  define('TEXT_SELECT_OPTION','¥ª¥×¥·¥ç¥óÌ¾¤òÁªÂò:');
-  define('TEXT_EDIT_OPTION_NAME', '¥ª¥×¥·¥ç¥óÌ¾: ');
-  define('TEXT_NO_OPTION_VALUE','¥ª¥×¥·¥ç¥óÃÍ¤¬ÀßÄê¤µ¤ì¤Æ¤¤¤Þ¤»¤ó¡£<br />¥ª¥×¥·¥ç¥óÌ¾: ');
-  define('TEXT_UPDATE_SUBMIT','¥½¡¼¥È½ç¤ò¹¹¿·');
+  define('HEADING_TITLE', ' ã‚ªãƒ—ã‚·ãƒ§ãƒ³å€¤ã®ã‚½ãƒ¼ãƒˆé †è¨­å®š');
+  define('TEXT_UPDATE_OPTION_VALUES', 'ã‚ªãƒ—ã‚·ãƒ§ãƒ³å€¤ã®ã‚½ãƒ¼ãƒˆé †ã‚’æ›´æ–°');
+  define('TEXT_SELECT_OPTION','ã‚ªãƒ—ã‚·ãƒ§ãƒ³åã‚’é¸æŠž:');
+  define('TEXT_EDIT_OPTION_NAME', 'ã‚ªãƒ—ã‚·ãƒ§ãƒ³å: ');
+  define('TEXT_NO_OPTION_VALUE','ã‚ªãƒ—ã‚·ãƒ§ãƒ³å€¤ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚<br />ã‚ªãƒ—ã‚·ãƒ§ãƒ³å: ');
+  define('TEXT_UPDATE_SUBMIT','ã‚½ãƒ¼ãƒˆé †ã‚’æ›´æ–°');
 
 // moved from english.php
-  define('TEXT_UPDATE_SORT_ORDERS_OPTIONS_PRODUCTS','<strong>¾¦ÉÊÍÑ:</strong> ');
-  define('TEXT_UPDATE_SORT_ORDERS_OPTIONS_CATEGORIES','<strong>¥«¥Æ¥´¥êÍÑ:</strong> ');
-  define('SUCCESS_PRODUCT_UPDATE_SORT','¥½¡¼¥È½ç¤Î¹¹¿·¤¬À®¸ù¤·¤Þ¤·¤¿¡£ ID# ');
-  define('SUCCESS_PRODUCT_UPDATE_SORT_ALL','Á´¤Æ¤Î¾¦ÉÊ¤Î¥ª¥×¥·¥ç¥ó¤Î¥½¡¼¥È½ç¹¹¿·¤¬À®¸ù¤·¤Þ¤·¤¿¡£');
-  define('SUCCESS_OPTION_VALUES_SORT_ORDER','¥ª¥×¥·¥ç¥óÃÍ¤Î¥½¡¼¥È½ç¤Î¹¹¿·¤¬À®¸ù¤·¤Þ¤·¤¿¡£: ');
-  define('SUCCESS_CATEGORIES_UPDATE_SORT','¥«¥Æ¥´¥ê¸þ¤±¤Î¥½¡¼¥È½ç¤Î¹¹¿·¤¬À®¸ù¤·¤Þ¤·¤¿¡£ ID# ');
+  define('TEXT_UPDATE_SORT_ORDERS_OPTIONS_PRODUCTS','<strong>å•†å“ç”¨:</strong> ');
+  define('TEXT_UPDATE_SORT_ORDERS_OPTIONS_CATEGORIES','<strong>ã‚«ãƒ†ã‚´ãƒªç”¨:</strong> ');
+  define('SUCCESS_PRODUCT_UPDATE_SORT','ã‚½ãƒ¼ãƒˆé †ã®æ›´æ–°ãŒæˆåŠŸã—ã¾ã—ãŸã€‚ ID# ');
+  define('SUCCESS_PRODUCT_UPDATE_SORT_ALL','å…¨ã¦ã®å•†å“ã®ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã®ã‚½ãƒ¼ãƒˆé †æ›´æ–°ãŒæˆåŠŸã—ã¾ã—ãŸã€‚');
+  define('SUCCESS_OPTION_VALUES_SORT_ORDER','ã‚ªãƒ—ã‚·ãƒ§ãƒ³å€¤ã®ã‚½ãƒ¼ãƒˆé †ã®æ›´æ–°ãŒæˆåŠŸã—ã¾ã—ãŸã€‚: ');
+  define('SUCCESS_CATEGORIES_UPDATE_SORT','ã‚«ãƒ†ã‚´ãƒªå‘ã‘ã®ã‚½ãƒ¼ãƒˆé †ã®æ›´æ–°ãŒæˆåŠŸã—ã¾ã—ãŸã€‚ ID# ');
 ?>

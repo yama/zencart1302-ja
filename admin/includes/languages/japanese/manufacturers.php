@@ -20,34 +20,34 @@
 //  $Id: manufacturers.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '�᡼�����δ���');
+define('HEADING_TITLE', 'メーカーの管理');
 
-define('TABLE_HEADING_MANUFACTURERS', '�᡼����');
-define('TABLE_HEADING_ACTION', '���');
+define('TABLE_HEADING_MANUFACTURERS', 'メーカー');
+define('TABLE_HEADING_ACTION', '操作');
 
-define('TEXT_HEADING_NEW_MANUFACTURER', '�������᡼����');
-define('TEXT_HEADING_EDIT_MANUFACTURER', '�᡼�������Խ�');
-define('TEXT_HEADING_DELETE_MANUFACTURER', '�᡼��������');
+define('TEXT_HEADING_NEW_MANUFACTURER', '新しいメーカー');
+define('TEXT_HEADING_EDIT_MANUFACTURER', 'メーカーを編集');
+define('TEXT_HEADING_DELETE_MANUFACTURER', 'メーカーを削除');
 
-define('TEXT_MANUFACTURERS', '�᡼����:');
-define('TEXT_DATE_ADDED', '��Ͽ��:');
-define('TEXT_LAST_MODIFIED', '������:');
-define('TEXT_PRODUCTS', '����:');
-define('TEXT_PRODUCTS_IMAGE_DIR', '���åץ����ɤ���ǥ��쥯�ȥ�:');
-define('TEXT_IMAGE_NONEXISTENT', '����������ޤ���');
+define('TEXT_MANUFACTURERS', 'メーカー:');
+define('TEXT_DATE_ADDED', '登録日:');
+define('TEXT_LAST_MODIFIED', '更新日:');
+define('TEXT_PRODUCTS', '商品:');
+define('TEXT_PRODUCTS_IMAGE_DIR', 'アップロードするディレクトリ:');
+define('TEXT_IMAGE_NONEXISTENT', '画像がありません。');
 
-define('TEXT_NEW_INTRO', '�������᡼�����ξ�������Ϥ��Ƥ���������');
-define('TEXT_EDIT_INTRO', 'ɬ�פ��ѹ���ԤäƤ���������');
+define('TEXT_NEW_INTRO', '新しいメーカーの情報を入力してください。');
+define('TEXT_EDIT_INTRO', '必要な変更を行ってください。');
 
-define('TEXT_MANUFACTURERS_NAME', '�᡼����̾:');
-define('TEXT_MANUFACTURERS_IMAGE', '�᡼�����β���:');
-define('TEXT_MANUFACTURERS_URL', '�᡼������URL:');
+define('TEXT_MANUFACTURERS_NAME', 'メーカー名:');
+define('TEXT_MANUFACTURERS_IMAGE', 'メーカーの画像:');
+define('TEXT_MANUFACTURERS_URL', 'メーカーのURL:');
 
-define('TEXT_DELETE_INTRO', '���Υ᡼�����������˺�����ޤ���?');
-define('TEXT_DELETE_IMAGE', '�᡼�����β����������ޤ���?');
-define('TEXT_DELETE_PRODUCTS', '���Υ᡼�����ξ��ʤ������ޤ���? (���ʥ�ӥ塼���ò����ʡ�����ͽ�꾦�ʤ�ޤߤޤ�)');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>�ٹ�:</b> ���Υ᡼�����˥�󥯤���Ƥ��뾦�ʤ� %s�Ĥ���ޤ�!');
+define('TEXT_DELETE_INTRO', 'このメーカーを本当に削除しますか?');
+define('TEXT_DELETE_IMAGE', 'メーカーの画像を削除しますか?');
+define('TEXT_DELETE_PRODUCTS', 'このメーカーの商品を削除しますか? (商品レビュー、特価商品、入荷予定商品も含みます)');
+define('TEXT_DELETE_WARNING_PRODUCTS', '<b>警告:</b> このメーカーにリンクされている商品が %s個あります!');
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', '���顼: ���Υǥ��쥯�ȥ�˽񤭹��ߤǤ��ޤ����������桼�����¤� %s �����ꤷ�Ƥ���������');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', '���顼: %s �ǥ��쥯�ȥ꤬¸�ߤ��ޤ���');
+define('ERROR_DIRECTORY_NOT_WRITEABLE', 'エラー: このディレクトリに書き込みできません。正しいユーザ権限を %s に設定してください。');
+define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'エラー: %s ディレクトリが存在しません。');
 ?>

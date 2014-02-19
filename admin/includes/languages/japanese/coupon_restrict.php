@@ -20,21 +20,21 @@
 //  $Id: coupon_restrict.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '¥¯¡¼¥Ý¥ó·ô¤Î¾¦ÉÊ/¥«¥Æ¥´¥êÊÌ¤ÎÍøÍÑÀ©¸ÂÀßÄê');
-define('HEADING_TITLE_CATEGORY', '¥«¥Æ¥´¥êÊÌ¤ÎÍøÍÑÀ©¸Â');
-define('HEADING_TITLE_PRODUCT', '¾¦ÉÊÊÌ¤ÎÍøÍÑÀ©¸Â');
+define('HEADING_TITLE', 'ã‚¯ãƒ¼ãƒãƒ³åˆ¸ã®å•†å“/ã‚«ãƒ†ã‚´ãƒªåˆ¥ã®åˆ©ç”¨åˆ¶é™è¨­å®š');
+define('HEADING_TITLE_CATEGORY', 'ã‚«ãƒ†ã‚´ãƒªåˆ¥ã®åˆ©ç”¨åˆ¶é™');
+define('HEADING_TITLE_PRODUCT', 'å•†å“åˆ¥ã®åˆ©ç”¨åˆ¶é™');
 
-define('HEADER_COUPON_ID', '¥¯¡¼¥Ý¥óID');
-define('HEADER_COUPON_NAME', '¥¯¡¼¥Ý¥óÌ¾');
-define('HEADER_CATEGORY_ID', '¥«¥Æ¥´¥êID');
-define('HEADER_CATEGORY_NAME', '¥«¥Æ¥´¥êÌ¾');
-define('HEADER_PRODUCT_ID', '¾¦ÉÊID');
-define('HEADER_PRODUCT_NAME', '¾¦ÉÊÌ¾');
-define('HEADER_RESTRICT_ALLOW', 'µö²Ä');
-define('HEADER_RESTRICT_DENY', 'ÉÔµö²Ä');
-define('HEADER_RESTRICT_REMOVE', 'ºï½ü');
-define('IMAGE_ALLOW', 'µö²Ä');
-define('IMAGE_DENY', 'ÉÔµö²Ä');
-define('IMAGE_REMOVE', 'ºï½ü');
+define('HEADER_COUPON_ID', 'ã‚¯ãƒ¼ãƒãƒ³ID');
+define('HEADER_COUPON_NAME', 'ã‚¯ãƒ¼ãƒãƒ³å');
+define('HEADER_CATEGORY_ID', 'ã‚«ãƒ†ã‚´ãƒªID');
+define('HEADER_CATEGORY_NAME', 'ã‚«ãƒ†ã‚´ãƒªå');
+define('HEADER_PRODUCT_ID', 'å•†å“ID');
+define('HEADER_PRODUCT_NAME', 'å•†å“å');
+define('HEADER_RESTRICT_ALLOW', 'è¨±å¯');
+define('HEADER_RESTRICT_DENY', 'ä¸è¨±å¯');
+define('HEADER_RESTRICT_REMOVE', 'å‰Šé™¤');
+define('IMAGE_ALLOW', 'è¨±å¯');
+define('IMAGE_DENY', 'ä¸è¨±å¯');
+define('IMAGE_REMOVE', 'å‰Šé™¤');
 define('TEXT_ALL_CATEGORIES', 'All Categories');
 ?>

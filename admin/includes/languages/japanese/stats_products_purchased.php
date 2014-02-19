@@ -20,9 +20,9 @@
 //  $Id: stats_products_purchased.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '¾¦ÉÊ¤ÎÈÎÇä¿ô¥é¥ó¥­¥ó¥°');
+define('HEADING_TITLE', 'å•†å“ã®è²©å£²æ•°ãƒ©ãƒ³ã‚­ãƒ³ã‚°');
 
 define('TABLE_HEADING_NUMBER', 'ID#');
-define('TABLE_HEADING_PRODUCTS', '¾¦ÉÊÌ¾');
-define('TABLE_HEADING_PURCHASED', 'ÈÎÇä¿ô');
+define('TABLE_HEADING_PRODUCTS', 'å•†å“å');
+define('TABLE_HEADING_PURCHASED', 'è²©å£²æ•°');
 ?>

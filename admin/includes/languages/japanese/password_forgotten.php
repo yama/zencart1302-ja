@@ -20,16 +20,16 @@
 // $Id: password_forgotten.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '�ѥ���ɺ���');
+define('HEADING_TITLE', 'パスワード再送');
 
-define('TEXT_ADMIN_EMAIL', '�����ԥ᡼�륢�ɥ쥹: ');
+define('TEXT_ADMIN_EMAIL', '管理者メールアドレス: ');
 
-define('ERROR_WRONG_EMAIL', '<p>���Ϥ��줿�᡼�륢�ɥ쥹���ְ�äƤ��ޤ���</p>');
-define('ERROR_WRONG_EMAIL_NULL', '<p>����Ǥ���</p>');
-define('SUCCESS_PASSWORD_SENT', '<p>����: �������ѥ���ɤ��������ޤ�����.</p>');
+define('ERROR_WRONG_EMAIL', '<p>入力されたメールアドレスが間違っています。</p>');
+define('ERROR_WRONG_EMAIL_NULL', '<p>空白です。</p>');
+define('SUCCESS_PASSWORD_SENT', '<p>成功: 新しいパスワードを送信しました。.</p>');
 
-define('TEXT_EMAIL_SUBJECT', '���ʤ��Υꥯ�����ȤϹ�������ޤ�����');
+define('TEXT_EMAIL_SUBJECT', 'あなたのリクエストは更新されました。');
 define('TEXT_EMAIL_FROM', EMAIL_FROM);
-define('TEXT_EMAIL_MESSAGE', ' IP���ɥ쥹[' . $_SESSION['REMOTE_ADDR'] . '] ����Υѥ���ɺ�ȯ�Ԥ�����դ��ޤ�����' . "\n\n" . '\'' . STORE_NAME . '\'�ο������ѥ���ɤ�' . "\n\n" . '   %s' . "�ˤʤ�ޤ���\n\n");
+define('TEXT_EMAIL_MESSAGE', ' IPアドレス[' . $_SESSION['REMOTE_ADDR'] . '] からのパスワード再発行を受け付けました。' . "\n\n" . '\'' . STORE_NAME . '\'の新しいパスワードは' . "\n\n" . '   %s' . "になります。\n\n");
 
 ?>

@@ -20,48 +20,48 @@
 //  $Id: salemaker.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '¥»¡¼¥ë¤Î´ÉÍý(SALE Maker)');
-define('TABLE_HEADING_SALE_NAME', '¥»¡¼¥ëÌ¾');
-define('TABLE_HEADING_SALE_DEDUCTION', 'ÃÍ°ú¤­³Û');
-define('TABLE_HEADING_SALE_DATE_START', '³«»ÏÆü');
-define('TABLE_HEADING_SALE_DATE_END', '½ªÎ»Æü');
-define('TABLE_HEADING_STATUS', '¥¹¥Æ¡¼¥¿¥¹');
-define('TABLE_HEADING_ACTION', 'Áàºî');
-define('TEXT_SALEMAKER_NAME', '¥»¡¼¥ëÌ¾:');
-define('TEXT_SALEMAKER_DEDUCTION', 'ÃÍ°ú¤­³Û:');
-define('TEXT_SALEMAKER_DEDUCTION_TYPE', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¥¿¥¤¥×:&nbsp;&nbsp;');
-define('TEXT_SALEMAKER_PRICERANGE_FROM', '²Á³ÊÉý:');
-define('TEXT_SALEMAKER_PRICERANGE_TO', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¤«¤é&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
-define('TEXT_SALEMAKER_SPECIALS_CONDITION', 'ÆÃ²Á¾¦ÉÊ¤Î¾ì¹ç:');
-define('TEXT_SALEMAKER_DATE_START', '³«»ÏÆü:');
-define('TEXT_SALEMAKER_DATE_END', '½ªÎ»Æü:');
-define('TEXT_SALEMAKER_CATEGORIES', '<b>¤Þ¤¿¤Ï</b> ¥»¡¼¥ëÂÐ¾Ý¤Î¥«¥Æ¥´¥ê¤òÁªÂò:');
-define('TEXT_SALEMAKER_POPUP', '<a href="javascript:session_win();"><span class="errorText"><b>¥»¡¼¥ë´ÉÍý(SALE Maker)¤Î¥³¥Ä(Tips)¤Ï¤³¤Á¤é</b></span></a>');
-define('TEXT_SALEMAKER_POPUP1', '<a href="javascript:session_win1();"><span class="errorText"><b>(¾ÜºÙ)</b></span></a>');
-define('TEXT_SALEMAKER_IMMEDIATELY', '¤¹¤°¤Ë');
-define('TEXT_SALEMAKER_NEVER', '¤Ê¤·');
-define('TEXT_SALEMAKER_ENTIRE_CATALOG', '<b>Á´¤Æ¤Î¾¦ÉÊ</b>¤Ë¥»¡¼¥ë¤òÅ¬ÍÑ¤¹¤ë¾ì¹ç¤Ï¤³¤Î¥Á¥§¥Ã¥¯¥Ü¥Ã¥¯¥¹¤ò¥Á¥§¥Ã¥¯¤·¤Æ¤¯¤À¤µ¤¤¡£:');
-define('TEXT_SALEMAKER_TOP', 'Á´¤Æ¤Î¾¦ÉÊ');
-define('TEXT_INFO_DATE_ADDED', 'ÅÐÏ¿Æü:');
-define('TEXT_INFO_DATE_MODIFIED', '¹¹¿·Æü:');
-define('TEXT_INFO_DATE_STATUS_CHANGE', '¥¹¥Æ¡¼¥¿¥¹ÊÑ¹¹Æü:');
-define('TEXT_INFO_SPECIALS_CONDITION', 'ÆÃ²Á¾¦ÉÊ¤Ø¤ÎÅ¬ÍÑ:');
-define('TEXT_INFO_DEDUCTION', 'ÃÍ°ú¤­³Û:');
-define('TEXT_INFO_PRICERANGE_FROM', '²Á³ÊÉý:');
-define('TEXT_INFO_PRICERANGE_TO', ' ¤«¤é ');
-define('TEXT_INFO_DATE_START', '³«»ÏÆü:');
-define('TEXT_INFO_DATE_END', '½ªÎ»Æü:');
-define('SPECIALS_CONDITION_DROPDOWN_0', 'ÆÃ²Á¾¦ÉÊ¤Î²Á³Ê¤òÌµ»ë¤¹¤ë - ¥ì¥®¥å¥é¡¼²Á³Ê¤Ë¥»¡¼¥ë¤òÅ¬ÍÑ¤·¡¢ÆÃ²Á¤òÃÖ¤­´¹¤¨¤ë');
-define('SPECIALS_CONDITION_DROPDOWN_1', '¥»¡¼¥ëÂÐ¾Ý³° - ÆÃ²Á¾¦ÉÊ¤Ï¥»¡¼¥ë¤òÅ¬ÍÑ¤·¤Ê¤¤');
-define('SPECIALS_CONDITION_DROPDOWN_2', 'ÆÃ²Á¾¦ÉÊ¤Î²Á³Ê¤Ë¤µ¤é¤Ë¥»¡¼¥ëÃÍ°ú¤­¤òÅ¬ÍÑ¤¹¤ë');
+define('HEADING_TITLE', 'ã‚»ãƒ¼ãƒ«ã®ç®¡ç†(SALE Maker)');
+define('TABLE_HEADING_SALE_NAME', 'ã‚»ãƒ¼ãƒ«å');
+define('TABLE_HEADING_SALE_DEDUCTION', 'å€¤å¼•ãé¡');
+define('TABLE_HEADING_SALE_DATE_START', 'é–‹å§‹æ—¥');
+define('TABLE_HEADING_SALE_DATE_END', 'çµ‚äº†æ—¥');
+define('TABLE_HEADING_STATUS', 'ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
+define('TEXT_SALEMAKER_NAME', 'ã‚»ãƒ¼ãƒ«å:');
+define('TEXT_SALEMAKER_DEDUCTION', 'å€¤å¼•ãé¡:');
+define('TEXT_SALEMAKER_DEDUCTION_TYPE', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ã‚¿ã‚¤ãƒ—:&nbsp;&nbsp;');
+define('TEXT_SALEMAKER_PRICERANGE_FROM', 'ä¾¡æ ¼å¹…:');
+define('TEXT_SALEMAKER_PRICERANGE_TO', '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ã‹ã‚‰&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+define('TEXT_SALEMAKER_SPECIALS_CONDITION', 'ç‰¹ä¾¡å•†å“ã®å ´åˆ:');
+define('TEXT_SALEMAKER_DATE_START', 'é–‹å§‹æ—¥:');
+define('TEXT_SALEMAKER_DATE_END', 'çµ‚äº†æ—¥:');
+define('TEXT_SALEMAKER_CATEGORIES', '<b>ã¾ãŸã¯</b> ã‚»ãƒ¼ãƒ«å¯¾è±¡ã®ã‚«ãƒ†ã‚´ãƒªã‚’é¸æŠž:');
+define('TEXT_SALEMAKER_POPUP', '<a href="javascript:session_win();"><span class="errorText"><b>ã‚»ãƒ¼ãƒ«ç®¡ç†(SALE Maker)ã®ã‚³ãƒ„(Tips)ã¯ã“ã¡ã‚‰</b></span></a>');
+define('TEXT_SALEMAKER_POPUP1', '<a href="javascript:session_win1();"><span class="errorText"><b>(è©³ç´°)</b></span></a>');
+define('TEXT_SALEMAKER_IMMEDIATELY', 'ã™ãã«');
+define('TEXT_SALEMAKER_NEVER', 'ãªã—');
+define('TEXT_SALEMAKER_ENTIRE_CATALOG', '<b>å…¨ã¦ã®å•†å“</b>ã«ã‚»ãƒ¼ãƒ«ã‚’é©ç”¨ã™ã‚‹å ´åˆã¯ã“ã®ãƒã‚§ãƒƒã‚¯ãƒœãƒƒã‚¯ã‚¹ã‚’ãƒã‚§ãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚:');
+define('TEXT_SALEMAKER_TOP', 'å…¨ã¦ã®å•†å“');
+define('TEXT_INFO_DATE_ADDED', 'ç™»éŒ²æ—¥:');
+define('TEXT_INFO_DATE_MODIFIED', 'æ›´æ–°æ—¥:');
+define('TEXT_INFO_DATE_STATUS_CHANGE', 'ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹å¤‰æ›´æ—¥:');
+define('TEXT_INFO_SPECIALS_CONDITION', 'ç‰¹ä¾¡å•†å“ã¸ã®é©ç”¨:');
+define('TEXT_INFO_DEDUCTION', 'å€¤å¼•ãé¡:');
+define('TEXT_INFO_PRICERANGE_FROM', 'ä¾¡æ ¼å¹…:');
+define('TEXT_INFO_PRICERANGE_TO', ' ã‹ã‚‰ ');
+define('TEXT_INFO_DATE_START', 'é–‹å§‹æ—¥:');
+define('TEXT_INFO_DATE_END', 'çµ‚äº†æ—¥:');
+define('SPECIALS_CONDITION_DROPDOWN_0', 'ç‰¹ä¾¡å•†å“ã®ä¾¡æ ¼ã‚’ç„¡è¦–ã™ã‚‹ - ãƒ¬ã‚®ãƒ¥ãƒ©ãƒ¼ä¾¡æ ¼ã«ã‚»ãƒ¼ãƒ«ã‚’é©ç”¨ã—ã€ç‰¹ä¾¡ã‚’ç½®ãæ›ãˆã‚‹');
+define('SPECIALS_CONDITION_DROPDOWN_1', 'ã‚»ãƒ¼ãƒ«å¯¾è±¡å¤– - ç‰¹ä¾¡å•†å“ã¯ã‚»ãƒ¼ãƒ«ã‚’é©ç”¨ã—ãªã„');
+define('SPECIALS_CONDITION_DROPDOWN_2', 'ç‰¹ä¾¡å•†å“ã®ä¾¡æ ¼ã«ã•ã‚‰ã«ã‚»ãƒ¼ãƒ«å€¤å¼•ãã‚’é©ç”¨ã™ã‚‹');
 // moved to english.php
 /*
 define('DEDUCTION_TYPE_DROPDOWN_0', 'Deduct amount');
 define('DEDUCTION_TYPE_DROPDOWN_1', 'Percent');
 define('DEDUCTION_TYPE_DROPDOWN_2', 'New Price');
 */
-define('TEXT_INFO_HEADING_COPY_SALE', '¥»¡¼¥ë¤ò¥³¥Ô¡¼');
-define('TEXT_INFO_COPY_INTRO', '"%s"¤Î¥³¥Ô¡¼Ì¾¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤');
-define('TEXT_INFO_HEADING_DELETE_SALE', '¥»¡¼¥ë¤òºï½ü');
-define('TEXT_INFO_DELETE_INTRO', '¤³¤Î¥»¡¼¥ë¤òËÜÅö¤Ëºï½ü¤·¤Þ¤¹¤«?');
+define('TEXT_INFO_HEADING_COPY_SALE', 'ã‚»ãƒ¼ãƒ«ã‚’ã‚³ãƒ”ãƒ¼');
+define('TEXT_INFO_COPY_INTRO', '"%s"ã®ã‚³ãƒ”ãƒ¼åã‚’å…¥åŠ›ã—ã¦ãã ã•ã„');
+define('TEXT_INFO_HEADING_DELETE_SALE', 'ã‚»ãƒ¼ãƒ«ã‚’å‰Šé™¤');
+define('TEXT_INFO_DELETE_INTRO', 'ã“ã®ã‚»ãƒ¼ãƒ«ã‚’æœ¬å½“ã«å‰Šé™¤ã—ã¾ã™ã‹?');
 ?>

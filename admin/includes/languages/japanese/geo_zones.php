@@ -20,42 +20,42 @@
 //  $Id: geo_zones.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'ÃÏ°èÀÇÀßÄê');
+define('HEADING_TITLE', 'åœ°åŸŸç¨Žè¨­å®š');
 
-define('TABLE_HEADING_COUNTRY', '¹ñÌ¾');
-define('TABLE_HEADING_COUNTRY_ZONE', 'ÃÏ°è');
-define('TABLE_HEADING_TAX_ZONES', 'ÃÏ°èÀÇ');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_COUNTRY', 'å›½å');
+define('TABLE_HEADING_COUNTRY_ZONE', 'åœ°åŸŸ');
+define('TABLE_HEADING_TAX_ZONES', 'åœ°åŸŸç¨Ž');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_INFO_HEADING_NEW_ZONE', '¿·¤·¤¤ÃÏ°è');
-define('TEXT_INFO_NEW_ZONE_INTRO', '¿·¤·¤¤ÃÏ°è¤Î¾ðÊó¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£');
+define('TEXT_INFO_HEADING_NEW_ZONE', 'æ–°ã—ã„åœ°åŸŸ');
+define('TEXT_INFO_NEW_ZONE_INTRO', 'æ–°ã—ã„åœ°åŸŸã®æƒ…å ±ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚');
 
-define('TEXT_INFO_HEADING_EDIT_ZONE', 'ÃÏ°è¤òÊÔ½¸');
-define('TEXT_INFO_EDIT_ZONE_INTRO', 'É¬Í×¤ÊÊÑ¹¹¤ò¹Ô¤Ã¤Æ¤¯¤À¤µ¤¤¡£');
+define('TEXT_INFO_HEADING_EDIT_ZONE', 'åœ°åŸŸã‚’ç·¨é›†');
+define('TEXT_INFO_EDIT_ZONE_INTRO', 'å¿…è¦ãªå¤‰æ›´ã‚’è¡Œã£ã¦ãã ã•ã„ã€‚');
 
-define('TEXT_INFO_HEADING_DELETE_ZONE', 'ÃÏ°è¤òºï½ü');
-define('TEXT_INFO_DELETE_ZONE_INTRO', '¤³¤ÎÃÏ°è¤òËÜÅö¤Ëºï½ü¤·¤Þ¤¹¤«?');
+define('TEXT_INFO_HEADING_DELETE_ZONE', 'åœ°åŸŸã‚’å‰Šé™¤');
+define('TEXT_INFO_DELETE_ZONE_INTRO', 'ã“ã®åœ°åŸŸã‚’æœ¬å½“ã«å‰Šé™¤ã—ã¾ã™ã‹?');
 
-define('TEXT_INFO_HEADING_NEW_SUB_ZONE', '¿·¤·¤¤¥µ¥ÖÃÏ°è');
-define('TEXT_INFO_NEW_SUB_ZONE_INTRO', '¿·¤·¤¤¥µ¥ÖÃÏ°è¤Î¾ðÊó¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£');
+define('TEXT_INFO_HEADING_NEW_SUB_ZONE', 'æ–°ã—ã„ã‚µãƒ–åœ°åŸŸ');
+define('TEXT_INFO_NEW_SUB_ZONE_INTRO', 'æ–°ã—ã„ã‚µãƒ–åœ°åŸŸã®æƒ…å ±ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚');
 
-define('TEXT_INFO_HEADING_EDIT_SUB_ZONE', '¥µ¥ÖÃÏ°è¤òÊÔ½¸');
-define('TEXT_INFO_EDIT_SUB_ZONE_INTRO', 'É¬Í×¤ÊÊÑ¹¹¤ò¹Ô¤Ã¤Æ¤¯¤À¤µ¤¤¡£');
+define('TEXT_INFO_HEADING_EDIT_SUB_ZONE', 'ã‚µãƒ–åœ°åŸŸã‚’ç·¨é›†');
+define('TEXT_INFO_EDIT_SUB_ZONE_INTRO', 'å¿…è¦ãªå¤‰æ›´ã‚’è¡Œã£ã¦ãã ã•ã„ã€‚');
 
-define('TEXT_INFO_HEADING_DELETE_SUB_ZONE', '¥µ¥ÖÃÏ°è¤òºï½ü');
-define('TEXT_INFO_DELETE_SUB_ZONE_INTRO', '¤³¤Î¥µ¥ÖÃÏ°è¤òËÜÅö¤Ëºï½ü¤·¤Þ¤¹¤«?');
+define('TEXT_INFO_HEADING_DELETE_SUB_ZONE', 'ã‚µãƒ–åœ°åŸŸã‚’å‰Šé™¤');
+define('TEXT_INFO_DELETE_SUB_ZONE_INTRO', 'ã“ã®ã‚µãƒ–åœ°åŸŸã‚’æœ¬å½“ã«å‰Šé™¤ã—ã¾ã™ã‹?');
 
-define('TEXT_INFO_DATE_ADDED', 'ÅÐÏ¿Æü:');
-define('TEXT_INFO_LAST_MODIFIED', '¹¹¿·Æü:');
-define('TEXT_INFO_ZONE_NAME', 'ÃÏ°èÌ¾:');
-define('TEXT_INFO_NUMBER_ZONES', 'ÃÏ°è¤Î¿ô:');
-define('TEXT_INFO_ZONE_DESCRIPTION', 'ÀâÌÀ:');
-define('TEXT_INFO_COUNTRY', '¹ñÌ¾:');
-define('TEXT_INFO_COUNTRY_ZONE', 'ÃÏ°è:');
-define('TYPE_BELOW', 'Á´¤Æ¤ÎÃÏ°è');
-define('PLEASE_SELECT', 'Á´¤Æ¤ÎÃÏ°è');
-define('TEXT_ALL_COUNTRIES', 'Á´¤Æ¤Î¹ñ');
+define('TEXT_INFO_DATE_ADDED', 'ç™»éŒ²æ—¥:');
+define('TEXT_INFO_LAST_MODIFIED', 'æ›´æ–°æ—¥:');
+define('TEXT_INFO_ZONE_NAME', 'åœ°åŸŸå:');
+define('TEXT_INFO_NUMBER_ZONES', 'åœ°åŸŸã®æ•°:');
+define('TEXT_INFO_ZONE_DESCRIPTION', 'èª¬æ˜Ž:');
+define('TEXT_INFO_COUNTRY', 'å›½å:');
+define('TEXT_INFO_COUNTRY_ZONE', 'åœ°åŸŸ:');
+define('TYPE_BELOW', 'å…¨ã¦ã®åœ°åŸŸ');
+define('PLEASE_SELECT', 'å…¨ã¦ã®åœ°åŸŸ');
+define('TEXT_ALL_COUNTRIES', 'å…¨ã¦ã®å›½');
 
-define('TEXT_INFO_NUMBER_TAX_RATES','ÀÇÎ¨¤Î¿ô:');
-define('ERROR_TAX_RATE_EXISTS','·Ù¹ð: ¤³¤ÎÃÏ°èÍÑ¤ËÀÇÎ¨¤¬ÀßÄê¤µ¤ì¤Æ¤¤¤Þ¤¹¡£ÃÏ°è¤òºï½ü¤¹¤ëÁ°¤ËÀßÄê¤µ¤ì¤¿ÀÇÎ¨¤òºï½ü¤·¤Æ¤¯¤À¤µ¤¤¡£');
+define('TEXT_INFO_NUMBER_TAX_RATES','ç¨ŽçŽ‡ã®æ•°:');
+define('ERROR_TAX_RATE_EXISTS','è­¦å‘Š: ã“ã®åœ°åŸŸç”¨ã«ç¨ŽçŽ‡ãŒè¨­å®šã•ã‚Œã¦ã„ã¾ã™ã€‚åœ°åŸŸã‚’å‰Šé™¤ã™ã‚‹å‰ã«è¨­å®šã•ã‚ŒãŸç¨ŽçŽ‡ã‚’å‰Šé™¤ã—ã¦ãã ã•ã„ã€‚');
 ?>

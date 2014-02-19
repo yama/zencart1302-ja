@@ -19,25 +19,25 @@
 // +----------------------------------------------------------------------+
 //  $Id: music_genre.php 276 2004-09-10 22:35:28Z wilt $
 //
-  define('HEADING_TITLE', '²»³Ú¥¸¥ã¥ó¥ë');
-  define('TABLE_HEADING_MUSIC_GENRE', '²»³Ú¥¸¥ã¥ó¥ë');
-  define('TABLE_HEADING_ACTION', 'Áàºî');
-  define('TEXT_NEW_INTRO', '¿·¤·¤¤²»³Ú¥¸¥ã¥ó¥ë¤ÎÀâÌÀ¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£');
-  define('TEXT_EDIT_INTRO', '¿·¤·¤¤²»³Ú¥¸¥ã¥ó¥ë¤ÎÀâÌÀ¤ò½¤Àµ¤·¤Æ¤¯¤À¤µ¤¤¡£');
-  define('TEXT_DELETE_INTRO', '¤³¤Î²»³Ú¥¸¥ã¥ó¥ë¤òËÜÅö¤Ëºï½ü¤·¤Þ¤¹¤«?');
-  define('TEXT_DELETE_IMAGE', '²èÁü¤òºï½ü¤·¤Þ¤¹¤«?');
-  define('TEXT_MUSIC_GENRE_NAME', '²»³Ú¥¸¥ã¥ó¥ëÌ¾');
-  define('TEXT_MUSIC_GENRE_IMAGE', '²»³Ú¥¸¥ã¥ó¥ë¤Î²èÁü');
-  define('TEXT_MUSIC_GENRE_IMAGE_DIR', '²èÁü¥Ç¥£¥ì¥¯¥È¥ê&nbsp;');
+  define('HEADING_TITLE', 'éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«');
+  define('TABLE_HEADING_MUSIC_GENRE', 'éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«');
+  define('TABLE_HEADING_ACTION', 'æ“ä½œ');
+  define('TEXT_NEW_INTRO', 'æ–°ã—ã„éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«ã®èª¬æ˜Žã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚');
+  define('TEXT_EDIT_INTRO', 'æ–°ã—ã„éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«ã®èª¬æ˜Žã‚’ä¿®æ­£ã—ã¦ãã ã•ã„ã€‚');
+  define('TEXT_DELETE_INTRO', 'ã“ã®éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«ã‚’æœ¬å½“ã«å‰Šé™¤ã—ã¾ã™ã‹?');
+  define('TEXT_DELETE_IMAGE', 'ç”»åƒã‚’å‰Šé™¤ã—ã¾ã™ã‹?');
+  define('TEXT_MUSIC_GENRE_NAME', 'éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«å');
+  define('TEXT_MUSIC_GENRE_IMAGE', 'éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«ã®ç”»åƒ');
+  define('TEXT_MUSIC_GENRE_IMAGE_DIR', 'ç”»åƒãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª&nbsp;');
 
-  define('TEXT_HEADING_NEW_MUSIC_GENRE', '¿·¤·¤¤²»³Ú¥¸¥ã¥ó¥ë');
-  define('TEXT_HEADING_EDIT_MUSIC_GENRE', '²»³Ú¥¸¥ã¥ó¥ë¤òÊÔ½¸');
-  define('TEXT_HEADING_DELETE_MUSIC_GENRE', '²»³Ú¥¸¥ã¥ó¥ë¤òºï½ü');
-  define('TEXT_DATE_ADDED', 'ºîÀ®Æü');
-  define('TEXT_LAST_MODIFIED', '¹¹¿·Æü');
-  define('TEXT_IMAGE_NONEXISTENT', '²èÁü¤¬¤¢¤ê¤Þ¤»¤ó');
-  define('TEXT_PRODUCTS', '¥ê¥ó¥¯¤µ¤ì¤¿¾¦ÉÊ');
+  define('TEXT_HEADING_NEW_MUSIC_GENRE', 'æ–°ã—ã„éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«');
+  define('TEXT_HEADING_EDIT_MUSIC_GENRE', 'éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«ã‚’ç·¨é›†');
+  define('TEXT_HEADING_DELETE_MUSIC_GENRE', 'éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«ã‚’å‰Šé™¤');
+  define('TEXT_DATE_ADDED', 'ä½œæˆæ—¥');
+  define('TEXT_LAST_MODIFIED', 'æ›´æ–°æ—¥');
+  define('TEXT_IMAGE_NONEXISTENT', 'ç”»åƒãŒã‚ã‚Šã¾ã›ã‚“');
+  define('TEXT_PRODUCTS', 'ãƒªãƒ³ã‚¯ã•ã‚ŒãŸå•†å“');
   define('TEXT_DISPLAY_NUMBER_OF_MUSIC_GENRES', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> Music Genres)');
-  define('TEXT_DELETE_PRODUCTS', '¤³¤Î²»³Ú¥¸¥ã¥ó¥ë¤È¡¢¤³¤ì¤Ë¥ê¥ó¥¯¤µ¤ì¤Æ¤¤¤ëÁ´¤Æ¤Î¥¢¥¤¥Æ¥à¤òËÜÅö¤Ëºï½ü¤·¤Þ¤¹¤«?');
-  define('TEXT_DELETE_WARNING_PRODUCTS', '<b>·Ù¹ð:</b>  %s ¥¢¥¤¥Æ¥à¤¬¤³¤Î²»³Ú¥¸¥ã¥ó¥ë¤Ë¥ê¥ó¥¯¤µ¤ì¤Æ¤¤¤Þ¤¹!');
+  define('TEXT_DELETE_PRODUCTS', 'ã“ã®éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«ã¨ã€ã“ã‚Œã«ãƒªãƒ³ã‚¯ã•ã‚Œã¦ã„ã‚‹å…¨ã¦ã®ã‚¢ã‚¤ãƒ†ãƒ ã‚’æœ¬å½“ã«å‰Šé™¤ã—ã¾ã™ã‹?');
+  define('TEXT_DELETE_WARNING_PRODUCTS', '<b>è­¦å‘Š:</b>  %s ã‚¢ã‚¤ãƒ†ãƒ ãŒã“ã®éŸ³æ¥½ã‚¸ãƒ£ãƒ³ãƒ«ã«ãƒªãƒ³ã‚¯ã•ã‚Œã¦ã„ã¾ã™!');
 ?>

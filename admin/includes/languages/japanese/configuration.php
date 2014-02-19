@@ -20,11 +20,11 @@
 //  $Id: configuration.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('TABLE_HEADING_CONFIGURATION_TITLE', '¥¿¥¤¥È¥ë');
-define('TABLE_HEADING_CONFIGURATION_VALUE', 'ÀßÄêÃÍ');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_CONFIGURATION_TITLE', 'ã‚¿ã‚¤ãƒˆãƒ«');
+define('TABLE_HEADING_CONFIGURATION_VALUE', 'è¨­å®šå€¤');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_INFO_EDIT_INTRO', 'É¬Í×¤ÊÊÑ¹¹¤ò¹Ô¤Ã¤Æ¤¯¤À¤µ¤¤¡£');
-define('TEXT_INFO_DATE_ADDED', 'ÅÐÏ¿Æü:');
-define('TEXT_INFO_LAST_MODIFIED', '¹¹¿·Æü:');
+define('TEXT_INFO_EDIT_INTRO', 'å¿…è¦ãªå¤‰æ›´ã‚’è¡Œã£ã¦ãã ã•ã„ã€‚');
+define('TEXT_INFO_DATE_ADDED', 'ç™»éŒ²æ—¥:');
+define('TEXT_INFO_LAST_MODIFIED', 'æ›´æ–°æ—¥:');
 ?>

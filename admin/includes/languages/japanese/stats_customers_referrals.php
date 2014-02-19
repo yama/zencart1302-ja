@@ -20,9 +20,9 @@
 //  $Id: stats_customers_referrals.php 838 2004-12-17 14:38:38Z wilt $
 //
 
-  define('HEADING_TITLE', '¸ÜµÒ¾Ò²ð¤Î¾õ¶·');
-  define('TEXT_INFO_SELECT_REFERRAL','¾Ò²ð¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤¡£/¥¯¡¼¥Ý¥ó¥³¡¼¥É');
-  define('TEXT_REFERRAL_UNKNOWN', 'ÉÔÌÀ');
-  define('TEXT_INFO_START_DATE', '³«»ÏÆü (Ç¯-·î-Æü)');
-  define('TEXT_INFO_END_DATE', '½ªÎ»Æü (Ç¯-·î-Æü)');
+  define('HEADING_TITLE', 'é¡§å®¢ç´¹ä»‹ã®çŠ¶æ³');
+  define('TEXT_INFO_SELECT_REFERRAL','ç´¹ä»‹ã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚/ã‚¯ãƒ¼ãƒãƒ³ã‚³ãƒ¼ãƒ‰');
+  define('TEXT_REFERRAL_UNKNOWN', 'ä¸æ˜Ž');
+  define('TEXT_INFO_START_DATE', 'é–‹å§‹æ—¥ (å¹´-æœˆ-æ—¥)');
+  define('TEXT_INFO_END_DATE', 'çµ‚äº†æ—¥ (å¹´-æœˆ-æ—¥)');
 ?>

@@ -20,35 +20,35 @@
 //  $Id: media_manager.php 3092 2006-03-02 19:41:04Z drbyte $
 //
 
-define('HEADING_TITLE_MEDIA_MANAGER', 'есе╟егеве│еьепе╖ечеє(евеые╨ер)');
+define('HEADING_TITLE_MEDIA_MANAGER', 'уГбуГЗуВгуВвуВ│уГмуВпуВ╖уГзуГ│(уВвуГлуГРуГа)');
 
-define('TABLE_HEADING_MEDIA', 'евеые╨ер╠╛');
-define('TABLE_HEADING_ACTION', '┴р║ю');
-define('TEXT_HEADING_NEW_MEDIA_COLLECTION', '┐╖д╖ддевеые╨ер');
-define('TEXT_NEW_INTRO', '┐╖д╖ддевеые╨ерд╬╠╛╛╬дЄ╞■╬╧д╖д╞дпд└д╡ддбг');
-define('TEXT_MEDIA_COLLECTION_NAME', 'евеые╨ер╠╛');
-define('TEXT_MEDIA_EDIT_INSTRUCTIONS', 'евеые╨ер╠╛дЄ╩╤╣╣д╣дыд╦д╧╛хд╬╞■╬╧═єд╦╞■╬╧д╖бв╩▌┬╕д╖д╞дпд└д╡ддбг<br /><br />
-                                        евеые╨ерд╪д╬есе╟егевепеъе├е╫д╬─╔▓├бж║я╜№дЄ╣╘джд╦д╧бв░╩▓╝д╬╞■╬╧═єбж┴к┬Є═єдЄ╗╚д├д╞дпд└д╡ддбг');
-define('TEXT_DATE_ADDED', '║ю└о╞№:');
-define('TEXT_LAST_MODIFIED', '╣╣┐╖╞№:');
-define('TEXT_PRODUCTS', 'еъеєепд╡дьд┐╛ж╔╩:');
+define('TABLE_HEADING_MEDIA', 'уВвуГлуГРуГахРН');
+define('TABLE_HEADING_ACTION', 'цУНф╜Ь');
+define('TEXT_HEADING_NEW_MEDIA_COLLECTION', 'цЦ░уБЧуБДуВвуГлуГРуГа');
+define('TEXT_NEW_INTRO', 'цЦ░уБЧуБДуВвуГлуГРуГауБохРНчз░уВТхЕехКЫуБЧуБжуБПуБауБХуБДуАВ');
+define('TEXT_MEDIA_COLLECTION_NAME', 'уВвуГлуГРуГахРН');
+define('TEXT_MEDIA_EDIT_INSTRUCTIONS', 'уВвуГлуГРуГахРНуВТхдЙцЫ┤уБЩуВЛуБлуБпф╕КуБохЕехКЫцмДуБлхЕехКЫуБЧуАБф┐ЭхнШуБЧуБжуБПуБауБХуБДуАВ<br /><br />
+                                        уВвуГлуГРуГауБ╕уБоуГбуГЗуВгуВвуВпуГкуГГуГЧуБош┐╜хКауГ╗хЙКщЩдуВТшбМуБЖуБлуБпуАБф╗еф╕ЛуБохЕехКЫцмДуГ╗щБ╕цКЮцмДуВТф╜┐уБгуБжуБПуБауБХуБДуАВ');
+define('TEXT_DATE_ADDED', 'ф╜ЬцИРцЧе:');
+define('TEXT_LAST_MODIFIED', 'цЫ┤цЦ░цЧе:');
+define('TEXT_PRODUCTS', 'уГкуГ│уВпуБХуВМуБЯхХЖхУБ:');
 define('TEXT_CLIPS', 'Linked Clips:');
-define('TEXT_NO_PRODUCTS', 'д│д╬еле╞е┤еъд╦╛ж╔╩д╧двдъд▐д╗дє');
-define('TEXT_HEADING_EDIT_MEDIA_COLLECTION', 'евеые╨ердЄ╩╘╜╕д╣ды');
-define('TEXT_EDIT_INTRO', 'евеые╨ерд╬╠╛╛╬дЄ╩╤╣╣д╖д╞дпд└д╡ддбг');
-define('TEXT_HEADING_DELETE_MEDIA_COLLECTION', 'евеые╨ердЄ║я╜№д╣ды');
-define('TEXT_DELETE_INTRO', 'д│д╬евеые╨ердЄ╦▄┼Ўд╦║я╜№д╖д▐д╣дл?');
-  define('TEXT_DISPLAY_NUMBER_OF_MEDIA', ' (╡єд▓дщдьд╞дддыесе╟егев<strong>%d</strong>д╬джд┴)<strong>%d</strong> длдщ <strong>%d</strong>дЄ╔╜╝и');
-define('TEXT_ADD_MEDIA_CLIP', 'есе╟егевепеъе├е╫дЄ─╔▓├');
-define('TEXT_MEDIA_CLIP_DIR', 'есе╟егеве╟егеьепе╚еъд╦еве├е╫еэб╝е╔');
-define('TEXT_MEDIA_CLIP_TYPE', 'есе╟егевепеъе├е╫д╬е╒ейб╝е▐е├е╚');
-define('TEXT_HEADING_ASSIGN_MEDIA_COLLECTION', '╛ж╔╩д╦евеые╨ердЄ│фдъ┼Ўд╞ды');
-define('TEXT_PRODUCTS_INTRO', '░╩▓╝д╬е╒ейб╝ерд╟бвевеые╨ердЄ╛ж╔╩д╦│фдъ┼Ўд╞бж║я╜№д╣дыд│д╚дмд╟днд▐д╣бг');
-define('IMAGE_PRODUCTS', '╛ж╔╩д╦│фдъ┼Ўд╞ды');
-define('TEXT_DELETE_PRODUCTS', '╡єд▓дщдьд╞дддыMediaд╚еъеєепд╖д╞ддды┴┤д╞д╬еведе╞ердЄ║я╜№д╖д▐д╣длбй');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<strong>├э░╒:</strong> %s╕─д╬еведе╞ердм ╡єд▓дщдьд╞дддыесе╟егевд╦еъеєепд╖д╞ддд▐д╣!');
+define('TEXT_NO_PRODUCTS', 'уБУуБоуВлуГЖуВ┤уГкуБлхХЖхУБуБпуБВуВКуБ╛уБЫуВУ');
+define('TEXT_HEADING_EDIT_MEDIA_COLLECTION', 'уВвуГлуГРуГауВТч╖ищЫЖуБЩуВЛ');
+define('TEXT_EDIT_INTRO', 'уВвуГлуГРуГауБохРНчз░уВТхдЙцЫ┤уБЧуБжуБПуБауБХуБДуАВ');
+define('TEXT_HEADING_DELETE_MEDIA_COLLECTION', 'уВвуГлуГРуГауВТхЙКщЩдуБЩуВЛ');
+define('TEXT_DELETE_INTRO', 'уБУуБоуВвуГлуГРуГауВТцЬмх╜УуБлхЙКщЩдуБЧуБ╛уБЩуБЛ?');
+  define('TEXT_DISPLAY_NUMBER_OF_MEDIA', ' (цМЩуБТуВЙуВМуБжуБДуВЛуГбуГЗуВгуВв<strong>%d</strong>уБоуБЖуБб)<strong>%d</strong> уБЛуВЙ <strong>%d</strong>уВТшбичд║');
+define('TEXT_ADD_MEDIA_CLIP', 'уГбуГЗуВгуВвуВпуГкуГГуГЧуВТш┐╜хКа');
+define('TEXT_MEDIA_CLIP_DIR', 'уГбуГЗуВгуВвуГЗуВгуГмуВпуГИуГкуБлуВвуГГуГЧуГнуГ╝уГЙ');
+define('TEXT_MEDIA_CLIP_TYPE', 'уГбуГЗуВгуВвуВпуГкуГГуГЧуБоуГХуВйуГ╝уГЮуГГуГИ');
+define('TEXT_HEADING_ASSIGN_MEDIA_COLLECTION', 'хХЖхУБуБлуВвуГлуГРуГауВТхЙ▓уВКх╜УуБжуВЛ');
+define('TEXT_PRODUCTS_INTRO', 'ф╗еф╕ЛуБоуГХуВйуГ╝уГауБзуАБуВвуГлуГРуГауВТхХЖхУБуБлхЙ▓уВКх╜УуБжуГ╗хЙКщЩдуБЩуВЛуБУуБиуБМуБзуБНуБ╛уБЩуАВ');
+define('IMAGE_PRODUCTS', 'хХЖхУБуБлхЙ▓уВКх╜УуБжуВЛ');
+define('TEXT_DELETE_PRODUCTS', 'цМЩуБТуВЙуВМуБжуБДуВЛMediaуБиуГкуГ│уВпуБЧуБжуБДуВЛхЕиуБжуБоуВвуВдуГЖуГауВТхЙКщЩдуБЧуБ╛уБЩуБЛя╝Я');
+define('TEXT_DELETE_WARNING_PRODUCTS', '<strong>ц│ицДП:</strong> %sхАЛуБоуВвуВдуГЖуГауБМ цМЩуБТуВЙуВМуБжуБДуВЛуГбуГЗуВгуВвуБлуГкуГ│уВпуБЧуБжуБДуБ╛уБЩ!');
 
-define('ERROR_UNKNOWN_DATA', 'еиещб╝: ╔╘╠└д╩е╟б╝е┐д╟д╣бг═╫╡сд╧енеуеєе╗еыд╡дьд▐д╖д┐');
-define('TEXT_ADD','─╔▓├');
+define('ERROR_UNKNOWN_DATA', 'уВиуГйуГ╝: ф╕НцШОуБкуГЗуГ╝уВ┐уБзуБЩуАВшжБц▒ВуБпуВнуГгуГ│уВ╗уГлуБХуВМуБ╛уБЧуБЯ');
+define('TEXT_ADD','ш┐╜хКа');
 
 ?>

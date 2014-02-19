@@ -20,29 +20,29 @@
 //  $Id: gv_queue.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '¾µÇ§ÂÔ¤Á' . TEXT_GV_NAME);
+define('HEADING_TITLE', 'æ‰¿èªå¾…ã¡' . TEXT_GV_NAME);
 
-define('TABLE_HEADING_CUSTOMERS', '¸ÜµÒ');
-define('TABLE_HEADING_ORDERS_ID', 'ÃíÊ¸ÈÖ¹æ.');
-define('TABLE_HEADING_VOUCHER_VALUE', TEXT_GV_NAME . ' ³Û');
-define('TABLE_HEADING_DATE_PURCHASED', '¹ØÆþÆü');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_CUSTOMERS', 'é¡§å®¢');
+define('TABLE_HEADING_ORDERS_ID', 'æ³¨æ–‡ç•ªå·.');
+define('TABLE_HEADING_VOUCHER_VALUE', TEXT_GV_NAME . ' é¡');
+define('TABLE_HEADING_DATE_PURCHASED', 'è³¼å…¥æ—¥');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_REDEEM_GV_MESSAGE_HEADER', 'ÅöWeb¥µ¥¤¥È¤Ë¤Æ¤´¹ØÆþ¤¤¤¿¤À¤¤¤¿' . TEXT_GV_NAME);
-define('TEXT_REDEEM_GV_MESSAGE_RELEASED', '¥»¥­¥å¥ê¥Æ¥£´ÉÍý¥×¥í¥»¥¹¤Î¤¿¤á¤¹¤°¤ËÍ­¸ú¤Ë¤Ï¤Ê¤ê¤Þ¤»¤ó¤Ç¤·¤¿¤¬¡¢' .
-                                          '¤¿¤Àº£¤´ÍøÍÑ³«»Ï¤Î½èÍý¤¬´°Î»¤¤¤¿¤·¤Þ¤·¤¿¡£ÅöÅ¹¤Ë¤Æ¤´¼«¿È¤Ç¤´ÍøÍÑ¤¤¤¿¤À¤¯¤³¤È¤¬¤Ç¤­¤ëÂ¾¡¢¥á¡¼¥ë¤Ë¤Æ¤É¤Ê¤¿¤Ë¤Ç¤âÂ£¤ë¤³¤È¤¬¤Ç¤­¤Þ¤¹¡£' . "\n\n"
+define('TEXT_REDEEM_GV_MESSAGE_HEADER', 'å½“Webã‚µã‚¤ãƒˆã«ã¦ã”è³¼å…¥ã„ãŸã ã„ãŸ' . TEXT_GV_NAME);
+define('TEXT_REDEEM_GV_MESSAGE_RELEASED', 'ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ç®¡ç†ãƒ—ãƒ­ã‚»ã‚¹ã®ãŸã‚ã™ãã«æœ‰åŠ¹ã«ã¯ãªã‚Šã¾ã›ã‚“ã§ã—ãŸãŒã€' .
+                                          'ãŸã ä»Šã”åˆ©ç”¨é–‹å§‹ã®å‡¦ç†ãŒå®Œäº†ã„ãŸã—ã¾ã—ãŸã€‚å½“åº—ã«ã¦ã”è‡ªèº«ã§ã”åˆ©ç”¨ã„ãŸã ãã“ã¨ãŒã§ãã‚‹ä»–ã€ãƒ¡ãƒ¼ãƒ«ã«ã¦ã©ãªãŸã«ã§ã‚‚è´ˆã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚' . "\n\n"
                                           );
 
-define('TEXT_REDEEM_GV_MESSAGE_AMOUNT', '¤´¹ØÆþ¤¤¤¿¤À¤­¤Þ¤·¤¿' . TEXT_GV_NAME . '¤Î°ú´¹³Û¤Ï%s¤Ç¤¹¡£');
-define('TEXT_REDEEM_GV_MESSAGE_THANKS', 'ÅöÅ¹¤ò¤´ÍøÍÑ¤¤¤¿¤À¤­¡¢À¿¤Ë¤¢¤ê¤¬¤È¤¦¤´¤¶¤¤¤Þ¤¹¡£');
+define('TEXT_REDEEM_GV_MESSAGE_AMOUNT', 'ã”è³¼å…¥ã„ãŸã ãã¾ã—ãŸ' . TEXT_GV_NAME . 'ã®å¼•æ›é¡ã¯%sã§ã™ã€‚');
+define('TEXT_REDEEM_GV_MESSAGE_THANKS', 'å½“åº—ã‚’ã”åˆ©ç”¨ã„ãŸã ãã€èª ã«ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ã€‚');
 
 define('TEXT_REDEEM_GV_MESSAGE_BODY', '');
 define('TEXT_REDEEM_GV_MESSAGE_FOOTER', '');
-define('TEXT_REDEEM_GV_SUBJECT', TEXT_GV_NAME . ' ¤´¹ØÆþ');
-define('TEXT_REDEEM_GV_SUBJECT_ORDER',' ¤´ÃíÊ¸ÈÖ¹æ');
+define('TEXT_REDEEM_GV_SUBJECT', TEXT_GV_NAME . ' ã”è³¼å…¥');
+define('TEXT_REDEEM_GV_SUBJECT_ORDER',' ã”æ³¨æ–‡ç•ªå·');
 
-define('TEXT_EDIT_ORDER','¤´ÃíÊ¸ÈÖ¹æ¤òÊÔ½¸¤¹¤ë');
-define('TEXT_GV_NONE','Í­¸ú²½¤¹¤ë' . TEXT_GV_NAME . '¤Ï¤¢¤ê¤Þ¤»¤ó¡£');
+define('TEXT_EDIT_ORDER','ã”æ³¨æ–‡ç•ªå·ã‚’ç·¨é›†ã™ã‚‹');
+define('TEXT_GV_NONE','æœ‰åŠ¹åŒ–ã™ã‚‹' . TEXT_GV_NAME . 'ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚');
 
-define('ERROR_MAX_GIFT_AMOUNT_EXCEEDED','¥®¥Õ¥È·ô»Ä¹â¤¬'.MAX_GIFT_AMOUNT.'¤òÄ¶¤¨¤ë¤Î¤Ç°ú¤­´¹¤¨¤Ç¤­¤Þ¤»¤ó¡£');
+define('ERROR_MAX_GIFT_AMOUNT_EXCEEDED','ã‚®ãƒ•ãƒˆåˆ¸æ®‹é«˜ãŒ'.MAX_GIFT_AMOUNT.'ã‚’è¶…ãˆã‚‹ã®ã§å¼•ãæ›ãˆã§ãã¾ã›ã‚“ã€‚');
 ?>

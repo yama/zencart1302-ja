@@ -20,25 +20,25 @@
 //  $Id: banner_statistics.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '�Хʡ�����');
+define('HEADING_TITLE', 'バナー統計');
 
-define('TABLE_HEADING_SOURCE', '����');
-define('TABLE_HEADING_VIEWS', 'ɽ��');
-define('TABLE_HEADING_CLICKS', '����å�');
+define('TABLE_HEADING_SOURCE', '日付');
+define('TABLE_HEADING_VIEWS', '表示');
+define('TABLE_HEADING_CLICKS', 'クリック');
 
 define('TEXT_BANNERS_DATA', 'D<br/>A<br/>T<br/>A');
-define('TEXT_BANNERS_DAILY_STATISTICS', '%s  Daily Statistics For %s %s');//������ʸ������뤿�ᡢ���ܸ�ˤ���Ȳ�����
-define('TEXT_BANNERS_MONTHLY_STATISTICS', '%s Monthly Statistics For %s');//������ʸ������뤿�ᡢ���ܸ�ˤ���Ȳ�����
+define('TEXT_BANNERS_DAILY_STATISTICS', '%s  Daily Statistics For %s %s');//画像に文字が乗るため、日本語にすると化ける
+define('TEXT_BANNERS_MONTHLY_STATISTICS', '%s Monthly Statistics For %s');//画像に文字が乗るため、日本語にすると化ける
 define('TEXT_BANNERS_YEARLY_STATISTICS', '%s Yearly Statistics');
 
-define('STATISTICS_TYPE_DAILY', '����');
-define('STATISTICS_TYPE_MONTHLY', '�');
-define('STATISTICS_TYPE_YEARLY', 'ǯ��');
+define('STATISTICS_TYPE_DAILY', '日次');
+define('STATISTICS_TYPE_MONTHLY', '月次');
+define('STATISTICS_TYPE_YEARLY', '年次');
 
-define('TITLE_TYPE', '������:');
-define('TITLE_YEAR', 'ǯ:');
-define('TITLE_MONTH', '��:');
+define('TITLE_TYPE', 'タイプ:');
+define('TITLE_YEAR', '年:');
+define('TITLE_MONTH', '月:');
 
-define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', '���顼: ����եǥ��쥯�ȥ꤬¸�ߤ��ޤ��󡣥���եǥ��쥯�ȥ��������Ƥ�����������: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
-define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', '���顼: ����եǥ��쥯�ȥ�˽񤭹��ߤ��Ǥ��ޤ��󡣥���եǥ��쥯�ȥ�ΰ���: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
+define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'エラー: グラフディレクトリが存在しません。グラフディレクトリを作成してください。例: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
+define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'エラー: グラフディレクトリに書き込みができません。グラフディレクトリの位置: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
 ?>

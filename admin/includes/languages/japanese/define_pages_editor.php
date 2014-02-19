@@ -20,30 +20,30 @@
 // $Id: define_pages_editor.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('HEADING_TITLE', '─ъ╚╓е┌б╝е╕д╬╩╘╜╕: ');
-define('NAVBAR_TITLE', '─ъ╚╓е┌б╝е╕д╬╩╘╜╕');
+define('HEADING_TITLE', 'хоЪчХкуГЪуГ╝уВ╕уБоч╖ищЫЖ: ');
+define('NAVBAR_TITLE', 'хоЪчХкуГЪуГ╝уВ╕уБоч╖ищЫЖ');
 
-define('TEXT_INFO_EDIT_PAGE', '╩╘╜╕д╣дые┌б╝е╕дЄ┴к┬Є:');
+define('TEXT_INFO_EDIT_PAGE', 'ч╖ищЫЖуБЩуВЛуГЪуГ╝уВ╕уВТщБ╕цКЮ:');
 
-define('TEXT_INFO_MAIN_PAGE', 'еседеєе┌б╝е╕');
+define('TEXT_INFO_MAIN_PAGE', 'уГбуВдуГ│уГЪуГ╝уВ╕');
 
-define('TEXT_INFO_SHIPPINGINFO', '╟█┴ўбж╩╓╔╩д╦д─ддд╞');
-define('TEXT_INFO_PRIVACY', '╕─┐═╛Ё╩є╩▌╕ю╩¤┐╦');
-define('TEXT_INFO_CONDITIONS', 'е╡еде╚д╬д┤═°═╤д╦д─ддд╞');
-define('TEXT_INFO_CONTACT_US', 'дк╠фдд╣чдяд╗');
-define('TEXT_INFO_CHECKOUT_SUCCESS', 'е┴езе├епевеже╚┤░╬╗');
+define('TEXT_INFO_SHIPPINGINFO', 'щЕНщАБуГ╗ш┐ФхУБуБлуБдуБДуБж');
+define('TEXT_INFO_PRIVACY', 'хАЛф║║цГЕха▒ф┐Эшн╖цЦ╣щЗЭ');
+define('TEXT_INFO_CONDITIONS', 'уВ╡уВдуГИуБоуБФхИйчФиуБлуБдуБДуБж');
+define('TEXT_INFO_CONTACT_US', 'уБКхХПуБДхРИуВПуБЫ');
+define('TEXT_INFO_CHECKOUT_SUCCESS', 'уГБуВзуГГуВпуВвуВжуГИхоМф║Ж');
 
 define('TEXT_INFO_PAGE_2', 'Page 2');
 define('TEXT_INFO_PAGE_3', 'Page 3');
 define('TEXT_INFO_PAGE_4', 'Page 4');
 
-define('TEXT_FILE_DOES_NOT_EXIST', 'е╒ебедеыдм┬╕║▀д╖д▐д╗дє: %s');
+define('TEXT_FILE_DOES_NOT_EXIST', 'уГХуВбуВдуГлуБМхнШхЬиуБЧуБ╛уБЫуВУ: %s');
 
-define('ERROR_FILE_NOT_WRITEABLE', 'еиещб╝: е╒ебедеыд╦╜ёдн╣■д▀дмд╟днд▐д╗дєбг░╩▓╝д╬е╒ебедеыд╦└╡д╖дд╜ёдн╣■д▀╕в╕┬дЄ└▀─ъд╖д╞дпд└д╡ддбг: %s');
+define('ERROR_FILE_NOT_WRITEABLE', 'уВиуГйуГ╝: уГХуВбуВдуГлуБлцЫ╕уБНш╛╝уБ┐уБМуБзуБНуБ╛уБЫуВУуАВф╗еф╕ЛуБоуГХуВбуВдуГлуБлцнгуБЧуБДцЫ╕уБНш╛╝уБ┐цийщЩРуВТшинхоЪуБЧуБжуБПуБауБХуБДуАВ: %s');
 
-define('TEXT_INFO_SELECT_FILE', '╩╘╜╕д╣дые╒ебедеыдЄ┴к┬Є');
-define('TEXT_INFO_EDITING', 'е╒ебедеыдЄ╩╘╜╕:');
+define('TEXT_INFO_SELECT_FILE', 'ч╖ищЫЖуБЩуВЛуГХуВбуВдуГлуВТщБ╕цКЮ');
+define('TEXT_INFO_EDITING', 'уГХуВбуВдуГлуВТч╖ищЫЖ:');
 
-define('TEXT_INFO_CAUTION','├э░╒:е╞еєе╫еьб╝е╚екб╝е╨б╝ещеде╔е╟егеьепе╚еъд╦двдые╒ебедеыдЄ╩╘╜╕д╣дыдшджд╦д╖д╞дпд└д╡ддбг╬у:  /languages/' . $_SESSION['language'] . '/html_includes/' . $template_dir . '<br />
-е╒ебедеыдЄ╣╣┐╖д╣ды┴░д╦╔мд║е╨е├епеве├е╫дЄ╝шд├д╞дпд└д╡дд');
+define('TEXT_INFO_CAUTION','ц│ицДП:уГЖуГ│уГЧуГмуГ╝уГИуВкуГ╝уГРуГ╝уГйуВдуГЙуГЗуВгуГмуВпуГИуГкуБлуБВуВЛуГХуВбуВдуГлуВТч╖ищЫЖуБЩуВЛуВИуБЖуБлуБЧуБжуБПуБауБХуБДуАВф╛Л:  /languages/' . $_SESSION['language'] . '/html_includes/' . $template_dir . '<br />
+уГХуВбуВдуГлуВТцЫ┤цЦ░уБЩуВЛхЙНуБлх┐ЕуБЪуГРуГГуВпуВвуГГуГЧуВТхПЦуБгуБжуБПуБауБХуБД');
 ?>

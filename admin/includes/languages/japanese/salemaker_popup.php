@@ -20,16 +20,16 @@
 //  $Id: salemaker_popup.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '¥»¡¼¥ë¤Î´ÉÍý(SALE Maker)');
-define('SUBHEADING_TITLE', '¥»¡¼¥ë´ÉÍý(SALE Maker)¤Î¥³¥Ä(Tips):');
+define('HEADING_TITLE', 'ã‚»ãƒ¼ãƒ«ã®ç®¡ç†(SALE Maker)');
+define('SUBHEADING_TITLE', 'ã‚»ãƒ¼ãƒ«ç®¡ç†(SALE Maker)ã®ã‚³ãƒ„(Tips):');
 
-define('TEXT_SALEMAKER_IMMEDIATELY', '¤¹¤°¤Ë');
-define('TEXT_SALEMAKER_NEVER', '¤Ê¤·');
-define('TEXT_CLOSE_WINDOW', '[ ¥¦¥£¥ó¥É¥¦¤òÊÄ¤¸¤ë ]');
-define('TABLE_HEADING_SALE_NAME', '¥»¡¼¥ëÌ¾');
-define('TABLE_HEADING_SALE_DEDUCTION', 'ÃÍ°ú¤­³Û');
-define('TABLE_HEADING_SALE_DATE_START', '³«»ÏÆü');
-define('TABLE_HEADING_SALE_DATE_END', '½ªÎ»Æü');
-define('TABLE_HEADING_STATUS', '¥¹¥Æ¡¼¥¿¥¹');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TEXT_SALEMAKER_IMMEDIATELY', 'ã™ãã«');
+define('TEXT_SALEMAKER_NEVER', 'ãªã—');
+define('TEXT_CLOSE_WINDOW', '[ ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚’é–‰ã˜ã‚‹ ]');
+define('TABLE_HEADING_SALE_NAME', 'ã‚»ãƒ¼ãƒ«å');
+define('TABLE_HEADING_SALE_DEDUCTION', 'å€¤å¼•ãé¡');
+define('TABLE_HEADING_SALE_DATE_START', 'é–‹å§‹æ—¥');
+define('TABLE_HEADING_SALE_DATE_END', 'çµ‚äº†æ—¥');
+define('TABLE_HEADING_STATUS', 'ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 ?>

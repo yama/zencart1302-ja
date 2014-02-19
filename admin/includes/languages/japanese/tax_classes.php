@@ -20,20 +20,20 @@
 //  $Id: tax_classes.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'ÀÇ¼ïÊÌÀßÄê');
+define('HEADING_TITLE', 'ç¨Žç¨®åˆ¥è¨­å®š');
 
 define('TABLE_HEADING_TAX_CLASS_ID', 'ID');
-define('TABLE_HEADING_TAX_CLASSES', 'ÀÇ¼ïÊÌ');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_TAX_CLASSES', 'ç¨Žç¨®åˆ¥');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_INFO_EDIT_INTRO', 'É¬Í×¤ÊÊÑ¹¹¤ò¹Ô¤Ã¤Æ¤¯¤À¤µ¤¤¡£');
-define('TEXT_INFO_CLASS_TITLE', 'ÀÇ¼ïÊÌ¥¿¥¤¥È¥ë:');
-define('TEXT_INFO_CLASS_DESCRIPTION', 'ÀâÌÀ:');
-define('TEXT_INFO_DATE_ADDED', 'ÅÐÏ¿Æü:');
-define('TEXT_INFO_LAST_MODIFIED', '¹¹¿·Æü:');
-define('TEXT_INFO_INSERT_INTRO', '¿·¤·¤¤ÀÇ¼ïÊÌ¤Ë¤Ä¤¤¤Æ¤Î¥Ç¡¼¥¿¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£');
-define('TEXT_INFO_DELETE_INTRO', '¤³¤ÎÀÇ¼ïÊÌ¤òËÜÅö¤Ëºï½ü¤·¤Þ¤¹¤«?');
-define('TEXT_INFO_HEADING_NEW_TAX_CLASS', '¿·¤·¤¤ÀÇ¼ïÊÌ');
-define('TEXT_INFO_HEADING_EDIT_TAX_CLASS', 'ÀÇ¼ïÊÌ¤òÊÔ½¸');
-define('TEXT_INFO_HEADING_DELETE_TAX_CLASS', 'ÀÇ¼ïÊÌ¤òºï½ü');
+define('TEXT_INFO_EDIT_INTRO', 'å¿…è¦ãªå¤‰æ›´ã‚’è¡Œã£ã¦ãã ã•ã„ã€‚');
+define('TEXT_INFO_CLASS_TITLE', 'ç¨Žç¨®åˆ¥ã‚¿ã‚¤ãƒˆãƒ«:');
+define('TEXT_INFO_CLASS_DESCRIPTION', 'èª¬æ˜Ž:');
+define('TEXT_INFO_DATE_ADDED', 'ç™»éŒ²æ—¥:');
+define('TEXT_INFO_LAST_MODIFIED', 'æ›´æ–°æ—¥:');
+define('TEXT_INFO_INSERT_INTRO', 'æ–°ã—ã„ç¨Žç¨®åˆ¥ã«ã¤ã„ã¦ã®ãƒ‡ãƒ¼ã‚¿ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚');
+define('TEXT_INFO_DELETE_INTRO', 'ã“ã®ç¨Žç¨®åˆ¥ã‚’æœ¬å½“ã«å‰Šé™¤ã—ã¾ã™ã‹?');
+define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'æ–°ã—ã„ç¨Žç¨®åˆ¥');
+define('TEXT_INFO_HEADING_EDIT_TAX_CLASS', 'ç¨Žç¨®åˆ¥ã‚’ç·¨é›†');
+define('TEXT_INFO_HEADING_DELETE_TAX_CLASS', 'ç¨Žç¨®åˆ¥ã‚’å‰Šé™¤');
 ?>

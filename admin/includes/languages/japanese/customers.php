@@ -20,42 +20,42 @@
 //  $Id: customers.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('HEADING_TITLE', '�ܵҴ���');
+define('HEADING_TITLE', '顧客管理');
 
 define('TABLE_HEADING_ID', 'ID#');
-define('TABLE_HEADING_FIRSTNAME', '��');
-define('TABLE_HEADING_LASTNAME', '̾');
-define('TABLE_HEADING_ACCOUNT_CREATED', '��Ͽ��');
-define('TABLE_HEADING_LOGIN', '�ǽ�����������');
-define('TABLE_HEADING_ACTION', '���');
-define('TABLE_HEADING_PRICING_GROUP', '����ܵҥ��롼��');
+define('TABLE_HEADING_FIRSTNAME', '姓');
+define('TABLE_HEADING_LASTNAME', '名');
+define('TABLE_HEADING_ACCOUNT_CREATED', '登録日');
+define('TABLE_HEADING_LOGIN', '最終ログイン日');
+define('TABLE_HEADING_ACTION', '操作');
+define('TABLE_HEADING_PRICING_GROUP', '割引顧客グループ');
 define('TABLE_HEADING_AUTHORIZATION_APPROVAL', 'Authorized');
 
-define('TEXT_DATE_ACCOUNT_CREATED', '��Ͽ��:');
-define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', '������:');
-define('TEXT_INFO_DATE_LAST_LOGON', '�ǽ�����������:');
-define('TEXT_INFO_NUMBER_OF_LOGONS', '����������:');
-define('TEXT_INFO_COUNTRY', '��̾:');
-define('TEXT_INFO_NUMBER_OF_REVIEWS', '��ӥ塼��ƿ�:');
-define('TEXT_DELETE_INTRO', '���θܵҤ������˺�����ޤ���?');
-define('TEXT_DELETE_REVIEWS', '��ӥ塼����(��ƿ� %s)');
-define('TEXT_INFO_HEADING_DELETE_CUSTOMER', '�ܵҤ���');
-define('TYPE_BELOW', '�ʲ������Ϥ��Ƥ���������');
-define('PLEASE_SELECT', '���򤷤Ƥ���������');
-define('TEXT_INFO_NUMBER_OF_ORDERS', '��ʸ��:');
-define('TEXT_INFO_LAST_ORDER','�Ƕ����ʸ:');
-define('TEXT_INFO_ORDERS_TOTAL', '���:');
-define('CUSTOMERS_REFERRAL', '�ܵҤ�Ҳ�<br />�����£��');
+define('TEXT_DATE_ACCOUNT_CREATED', '登録日:');
+define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', '更新日:');
+define('TEXT_INFO_DATE_LAST_LOGON', '最終ログイン日:');
+define('TEXT_INFO_NUMBER_OF_LOGONS', 'ログイン回数:');
+define('TEXT_INFO_COUNTRY', '国名:');
+define('TEXT_INFO_NUMBER_OF_REVIEWS', 'レビュー投稿数:');
+define('TEXT_DELETE_INTRO', 'この顧客を本当に削除しますか?');
+define('TEXT_DELETE_REVIEWS', 'レビューも削除(投稿数 %s)');
+define('TEXT_INFO_HEADING_DELETE_CUSTOMER', '顧客を削除');
+define('TYPE_BELOW', '以下に入力してください。');
+define('PLEASE_SELECT', '選択してください。');
+define('TEXT_INFO_NUMBER_OF_ORDERS', '注文数:');
+define('TEXT_INFO_LAST_ORDER','最近の注文:');
+define('TEXT_INFO_ORDERS_TOTAL', '合計:');
+define('CUSTOMERS_REFERRAL', '顧客を紹介<br />割引券贈呈');
 
-define('ENTRY_NONE', '�ʤ�');
+define('ENTRY_NONE', 'なし');
 
-define('TABLE_HEADING_COMPANY','���̾');
+define('TABLE_HEADING_COMPANY','会社名');
 
-define('CUSTOMERS_AUTHORIZATION', '�ܵҤξ�ǧ����');
-define('CUSTOMERS_AUTHORIZATION_0', '��ǧ');
-define('CUSTOMERS_AUTHORIZATION_1', '̤��ǧ - �֥饦�����뤿���ǧ�Ĥ���ɬ�פ�����ޤ���');
-define('CUSTOMERS_AUTHORIZATION_2', '̤��ǧ - ���ʤΤʤ��֥饦�����⤷��ޤ���');
-define('CUSTOMERS_AUTHORIZATION_3', '̤��ǧ - ���ʤȥ֥饦�������פ��Ƥ��ޤ����������ϤǤ��ʤ����⤷��ޤ���');
-define('ERROR_CUSTOMER_APPROVAL_CORRECTION1', '�ٹ�: ���ʤ��Τ�Ź�ϥ֥饦���ʤ��Ǿ�ǧ���åȥ��åפ���Ƥ��ޤ��� �ܵҤ�̤��ǧ���֤Ǥ� - �֥饦���ʤ�');
-define('ERROR_CUSTOMER_APPROVAL_CORRECTION2', '�ٹ�: ���ʤ��Τ�Ź�ϥ֥饦���β�������ʤ��Ǿ�ǧ���åȥ��åפ���Ƥ��ޤ�. �ܵҤ�̤��ǧ���֤Ǥ� - �֥饦���β�������ʤ�');
+define('CUSTOMERS_AUTHORIZATION', '顧客の承認状態');
+define('CUSTOMERS_AUTHORIZATION_0', '承認');
+define('CUSTOMERS_AUTHORIZATION_1', '未承認 - ブラウズするために認可する必要があります。');
+define('CUSTOMERS_AUTHORIZATION_2', '未承認 - 価格のないブラウズかもしれません。');
+define('CUSTOMERS_AUTHORIZATION_3', '未承認 - 価格とブラウズが一致していますが、購入はできないかもしれません。');
+define('ERROR_CUSTOMER_APPROVAL_CORRECTION1', '警告: あなたのお店はブラウズなしで承認セットアップされています。 顧客は未承認状態です - ブラウズなし');
+define('ERROR_CUSTOMER_APPROVAL_CORRECTION2', '警告: あなたのお店はブラウズの価格設定なしで承認セットアップされています. 顧客は未承認状態です - ブラウズの価格設定なし');
 ?>

@@ -19,13 +19,13 @@
 // +----------------------------------------------------------------------+
 //  $Id: option_name.php 276 2004-09-10 22:35:28Z wilt $
 //
-  define('HEADING_TITLE', '¥ª¥×¥·¥ç¥óÌ¾¤Î¥½¡¼¥È½çÀßÄê');
-  define('TEXT_EDIT_ALL', 'Á´¤Æ¤Î¥ª¥×¥·¥ç¥óÌ¾¤òÊÔ½¸¤¹¤ë');
-  define('TEXT_CURRENT_NAME', '¸½ºß¤Î¥ª¥×¥·¥ç¥óÌ¾');
-  define('TEXT_SORT_ORDER', '¥½¡¼¥È½ç');
-  define('TEXT_OPTION_ID', '¥ª¥×¥·¥ç¥óID');
-  define('TEXT_OPTION_TYPE', '¥¿¥¤¥×');
-  define('TEXT_OPTION_NAME', '¥ª¥×¥·¥ç¥óÌ¾');
-  define('TEXT_SELECTED_LANGUAGE','¸À¸ì: ');
+  define('HEADING_TITLE', 'ã‚ªãƒ—ã‚·ãƒ§ãƒ³åã®ã‚½ãƒ¼ãƒˆé †è¨­å®š');
+  define('TEXT_EDIT_ALL', 'å…¨ã¦ã®ã‚ªãƒ—ã‚·ãƒ§ãƒ³åã‚’ç·¨é›†ã™ã‚‹');
+  define('TEXT_CURRENT_NAME', 'ç¾åœ¨ã®ã‚ªãƒ—ã‚·ãƒ§ãƒ³å');
+  define('TEXT_SORT_ORDER', 'ã‚½ãƒ¼ãƒˆé †');
+  define('TEXT_OPTION_ID', 'ã‚ªãƒ—ã‚·ãƒ§ãƒ³ID');
+  define('TEXT_OPTION_TYPE', 'ã‚¿ã‚¤ãƒ—');
+  define('TEXT_OPTION_NAME', 'ã‚ªãƒ—ã‚·ãƒ§ãƒ³å');
+  define('TEXT_SELECTED_LANGUAGE','è¨€èªž: ');
 
-  define('SUCCESS_OPTION_SORT_ORDER','¥ª¥×¥·¥ç¥óÌ¾¤Î¥½¡¼¥È½ç¤ò¹¹¿·¤·¤Þ¤·¤¿¡£ ');?>
+  define('SUCCESS_OPTION_SORT_ORDER','ã‚ªãƒ—ã‚·ãƒ§ãƒ³åã®ã‚½ãƒ¼ãƒˆé †ã‚’æ›´æ–°ã—ã¾ã—ãŸã€‚ ');?>

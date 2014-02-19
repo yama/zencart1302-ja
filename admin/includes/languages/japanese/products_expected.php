@@ -20,11 +20,11 @@
 //  $Id: products_expected.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', ' Æþ²ÙÍ½Äê¾¦ÉÊ¤Î´ÉÍý');
+define('HEADING_TITLE', ' å…¥è·äºˆå®šå•†å“ã®ç®¡ç†');
 
-define('TABLE_HEADING_PRODUCTS', '¾¦ÉÊ');
-define('TABLE_HEADING_DATE_EXPECTED', 'Æþ²ÙÍ½ÄêÆü');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_PRODUCTS', 'å•†å“');
+define('TABLE_HEADING_DATE_EXPECTED', 'å…¥è·äºˆå®šæ—¥');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_INFO_DATE_EXPECTED', 'Æþ²ÙÍ½ÄêÆü:');
+define('TEXT_INFO_DATE_EXPECTED', 'å…¥è·äºˆå®šæ—¥:');
 ?>

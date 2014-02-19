@@ -20,127 +20,127 @@
 //  $Id: options_name_manager.php 2181 2005-10-20 18:37:16Z ajeh $
 //
 
-define('HEADING_TITLE_OPT', '╛ж╔╩еке╫е╖ечеє╠╛д╬┤╔═¤');
-define('HEADING_TITLE_VAL', 'еке╫е╖ечеєд╬├═');
-define('HEADING_TITLE_ATRIB', '╛ж╔╩┬░└н');
+define('HEADING_TITLE_OPT', 'хХЖхУБуВкуГЧуВ╖уГзуГ│хРНуБочобчРЖ');
+define('HEADING_TITLE_VAL', 'уВкуГЧуВ╖уГзуГ│уБохАд');
+define('HEADING_TITLE_ATRIB', 'хХЖхУБх▒ЮцАз');
 
 define('TABLE_HEADING_ID', 'ID');
-define('TABLE_HEADING_PRODUCT', '╛ж╔╩╠╛');
-define('TABLE_HEADING_OPT_NAME', 'еке╫е╖ечеє╠╛');
-define('TABLE_HEADING_OPT_VALUE', 'еке╫е╖ечеєд╬├═');
-define('TABLE_HEADING_OPT_PRICE', '▓┴│╩');
-define('TABLE_HEADING_OPT_PRICE_PREFIX', '└▄╞м╝н(Prefix)');
-define('TABLE_HEADING_ACTION', '┴р║ю');
-define('TABLE_HEADING_DOWNLOAD', 'е└ежеєеэб╝е╔╛ж╔╩:');
-define('TABLE_TEXT_FILENAME', 'е╒ебедеы╠╛:');
-define('TABLE_TEXT_MAX_DAYS', '═н╕·┤№╕┬:');
-define('TABLE_TEXT_MAX_COUNT', 'е└ежеєеэб╝е╔▓─╟╜▓є┐Ї:');
+define('TABLE_HEADING_PRODUCT', 'хХЖхУБхРН');
+define('TABLE_HEADING_OPT_NAME', 'уВкуГЧуВ╖уГзуГ│хРН');
+define('TABLE_HEADING_OPT_VALUE', 'уВкуГЧуВ╖уГзуГ│уБохАд');
+define('TABLE_HEADING_OPT_PRICE', 'ф╛бца╝');
+define('TABLE_HEADING_OPT_PRICE_PREFIX', 'цОещанш╛Ю(Prefix)');
+define('TABLE_HEADING_ACTION', 'цУНф╜Ь');
+define('TABLE_HEADING_DOWNLOAD', 'уГАуВжуГ│уГнуГ╝уГЙхХЖхУБ:');
+define('TABLE_TEXT_FILENAME', 'уГХуВбуВдуГлхРН:');
+define('TABLE_TEXT_MAX_DAYS', 'цЬЙхК╣цЬЯщЩР:');
+define('TABLE_TEXT_MAX_COUNT', 'уГАуВжуГ│уГнуГ╝уГЙхПпшГ╜хЫЮцХ░:');
 
-define('TEXT_WARNING_OF_DELETE', 'д│д╬еке╫е╖ечеєд╦еъеєепд╡дьд┐╛ж╔╩бжеке╫е╖ечеє├═дмдвдъд▐д╣бг║я╜№д╣дыд╚еиещб╝дм╜╨ды▓─╟╜└ндмдвдъд▐д╣бг');
-define('TEXT_OK_TO_DELETE', 'д│д╬еке╫е╖ечеєд╦еъеєепд╡дьд┐╛ж╔╩бж├═д╧двдъд▐д╗дєбг║я╜№▓─╟╜д╟д╣бг');
-define('TEXT_OPTION_ID', 'еке╫е╖ечеєID');
-define('TEXT_OPTION_NAME', 'еке╫е╖ечеє╠╛');
-define('TABLE_HEADING_OPT_DISCOUNTED','├═░·дн');
+define('TEXT_WARNING_OF_DELETE', 'уБУуБоуВкуГЧуВ╖уГзуГ│уБлуГкуГ│уВпуБХуВМуБЯхХЖхУБуГ╗уВкуГЧуВ╖уГзуГ│хАдуБМуБВуВКуБ╛уБЩуАВхЙКщЩдуБЩуВЛуБиуВиуГйуГ╝уБМхЗ║уВЛхПпшГ╜цАзуБМуБВуВКуБ╛уБЩуАВ');
+define('TEXT_OK_TO_DELETE', 'уБУуБоуВкуГЧуВ╖уГзуГ│уБлуГкуГ│уВпуБХуВМуБЯхХЖхУБуГ╗хАдуБпуБВуВКуБ╛уБЫуВУуАВхЙКщЩдхПпшГ╜уБзуБЩуАВ');
+define('TEXT_OPTION_ID', 'уВкуГЧуВ╖уГзуГ│ID');
+define('TEXT_OPTION_NAME', 'уВкуГЧуВ╖уГзуГ│хРН');
+define('TABLE_HEADING_OPT_DISCOUNTED','хАдх╝ХуБН');
 
-define('ATTRIBUTE_WARNING_DUPLICATE','┬░└нд╬╩г└╜ - ┬░└нд╧─╔▓├д╡дьд▐д╗дєд╟д╖д┐бг'); // attributes duplicate warning
-define('ATTRIBUTE_WARNING_DUPLICATE_UPDATE','┬░└нд╬╩г└╜дм┬╕║▀д╖д▐д╣ - ┬░└нд╧╩╤╣╣д╡дьд▐д╗дєд╟д╖д┐бг'); // attributes duplicate warning
-define('ATTRIBUTE_WARNING_INVALID_MATCH','┬░└неке╫е╖ечеєд╚еке╫е╖ечеє├═дм░ь├╫д╖д▐д╗дє - ┬░└нд╧─╔▓├д╡дьд▐д╗дєд╟д╖д┐бг'); // miss matched option and options value
-define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','┬░└неке╫е╖ечеєд╚еке╫е╖ечеє├═дм░ь├╫д╖д▐д╗дє - ┬░└нд╧─╔▓├д╡дьд▐д╗дєд╟д╖д┐бг'); // miss matched option and options value
-define('ATTRIBUTE_POSSIBLE_OPTIONS_NAME_WARNING_DUPLICATE','▓─╟╜д╩╩г└╜еке╫е╖ечеє╠╛дм─╔▓├д╡дьд▐д╖д┐(Possible Duplicate Options Name Added)бг'); // Options Name Duplicate warning
-define('ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE','▓─╟╜д╩╩г└╜еке╫е╖ечеє├═дм─╔▓├д╡дьд▐д╖д┐(Possible Duplicate Options Value Added)бг'); // Options Value Duplicate warning
+define('ATTRIBUTE_WARNING_DUPLICATE','х▒ЮцАзуБошдЗшг╜ - х▒ЮцАзуБпш┐╜хКауБХуВМуБ╛уБЫуВУуБзуБЧуБЯуАВ'); // attributes duplicate warning
+define('ATTRIBUTE_WARNING_DUPLICATE_UPDATE','х▒ЮцАзуБошдЗшг╜уБМхнШхЬиуБЧуБ╛уБЩ - х▒ЮцАзуБпхдЙцЫ┤уБХуВМуБ╛уБЫуВУуБзуБЧуБЯуАВ'); // attributes duplicate warning
+define('ATTRIBUTE_WARNING_INVALID_MATCH','х▒ЮцАзуВкуГЧуВ╖уГзуГ│уБиуВкуГЧуВ╖уГзуГ│хАдуБМф╕АшЗ┤уБЧуБ╛уБЫуВУ - х▒ЮцАзуБпш┐╜хКауБХуВМуБ╛уБЫуВУуБзуБЧуБЯуАВ'); // miss matched option and options value
+define('ATTRIBUTE_WARNING_INVALID_MATCH_UPDATE','х▒ЮцАзуВкуГЧуВ╖уГзуГ│уБиуВкуГЧуВ╖уГзуГ│хАдуБМф╕АшЗ┤уБЧуБ╛уБЫуВУ - х▒ЮцАзуБпш┐╜хКауБХуВМуБ╛уБЫуВУуБзуБЧуБЯуАВ'); // miss matched option and options value
+define('ATTRIBUTE_POSSIBLE_OPTIONS_NAME_WARNING_DUPLICATE','хПпшГ╜уБкшдЗшг╜уВкуГЧуВ╖уГзуГ│хРНуБМш┐╜хКауБХуВМуБ╛уБЧуБЯ(Possible Duplicate Options Name Added)уАВ'); // Options Name Duplicate warning
+define('ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE','хПпшГ╜уБкшдЗшг╜уВкуГЧуВ╖уГзуГ│хАдуБМш┐╜хКауБХуВМуБ╛уБЧуБЯ(Possible Duplicate Options Value Added)уАВ'); // Options Value Duplicate warning
 
-define('PRODUCTS_ATTRIBUTES_EDITING','╩╘╜╕'); // title
-define('PRODUCTS_ATTRIBUTES_DELETE','║я╜№'); // title
-define('PRODUCTS_ATTRIBUTES_ADDING','┐╖д╖дд┬░└нд╬─╔▓├'); // title
-define('TEXT_DOWNLOADS_DISABLED','NOTE: е└ежеєеэб╝е╔╡б╟╜еке╒');
+define('PRODUCTS_ATTRIBUTES_EDITING','ч╖ищЫЖ'); // title
+define('PRODUCTS_ATTRIBUTES_DELETE','хЙКщЩд'); // title
+define('PRODUCTS_ATTRIBUTES_ADDING','цЦ░уБЧуБДх▒ЮцАзуБош┐╜хКа'); // title
+define('TEXT_DOWNLOADS_DISABLED','NOTE: уГАуВжуГ│уГнуГ╝уГЙцйЯшГ╜уВкуГХ');
 
-define('TABLE_TEXT_MAX_DAYS_SHORT', 'е└ежеєеэб╝е╔┤№╕┬:');
-define('TABLE_TEXT_MAX_COUNT_SHORT', 'е└ежеєеэб╝е╔▓─╟╜▓є┐Ї:');
+define('TABLE_TEXT_MAX_DAYS_SHORT', 'уГАуВжуГ│уГнуГ╝уГЙцЬЯщЩР:');
+define('TABLE_TEXT_MAX_COUNT_SHORT', 'уГАуВжуГ│уГнуГ╝уГЙхПпшГ╜хЫЮцХ░:');
 
-  define('TABLE_HEADING_OPTION_SORT_ORDER','е╜б╝е╚╜ч');
-  define('TABLE_HEADING_OPTION_VALUE_SORT_ORDER','е╟е╒ейеые╚╜ч');
-  define('TEXT_SORT',' ╜ч╚╓: ');
+  define('TABLE_HEADING_OPTION_SORT_ORDER','уВ╜уГ╝уГИщаЖ');
+  define('TABLE_HEADING_OPTION_VALUE_SORT_ORDER','уГЗуГХуВйуГлуГИщаЖ');
+  define('TEXT_SORT',' щаЖчХк: ');
 
-  define('TABLE_HEADING_OPT_WEIGHT_PREFIX','└▄╞м╝н(Prefix)');
-  define('TABLE_HEADING_OPT_WEIGHT','╜┼╬╠');
-  define('TABLE_HEADING_OPT_SORT_ORDER','е╜б╝е╚╜ч');
-  define('TABLE_HEADING_OPT_DEFAULT','е╟е╒ейеые╚');
+  define('TABLE_HEADING_OPT_WEIGHT_PREFIX','цОещанш╛Ю(Prefix)');
+  define('TABLE_HEADING_OPT_WEIGHT','щЗНщЗП');
+  define('TABLE_HEADING_OPT_SORT_ORDER','уВ╜уГ╝уГИщаЖ');
+  define('TABLE_HEADING_OPT_DEFAULT','уГЗуГХуВйуГлуГИ');
 
   define('TABLE_HEADING_YES','Yes');
   define('TABLE_HEADING_NO','No');
 
-  define('TABLE_HEADING_OPT_TYPE', 'еке╫е╖ечеєд╬е┐еде╫'); //CLR 031203 add option type column
-  define('TABLE_HEADING_OPTION_VALUE_SIZE','е╡еде║');
-  define('TABLE_HEADING_OPTION_VALUE_MAX','║╟╣т');
-  define('TABLE_HEADING_OPTION_VALUE_ROWS','╬є');
-  define('TABLE_HEADING_OPTION_VALUE_COMMENTS','е│есеєе╚');
+  define('TABLE_HEADING_OPT_TYPE', 'уВкуГЧуВ╖уГзуГ│уБоуВ┐уВдуГЧ'); //CLR 031203 add option type column
+  define('TABLE_HEADING_OPTION_VALUE_SIZE','уВ╡уВдуВ║');
+  define('TABLE_HEADING_OPTION_VALUE_MAX','цЬАщлШ');
+  define('TABLE_HEADING_OPTION_VALUE_ROWS','хИЧ');
+  define('TABLE_HEADING_OPTION_VALUE_COMMENTS','уВ│уГбуГ│уГИ');
 
-  define('TEXT_OPTION_VALUE_COMMENTS','е│есеєе╚: ');
-  define('TEXT_OPTION_VALUE_ROWS', '╣╘: ');
-  define('TEXT_OPTION_VALUE_SIZE','╔╜╝ие╡еде║: ');
-  define('TEXT_OPTION_VALUE_MAX','║╟─╣: ');
+  define('TEXT_OPTION_VALUE_COMMENTS','уВ│уГбуГ│уГИ: ');
+  define('TEXT_OPTION_VALUE_ROWS', 'шбМ: ');
+  define('TEXT_OPTION_VALUE_SIZE','шбичд║уВ╡уВдуВ║: ');
+  define('TEXT_OPTION_VALUE_MAX','цЬАщХ╖: ');
 
-  define('TEXT_ATTRIBUTES_IMAGE','┬░└нд╬▓ш┴№╕л╦▄:');
-  define('TEXT_ATTRIBUTES_IMAGE_DIR','┬░└нд╬▓ш┴№е╟егеьепе╚еъ:');
+  define('TEXT_ATTRIBUTES_IMAGE','х▒ЮцАзуБочФ╗хГПшжЛцЬм:');
+  define('TEXT_ATTRIBUTES_IMAGE_DIR','х▒ЮцАзуБочФ╗хГПуГЗуВгуГмуВпуГИуГк:');
 
-  define('TEXT_ATTRIBUTES_FLAGS','┬░└н<br />е╒еще░:');
-  define('TEXT_ATTRIBUTES_DISPLAY_ONLY', '╗╚═╤╠▄┼к<br />╔╜╝ид╬д▀:');
-  define('TEXT_ATTRIBUTES_IS_FREE', '┬░└нд╧╠╡╬┴<br />╛ж╔╩дм╠╡╬┴д╬║▌д╧:');
-  define('TEXT_ATTRIBUTES_DEFAULT', 'е╟е╒ейеые╚┬░└н<br />е▐б╝епбж┴к┬Єд╡дьд╞дддыдтд╬:');
-  define('TEXT_ATTRIBUTE_IS_DISCOUNTED', '╞▒д╕е╟еге╣ележеєе╚дЄ┼м═╤<br />╛ж╔╩д╦╗╚═╤:');
-  define('TEXT_ATTRIBUTE_PRICE_BASE_INCLUDED','е┘б╝е╣▓┴│╩д╦┤▐др<br />┬░└нд╦дшд├д╞▓┴│╩╖ш─ъд╬╛ь╣ч');
+  define('TEXT_ATTRIBUTES_FLAGS','х▒ЮцАз<br />уГХуГйуВ░:');
+  define('TEXT_ATTRIBUTES_DISPLAY_ONLY', 'ф╜┐чФичЫочЪД<br />шбичд║уБоуБ┐:');
+  define('TEXT_ATTRIBUTES_IS_FREE', 'х▒ЮцАзуБпчДбцЦЩ<br />хХЖхУБуБМчДбцЦЩуБощЪЫуБп:');
+  define('TEXT_ATTRIBUTES_DEFAULT', 'уГЗуГХуВйуГлуГИх▒ЮцАз<br />уГЮуГ╝уВпуГ╗щБ╕цКЮуБХуВМуБжуБДуВЛуВВуБо:');
+  define('TEXT_ATTRIBUTE_IS_DISCOUNTED', 'хРМуБШуГЗуВгуВ╣уВлуВжуГ│уГИуВТщБйчФи<br />хХЖхУБуБлф╜┐чФи:');
+  define('TEXT_ATTRIBUTE_PRICE_BASE_INCLUDED','уГЩуГ╝уВ╣ф╛бца╝уБлхРлуВА<br />х▒ЮцАзуБлуВИуБгуБжф╛бца╝ц▒║хоЪуБоха┤хРИ');
 
-  define('TEXT_PRODUCT_OPTIONS_INFO','╛ж╔╩еке╫е╖ечеєд╬─╔▓├└▀─ъ');
+  define('TEXT_PRODUCT_OPTIONS_INFO','хХЖхУБуВкуГЧуВ╖уГзуГ│уБош┐╜хКашинхоЪ');
 
 // updates
-define('ERROR_PRODUCTS_OPTIONS_VALUES', '╖┘╣Ё: ╛ж╔╩дм╕лд─длдъд▐д╗дєбг▓┐дт╣╣┐╖д╡дьд▐д╗дєд╟д╖д┐бг');
+define('ERROR_PRODUCTS_OPTIONS_VALUES', 'шнжхСК: хХЖхУБуБМшжЛуБдуБЛуВКуБ╛уБЫуВУуАВф╜ХуВВцЫ┤цЦ░уБХуВМуБ╛уБЫуВУуБзуБЧуБЯуАВ');
 
-define('TEXT_SELECT_PRODUCT', ' ╛ж╔╩дЄ┴к┬Є');
-define('TEXT_SELECT_CATEGORY', ' еле╞е┤еъдЄ┴к┬Є');
-define('TEXT_SELECT_OPTION', ' еке╫е╖ечеє╠╛дЄ┴к┬Є');
+define('TEXT_SELECT_PRODUCT', ' хХЖхУБуВТщБ╕цКЮ');
+define('TEXT_SELECT_CATEGORY', ' уВлуГЖуВ┤уГкуВТщБ╕цКЮ');
+define('TEXT_SELECT_OPTION', ' уВкуГЧуВ╖уГзуГ│хРНуВТщБ╕цКЮ');
 
 // add
-define('TEXT_OPTION_VALUE_ADD_ALL', '<br /><strong>┴┤д╞д╬еке╫е╖ечеє├═дЄ┴┤╛ж╔╩д╬еке╫е╖ечеє╠╛д╦─╔▓├');
-define('TEXT_INFO_OPTION_VALUE_ADD_ALL', '1д─░╩╛хд╬еке╫е╖ечеє├═дЄ╗¤д─┴┤╛ж╔╩дЄ╣╣┐╖д╖бвеке╫е╖ечеє╠╛д╬├цд╬┴┤еке╫е╖ечеє├═дЄ─╔▓├д╖д▐д╣бг');
-define('SUCCESS_PRODUCTS_OPTIONS_VALUES', 'еке╫е╖ечеєд╬╣╣┐╖└о╕∙ ');
+define('TEXT_OPTION_VALUE_ADD_ALL', '<br /><strong>хЕиуБжуБоуВкуГЧуВ╖уГзуГ│хАдуВТхЕихХЖхУБуБоуВкуГЧуВ╖уГзуГ│хРНуБлш┐╜хКа');
+define('TEXT_INFO_OPTION_VALUE_ADD_ALL', '1уБдф╗еф╕КуБоуВкуГЧуВ╖уГзуГ│хАдуВТцМБуБдхЕихХЖхУБуВТцЫ┤цЦ░уБЧуАБуВкуГЧуВ╖уГзуГ│хРНуБоф╕нуБохЕиуВкуГЧуВ╖уГзуГ│хАдуВТш┐╜хКауБЧуБ╛уБЩуАВ');
+define('SUCCESS_PRODUCTS_OPTIONS_VALUES', 'уВкуГЧуВ╖уГзуГ│уБоцЫ┤цЦ░цИРхКЯ ');
 
-define('TEXT_OPTION_VALUE_ADD_PRODUCT', '<br /><strong>┴┤д╞д╬еке╫е╖ечеє├═дЄ░ь╛ж╔╩д╬еке╫е╖ечеє╠╛д╦─╔▓├</strong>');
-define('TEXT_INFO_OPTION_VALUE_ADD_PRODUCT', '┴┤д╞д╬еке╫е╖ечеє├═дЄ░ь╛ж╔╩д╬еке╫е╖ечеє╠╛д╦─╔▓├д╖д▐д╣бг');
+define('TEXT_OPTION_VALUE_ADD_PRODUCT', '<br /><strong>хЕиуБжуБоуВкуГЧуВ╖уГзуГ│хАдуВТф╕АхХЖхУБуБоуВкуГЧуВ╖уГзуГ│хРНуБлш┐╜хКа</strong>');
+define('TEXT_INFO_OPTION_VALUE_ADD_PRODUCT', 'хЕиуБжуБоуВкуГЧуВ╖уГзуГ│хАдуВТф╕АхХЖхУБуБоуВкуГЧуВ╖уГзуГ│хРНуБлш┐╜хКауБЧуБ╛уБЩуАВ');
 
-define('TEXT_OPTION_VALUE_ADD_CATEGORY', '<br /><strong>┴┤д╞д╬еке╫е╖ечеє├═дЄ░ьеле╞е┤еъ╞тд╬╛ж╔╩д╬еке╫е╖ечеє╠╛д╦─╔▓├<strong>');
-define('TEXT_INFO_OPTION_VALUE_ADD_CATEGORY', '1д─░╩╛хд╬еке╫е╖ечеє├═дЄ╗¤д─░ьеле╞е┤еъд╬╛ж╔╩дЄ╣╣┐╖д╖бвеке╫е╖ечеє╠╛д╬├цд╬┴┤еке╫е╖ечеє├═дЄ─╔▓├д╖д▐д╣бг');
+define('TEXT_OPTION_VALUE_ADD_CATEGORY', '<br /><strong>хЕиуБжуБоуВкуГЧуВ╖уГзуГ│хАдуВТф╕АуВлуГЖуВ┤уГкхЖЕуБохХЖхУБуБоуВкуГЧуВ╖уГзуГ│хРНуБлш┐╜хКа<strong>');
+define('TEXT_INFO_OPTION_VALUE_ADD_CATEGORY', '1уБдф╗еф╕КуБоуВкуГЧуВ╖уГзуГ│хАдуВТцМБуБдф╕АуВлуГЖуВ┤уГкуБохХЖхУБуВТцЫ┤цЦ░уБЧуАБуВкуГЧуВ╖уГзуГ│хРНуБоф╕нуБохЕиуВкуГЧуВ╖уГзуГ│хАдуВТш┐╜хКауБЧуБ╛уБЩуАВ');
 
-define('TEXT_COMMENT_OPTION_VALUE_ADD_ALL', '<strong>├э░╒бз</strong>е╜б╝е╚╜чд╧бвд│д╬╛ж╔╩╖▓д╬е╟е╒ейеые╚д╬еке╫е╖ечеє├═д╬е╜б╝е╚╜чд╦└▀─ъд╡дьд▐д╣бг');
+define('TEXT_COMMENT_OPTION_VALUE_ADD_ALL', '<strong>ц│ицДПя╝Ъ</strong>уВ╜уГ╝уГИщаЖуБпуАБуБУуБохХЖхУБч╛дуБоуГЗуГХуВйуГлуГИуБоуВкуГЧуВ╖уГзуГ│хАдуБоуВ╜уГ╝уГИщаЖуБлшинхоЪуБХуВМуБ╛уБЩуАВ');
 
 // delete
-define('TEXT_OPTION_VALUE_DELETE_ALL', '<br /><strong>┴┤д╞д╬еке╫е╖ечеє├═дЄ┴┤╛ж╔╩д╬еке╫е╖ечеє╠╛длдщ║я╜№</strong>');
-define('TEXT_INFO_OPTION_VALUE_DELETE_ALL', '1д─░╩╛хд╬еке╫е╖ечеє├═дЄ╗¤д─┴┤╛ж╔╩дЄ╣╣┐╖д╖бвеке╫е╖ечеє╠╛д╬├цд╬┴┤еке╫е╖ечеє├═дЄ║я╜№д╖д▐д╣бг');
+define('TEXT_OPTION_VALUE_DELETE_ALL', '<br /><strong>хЕиуБжуБоуВкуГЧуВ╖уГзуГ│хАдуВТхЕихХЖхУБуБоуВкуГЧуВ╖уГзуГ│хРНуБЛуВЙхЙКщЩд</strong>');
+define('TEXT_INFO_OPTION_VALUE_DELETE_ALL', '1уБдф╗еф╕КуБоуВкуГЧуВ╖уГзуГ│хАдуВТцМБуБдхЕихХЖхУБуВТцЫ┤цЦ░уБЧуАБуВкуГЧуВ╖уГзуГ│хРНуБоф╕нуБохЕиуВкуГЧуВ╖уГзуГ│хАдуВТхЙКщЩдуБЧуБ╛уБЩуАВ');
 
-define('TEXT_OPTION_VALUE_DELETE_PRODUCT', '<br /><strong>┴┤д╞д╬еке╫е╖ечеє├═дЄбв░ь╛ж╔╩д╬еке╫е╖ечеє╠╛длдщ║я╜№</strong>');
-define('TEXT_INFO_OPTION_VALUE_DELETE_PRODUCT', '1д─д╬еке╫е╖ечеє├═дЄ╗¤д─╛ж╔╩дЄ╣╣┐╖д╖бвеке╫е╖ечеє╠╛д╬├цд╬┴┤еке╫е╖ечеє├═дЄ║я╜№д╖д▐д╣бг');
+define('TEXT_OPTION_VALUE_DELETE_PRODUCT', '<br /><strong>хЕиуБжуБоуВкуГЧуВ╖уГзуГ│хАдуВТуАБф╕АхХЖхУБуБоуВкуГЧуВ╖уГзуГ│хРНуБЛуВЙхЙКщЩд</strong>');
+define('TEXT_INFO_OPTION_VALUE_DELETE_PRODUCT', '1уБдуБоуВкуГЧуВ╖уГзуГ│хАдуВТцМБуБдхХЖхУБуВТцЫ┤цЦ░уБЧуАБуВкуГЧуВ╖уГзуГ│хРНуБоф╕нуБохЕиуВкуГЧуВ╖уГзуГ│хАдуВТхЙКщЩдуБЧуБ╛уБЩуАВ');
 
-define('TEXT_OPTION_VALUE_DELETE_CATEGORY', '<br /><strong>░ьеле╞е┤еъд╬╛ж╔╩д╬еке╫е╖ечеє╠╛д╬┴┤д╞д╬еке╫е╖ечеє├═дЄ║я╜№</strong>');
-define('TEXT_INFO_OPTION_VALUE_DELETE_CATEGORY', '1д─░╩╛хд╬еке╫е╖ечеє├═дЄ╗¤д─░ьеле╞е┤еъд╬╛ж╔╩дЄ╣╣┐╖д╖бвеке╫е╖ечеє╠╛д╬├цд╬┴┤еке╫е╖ечеє├═дЄ║я╜№д╖д▐д╣бг');
+define('TEXT_OPTION_VALUE_DELETE_CATEGORY', '<br /><strong>ф╕АуВлуГЖуВ┤уГкуБохХЖхУБуБоуВкуГЧуВ╖уГзуГ│хРНуБохЕиуБжуБоуВкуГЧуВ╖уГзуГ│хАдуВТхЙКщЩд</strong>');
+define('TEXT_INFO_OPTION_VALUE_DELETE_CATEGORY', '1уБдф╗еф╕КуБоуВкуГЧуВ╖уГзуГ│хАдуВТцМБуБдф╕АуВлуГЖуВ┤уГкуБохХЖхУБуВТцЫ┤цЦ░уБЧуАБуВкуГЧуВ╖уГзуГ│хРНуБоф╕нуБохЕиуВкуГЧуВ╖уГзуГ│хАдуВТхЙКщЩдуБЧуБ╛уБЩуАВ');
 
-define('TEXT_COMMENT_OPTION_VALUE_DELETE_ALL', '<strong>├э░╒бз</strong> ┴к┬Єд╖д┐╛ж╔╩д╬┴┤д╞еке╫е╖ечеє╠╛д╬еке╫е╖ечеє├═дЄ║я╜№д╖д▐д╣бгд│дьд╦дшдъбвеке╫е╖ечеє├═д╬└▀─ъд╧║я╜№д╡дьд▐д╗дєбг');
+define('TEXT_COMMENT_OPTION_VALUE_DELETE_ALL', '<strong>ц│ицДПя╝Ъ</strong> щБ╕цКЮуБЧуБЯхХЖхУБуБохЕиуБжуВкуГЧуВ╖уГзуГ│хРНуБоуВкуГЧуВ╖уГзуГ│хАдуВТхЙКщЩдуБЧуБ╛уБЩуАВуБУуВМуБлуВИуВКуАБуВкуГЧуВ╖уГзуГ│хАдуБошинхоЪуБпхЙКщЩдуБХуВМуБ╛уБЫуВУуАВ');
 
-define('TEXT_OPTION_VALUE_COPY_ALL', '<strong>╩╠д╬еке╫е╖ечеє╠╛д╦┴┤д╞д╬еке╫е╖ечеє├═дЄе│е╘б╝</strong>');
-define('TEXT_INFO_OPTION_VALUE_COPY_ALL', '1д─д╬еке╫е╖ечеє╠╛длдщ╩╠д╬еке╫е╖ечеє╠╛д╦бв┴┤д╞д╬еке╫е╖ечеє├═дЄе│е╘б╝д╖д▐д╣бг');
-define('TEXT_SELECT_OPTION_FROM', 'д│д╬еке╫е╖ечеє╠╛длдщ');
-define('TEXT_SELECT_OPTION_TO', 'д│д╬еке╫е╖ечеє╠╛д╦┴┤д╞д╬еке╫е╖ечеє├═дЄе│е╘б╝');
-define('SUCCESS_OPTION_VALUES_COPIED', 'е│е╘б╝└о╕∙!');
-define('ERROR_OPTION_VALUES_COPIED', 'еиещб╝ - еке╫е╖ечеє├═д╧╞▒д╕еке╫е╖ечеє╠╛д╦д╧е│е╘б╝д╟днд▐д╗дє! ');
-define('ERROR_OPTION_VALUES_NONE', 'еиещб╝ - еке╫е╖ечеє╠╛длдщд╬е│е╘б╝д╧бв├═дмд╥д╚д─дтдвдъд▐д╗дєбг▓┐дте│е╘б╝д╡дьд▐д╗дєд╟д╖д┐! ');
-define('TEXT_WARNING_BACKUP', '╖┘╣Ёбз ┬чднд╩╩╤╣╣дЄд╣ды┴░д╦д╧бв╛яд╦е╟б╝е┐е┘б╝е╣дЄе╨е├епеве├е╫д╖д▐д╖дчдж!');
+define('TEXT_OPTION_VALUE_COPY_ALL', '<strong>хИеуБоуВкуГЧуВ╖уГзуГ│хРНуБлхЕиуБжуБоуВкуГЧуВ╖уГзуГ│хАдуВТуВ│уГФуГ╝</strong>');
+define('TEXT_INFO_OPTION_VALUE_COPY_ALL', '1уБдуБоуВкуГЧуВ╖уГзуГ│хРНуБЛуВЙхИеуБоуВкуГЧуВ╖уГзуГ│хРНуБлуАБхЕиуБжуБоуВкуГЧуВ╖уГзуГ│хАдуВТуВ│уГФуГ╝уБЧуБ╛уБЩуАВ');
+define('TEXT_SELECT_OPTION_FROM', 'уБУуБоуВкуГЧуВ╖уГзуГ│хРНуБЛуВЙ');
+define('TEXT_SELECT_OPTION_TO', 'уБУуБоуВкуГЧуВ╖уГзуГ│хРНуБлхЕиуБжуБоуВкуГЧуВ╖уГзуГ│хАдуВТуВ│уГФуГ╝');
+define('SUCCESS_OPTION_VALUES_COPIED', 'уВ│уГФуГ╝цИРхКЯ!');
+define('ERROR_OPTION_VALUES_COPIED', 'уВиуГйуГ╝ - уВкуГЧуВ╖уГзуГ│хАдуБпхРМуБШуВкуГЧуВ╖уГзуГ│хРНуБлуБпуВ│уГФуГ╝уБзуБНуБ╛уБЫуВУ! ');
+define('ERROR_OPTION_VALUES_NONE', 'уВиуГйуГ╝ - уВкуГЧуВ╖уГзуГ│хРНуБЛуВЙуБоуВ│уГФуГ╝уБпуАБхАдуБМуБ▓уБиуБдуВВуБВуВКуБ╛уБЫуВУуАВф╜ХуВВуВ│уГФуГ╝уБХуВМуБ╛уБЫуВУуБзуБЧуБЯ! ');
+define('TEXT_WARNING_BACKUP', 'шнжхСКя╝Ъ хдзуБНуБкхдЙцЫ┤уВТуБЩуВЛхЙНуБлуБпуАБх╕╕уБлуГЗуГ╝уВ┐уГЩуГ╝уВ╣уВТуГРуГГуВпуВвуГГуГЧуБЧуБ╛уБЧуВЗуБЖ!');
 
-define('TEXT_OPTION_ATTRIBUTE_IMAGES_PER_ROW', '╬є(Row)двд┐дъд╬┬░└н▓ш┴№бз ');
-define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE', 'еще╕еке▄е┐еєбже┴езе├епе▄е├епе╣д╬┬░└не╣е┐едеыбз ');
-define('TEXT_OPTION_ATTIBUTE_MAX_LENGTH', '<strong>е╞ене╣е╚┬░└нд╬║╟─╣д╚╔╜╝ие╡еде║бз</strong><br />');
-define('TEXT_OPTION_IMAGE_STYLE', '<strong>▓ш┴№д╬е╣е┐едеы:</strong>');
-define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_0', '0= еке╫е╖ечеє╠╛д╬▓╝д╦▓ш┴№');
-define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_1', '1= ═╫┴╟бв▓ш┴№бвеке╫е╖ечеє╠╛');
-define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_2', '2= ═╫┴╟бв▓ш┴№бвElement, Image and Option Name Below');
-define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_3', '3= ═╫┴╟д╚▓ш┴№д╬▓╝д╦еке╫е╖ечеє╠╛');
-define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_4', '4= ▓ш┴№д╚еке╫е╖ечеє╠╛д╬▓╝д╦═╫┴╟');
-define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_5', '5= ▓ш┴№д╚еке╫е╖ечеє╠╛д╬╛хд╦═╫┴╟');
+define('TEXT_OPTION_ATTRIBUTE_IMAGES_PER_ROW', 'хИЧ(Row)уБВуБЯуВКуБох▒ЮцАзчФ╗хГПя╝Ъ ');
+define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE', 'уГйуВ╕уВкуГЬуВ┐уГ│уГ╗уГБуВзуГГуВпуГЬуГГуВпуВ╣уБох▒ЮцАзуВ╣уВ┐уВдуГля╝Ъ ');
+define('TEXT_OPTION_ATTIBUTE_MAX_LENGTH', '<strong>уГЖуВнуВ╣уГИх▒ЮцАзуБоцЬАщХ╖уБишбичд║уВ╡уВдуВ║я╝Ъ</strong><br />');
+define('TEXT_OPTION_IMAGE_STYLE', '<strong>чФ╗хГПуБоуВ╣уВ┐уВдуГл:</strong>');
+define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_0', '0= уВкуГЧуВ╖уГзуГ│хРНуБоф╕ЛуБлчФ╗хГП');
+define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_1', '1= шжБч┤ауАБчФ╗хГПуАБуВкуГЧуВ╖уГзуГ│хРН');
+define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_2', '2= шжБч┤ауАБчФ╗хГПуАБElement, Image and Option Name Below');
+define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_3', '3= шжБч┤ауБичФ╗хГПуБоф╕ЛуБлуВкуГЧуВ╖уГзуГ│хРН');
+define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_4', '4= чФ╗хГПуБиуВкуГЧуВ╖уГзуГ│хРНуБоф╕ЛуБлшжБч┤а');
+define('TEXT_OPTION_ATTRIBUTE_IMAGES_STYLE_5', '5= чФ╗хГПуБиуВкуГЧуВ╖уГзуГ│хРНуБоф╕КуБлшжБч┤а');
 ?>

@@ -20,41 +20,41 @@
 //  $Id: reviews.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('HEADING_TITLE', '¥ì¥Ó¥å¡¼¤Î´ÉÍý');
+define('HEADING_TITLE', 'ãƒ¬ãƒ“ãƒ¥ãƒ¼ã®ç®¡ç†');
 
-define('TABLE_HEADING_PRODUCTS', '¾¦ÉÊÌ¾');
-define('TABLE_HEADING_CUSTOMER_NAME','¸ÜµÒÌ¾');
-define('TABLE_HEADING_RATING', 'ºÎÅÀ');
-define('TABLE_HEADING_DATE_ADDED', 'Åê¹ÆÆü');
-define('TABLE_HEADING_STATUS', '¥¹¥Æ¡¼¥¿¥¹');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_PRODUCTS', 'å•†å“å');
+define('TABLE_HEADING_CUSTOMER_NAME','é¡§å®¢å');
+define('TABLE_HEADING_RATING', 'æŽ¡ç‚¹');
+define('TABLE_HEADING_DATE_ADDED', 'æŠ•ç¨¿æ—¥');
+define('TABLE_HEADING_STATUS', 'ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('ENTRY_PRODUCT', '¾¦ÉÊÌ¾:');
-define('ENTRY_FROM', 'Åê¹Æ¼Ô:');
-define('ENTRY_DATE', 'ÆüÉÕ:');
-define('ENTRY_REVIEW', '¥ì¥Ó¥å¡¼ÆâÍÆ:');
-define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>Ãí°Õ:</b></font></small>&nbsp;HTML¥¿¥°¤Ï»ÈÍÑ¤Ç¤­¤Þ¤»¤ó! &nbsp;');
-define('ENTRY_RATING', 'ºÎÅÀ:');
+define('ENTRY_PRODUCT', 'å•†å“å:');
+define('ENTRY_FROM', 'æŠ•ç¨¿è€…:');
+define('ENTRY_DATE', 'æ—¥ä»˜:');
+define('ENTRY_REVIEW', 'ãƒ¬ãƒ“ãƒ¥ãƒ¼å†…å®¹:');
+define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>æ³¨æ„:</b></font></small>&nbsp;HTMLã‚¿ã‚°ã¯ä½¿ç”¨ã§ãã¾ã›ã‚“! &nbsp;');
+define('ENTRY_RATING', 'æŽ¡ç‚¹:');
 
-define('TEXT_INFO_DELETE_REVIEW_INTRO', '¤³¤Î¥ì¥Ó¥å¡¼¤òËÜÅö¤Ëºï½ü¤·¤Þ¤¹¤«?');
+define('TEXT_INFO_DELETE_REVIEW_INTRO', 'ã“ã®ãƒ¬ãƒ“ãƒ¥ãƒ¼ã‚’æœ¬å½“ã«å‰Šé™¤ã—ã¾ã™ã‹?');
 
-define('TEXT_INFO_DATE_ADDED', 'Åê¹ÆÆü:');
-define('TEXT_INFO_LAST_MODIFIED', '¹¹¿·Æü:');
-define('TEXT_INFO_IMAGE_NONEXISTENT', '²èÁü¤Ê¤·');
-define('TEXT_INFO_REVIEW_AUTHOR', 'Åê¹Æ¼Ô:');
-define('TEXT_INFO_REVIEW_RATING', 'ºÎÅÀ:');
-define('TEXT_INFO_REVIEW_READ', '±ÜÍ÷¤µ¤ì¤¿²ó¿ô:');
-define('TEXT_INFO_REVIEW_SIZE', '¥µ¥¤¥º:');
-define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Ê¿¶ÑÅÀ:');
+define('TEXT_INFO_DATE_ADDED', 'æŠ•ç¨¿æ—¥:');
+define('TEXT_INFO_LAST_MODIFIED', 'æ›´æ–°æ—¥:');
+define('TEXT_INFO_IMAGE_NONEXISTENT', 'ç”»åƒãªã—');
+define('TEXT_INFO_REVIEW_AUTHOR', 'æŠ•ç¨¿è€…:');
+define('TEXT_INFO_REVIEW_RATING', 'æŽ¡ç‚¹:');
+define('TEXT_INFO_REVIEW_READ', 'é–²è¦§ã•ã‚ŒãŸå›žæ•°:');
+define('TEXT_INFO_REVIEW_SIZE', 'ã‚µã‚¤ã‚º:');
+define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'å¹³å‡ç‚¹:');
 
-define('TEXT_OF_5_STARS', '5ÅÀËþÅÀ¤Î%sÅÀ!');
-define('TEXT_GOOD', '<small><font color="#ff0000"><b>ÎÉ¤¤</b></font></small>');
-define('TEXT_BAD', '<small><font color="#ff0000"><b>°­¤¤</b></font></small>');
-define('TEXT_INFO_HEADING_DELETE_REVIEW', '¥ì¥Ó¥å¡¼¤òºï½ü');
+define('TEXT_OF_5_STARS', '5ç‚¹æº€ç‚¹ã®%sç‚¹!');
+define('TEXT_GOOD', '<small><font color="#ff0000"><b>è‰¯ã„</b></font></small>');
+define('TEXT_BAD', '<small><font color="#ff0000"><b>æ‚ªã„</b></font></small>');
+define('TEXT_INFO_HEADING_DELETE_REVIEW', 'ãƒ¬ãƒ“ãƒ¥ãƒ¼ã‚’å‰Šé™¤');
 
-define('TEXT_ALL_STATUS','--ÁªÂò¤·¤Æ¤¯¤À¤µ¤¤--');
-define('TEXT_PENDING_APPROVAL','¾µÇ§ÂÔ¤Á');
-define('TEXT_APPROVED','¾µÇ§ºÑ¤ß');
-define('HEADING_TITLE_STATUS','¥¹¥Æ¡¼¥¿¥¹');
+define('TEXT_ALL_STATUS','--é¸æŠžã—ã¦ãã ã•ã„--');
+define('TEXT_PENDING_APPROVAL','æ‰¿èªå¾…ã¡');
+define('TEXT_APPROVED','æ‰¿èªæ¸ˆã¿');
+define('HEADING_TITLE_STATUS','ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
 
 ?>

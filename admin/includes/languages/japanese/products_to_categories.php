@@ -20,91 +20,91 @@
 //  $Id: products_to_categories.php 2909 2006-01-29 21:29:35Z ajeh $
 //
 
-define('HEADING_TITLE','ʣ�����ƥ��꡼���ʤΥ�󥯥ޥ͡����㡼');
-define('HEADING_TITLE2','���ƥ��꡼ / ����');
+define('HEADING_TITLE','複数カテゴリー商品のリンクマネージャー');
+define('HEADING_TITLE2','カテゴリー / 商品');
 
-define('TEXT_INFO_PRODUCTS_TO_CATEGORIES_AVAILABLE', '��󥯤����Ѳ�ǽ�ʾ��ʥ��ƥ��꡼ ...');
+define('TEXT_INFO_PRODUCTS_TO_CATEGORIES_AVAILABLE', 'リンクに利用可能な商品カテゴリー ...');
 
 define('TABLE_HEADING_PRODUCTS_ID', 'Prod ID');
-define('TABLE_HEADING_PRODUCT', '����̾');
-define('TABLE_HEADING_MODEL', '��ǥ�');
-define('TABLE_HEADING_ACTION', '����');
+define('TABLE_HEADING_PRODUCT', '商品名');
+define('TABLE_HEADING_MODEL', 'モデル');
+define('TABLE_HEADING_ACTION', '効果');
 
-define('TEXT_INFO_HEADING_EDIT_PRODUCTS_TO_CATEGORIES', '���ʤΥ��ƥ��꡼������Խ����ޤ���');
-define('TEXT_PRODUCTS_ID', '���� ID# ');
-define('TEXT_PRODUCTS_NAME', '����: ');
-define('TEXT_PRODUCTS_MODEL', '��ǥ�: ');
-define('TEXT_PRODUCTS_PRICE', '����: ');
-define('BUTTON_UPDATE_CATEGORY_LINKS', '���åץǡ��ȥ��ƥ��꡼���');
-define('BUTTON_NEW_PRODUCTS_TO_CATEGORIES', '��󥯤��뾦�ʤ����򤷤Ƥ���������');
-define('TEXT_SET_PRODUCTS_TO_CATEGORIES_LINKS', '��󥯤��륫�ƥ��꡼�˾��ʤ򥻥å�: ');
-define('TEXT_INFO_LINKED_TO_COUNT', '&nbsp;&nbsp;�����ʤ���󥯤���Ƥ��륫�ƥ��꡼: ');
+define('TEXT_INFO_HEADING_EDIT_PRODUCTS_TO_CATEGORIES', '商品のカテゴリー情報を編集します。');
+define('TEXT_PRODUCTS_ID', '商品 ID# ');
+define('TEXT_PRODUCTS_NAME', '商品: ');
+define('TEXT_PRODUCTS_MODEL', 'モデル: ');
+define('TEXT_PRODUCTS_PRICE', '価格: ');
+define('BUTTON_UPDATE_CATEGORY_LINKS', 'アップデートカテゴリーリンク');
+define('BUTTON_NEW_PRODUCTS_TO_CATEGORIES', 'リンクする商品を選択してください。');
+define('TEXT_SET_PRODUCTS_TO_CATEGORIES_LINKS', 'リンクするカテゴリーに商品をセット: ');
+define('TEXT_INFO_LINKED_TO_COUNT', '&nbsp;&nbsp;新商品がリンクされているカテゴリー: ');
 
 define('TEXT_INFO_PRODUCTS_TO_CATEGORIES_LINKER_INTRO',
-'���ƥ��꡼�ؤξ��ʤΥ�󥯤ϡ��ҤȤĤ⤷����ʣ���ؤΥ�󥯤���ǽ�Ǥ���<br />�ޤ������Ǥ˥�󥯤��Ƥ��륫�ƥ��꡼�����̤Υ��ƥ��꡼�ؤΰ�ư����ǽ�Ǥ���. (�ɲ����Ƥ˴ؤ��Ƥϡ��ʲ��򸫤Ƥ���������)');
+'カテゴリーへの商品のリンクは、ひとつもしくは複数へのリンクが可能です。<br />また、すでにリンクしてあるカテゴリーから別のカテゴリーへの移動が可能です。. (追加内容に関しては、以下を見てください。)');
 
 define('TEXT_INFO_PRODUCTS_TO_CATEGORIES_LINKER',
-'���ʤ˲��ʤ�Ĥ��뤿��ˡ��ƾ��ʤϥޥ��������ƥ��꡼��ɬ�פȤ��ޤ���ʣ���Υ��ƥ��꡼�˥�󥯤���Ƥ��뤫�⤷��ޤ��󤬡��ޥ��������ƥ��꡼�Υɥ��åץ����󤫤顢�����������ѹ��ʤɤ��Ǥ��ޤ���.<br />
-���ʤϸ��ߡ����ƥ��꡼�����ƥ��꡼��ˤƥ����å������󥯤���Ƥ��ޤ��� ���������ƥ��꡼�⤷���ϥ��ƥ��꡼��ˤơ����ƥ��꡼̾���٤ˤ�������å��ܥå����˥����å���ä���ˤϡ� ���Ǥ˥����å������äƤ�������å��ܥå������顢�����å��򳰤��Ƥ���������<br />
-���ξ��ʤ򥫥ƥ��꡼��Τ��٤Ƥ˥�󥯥����å��������Ȥ��ϲ����Ƥ���������' . BUTTON_UPDATE_CATEGORY_LINKS . '<br />');
+'商品に価格をつけるために、各商品はマスターカテゴリーを必要とします。複数のカテゴリーにリンクされているかもしれませんが、マスターカテゴリーのドロップダウンから、これらを設定変更などができます。.<br />
+商品は現在、カテゴリーかカテゴリー類にてチェックされリンクされています。 新しいカテゴリーもしくはカテゴリー類にて、カテゴリー名の隣にあるチェックボックスにチェックを加えるには、 すでにチェックの入っているチェックボックスから、チェックを外してください。<br />
+この商品をカテゴリー類のすべてにリンクチェックしたいときは押してください。' . BUTTON_UPDATE_CATEGORY_LINKS . '<br />');
 
-define('HEADER_CATEGORIES_GLOBAL_CHANGES', '�������Х�ʥ��ƥ��꡼��󥯤��ѹ��ȥޥ��������ƥ��꡼ID�Υꥻ�å�');
+define('HEADER_CATEGORIES_GLOBAL_CHANGES', 'グローバルなカテゴリーリンクの変更とマスターカテゴリーIDのリセット');
 
-define('TEXT_SET_MASTER_CATEGORIES_ID', '<strong>�ٹ�:</strong> ��󥯤��Ƥ��륫�ƥ��꡼���ѹ�����ˤϡ��ޥ��������ƥ��꡼ID��ɬ�פǤ���');
+define('TEXT_SET_MASTER_CATEGORIES_ID', '<strong>警告:</strong> リンクしているカテゴリーを変更するには、マスターカテゴリーIDが必要です。');
 
 // copy category to category linked
-define('TEXT_INFO_COPY_ALL_PRODUCTS_TO_CATEGORY_LINKED', '<strong>�̤Υ��ƥ��꡼�إ�󥯤��Ƥ��뾦�ʤ�⤦��ĤΥ��ƥ��꡼�ؤ��٤ƥ��ԡ����롣</strong><br />��: ���٤Ƥ����ʤ����ƥ���8�ǥ��ƥ���22�˥�󥯤����Ǥ��礦��');
-define('TEXT_INFO_COPY_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', '���ƥ���Ǥ��٤Ƥ����ʤ����򤷤Ƥ���������: ');
-define('TEXT_INFO_COPY_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', '���ƥ���˥�󥯤��Ƥ���������: ');
-define('BUTTON_COPY_CATEGORY_LINKED', '��󥯤����褦�˾��ʤ򥳥ԡ����Ƥ��������� ');
+define('TEXT_INFO_COPY_ALL_PRODUCTS_TO_CATEGORY_LINKED', '<strong>別のカテゴリーへリンクしている商品をもう一つのカテゴリーへすべてコピーする。</strong><br />例: すべての製品がカテゴリ8でカテゴリ22にリンクされるでしょう。');
+define('TEXT_INFO_COPY_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', 'カテゴリですべての製品を選択してください。: ');
+define('TEXT_INFO_COPY_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', 'カテゴリにリンクしてください。: ');
+define('BUTTON_COPY_CATEGORY_LINKED', 'リンクされるように商品をコピーしてください。 ');
 
-define('WARNING_PRODUCTS_LINK_TO_CATEGORY_REMOVED', '�ٹ�: ���ʤϥꥻ�åȤ���Ƥ��ꡢ�⤦���Υ��ƥ��꡼�ΰ����ǤϤ���ޤ����');
-define('WARNING_COPY_LINKED', '�ٹ�: ');
-define('WARNING_COPY_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', '���龦�ʤ��󥯤���Τ�̵���ʥ��ƥ��꡼�Ǥ�: ');
-define('WARNING_COPY_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', '�ؾ��ʤ��󥯤���Τ�̵���ʥ��ƥ��꡼�Ǥ�: ');
-define('WARNING_NO_CATEGORIES_ID', '�ٹ�: ���ƥ��꡼�����򤵤�ޤ���Ǥ��� ... �ѹ��Ǥ��ޤ���Ǥ�����');
-define('SUCCESS_COPY_LINKED', '��󥯤��Ƥ��뾦�ʤΥ��åץǡ��Ȥ��������ޤ����� ... ');
-define('SUCCESS_COPY_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', '���龦�ʤ��󥯤���Τ�ͭ���ʥ��ƥ��꡼: ');
-define('SUCCESS_COPY_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', '�ؾ��ʤ��󥯤���Τ�ͭ���ʥ��ƥ��꡼: ');
+define('WARNING_PRODUCTS_LINK_TO_CATEGORY_REMOVED', '警告: 商品はリセットされており、もうこのカテゴリーの一部ではありません…');
+define('WARNING_COPY_LINKED', '警告: ');
+define('WARNING_COPY_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', 'から商品をリンクするのに無効なカテゴリーです: ');
+define('WARNING_COPY_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', 'へ商品をリンクするのに無効なカテゴリーです: ');
+define('WARNING_NO_CATEGORIES_ID', '警告: カテゴリーは選択されませんでした ... 変更できませんでした。');
+define('SUCCESS_COPY_LINKED', 'リンクしている商品のアップデートに成功しました。 ... ');
+define('SUCCESS_COPY_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', 'から商品をリンクするのに有効なカテゴリー: ');
+define('SUCCESS_COPY_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', 'へ商品をリンクするのに有効なカテゴリー: ');
 
-define('WARNING_COPY_FROM_IN_TO_LINKED', '<strong>�ٹ�: ���ʤϤޤ�����ѹ�������Ƥ��ޤ��� ... </strong>');
+define('WARNING_COPY_FROM_IN_TO_LINKED', '<strong>警告: 商品はまだリンク変更がされていません ... </strong>');
 
 // remove category to category linked
-define('TEXT_INFO_REMOVE_ALL_PRODUCTS_TO_CATEGORY_LINKED', '<strong>�̤Υ��ƥ��꡼�ؤΥ�󥯤���Ƥ��뾦�ʤǤ��륫�ƥ��꡼�Τ��٤Ƥξ��ʤ������ޤ� ...</strong><br />��: 8��22����Ѥ��ơ����ƥ��꡼22���饫�ƥ��꡼8�Τ��٤Ƥξ��ʤΥ�󥯤��ڤ�Υ���ޤ���');
-define('TEXT_INFO_REMOVE_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', '���ƥ��꡼�ξ��ʤ򤹤٤����򤷤ޤ�: ');
-define('TEXT_INFO_REMOVE_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', '���ƥ��꡼�˥�󥯤���Ƥ���Ȥ������ư���ޤ���: ');
-define('BUTTON_REMOVE_CATEGORY_LINKED', '��󥯤���Ƥ��뾦�ʤ��ư���Ƥ��������� ');
+define('TEXT_INFO_REMOVE_ALL_PRODUCTS_TO_CATEGORY_LINKED', '<strong>別のカテゴリーへのリンクされている商品であるカテゴリーのすべての商品を削除します ...</strong><br />例: 8と22を使用して、カテゴリー22からカテゴリー8のすべての商品のリンクを切り離します。');
+define('TEXT_INFO_REMOVE_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', 'カテゴリーの商品をすべて選択します: ');
+define('TEXT_INFO_REMOVE_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', 'カテゴリーにリンクされているとこから移動します。: ');
+define('BUTTON_REMOVE_CATEGORY_LINKED', 'リンクされている商品を移動してください。 ');
 
-define('WARNING_REMOVE_LINKED', '�ٹ�: ');
-define('WARNING_REMOVE_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', '�����󥯾��ʤ������̵���Υ��ƥ��꡼: ');
-define('WARNING_REMOVE_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', '�إ�󥯾��ʤ������̵���Υ��ƥ��꡼: ');
-define('SUCCESS_REMOVE_LINKED', '��󥯤���Ƥ��뾦�ʤΰ�ư���������ޤ��� ... ');
-define('SUCCESS_REMOVE_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', '�����󥯤��줿���ʤ�ͭ���ʥ��ƥ��꡼�ذ�ư���ޤ���: ');
-define('SUCCESS_REMOVE_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', '�إ�󥯤��줿���ʤ�ͭ���ʥ��ƥ��꡼�ذ�ư���ޤ���: ');
+define('WARNING_REMOVE_LINKED', '警告: ');
+define('WARNING_REMOVE_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', 'からリンク商品を取り除く無効のカテゴリー: ');
+define('WARNING_REMOVE_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', 'へリンク商品を取り除く無効のカテゴリー: ');
+define('SUCCESS_REMOVE_LINKED', 'リンクされている商品の移動に成功しました ... ');
+define('SUCCESS_REMOVE_ALL_PRODUCTS_TO_CATEGORY_FROM_LINKED', 'からリンクされた商品を有効なカテゴリーへ移動します。: ');
+define('SUCCESS_REMOVE_ALL_PRODUCTS_TO_CATEGORY_TO_LINKED', 'へリンクされた商品を有効なカテゴリーへ移動します。: ');
 
-define('WARNING_REMOVE_FROM_IN_TO_LINKED', '<strong>�ٹ�: ���ʤˤʤ�ʤ��ä��ѹ��ϥ�󥯤���ޤ���Ǥ���... </strong>');
+define('WARNING_REMOVE_FROM_IN_TO_LINKED', '<strong>警告: 商品にならなかった変更はリンクされませんでした... </strong>');
 
-define('WARNING_MASTER_CATEGORIES_ID_CONFLICT', '<strong>�ٹ�: �ޥ��������ƥ��꡼ID�������Ƥ�������!! </strong>');
-define('TEXT_INFO_MASTER_CATEGORIES_ID_CONFLICT', '<strong>�ޥ��������ƥ��꡼ID�Ǥ���: </strong>');
-define('TEXT_INFO_MASTER_CATEGORIES_ID_PURPOSE', '����: �ޥ����������ƥ��꡼�ϡ����ʥ��ƥ��꡼����󥯤������ʾ�β��ʤ˱ƶ�����Ȥ����ǡ���Ū���ͤ�Ĥ��뤿��˻��Ѥ���ޤ���
-, ��: �����륹<br />');
-define('WARNING_MASTER_CATEGORIES_ID_CONFLICT_FIX', '����������褹�뤿���, ̵���ʾ��ʤ������֤إ�����쥯��
-���ޤ����� ���줬��Ϥ侦�ʤǤʤ��褦�ˡ��ޥ����������ƥ��꡼����ID�������ޥ����������٥ޥ��������ƥ��꡼����ID����������ƻ�Ԥ��Ƥ��������� ̵���ʾ��ʤ��������줿��硢 ���θ塢�׵ᤷ������򽪤��뤳�Ȥ��Ǥ���Ǥ��礦��');
-define('TEXT_MASTER_CATEGORIES_ID_CONFLICT_FROM', ' ���ƥ��꡼������ͤ��뤳��: ');
-define('TEXT_MASTER_CATEGORIES_ID_CONFLICT_TO', ' ���ƥ��꡼�ؾ��ͤ��뤳��: ');
-define('SUCCESS_MASTER_CATEGORIES_ID', '��󥯤���Ƥ��뾦�ʤΥ��åץǡ��Ȥ��������ޤ��� ...');
-define('WARNING_MASTER_CATEGORIES_ID', '�ٹ�: �ޥ��������ƥ��꡼�����åȤ���Ƥ��ޤ���!');
+define('WARNING_MASTER_CATEGORIES_ID_CONFLICT', '<strong>警告: マスターカテゴリーIDを習得してください!! </strong>');
+define('TEXT_INFO_MASTER_CATEGORIES_ID_CONFLICT', '<strong>マスターカテゴリーIDです。: </strong>');
+define('TEXT_INFO_MASTER_CATEGORIES_ID_PURPOSE', '注意: マスター・カテゴリーは、商品カテゴリーがリンクした商品上の価格に影響するところで、目的に値をつけるために使用されます。
+, 例: セールス<br />');
+define('WARNING_MASTER_CATEGORIES_ID_CONFLICT_FIX', 'この問題を解決するために, 無効な商品を初期状態へリダイレクト
+しました。 それがもはや商品でないように、マスター・カテゴリーからIDを削除しマスター・再度マスターカテゴリーからIDを取得し、再試行してください。 無効な商品が修正された場合、 その後、要求した削除を終えることができるでしょう。');
+define('TEXT_MASTER_CATEGORIES_ID_CONFLICT_FROM', ' カテゴリーから衝突すること: ');
+define('TEXT_MASTER_CATEGORIES_ID_CONFLICT_TO', ' カテゴリーへ衝突すること: ');
+define('SUCCESS_MASTER_CATEGORIES_ID', 'リンクされている商品のアップデートに成功しました ...');
+define('WARNING_MASTER_CATEGORIES_ID', '警告: マスターカテゴリーがセットされていません!');
 
-define('TEXT_PRODUCTS_ID_INVALID', '�ٹ�: ID�ޤ��Ͼ��ʤ����򤵤�Ƥ��ʤ�̵���ʾ���');
-define('TEXT_PRODUCTS_ID_NOT_REQUIRED', '����: ����ID�ϡ�1�ĤΥ��ƥ��꡼����⤦��ĤΥ��ƥ��꡼�ޤǤ��٤Ƥξ��ʤ��󥯤����Ѱդ���ɬ�פϤ���ޤ���ͭ���ʾ���ID�ϡ����Ѳ�ǽ�ʤ��٤ƤΥ��ƥ��꡼�Ȥ�����ID�ʥ�С���ɽ�������Ǥ��礦��');
+define('TEXT_PRODUCTS_ID_INVALID', '警告: IDまたは商品が選択されていない無効な商品');
+define('TEXT_PRODUCTS_ID_NOT_REQUIRED', '注意: 商品IDは、1つのカテゴリーからもう一つのカテゴリーまですべての商品をリンクする用意する必要はありません。有効な商品IDは、利用可能なすべてのカテゴリーとそれらのIDナンバーを表示されるでしょう。');
 
 // reset all products to new master_categories_id
 // copy category to category linked
-define('TEXT_INFO_RESET_ALL_PRODUCTS_TO_CATEGORY_MASTER', '<strong>�������ޥ����������ƥ��꡼ID�Ȥ������򤵤줿���ƥ��꡼����Ѥ��뤿������򤵤줿���ƥ��꡼�Τ��٤Ƥξ��ʤ�ꥻ�åȤ��ޤ� ...</strong><br />��:���ƥ��꡼22�Υꥻ�åȤϡ����٤Ƥξ��ʤ˥ޥ����������ƥ��꡼ID�Ȥ��ƥ��ƥ��꡼22����ǥ��ƥ��꡼22�򥻥åȤǤ���Ǥ��礦��');
-define('TEXT_INFO_RESET_ALL_PRODUCTS_TO_CATEGORY_FROM_MASTER', '���ƥ��꡼��Τ��٤Ƥξ����ѥޥ����������ƥ��꡼ID��ꥻ�åȤ��ޤ�: ');
-define('BUTTON_RESET_CATEGORY_MASTER', '�ޥ��������ƥ��꡼ID��ꥻ�åȤ��ޤ���');
+define('TEXT_INFO_RESET_ALL_PRODUCTS_TO_CATEGORY_MASTER', '<strong>新しいマスター・カテゴリーIDとして選択されたカテゴリーを使用するために選択されたカテゴリーのすべての商品をリセットします ...</strong><br />例:カテゴリー22のリセットは、すべての商品にマスター・カテゴリーIDとしてカテゴリー22の中でカテゴリー22をセットできるでしょう。');
+define('TEXT_INFO_RESET_ALL_PRODUCTS_TO_CATEGORY_FROM_MASTER', 'カテゴリー中のすべての商品用マスター・カテゴリーIDをリセットします: ');
+define('BUTTON_RESET_CATEGORY_MASTER', 'マスターカテゴリーIDをリセットします。');
 
-define('WARNING_RESET_ALL_PRODUCTS_TO_CATEGORY_FROM_MASTER', '�ٹ�: ̵���ʥ��ƥ��꡼�����򤵤�ޤ����� ...');
-define('SUCCESS_RESET_ALL_PRODUCTS_TO_CATEGORY_FROM_MASTER', '�ޥ��������ƥ��꡼ID�ؤ������ʤΥ��åץǡ��Ȥ��������ޤ�����: ');
+define('WARNING_RESET_ALL_PRODUCTS_TO_CATEGORY_FROM_MASTER', '警告: 無効なカテゴリーが選択されました。 ...');
+define('SUCCESS_RESET_ALL_PRODUCTS_TO_CATEGORY_FROM_MASTER', 'マスターカテゴリーIDへの全商品のアップデートに成功しました。: ');
 
 ?>

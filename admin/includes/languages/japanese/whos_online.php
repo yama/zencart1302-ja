@@ -20,32 +20,32 @@
 //  $Id: whos_online.php 2663 2005-12-24 02:28:51Z ajeh $
 //
 
-define('HEADING_TITLE', 'екеєещедеєецб╝е╢д╬е┴езе├еп');
+define('HEADING_TITLE', 'уВкуГ│уГйуВдуГ│уГжуГ╝уВ╢уБоуГБуВзуГГуВп');
 
-define('TABLE_HEADING_ONLINE', 'екеєещедеє');
+define('TABLE_HEADING_ONLINE', 'уВкуГ│уГйуВдуГ│');
 define('TABLE_HEADING_CUSTOMER_ID', 'ID');
-define('TABLE_HEADING_FULL_NAME', 'е╒еые═б╝ер');
-define('TABLE_HEADING_IP_ADDRESS', 'IP еве╔еье╣');
-define('TABLE_HEADING_SESSION_ID', 'е╗е├е╖ечеє');
-define('TABLE_HEADING_ENTRY_TIME', '└▄┬│╗■╣я');
-define('TABLE_HEADING_LAST_CLICK', '║╟┐╖д╬епеъе├еп');
-define('TIME_PASSED_LAST_CLICKED', '<strong>епеъе├епд╡дьд╞длдщд╬╗■┤╓:</strong> ');
-define('TABLE_HEADING_LAST_PAGE_URL', '║╟┐╖д╬URL');
-define('TABLE_HEADING_ACTION', '┴р║ю');
-define('TABLE_HEADING_SHOPPING_CART', 'ецб╝е╢д╬е╖ече├е╘еєе░елб╝е╚');
-define('TEXT_SHOPPING_CART_SUBTOTAL', '╛о╖╫');
-define('TEXT_NUMBER_OF_CUSTOMERS', '╕╜║▀%s┐═д╬╕▄╡╥дмевепе╗е╣д╖д╞ддд▐д╣бг');
+define('TABLE_HEADING_FULL_NAME', 'уГХуГлуГНуГ╝уГа');
+define('TABLE_HEADING_IP_ADDRESS', 'IP уВвуГЙуГмуВ╣');
+define('TABLE_HEADING_SESSION_ID', 'уВ╗уГГуВ╖уГзуГ│');
+define('TABLE_HEADING_ENTRY_TIME', 'цОеч╢ЪцЩВхИ╗');
+define('TABLE_HEADING_LAST_CLICK', 'цЬАцЦ░уБоуВпуГкуГГуВп');
+define('TIME_PASSED_LAST_CLICKED', '<strong>уВпуГкуГГуВпуБХуВМуБжуБЛуВЙуБоцЩВщЦУ:</strong> ');
+define('TABLE_HEADING_LAST_PAGE_URL', 'цЬАцЦ░уБоURL');
+define('TABLE_HEADING_ACTION', 'цУНф╜Ь');
+define('TABLE_HEADING_SHOPPING_CART', 'уГжуГ╝уВ╢уБоуВ╖уГзуГГуГФуГ│уВ░уВлуГ╝уГИ');
+define('TEXT_SHOPPING_CART_SUBTOTAL', 'х░ПшиИ');
+define('TEXT_NUMBER_OF_CUSTOMERS', 'чП╛хЬи%sф║║уБощбзховуБМуВвуВпуВ╗уВ╣уБЧуБжуБДуБ╛уБЩуАВ');
 
 // Additional Definitions for whos_online.php
-  define('WHOS_ONLINE_REFRESH_LIST_TEXT', '╣╣┐╖');
-  define('WHOS_ONLINE_LEGEND_TEXT','╦▐╬у:');
-  define('WHOS_ONLINE_ACTIVE_TEXT','евепе╞еге╓д╩елб╝е╚');
-  define('WHOS_ONLINE_INACTIVE_TEXT','╚єевепе╞еге╓д╩елб╝е╚');
-  define('WHOS_ONLINE_ACTIVE_NO_CART_TEXT','евепе╞еге╓д╩елб╝е╚(╛ж╔╩┐Ї0)');
-  define('WHOS_ONLINE_INACTIVE_NO_CART_TEXT','╚єевепе╞еге╓д╩елб╝е╚(╛ж╔╩┐Ї0)');
-  define('WHOS_ONLINE_INACTIVE_LAST_CLICK_TEXT','║╟╕хд╬епеъе├епдлдщд│д╬╔├┐Ї╖╨▓сд╟╚єевепе╞еге╓д╚╕лд╩д╣ =');
-  define('WHOS_ONLINE_INACTIVE_ARRIVAL_TEXT','евепе╗е╣╕хбвд│д╬╔├┐Ї╖╨▓сд╟║я╜№д╣ды =');
-  define('WHOS_ONLINE_REMOVED_TEXT','||'); // д│д╬е╞ене╣е╚бв╛х├╩д╦д▐д╚дсд┐(nakano)
+  define('WHOS_ONLINE_REFRESH_LIST_TEXT', 'цЫ┤цЦ░');
+  define('WHOS_ONLINE_LEGEND_TEXT','хЗбф╛Л:');
+  define('WHOS_ONLINE_ACTIVE_TEXT','уВвуВпуГЖуВгуГЦуБкуВлуГ╝уГИ');
+  define('WHOS_ONLINE_INACTIVE_TEXT','щЭЮуВвуВпуГЖуВгуГЦуБкуВлуГ╝уГИ');
+  define('WHOS_ONLINE_ACTIVE_NO_CART_TEXT','уВвуВпуГЖуВгуГЦуБкуВлуГ╝уГИ(хХЖхУБцХ░0)');
+  define('WHOS_ONLINE_INACTIVE_NO_CART_TEXT','щЭЮуВвуВпуГЖуВгуГЦуБкуВлуГ╝уГИ(хХЖхУБцХ░0)');
+  define('WHOS_ONLINE_INACTIVE_LAST_CLICK_TEXT','цЬАх╛МуБоуВпуГкуГГуВпуБЛуВЙуБУуБочзТцХ░ч╡МщБОуБзщЭЮуВвуВпуГЖуВгуГЦуБишжЛуБкуБЩ =');
+  define('WHOS_ONLINE_INACTIVE_ARRIVAL_TEXT','уВвуВпуВ╗уВ╣х╛МуАБуБУуБочзТцХ░ч╡МщБОуБзхЙКщЩдуБЩуВЛ =');
+  define('WHOS_ONLINE_REMOVED_TEXT','||'); // уБУуБоуГЖуВнуВ╣уГИуАБф╕Кцо╡уБлуБ╛уБиуВБуБЯ(nakano)
 
 // whos_online.php
   define('WHOIS_TIMER_REMOVE',1200); // seconds when removed from whos_online table - 1200 default = 20 minutes
@@ -55,8 +55,8 @@ define('TEXT_NUMBER_OF_CUSTOMERS', '╕╜║▀%s┐═д╬╕▄╡╥дмевепе╗е╣д╖д╞ддд▐д╣бг');
   define('WHOIS_REPEAT_LEGEND_BOTTOM','12'); // show legend on bottom when more than how many entries - 12 default
   define('OFFICE_IP_TO_HOST_ADDRESS', 'OFF');
 
-  define('TEXT_SESSION_ID', '<strong>е╗е├е╖ечеє ID:</strong> ');
-  define('TEXT_HOST', '<strong>е█е╣е╚:</strong> ');
-  define('TEXT_USER_AGENT', '<strong>ецб╝е╢б╝еиб╝е╕езеєе╚:</strong> ');
-  define('TEXT_EMPTY_CART', '<strong>╢їд╬елб╝е╚</strong>');
+  define('TEXT_SESSION_ID', '<strong>уВ╗уГГуВ╖уГзуГ│ ID:</strong> ');
+  define('TEXT_HOST', '<strong>уГЫуВ╣уГИ:</strong> ');
+  define('TEXT_USER_AGENT', '<strong>уГжуГ╝уВ╢уГ╝уВиуГ╝уВ╕уВзуГ│уГИ:</strong> ');
+  define('TEXT_EMPTY_CART', '<strong>чй║уБоуВлуГ╝уГИ</strong>');
 ?>

@@ -20,15 +20,15 @@
 //  $Id: modules.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE_MODULES_PAYMENT', '»ÙÊ§¤¤¥â¥¸¥å¡¼¥ë¤ÎÀßÄê');
-define('HEADING_TITLE_MODULES_SHIPPING', 'ÇÛÁ÷¥â¥¸¥å¡¼¥ë¤ÎÀßÄê');
-define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'ÃíÊ¸¹ç·×¥â¥¸¥å¡¼¥ë¤ÎÀßÄê');
-define('HEADING_TITLE_MODULES_PRODUCT_TYPES', '¾¦ÉÊ¥¿¥¤¥×¥â¥¸¥å¡¼¥ë¤ÎÀßÄê');
+define('HEADING_TITLE_MODULES_PAYMENT', 'æ”¯æ‰•ã„ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®è¨­å®š');
+define('HEADING_TITLE_MODULES_SHIPPING', 'é…é€ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®è¨­å®š');
+define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'æ³¨æ–‡åˆè¨ˆãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®è¨­å®š');
+define('HEADING_TITLE_MODULES_PRODUCT_TYPES', 'å•†å“ã‚¿ã‚¤ãƒ—ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®è¨­å®š');
 
-define('TABLE_HEADING_MODULES', '¥â¥¸¥å¡¼¥ë');
-define('TABLE_HEADING_SORT_ORDER', '¥½¡¼¥È½ç');
-define('TABLE_HEADING_ORDERS_STATUS','ÃíÊ¸¥¹¥Æ¡¼¥¿¥¹');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_MODULES', 'ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«');
+define('TABLE_HEADING_SORT_ORDER', 'ã‚½ãƒ¼ãƒˆé †');
+define('TABLE_HEADING_ORDERS_STATUS','æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_MODULE_DIRECTORY', '¥â¥¸¥å¡¼¥ë¥Ç¥£¥ì¥¯¥È¥ê:');
+define('TEXT_MODULE_DIRECTORY', 'ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª:');
 ?>

@@ -20,20 +20,20 @@
 //  $Id: zones.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'ÃÏ°èÀßÄê');
+define('HEADING_TITLE', 'åœ°åŸŸè¨­å®š');
 
-define('TABLE_HEADING_COUNTRY_NAME', '¹ñÌ¾');
-define('TABLE_HEADING_ZONE_NAME', 'ÃÏ°èÌ¾');
-define('TABLE_HEADING_ZONE_CODE', '¥³¡¼¥É');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_COUNTRY_NAME', 'å›½å');
+define('TABLE_HEADING_ZONE_NAME', 'åœ°åŸŸå');
+define('TABLE_HEADING_ZONE_CODE', 'ã‚³ãƒ¼ãƒ‰');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_INFO_EDIT_INTRO', 'É¬Í×¤ÊÊÑ¹¹¤ò¹Ô¤Ã¤Æ¤¯¤À¤µ¤¤¡£');
-define('TEXT_INFO_ZONES_NAME', 'ÃÏ°èÌ¾:');
-define('TEXT_INFO_ZONES_CODE', 'ÃÏ°è¥³¡¼¥É:');
-define('TEXT_INFO_COUNTRY_NAME', '¹ñÌ¾:');
-define('TEXT_INFO_INSERT_INTRO', '¿·¤·¤¤ÃÏ°è¤Ë´Ø¤¹¤ë¥Ç¡¼¥¿¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£');
-define('TEXT_INFO_DELETE_INTRO', '¤³¤ÎÃÏ°è¤òËÜÅö¤Ëºï½ü¤·¤Þ¤¹¤«¡©');
-define('TEXT_INFO_HEADING_NEW_ZONE', '¿·¤·¤¤ÃÏ°è');
-define('TEXT_INFO_HEADING_EDIT_ZONE', 'ÃÏ°è¤òÊÔ½¸');
-define('TEXT_INFO_HEADING_DELETE_ZONE', 'ÃÏ°è¤òºï½ü');
+define('TEXT_INFO_EDIT_INTRO', 'å¿…è¦ãªå¤‰æ›´ã‚’è¡Œã£ã¦ãã ã•ã„ã€‚');
+define('TEXT_INFO_ZONES_NAME', 'åœ°åŸŸå:');
+define('TEXT_INFO_ZONES_CODE', 'åœ°åŸŸã‚³ãƒ¼ãƒ‰:');
+define('TEXT_INFO_COUNTRY_NAME', 'å›½å:');
+define('TEXT_INFO_INSERT_INTRO', 'æ–°ã—ã„åœ°åŸŸã«é–¢ã™ã‚‹ãƒ‡ãƒ¼ã‚¿ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚');
+define('TEXT_INFO_DELETE_INTRO', 'ã“ã®åœ°åŸŸã‚’æœ¬å½“ã«å‰Šé™¤ã—ã¾ã™ã‹ï¼Ÿ');
+define('TEXT_INFO_HEADING_NEW_ZONE', 'æ–°ã—ã„åœ°åŸŸ');
+define('TEXT_INFO_HEADING_EDIT_ZONE', 'åœ°åŸŸã‚’ç·¨é›†');
+define('TEXT_INFO_HEADING_DELETE_ZONE', 'åœ°åŸŸã‚’å‰Šé™¤');
 ?>

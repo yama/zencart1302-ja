@@ -20,9 +20,9 @@
 //  $Id: stats_products_lowstock.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'ºß¸Ë¿ô¤Î¾¯¤Ê¤¤¾¦ÉÊ¥é¥ó¥­¥ó¥°');
+define('HEADING_TITLE', 'åœ¨åº«æ•°ã®å°‘ãªã„å•†å“ãƒ©ãƒ³ã‚­ãƒ³ã‚°');
 
 define('TABLE_HEADING_NUMBER', 'ID#');
-define('TABLE_HEADING_PRODUCTS', '¾¦ÉÊ');
-define('TABLE_HEADING_VIEWED', 'ºß¸Ë¿ô');
+define('TABLE_HEADING_PRODUCTS', 'å•†å“');
+define('TABLE_HEADING_VIEWED', 'åœ¨åº«æ•°');
 ?>

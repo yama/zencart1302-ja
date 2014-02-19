@@ -20,15 +20,15 @@
 //  $Id: cache.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '¥­¥ã¥Ã¥·¥å¥³¥ó¥È¥í¡¼¥ë');
+define('HEADING_TITLE', 'ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«');
 
-define('TABLE_HEADING_CACHE', '¥­¥ã¥Ã¥·¥å¡¡¥Ö¥í¥Ã¥¯');
-define('TABLE_HEADING_DATE_CREATED', 'ÅÐÏ¿Æü');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_CACHE', 'ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã€€ãƒ–ãƒ­ãƒƒã‚¯');
+define('TABLE_HEADING_DATE_CREATED', 'ç™»éŒ²æ—¥');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_FILE_DOES_NOT_EXIST', '¥Õ¥¡¥¤¥ë¤¬Â¸ºß¤·¤Þ¤»¤ó¡£');
-define('TEXT_CACHE_DIRECTORY', '¥­¥ã¥Ã¥·¥å¡¡¥Ç¥£¥ì¥¯¥È¥ê:');
+define('TEXT_FILE_DOES_NOT_EXIST', 'ãƒ•ã‚¡ã‚¤ãƒ«ãŒå­˜åœ¨ã—ã¾ã›ã‚“ã€‚');
+define('TEXT_CACHE_DIRECTORY', 'ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã€€ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª:');
 
-define('ERROR_CACHE_DIRECTORY_DOES_NOT_EXIST', '¥¨¥é¡¼: ¥­¥ã¥Ã¥·¥å¥Ç¥£¥ì¥¯¥È¥ê¤¬Â¸ºß¤·¤Þ¤»¤ó¡£ ÀßÄê->¥­¥ã¥Ã¥·¥å¤ÇÀßÄê¤·¤Æ¤¯¤À¤µ¤¤¡£');
-define('ERROR_CACHE_DIRECTORY_NOT_WRITEABLE', '¥¨¥é¡¼: ¥­¥ã¥Ã¥·¥å¥Ç¥£¥ì¥¯¥È¥ê¤Ë½ñ¤­¹þ¤ß¤¬¤Ç¤­¤Þ¤»¤ó¡£Àµ¤·¤¤¥æ¡¼¥¶¸¢¸Â¤òÀßÄê¤·¤Æ¤¯¤À¤µ¤¤¡£');
+define('ERROR_CACHE_DIRECTORY_DOES_NOT_EXIST', 'ã‚¨ãƒ©ãƒ¼: ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãŒå­˜åœ¨ã—ã¾ã›ã‚“ã€‚ è¨­å®š->ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã§è¨­å®šã—ã¦ãã ã•ã„ã€‚');
+define('ERROR_CACHE_DIRECTORY_NOT_WRITEABLE', 'ã‚¨ãƒ©ãƒ¼: ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«æ›¸ãè¾¼ã¿ãŒã§ãã¾ã›ã‚“ã€‚æ­£ã—ã„ãƒ¦ãƒ¼ã‚¶æ¨©é™ã‚’è¨­å®šã—ã¦ãã ã•ã„ã€‚');
 ?>

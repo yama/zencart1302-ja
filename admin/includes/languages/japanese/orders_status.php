@@ -20,20 +20,20 @@
 //  $Id: orders_status.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'ÃíÊ¸¥¹¥Æ¡¼¥¿¥¹ÀßÄê');
+define('HEADING_TITLE', 'æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹è¨­å®š');
 
-define('TABLE_HEADING_ORDERS_STATUS', 'ÃíÊ¸¥¹¥Æ¡¼¥¿¥¹');
-define('TABLE_HEADING_ACTION', 'Áàºî');
+define('TABLE_HEADING_ORDERS_STATUS', 'æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+define('TABLE_HEADING_ACTION', 'æ“ä½œ');
 
-define('TEXT_INFO_EDIT_INTRO', 'É¬Í×¤ÊÊÑ¹¹¤ò¹Ô¤Ã¤Æ¤¯¤À¤µ¤¤¡£');
-define('TEXT_INFO_ORDERS_STATUS_NAME', 'ÃíÊ¸¥¹¥Æ¡¼¥¿¥¹¡§ ');
-define('TEXT_INFO_INSERT_INTRO', '¿·¤·¤¤ÃíÊ¸¥¹¥Æ¡¼¥¿¥¹¤Ë´Ø¤¹¤ë¥Ç¡¼¥¿¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£');
-define('TEXT_INFO_DELETE_INTRO', '¤³¤ÎÃíÊ¸¥¹¥Æ¡¼¥¿¥¹¤òËÜÅö¤Ëºï½ü¤·¤Þ¤¹¤«?');
-define('TEXT_INFO_HEADING_NEW_ORDERS_STATUS', '¿·¤·¤¤ÃíÊ¸¥¹¥Æ¡¼¥¿¥¹');
-define('TEXT_INFO_HEADING_EDIT_ORDERS_STATUS', 'ÃíÊ¸¥¹¥Æ¡¼¥¿¥¹¤òÊÔ½¸');
-define('TEXT_INFO_HEADING_DELETE_ORDERS_STATUS', 'ÃíÊ¸¥¹¥Æ¡¼¥¿¥¹¤òºï½ü');
+define('TEXT_INFO_EDIT_INTRO', 'å¿…è¦ãªå¤‰æ›´ã‚’è¡Œã£ã¦ãã ã•ã„ã€‚');
+define('TEXT_INFO_ORDERS_STATUS_NAME', 'æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ï¼š ');
+define('TEXT_INFO_INSERT_INTRO', 'æ–°ã—ã„æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã«é–¢ã™ã‚‹ãƒ‡ãƒ¼ã‚¿ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚');
+define('TEXT_INFO_DELETE_INTRO', 'ã“ã®æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã‚’æœ¬å½“ã«å‰Šé™¤ã—ã¾ã™ã‹?');
+define('TEXT_INFO_HEADING_NEW_ORDERS_STATUS', 'æ–°ã—ã„æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹');
+define('TEXT_INFO_HEADING_EDIT_ORDERS_STATUS', 'æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã‚’ç·¨é›†');
+define('TEXT_INFO_HEADING_DELETE_ORDERS_STATUS', 'æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã‚’å‰Šé™¤');
 
-define('ERROR_REMOVE_DEFAULT_ORDER_STATUS', '¥¨¥é¡¼¡§ ¥Ç¥Õ¥©¥ë¥È¤ÎÃíÊ¸¥¹¥Æ¡¼¥¿¥¹¤Ïºï½ü¤Ç¤­¤Þ¤»¤ó¡£Â¾¤ÎÃíÊ¸¥¹¥Æ¡¼¥¿¥¹¤ò¥Ç¥Õ¥©¥ë¥È¤ËÀßÄê¤·¤Æ¤«¤é¤â¤¦°ìÅÙÁàºî¤·¤Æ¤¯¤À¤µ¤¤¡£');
-define('ERROR_STATUS_USED_IN_ORDERS', '¥¨¥é¡¼¡§ ¤³¤ÎÃíÊ¸¥¹¥Æ¡¼¥¿¥¹¤Ï¸½ºßÃíÊ¸¤Ë»ÈÍÑ¤µ¤ì¤Æ¤¤¤Þ¤¹¡£');
-define('ERROR_STATUS_USED_IN_HISTORY', '¥¨¥é¡¼¡§ ¤³¤ÎÃíÊ¸¥¹¥Æ¡¼¥¿¥¹¤Ï¡¢¸½ºßÃíÊ¸ÍúÎò¤Ë»ÈÍÑ¤µ¤ì¤Æ¤¤¤Þ¤¹¡£');
+define('ERROR_REMOVE_DEFAULT_ORDER_STATUS', 'ã‚¨ãƒ©ãƒ¼ï¼š ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã¯å‰Šé™¤ã§ãã¾ã›ã‚“ã€‚ä»–ã®æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã‚’ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã«è¨­å®šã—ã¦ã‹ã‚‰ã‚‚ã†ä¸€åº¦æ“ä½œã—ã¦ãã ã•ã„ã€‚');
+define('ERROR_STATUS_USED_IN_ORDERS', 'ã‚¨ãƒ©ãƒ¼ï¼š ã“ã®æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã¯ç¾åœ¨æ³¨æ–‡ã«ä½¿ç”¨ã•ã‚Œã¦ã„ã¾ã™ã€‚');
+define('ERROR_STATUS_USED_IN_HISTORY', 'ã‚¨ãƒ©ãƒ¼ï¼š ã“ã®æ³¨æ–‡ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ã¯ã€ç¾åœ¨æ³¨æ–‡å±¥æ­´ã«ä½¿ç”¨ã•ã‚Œã¦ã„ã¾ã™ã€‚');
 ?>

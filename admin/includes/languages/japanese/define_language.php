@@ -20,9 +20,9 @@
 //  $Id: define_language.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', '¸À¸ìÄêµÁ');
+define('HEADING_TITLE', 'è¨€èªžå®šç¾©');
 
-define('TEXT_FILE_DOES_NOT_EXIST', '¥Õ¥¡¥¤¥ë¤¬Â¸ºß¤·¤Þ¤»¤ó¡£');
+define('TEXT_FILE_DOES_NOT_EXIST', 'ãƒ•ã‚¡ã‚¤ãƒ«ãŒå­˜åœ¨ã—ã¾ã›ã‚“ã€‚');
 
-define('ERROR_FILE_NOT_WRITEABLE', '¥¨¥é¡¼: ¥Õ¥¡¥¤¥ë¤Ë½ñ¤­¹þ¤à¤³¤È¤¬¤Ç¤­¤Þ¤»¤ó¡£½ñ¤­¹þ¤ß¸¢¸Â¤ò³ÎÇ§¤·¤Æ¤¯¤À¤µ¤¤¡£: %s');
+define('ERROR_FILE_NOT_WRITEABLE', 'ã‚¨ãƒ©ãƒ¼: ãƒ•ã‚¡ã‚¤ãƒ«ã«æ›¸ãè¾¼ã‚€ã“ã¨ãŒã§ãã¾ã›ã‚“ã€‚æ›¸ãè¾¼ã¿æ¨©é™ã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚: %s');
 ?>
