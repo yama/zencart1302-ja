@@ -20,10 +20,10 @@
 // $Id: account_edit.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE_1', '¥Þ¥¤¥Ú¡¼¥¸');
-define('NAVBAR_TITLE_2', 'ÅÐÏ¿¾ðÊóÊÑ¹¹');
+define('NAVBAR_TITLE_1', 'ãƒžã‚¤ãƒšãƒ¼ã‚¸');
+define('NAVBAR_TITLE_2', 'ç™»éŒ²æƒ…å ±å¤‰æ›´');
 
-define('HEADING_TITLE', 'ÅÐÏ¿¾ðÊóÊÑ¹¹');
+define('HEADING_TITLE', 'ç™»éŒ²æƒ…å ±å¤‰æ›´');
 
-define('SUCCESS_ACCOUNT_UPDATED', 'ÅÐÏ¿¾ðÊó¤¬ÊÑ¹¹¤µ¤ì¤Þ¤·¤¿¡£');
+define('SUCCESS_ACCOUNT_UPDATED', 'ç™»éŒ²æƒ…å ±ãŒå¤‰æ›´ã•ã‚Œã¾ã—ãŸã€‚');
 ?>

@@ -15,10 +15,10 @@ define('ICON_IMAGE_TRASH', 'small_delete.gif');
 define('ICON_IMAGE_UPDATE', 'button_update_cart.gif');
 
 //alt tags for buttons
-define('ICON_ERROR_ALT', '¥¨¥é¡¼');
-define('ICON_SUCCESS_ALT', 'À®¸ù');
-define('ICON_WARNING_ALT', '·Ù¹ð');
-define('ICON_TRASH_ALT', '¤³¤Î¥¢¥¤¥³¥ó¤ò¥¯¥ê¥Ã¥¯¤¹¤ë¤È¤³¤Î¾¦ÉÊ¤¬¥«¡¼¥È¤«¤éºï½ü¤µ¤ì¤Þ¤¹¡£');
-define('ICON_UPDATE_ALT', '¥Ï¥¤¥é¥¤¥ÈÉ½¼¨¤µ¤ì¤Æ¤¤¤ë¿ôÎÌ¤òÄûÀµ¤·¤³¤Î¥Ü¥¿¥ó¤ò¥¯¥ê¥Ã¥¯¤·¤Æ¤¯¤À¤µ¤¤¡£');
+define('ICON_ERROR_ALT', 'ã‚¨ãƒ©ãƒ¼');
+define('ICON_SUCCESS_ALT', 'æˆåŠŸ');
+define('ICON_WARNING_ALT', 'è­¦å‘Š');
+define('ICON_TRASH_ALT', 'ã“ã®ã‚¢ã‚¤ã‚³ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨ã“ã®å•†å“ãŒã‚«ãƒ¼ãƒˆã‹ã‚‰å‰Šé™¤ã•ã‚Œã¾ã™ã€‚');
+define('ICON_UPDATE_ALT', 'ãƒã‚¤ãƒ©ã‚¤ãƒˆè¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹æ•°é‡ã‚’è¨‚æ­£ã—ã“ã®ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚');
 
 ?>

@@ -20,13 +20,13 @@
 // $Id: account_password.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE_1', '¥Þ¥¤¥Ú¡¼¥¸');
-define('NAVBAR_TITLE_2', '¥Ñ¥¹¥ï¡¼¥ÉÊÑ¹¹');
+define('NAVBAR_TITLE_1', 'ãƒžã‚¤ãƒšãƒ¼ã‚¸');
+define('NAVBAR_TITLE_2', 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰å¤‰æ›´');
 
-define('HEADING_TITLE', '¥Ñ¥¹¥ï¡¼¥ÉÊÑ¹¹');
+define('HEADING_TITLE', 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰å¤‰æ›´');
 
-define('MY_PASSWORD_TITLE', '¤ªµÒÍÍ¤Î¥Ñ¥¹¥ï¡¼¥É');
+define('MY_PASSWORD_TITLE', 'ãŠå®¢æ§˜ã®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰');
 
-define('SUCCESS_PASSWORD_UPDATED', '¿·¤·¤¤¥Ñ¥¹¥ï¡¼¥É¤ËÊÑ¹¹¤µ¤ì¤Þ¤·¤¿¡£');
-define('ERROR_CURRENT_PASSWORD_NOT_MATCHING', '¥Ñ¥¹¥ï¡¼¥É¤¬°ìÃ×¤·¤Þ¤»¤ó¡£¤â¤¦°ìÅÙÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£');
+define('SUCCESS_PASSWORD_UPDATED', 'æ–°ã—ã„ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã«å¤‰æ›´ã•ã‚Œã¾ã—ãŸã€‚');
+define('ERROR_CURRENT_PASSWORD_NOT_MATCHING', 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒä¸€è‡´ã—ã¾ã›ã‚“ã€‚ã‚‚ã†ä¸€åº¦å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚');
 ?>

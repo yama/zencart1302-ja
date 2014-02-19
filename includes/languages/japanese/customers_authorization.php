@@ -20,8 +20,8 @@
 // $Id: customers_authorization.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', '��ǧ��³����');
-define('HEADING_TITLE', '��ǧ��³���� ...');
-define('CUSTOMERS_AUTHORIZATION_TEXT_INFORMATION', '��ǧ���������ߤ��꤬�Ȥ��������ޤ���<br /><br />��³���塢®�䤫�ˤ�Ϣ�������夲�ޤ���');
-define('CUSTOMERS_AUTHORIZATION_STATUS_TEXT', '��ǧ��³���ξ������ǧ����ˤϡ�������򥯥�å�:');
+define('NAVBAR_TITLE', '承認手続き中');
+define('HEADING_TITLE', '承認手続き中 ...');
+define('CUSTOMERS_AUTHORIZATION_TEXT_INFORMATION', '承認お申し込みありがとうございます。<br /><br />手続き後、速やかにご連絡差し上げます。');
+define('CUSTOMERS_AUTHORIZATION_STATUS_TEXT', '承認手続きの状況を確認するには、こちらをクリック:');
 ?>

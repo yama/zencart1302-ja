@@ -21,10 +21,10 @@
 // $Id: down_for_maintenance.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', '¥á¥ó¥Æ¥Ê¥ó¥¹Ãæ');
-define('HEADING_TITLE', '¥á¥ó¥Æ¥Ê¥ó¥¹Ãæ...');
-define('DOWN_FOR_MAINTENANCE_TEXT_INFORMATION', '¸½ºß¡¢¥·¥ç¥Ã¥×¤Î¥á¥ó¥Æ¥Ê¥ó¥¹¤Î¤¿¤á¤´ÍøÍÑ¤¤¤¿¤À¤±¤Þ¤»¤ó¡£¿½¤·Ìõ¤´¤¶¤¤¤Þ¤»¤ó¤¬¤Þ¤¿¸å¤Û¤É¥¢¥¯¥»¥¹¤·¤Æ¤¯¤À¤µ¤¤¡£');
-define('TEXT_MAINTENANCE_ON_AT_TIME', '¥á¥ó¥Æ¥Ê¥ó¥¹³«»Ï»þ¹ï: ');
-define('TEXT_MAINTENANCE_PERIOD', '¥á¥ó¥Æ¥Ê¥ó¥¹´ü´Ö: ');
-define('DOWN_FOR_MAINTENANCE_STATUS_TEXT', '¾õ¶·¤Ë¤Ä¤¤¤Æ¤Î¾ÜºÙ¤Ï¡¢¤³¤Á¤é¤ò¥¯¥ê¥Ã¥¯¤·¤Æ¤¯¤À¤µ¤¤:');
+define('NAVBAR_TITLE', 'ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ä¸­');
+define('HEADING_TITLE', 'ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ä¸­...');
+define('DOWN_FOR_MAINTENANCE_TEXT_INFORMATION', 'ç¾åœ¨ã€ã‚·ãƒ§ãƒƒãƒ—ã®ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ã®ãŸã‚ã”åˆ©ç”¨ã„ãŸã ã‘ã¾ã›ã‚“ã€‚ç”³ã—è¨³ã”ã–ã„ã¾ã›ã‚“ãŒã¾ãŸå¾Œã»ã©ã‚¢ã‚¯ã‚»ã‚¹ã—ã¦ãã ã•ã„ã€‚');
+define('TEXT_MAINTENANCE_ON_AT_TIME', 'ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹é–‹å§‹æ™‚åˆ»: ');
+define('TEXT_MAINTENANCE_PERIOD', 'ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹æœŸé–“: ');
+define('DOWN_FOR_MAINTENANCE_STATUS_TEXT', 'çŠ¶æ³ã«ã¤ã„ã¦ã®è©³ç´°ã¯ã€ã“ã¡ã‚‰ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„:');
 ?>

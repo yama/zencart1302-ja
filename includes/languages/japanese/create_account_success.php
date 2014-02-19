@@ -20,8 +20,8 @@
 // $Id: create_account_success.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE_1', '��������Ȥ��������');
-define('NAVBAR_TITLE_2', '����');
-define('HEADING_TITLE', '�����ͤΥ�������Ȥ�����������ޤ�����');
-define('TEXT_ACCOUNT_CREATED', '�����ͤο�������������Ȥ�����������ޤ���������ǡ�������åפǤΥ���åԥ󥰤��Ŭ�ˤ��ڤ��ߤ��������ޤ���������åפؤΤ�����ʤɤϡ�<a href="' . zen_href_link(FILENAME_CONTACT_US) . '">����å״�����</a>�ޤǤɤ�����<br /><br />��Ͽ���줿�᡼�륢�ɥ쥹���˳�ǧ�Υ᡼������������Ƥ��������ޤ�����������ְʾ�ФäƤ�᡼�뤬�Ϥ��ʤ��褦�Ǥ�����<a href="' . zen_href_link(FILENAME_CONTACT_US) . '">������</a>�ޤǤ�Ϣ������������');
+define('NAVBAR_TITLE_1', 'アカウントを作成する');
+define('NAVBAR_TITLE_2', '取得');
+define('HEADING_TITLE', 'お客様のアカウントを作成いたしました。');
+define('TEXT_ACCOUNT_CREATED', 'お客様の新しいアカウントを作成いたしました。これで、当ショップでのショッピングを快適にお楽しみいただけます。当ショップへのご質問などは、<a href="' . zen_href_link(FILENAME_CONTACT_US) . '">ショップ管理者</a>までどうぞ。<br /><br />登録されたメールアドレス宛に確認のメールを送信させていただきましたが、一時間以上経ってもメールが届かないようでしたら<a href="' . zen_href_link(FILENAME_CONTACT_US) . '">こちら</a>までご連絡ください。');
 ?>

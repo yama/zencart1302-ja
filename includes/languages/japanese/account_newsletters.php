@@ -7,14 +7,14 @@
  * @version $Id: account_newsletters.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', '¥Þ¥¤¥Ú¡¼¥¸');
-define('NAVBAR_TITLE_2', '¥Ë¥å¡¼¥¹¥ì¥¿¡¼¹ØÆÉ');
+define('NAVBAR_TITLE_1', 'ãƒžã‚¤ãƒšãƒ¼ã‚¸');
+define('NAVBAR_TITLE_2', 'ãƒ‹ãƒ¥ãƒ¼ã‚¹ãƒ¬ã‚¿ãƒ¼è³¼èª­');
 
-define('HEADING_TITLE', '¥Ë¥å¡¼¥¹¥ì¥¿¡¼¹ØÆÉ');
+define('HEADING_TITLE', 'ãƒ‹ãƒ¥ãƒ¼ã‚¹ãƒ¬ã‚¿ãƒ¼è³¼èª­');
 
-define('MY_NEWSLETTERS_TITLE', '¥Ë¥å¡¼¥¹¥ì¥¿¡¼¤ò¹ØÆÉ¤¹¤ë');
-define('MY_NEWSLETTERS_GENERAL_NEWSLETTER', '¥Ë¥å¡¼¥¹¥ì¥¿¡¼¤ò¹ØÆÉ¤¹¤ë');
-define('MY_NEWSLETTERS_GENERAL_NEWSLETTER_DESCRIPTION', 'Åö¥·¥ç¥Ã¥×¤Î¥Ë¥å¡¼¥¹¤ä¿·À½ÉÊ¡¢ÆÃÊÌ¥»¡¼¥ë¤Ê¤É¤Î¾ðÊó¤ò¤ªÆÏ¤±¤·¤Þ¤¹¡£');
+define('MY_NEWSLETTERS_TITLE', 'ãƒ‹ãƒ¥ãƒ¼ã‚¹ãƒ¬ã‚¿ãƒ¼ã‚’è³¼èª­ã™ã‚‹');
+define('MY_NEWSLETTERS_GENERAL_NEWSLETTER', 'ãƒ‹ãƒ¥ãƒ¼ã‚¹ãƒ¬ã‚¿ãƒ¼ã‚’è³¼èª­ã™ã‚‹');
+define('MY_NEWSLETTERS_GENERAL_NEWSLETTER_DESCRIPTION', 'å½“ã‚·ãƒ§ãƒƒãƒ—ã®ãƒ‹ãƒ¥ãƒ¼ã‚¹ã‚„æ–°è£½å“ã€ç‰¹åˆ¥ã‚»ãƒ¼ãƒ«ãªã©ã®æƒ…å ±ã‚’ãŠå±Šã‘ã—ã¾ã™ã€‚');
 
-define('SUCCESS_NEWSLETTER_UPDATED', '¥Ë¥å¡¼¥¹¥ì¥¿¡¼¤Î¹ØÆÉÀßÄê¤ò¹¹¿·¤·¤Þ¤·¤¿');
+define('SUCCESS_NEWSLETTER_UPDATED', 'ãƒ‹ãƒ¥ãƒ¼ã‚¹ãƒ¬ã‚¿ãƒ¼ã®è³¼èª­è¨­å®šã‚’æ›´æ–°ã—ã¾ã—ãŸ');
 ?>

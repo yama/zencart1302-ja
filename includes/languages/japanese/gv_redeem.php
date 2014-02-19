@@ -20,9 +20,9 @@
 // $Id: gv_redeem.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', '' . TEXT_GV_NAME . '°ú¤­´¹¤¨');
-define('HEADING_TITLE', '' . TEXT_GV_NAME . '°ú¤­´¹¤¨');
-define('TEXT_INFORMATION', '' . TEXT_GV_NAME . '¤Ë¤Ä¤¤¤Æ¾Ü¤·¤¯¤ªÃÎ¤ê¤Ë¤Ê¤ê¤¿¤¤Êý¤Ï¡¢<a href="' . zen_href_link(FILENAME_GV_FAQ, '', 'NONSSL').'">' . GV_FAQ . '</a>¤ò¤´Í÷¤¯¤À¤µ¤¤¡£');
-define('TEXT_INVALID_GV', '' . TEXT_GV_NAME . '¤ÎÈÖ¹æ¤Ï¤¹¤Ç¤Ë°ú¤­´¹¤¨¤é¤ì¤Æ¤¤¤Þ¤¹¡£¤´ÉÔÌÀ¤ÊÅÀ¤¬¤¢¤ê¤Þ¤·¤¿¤é¡¢¤ªÌä¤¤¹ç¤ï¤»¥Ú¡¼¥¸¤«¤éÅö¥·¥ç¥Ã¥×¤Î´ÉÍý¼Ô¤Ë¤ªÌä¤¤¹ç¤ï¤»¤¯¤À¤µ¤¤¡£');
-define('TEXT_VALID_GV', '' . TEXT_GV_NAME . '¤Î°ú¤­´¹¤¨¤¬´°Î»¤·¤Þ¤·¤¿¡£ °ú´¹¤¨³Û¡§%s');
+define('NAVBAR_TITLE', '' . TEXT_GV_NAME . 'å¼•ãæ›ãˆ');
+define('HEADING_TITLE', '' . TEXT_GV_NAME . 'å¼•ãæ›ãˆ');
+define('TEXT_INFORMATION', '' . TEXT_GV_NAME . 'ã«ã¤ã„ã¦è©³ã—ããŠçŸ¥ã‚Šã«ãªã‚ŠãŸã„æ–¹ã¯ã€<a href="' . zen_href_link(FILENAME_GV_FAQ, '', 'NONSSL').'">' . GV_FAQ . '</a>ã‚’ã”è¦§ãã ã•ã„ã€‚');
+define('TEXT_INVALID_GV', '' . TEXT_GV_NAME . 'ã®ç•ªå·ã¯ã™ã§ã«å¼•ãæ›ãˆã‚‰ã‚Œã¦ã„ã¾ã™ã€‚ã”ä¸æ˜Žãªç‚¹ãŒã‚ã‚Šã¾ã—ãŸã‚‰ã€ãŠå•ã„åˆã‚ã›ãƒšãƒ¼ã‚¸ã‹ã‚‰å½“ã‚·ãƒ§ãƒƒãƒ—ã®ç®¡ç†è€…ã«ãŠå•ã„åˆã‚ã›ãã ã•ã„ã€‚');
+define('TEXT_VALID_GV', '' . TEXT_GV_NAME . 'ã®å¼•ãæ›ãˆãŒå®Œäº†ã—ã¾ã—ãŸã€‚ å¼•æ›ãˆé¡ï¼š%s');
 ?>

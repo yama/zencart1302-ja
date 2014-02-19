@@ -7,9 +7,9 @@
  * @version $Id: reviews.php 3027 2006-02-13 17:15:51Z drbyte $
  */
 
-define('NAVBAR_TITLE', '¥ì¥Ó¥å¡¼');
+define('NAVBAR_TITLE', 'ãƒ¬ãƒ“ãƒ¥ãƒ¼');
 define('TEXT_OF_5_STARS', '');
 
-define('TEXT_PRODUCT_INFO', '¾¦ÉÊ¾ðÊó');
-define('TEXT_READ_REVIEW', '¥ì¥Ó¥å¡¼¤òÆÉ¤à');
+define('TEXT_PRODUCT_INFO', 'å•†å“æƒ…å ±');
+define('TEXT_READ_REVIEW', 'ãƒ¬ãƒ“ãƒ¥ãƒ¼ã‚’èª­ã‚€');
 ?>

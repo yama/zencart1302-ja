@@ -7,28 +7,28 @@
  * @version $Id: checkout_payment.php 3206 2006-03-19 04:04:09Z birdbrain $
  */
 
-define('NAVBAR_TITLE_1', '¥ì¥¸¤Ë¿Ê¤à');
-define('NAVBAR_TITLE_2', '¤ª»ÙÊ§¤¤¾ðÊó');
+define('NAVBAR_TITLE_1', 'ãƒ¬ã‚¸ã«é€²ã‚€');
+define('NAVBAR_TITLE_2', 'ãŠæ”¯æ‰•ã„æƒ…å ±');
 
-define('HEADING_TITLE', '¤ª»ÙÊ§¤¤¾ðÊó¤òµ­Æþ¤·¤Æ¤¯¤À¤µ¤¤');
+define('HEADING_TITLE', 'ãŠæ”¯æ‰•ã„æƒ…å ±ã‚’è¨˜å…¥ã—ã¦ãã ã•ã„');
 
-define('TABLE_HEADING_BILLING_ADDRESS', '¤´ÀÁµáÀè½»½ê');
-define('TEXT_SELECTED_BILLING_DESTINATION', '¤´ÀÁµáÀè½»½ê¤Ïº¸µ­¤ÎÄÌ¤ê¤Ç¤¹¡£¥¯¥ì¥¸¥Ã¥È¥«¡¼¥É¤ò¤´ÍøÍÑ¤Î¾ì¹ç¤Ï¥«¡¼¥É²ñ¼Ò¤Ë¤´ÅÐÏ¿¤Î½»½ê¤ÈÆ±¤¸½»½ê¤Ë¤·¤Æ¤¯¤À¤µ¤¤¡£½»½ê¤òÊÑ¹¹¤µ¤ì¤ë¾ì¹ç¤Ïº¸¤Î<em>½»½ê¤ÎÊÑ¹¹</em>¤ò¥¯¥ê¥Ã¥¯¤·¤Æ¤¯¤À¤µ¤¤¡£');
-define('TITLE_BILLING_ADDRESS', '¤´ÀÁµáÀè½»½ê:');
+define('TABLE_HEADING_BILLING_ADDRESS', 'ã”è«‹æ±‚å…ˆä½æ‰€');
+define('TEXT_SELECTED_BILLING_DESTINATION', 'ã”è«‹æ±‚å…ˆä½æ‰€ã¯å·¦è¨˜ã®é€šã‚Šã§ã™ã€‚ã‚¯ãƒ¬ã‚¸ãƒƒãƒˆã‚«ãƒ¼ãƒ‰ã‚’ã”åˆ©ç”¨ã®å ´åˆã¯ã‚«ãƒ¼ãƒ‰ä¼šç¤¾ã«ã”ç™»éŒ²ã®ä½æ‰€ã¨åŒã˜ä½æ‰€ã«ã—ã¦ãã ã•ã„ã€‚ä½æ‰€ã‚’å¤‰æ›´ã•ã‚Œã‚‹å ´åˆã¯å·¦ã®<em>ä½æ‰€ã®å¤‰æ›´</em>ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚');
+define('TITLE_BILLING_ADDRESS', 'ã”è«‹æ±‚å…ˆä½æ‰€:');
 
-define('TABLE_HEADING_PAYMENT_METHOD', '¤ª»ÙÊ§¤¤ÊýË¡');
-define('TEXT_SELECT_PAYMENT_METHOD', '¤ª»ÙÊ§¤¤ÊýË¡¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤.');
-define('TITLE_PLEASE_SELECT', 'ÁªÂò¤·¤Æ¤¯¤À¤µ¤¤');
-define('TEXT_ENTER_PAYMENT_INFORMATION', 'º£²ó¤Î¤´ÃíÊ¸¤Ç¤´ÍøÍÑ¤¤¤¿¤À¤±¤ë¤ª»ÙÊ§¤¤ÊýË¡¤Ï¤³¤ì¤À¤±¤Ç¤¹¡£');
-define('TABLE_HEADING_COMMENTS', 'Ï¢Íí»ö¹à¤¬¤´¤¶¤¤¤Þ¤·¤¿¤é¤´µ­Æþ¤¯¤À¤µ¤¤¡£');
+define('TABLE_HEADING_PAYMENT_METHOD', 'ãŠæ”¯æ‰•ã„æ–¹æ³•');
+define('TEXT_SELECT_PAYMENT_METHOD', 'ãŠæ”¯æ‰•ã„æ–¹æ³•ã‚’é¸æŠžã—ã¦ãã ã•ã„.');
+define('TITLE_PLEASE_SELECT', 'é¸æŠžã—ã¦ãã ã•ã„');
+define('TEXT_ENTER_PAYMENT_INFORMATION', 'ä»Šå›žã®ã”æ³¨æ–‡ã§ã”åˆ©ç”¨ã„ãŸã ã‘ã‚‹ãŠæ”¯æ‰•ã„æ–¹æ³•ã¯ã“ã‚Œã ã‘ã§ã™ã€‚');
+define('TABLE_HEADING_COMMENTS', 'é€£çµ¡äº‹é …ãŒã”ã–ã„ã¾ã—ãŸã‚‰ã”è¨˜å…¥ãã ã•ã„ã€‚');
 
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>¼¡²èÌÌ¤Ë¿Ê¤ó¤Ç¤¯¤À¤µ¤¤</strong>');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '¢ª¤´ÃíÊ¸¤ÎºÇ½ª³ÎÇ§');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>æ¬¡ç”»é¢ã«é€²ã‚“ã§ãã ã•ã„</strong>');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', 'â†’ã”æ³¨æ–‡ã®æœ€çµ‚ç¢ºèª');
 
-define('TABLE_HEADING_CONDITIONS', '<span class="termsconditions">¤´ÍøÍÑµ¬Ìó</span>');
-define('TEXT_CONDITIONS_DESCRIPTION', '<span class="termsdescription">¤´ÍøÍÑµ¬Ìó¤ËÆ±°Õ¤µ¤ì¤ë¾ì¹ç¤Ï¥Á¥§¥Ã¥¯¥Ü¥Ã¥¯¥¹¤ò¥¯¥ê¥Ã¥¯¤·¤Æ¤¯¤À¤µ¤¤¡£¤´ÍøÍÑµ¬Ìó¤Ï<a href="' . zen_href_link(FILENAME_CONDITIONS, '', 'SSL') . '"><span class="pseudolink">¤³¤Á¤é</span></a>¤Ç¤´Í÷¤¤¤¿¤À¤±¤Þ¤¹¡£');
-define('TEXT_CONDITIONS_CONFIRM', '<span class="termsiagree">ÍøÍÑµ¬Ìó¤ËÆ±°Õ¤·¤Þ¤¹</span>');
+define('TABLE_HEADING_CONDITIONS', '<span class="termsconditions">ã”åˆ©ç”¨è¦ç´„</span>');
+define('TEXT_CONDITIONS_DESCRIPTION', '<span class="termsdescription">ã”åˆ©ç”¨è¦ç´„ã«åŒæ„ã•ã‚Œã‚‹å ´åˆã¯ãƒã‚§ãƒƒã‚¯ãƒœãƒƒã‚¯ã‚¹ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚ã”åˆ©ç”¨è¦ç´„ã¯<a href="' . zen_href_link(FILENAME_CONDITIONS, '', 'SSL') . '"><span class="pseudolink">ã“ã¡ã‚‰</span></a>ã§ã”è¦§ã„ãŸã ã‘ã¾ã™ã€‚');
+define('TEXT_CONDITIONS_CONFIRM', '<span class="termsiagree">åˆ©ç”¨è¦ç´„ã«åŒæ„ã—ã¾ã™</span>');
 
-define('TEXT_CHECKOUT_AMOUNT_DUE', '¹ç·×¶â³Û: ');
-define('TEXT_YOUR_TOTAL','Áí³Û');
+define('TEXT_CHECKOUT_AMOUNT_DUE', 'åˆè¨ˆé‡‘é¡: ');
+define('TEXT_YOUR_TOTAL','ç·é¡');
 ?>

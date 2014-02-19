@@ -20,15 +20,15 @@
 // $Id: featured_products.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', '¤ª¤¹¤¹¤á¾¦ÉÊ');
-define('HEADING_TITLE', '¤ª¤¹¤¹¤á¾¦ÉÊ');
+define('NAVBAR_TITLE', 'ãŠã™ã™ã‚å•†å“');
+define('HEADING_TITLE', 'ãŠã™ã™ã‚å•†å“');
 
-define('TEXT_DATE_ADDED', 'ÅÐÏ¿Æü:');
-define('TEXT_MANUFACTURER', '¥á¡¼¥«¡¼:');
-define('TEXT_PRICE', '²Á³Ê:');
+define('TEXT_DATE_ADDED', 'ç™»éŒ²æ—¥:');
+define('TEXT_MANUFACTURER', 'ãƒ¡ãƒ¼ã‚«ãƒ¼:');
+define('TEXT_PRICE', 'ä¾¡æ ¼:');
 
-define('TEXT_PRODUCTS_MODEL','¥â¥Ç¥ë: ');
-define('TEXT_PRODUCTS_WEIGHT','½ÅÎÌ: ');
-define('TEXT_PRODUCTS_QUANTITY','ºß¸Ë: ');
-define('TEXT_OUT_OF_STOCK','ºß¸ËÀÚ¤ì');
+define('TEXT_PRODUCTS_MODEL','ãƒ¢ãƒ‡ãƒ«: ');
+define('TEXT_PRODUCTS_WEIGHT','é‡é‡: ');
+define('TEXT_PRODUCTS_QUANTITY','åœ¨åº«: ');
+define('TEXT_OUT_OF_STOCK','åœ¨åº«åˆ‡ã‚Œ');
 ?>

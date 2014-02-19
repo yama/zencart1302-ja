@@ -20,14 +20,14 @@
 // $Id: conditions.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', '�����ѵ���');
-define('HEADING_TITLE', '�����ѵ���');
+define('NAVBAR_TITLE', 'ご利用規約');
+define('HEADING_TITLE', 'ご利用規約');
 
-define('TEXT_INFORMATION', '���Υڡ����ˤ����ѵ���ʤɤ����Ϥ��Ƥ���������<br />
-������ʬ���ѹ�����ˤϡ�<br />
-<strong>/includes/languages/japanese/conditions.php</strong>��<strong>define(\'TEXT_INFORMATION\',</strong>�α�¦��<br />
-���󥰥륯�����ơ������(\')�δ֤��Խ����Ƥ���������<br />
-�����Υƥ����ȥܥå����Τ߻��Ѥ�����ϡ�<br /><strong>define(\'TEXT_INFORMATION\',\'\')</strong><br />
-�Τ褦�˥��󥰥륯�����ơ������δ֤˲��⵭����������¸����Ȥ�����ʬ����ɽ���ˤʤ�ޤ���
+define('TEXT_INFORMATION', 'このページにご利用規約などを入力してください。<br />
+この部分を変更するには、<br />
+<strong>/includes/languages/japanese/conditions.php</strong>の<strong>define(\'TEXT_INFORMATION\',</strong>の右側の<br />
+シングルクォーテーション(\')の間を編集してください。<br />
+下部のテキストボックスのみ使用する場合は、<br /><strong>define(\'TEXT_INFORMATION\',\'\')</strong><br />
+のようにシングルクォーテーションの間に何も記入せずに保存するとこの部分は非表示になります。
 ');
 ?>

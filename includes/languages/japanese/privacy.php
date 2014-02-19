@@ -20,16 +20,16 @@
 // $Id: privacy.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', '�Ŀ;����ݸ�����');
-define('HEADING_TITLE', '�Ŀ;����ݸ�����');
+define('NAVBAR_TITLE', '個人情報保護方針');
+define('HEADING_TITLE', '個人情報保護方針');
 
-define('TEXT_INFORMATION', '�ڥ���å׳�Ź������ - �Ŀ;����ݸ����ˤˤĤ��ơ�<br />
+define('TEXT_INFORMATION', '【ショップ開店の前に - 個人情報保護方針について】<br />
 <br />
-<span class="alert">2005ǯ4��1���˻ܹԤ��줿�ָĿ;����ݸ�ˡ�פǤϡ��Ŀ;����ݸ����ˤ���ܿͤ��ưפ��Τꤦ����֡פ��֤����Ȥ����Ƥ��ޤ���</span><br />
-�������äơ�����å׳�Ź���ˡָĿ;����ݸ����ˡפ���ꤷ�����Υڡ����˳������뤳�Ȥ�����ޤ���<br />
+<span class="alert">2005年4月1日に施行された「個人情報保護法」では、個人情報保護方針を「本人が容易に知りうる状態」に置くことを定めています。</span><br />
+したがって、ショップ開店前に「個人情報保護方針」を策定し、このページに開示することを薦めます。<br />
 <br />
-������ʬ���ѹ�����ˤϡ�<br /><strong>/includes/languages/japanese/privacy.php</strong>��<strong>define(\'TEXT_INFORMATION\',</strong>�α�¦��<br />
-���󥰥륯�����ơ������(\')�δ֤��Խ����Ƥ���������<br />�ޤ��������Υƥ����ȥܥå����Τߤ���Ѥ�����ϡ�<br /><strong>define(\'TEXT_IN
-FORMATION\',\'\')</strong><br />�Τ褦�˥��󥰥륯�����ơ������δ֤ˤϡ����⵭����������¸���뤳�Ȥǡ�������ʬ����ɽ���ˤʤ�ޤ���
+この部分を変更するには、<br /><strong>/includes/languages/japanese/privacy.php</strong>の<strong>define(\'TEXT_INFORMATION\',</strong>の右側の<br />
+シングルクォーテーション(\')の間を編集してください。<br />また、下部のテキストボックスのみを使用する場合は、<br /><strong>define(\'TEXT_IN
+FORMATION\',\'\')</strong><br />のようにシングルクォーテーションの間には、何も記入せずに保存することで、この部分は非表示になります。
 ');
 ?>

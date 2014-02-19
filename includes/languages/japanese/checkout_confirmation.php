@@ -7,21 +7,21 @@
  * @version $Id: checkout_confirmation.php 3027 2006-02-13 17:15:51Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', '¥ì¥¸¤Ø¿Ê¤à');
-define('NAVBAR_TITLE_2', '¤´ÃíÊ¸ÆâÍÆ¤Î³ÎÇ§');
+define('NAVBAR_TITLE_1', 'ãƒ¬ã‚¸ã¸é€²ã‚€');
+define('NAVBAR_TITLE_2', 'ã”æ³¨æ–‡å†…å®¹ã®ç¢ºèª');
 
-define('HEADING_TITLE', '¤´ÃíÊ¸ÆâÍÆ¤ò³ÎÇ§¤·¤Æ¤¯¤À¤µ¤¤');
+define('HEADING_TITLE', 'ã”æ³¨æ–‡å†…å®¹ã‚’ç¢ºèªã—ã¦ãã ã•ã„');
 
-define('HEADING_BILLING_ADDRESS', '¤´ÀÁµáÀè½»½ê');
-define('HEADING_DELIVERY_ADDRESS', 'ÇÛÁ÷Àè½»½ê');
-define('HEADING_SHIPPING_METHOD', 'ÇÛÁ÷ÊýË¡:');
-define('HEADING_PAYMENT_METHOD', '¤ª»ÙÊ§¤¤ÊýË¡:');
-define('HEADING_PRODUCTS', '¥«¡¼¥È¤ÎÆâÍÆ');
-define('HEADING_TAX', 'ÀÇ³Û');
-define('HEADING_ORDER_COMMENTS', 'Ï¢Íí»ö¹à¤¬¤´¤¶¤¤¤Þ¤·¤¿¤é¤´µ­Æþ¤¯¤À¤µ¤¤¡£');
+define('HEADING_BILLING_ADDRESS', 'ã”è«‹æ±‚å…ˆä½æ‰€');
+define('HEADING_DELIVERY_ADDRESS', 'é…é€å…ˆä½æ‰€');
+define('HEADING_SHIPPING_METHOD', 'é…é€æ–¹æ³•:');
+define('HEADING_PAYMENT_METHOD', 'ãŠæ”¯æ‰•ã„æ–¹æ³•:');
+define('HEADING_PRODUCTS', 'ã‚«ãƒ¼ãƒˆã®å†…å®¹');
+define('HEADING_TAX', 'ç¨Žé¡');
+define('HEADING_ORDER_COMMENTS', 'é€£çµ¡äº‹é …ãŒã”ã–ã„ã¾ã—ãŸã‚‰ã”è¨˜å…¥ãã ã•ã„ã€‚');
 // no comments entered
-define('NO_COMMENTS_TEXT', '¤Ê¤·');
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>ºÇ½ª³ÎÇ§</strong>');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '¢ª¤´ÃíÊ¸¤ò³ÎÄê¤¹¤ë');
+define('NO_COMMENTS_TEXT', 'ãªã—');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>æœ€çµ‚ç¢ºèª</strong>');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', 'â†’ã”æ³¨æ–‡ã‚’ç¢ºå®šã™ã‚‹');
 
 ?>

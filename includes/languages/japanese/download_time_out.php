@@ -20,11 +20,11 @@
 // $Id: download_time_out.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', '¥À¥¦¥ó¥í¡¼¥É ...');
-define('HEADING_TITLE', '¥À¥¦¥ó¥í¡¼¥É ...');
+define('NAVBAR_TITLE', 'ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ ...');
+define('HEADING_TITLE', 'ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ ...');
 
-define('TEXT_INFORMATION', '¤¢¤¤¤Ë¤¯¤³¤Î¥À¥¦¥ó¥í¡¼¥É¾¦ÉÊ¤Ï¥À¥¦¥ó¥í¡¼¥ÉÍ­¸ú´ü¸Â¤¬ÀÚ¤ì¤Æ¤¤¤Þ¤¹¡£Â¾¤Ë¥À¥¦¥ó¥í¡¼¥É¤¹¤ë¾¦ÉÊ¤¬¤¢¤ë¤è¤¦¤Ç¤·¤¿¤é<a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">¥Þ¥¤¥Ú¡¼¥¸</a>¤Ç¤´ÃíÊ¸¤ò¤´³ÎÇ§¤¯¤À¤µ¤¤¡£<br /><br />
-  Ëü¤¬°ì¤´ÃíÊ¸¤ÎÉÔ¶ñ¹ç¤È»×¤ï¤ì¤ë¾ì¹ç¤Ï¤ª¼ê¿ô¤Ç¤¹¤¬<a href="' . zen_href_link(FILENAME_CONTACT_US) . '">¤³¤Á¤é</a>¤«¤é¤ªÌä¤¤¹ç¤ï¤»²¼¤µ¤¤¡£<br /><br />
-  ¤´ÍøÍÑ¤¢¤ê¤¬¤È¤¦¤´¤¶¤¤¤Þ¤¹¡£
+define('TEXT_INFORMATION', 'ã‚ã„ã«ãã“ã®ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰å•†å“ã¯ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰æœ‰åŠ¹æœŸé™ãŒåˆ‡ã‚Œã¦ã„ã¾ã™ã€‚ä»–ã«ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹å•†å“ãŒã‚ã‚‹ã‚ˆã†ã§ã—ãŸã‚‰<a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">ãƒžã‚¤ãƒšãƒ¼ã‚¸</a>ã§ã”æ³¨æ–‡ã‚’ã”ç¢ºèªãã ã•ã„ã€‚<br /><br />
+  ä¸‡ãŒä¸€ã”æ³¨æ–‡ã®ä¸å…·åˆã¨æ€ã‚ã‚Œã‚‹å ´åˆã¯ãŠæ‰‹æ•°ã§ã™ãŒ<a href="' . zen_href_link(FILENAME_CONTACT_US) . '">ã“ã¡ã‚‰</a>ã‹ã‚‰ãŠå•ã„åˆã‚ã›ä¸‹ã•ã„ã€‚<br /><br />
+  ã”åˆ©ç”¨ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ã€‚
   ');
 ?>

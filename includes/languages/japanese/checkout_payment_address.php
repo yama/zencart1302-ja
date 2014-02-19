@@ -8,20 +8,20 @@
  */
 
 
-define('NAVBAR_TITLE_1', '�쥸�ؿʤ�');
-define('NAVBAR_TITLE_2', '�����轻����ѹ�����');
+define('NAVBAR_TITLE_1', 'レジへ進む');
+define('NAVBAR_TITLE_2', '請求先住所を変更する');
 
-define('HEADING_TITLE', '�����轻����ѹ����Ƥ�������');
+define('HEADING_TITLE', '請求先住所を変更してください');
 
-define('TABLE_HEADING_PAYMENT_ADDRESS', '�������轻��');
-define('TEXT_SELECTED_PAYMENT_DESTINATION', '�������ꤵ��Ƥ��뤴�����轻��Ǥ������쥸�åȥ����ɤ����Ѥξ��ϥ����ɲ�Ҥˤ���Ͽ�ν���ˤ��Ƥ�������������������ϲ����Υե���������Ϥ��Ƥ���������');
-define('TITLE_PAYMENT_ADDRESS', '�������轻��');
+define('TABLE_HEADING_PAYMENT_ADDRESS', 'ご請求先住所');
+define('TEXT_SELECTED_PAYMENT_DESTINATION', '現在設定されているご請求先住所です。クレジットカードをご利用の場合はカード会社にご登録の住所にしてください。訂正する場合は下記のフォームに入力してください。');
+define('TITLE_PAYMENT_ADDRESS', 'ご請求先住所');
 
-define('TEXT_SELECT_OTHER_PAYMENT_DESTINATION', '������¾�ΤȤ��������դ���˾�ξ��ϡ�������������򤷤Ƥ���������');
-define('TITLE_PLEASE_SELECT', '����Τ������轻����ѹ�');
+define('TEXT_SELECT_OTHER_PAYMENT_DESTINATION', '請求書を他のところへ送付ご希望の場合は、ご請求先を選択してください。');
+define('TITLE_PLEASE_SELECT', '今回のご請求先住所を変更');
 
-define('TABLE_HEADING_NEW_PAYMENT_ADDRESS', '���ɥ쥹Ģ�������򤹤�');
+define('TABLE_HEADING_NEW_PAYMENT_ADDRESS', 'アドレス帳から選択する');
 
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>�����̤ؿʤ�</strong>');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '����ʧ����ˡ����');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>次画面へ進む</strong>');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '→支払い方法を記入');
 ?>

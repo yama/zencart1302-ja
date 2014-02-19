@@ -20,18 +20,18 @@
 // $Id: popup_cvv_help.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('HEADING_CVV', 'CVV�Ȥ�?');
-define('TEXT_CVV_HELP1', 'Visa��Mastercard��Discover�����ɾȹ��ֹ�(CVV)<br /><br />
-                    �����ͤξ����ݸ�Τ��ᡢ�����ɾȹ��ֹ�(CVV)�������Ƥ���������<br /><br />
-                    �����ɾȹ��ֹ�(CVV)�ϥ����ɤ�΢�̤ν�̾��˵�������Ƥ���3��ο����Ǥ���
-                    �������ֹ�β�3�夫�����θ�˵��ܤ���Ƥ��ޤ���<br />' .
+define('HEADING_CVV', 'CVVとは?');
+define('TEXT_CVV_HELP1', 'Visa、Mastercard、Discoverカード照合番号(CVV)<br /><br />
+                    お客様の情報保護のため、カード照合番号(CVV)を記入してください。<br /><br />
+                    カード照合番号(CVV)はカードの裏面の署名欄に記入されている3桁の数字です。
+                    カード番号の下3桁か、その後に記載されています。<br />' .
                     zen_image(DIR_WS_TEMPLATE_ICONS . 'cvv2visa.gif'));
 
-define('TEXT_CVV_HELP2', 'American Express�����ɾȹ��ֹ�(CVV)<br /><br />
-                    �����ͤξ����ݸ�Τ��ᡢ�����ɾȹ��ֹ�(CVV)�������Ƥ���������<br /><br />
-                    American Express�Υ����ɾȹ��ֹ��ɽ�̤�4����ֹ�Ǥ���
-                    �������ֹ�β�4�夫���θ�ˤ�������Ǥ���<br />' .
+define('TEXT_CVV_HELP2', 'American Expressカード照合番号(CVV)<br /><br />
+                    お客様の情報保護のため、カード照合番号(CVV)を記入してください。<br /><br />
+                    American Expressのカード照合番号は表面の4桁の番号です。
+                    カード番号の下4桁かその後にある数字です。<br />' .
                     zen_image(DIR_WS_TEMPLATE_ICONS . 'cvv2amex.gif'));
 
-define('TEXT_CLOSE_CVV_WINDOW', '������ɥ����Ĥ���[x]');
+define('TEXT_CLOSE_CVV_WINDOW', 'ウィンドウを閉じる[x]');
 ?>

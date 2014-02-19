@@ -20,8 +20,8 @@
 // $Id: popup_search_help.php 2471 2005-11-29 01:14:18Z drbyte $
 //
 
-define('HEADING_SEARCH_HELP', '�����إ��');
-define('TEXT_SEARCH_HELP', '(1)������Τ˸����򤷤������ˤϡ���AND�פ���OR�ס��ޤ��Ϥ���ξ����ʣ���Υ�����ɤ���ڤ뤳�Ȥ��Ǥ��ޤ���<br /><br /><ul><li>�֥ޥ��������ե� AND �ޥ����פ����Ϥ���ȡ�ξ���Υ�����ɤ�ޤྦ�ʤ򸡺����ޤ���</li><li>�֥ޥ��� OR �����ܡ��ɡפ����Ϥ���ȡ��ɤ��餫�Υ�����ɤ�ޤྦ�ʤ򸡺����ޤ���</li></ul>(2)�����Ĥ��Υ�����ɤ������(")�ǰϤ�ȡ�����ʸ��������Τ˰��פ����Τ����򸡺����ޤ���<br /><br /><ul><li>"�Ρ��ȷ� �ѥ�����"�����Ϥ���ȡ�����ʸ��������Τ˴ޤ�����ʤ򸡺����ޤ���</li></ul>(3)�����θ����롼��ϡ���̤Ǥ����뤳�Ȥǡ����ʣ���ʻ��꤬��ǽ�Ǥ���<br /><br /><ul><li>�֥ޥ��������ե� AND (�����ܡ��� OR �ޥ��� OR "visual basic")�פ����Ϥ���ȡ��֥ޥ��������եȡפ�ޤߡ����ġ֥����ܡ��ɡפ��֥ޥ����פ���visual basic�פ�ޤྦ�ʤ򸡺����ޤ���</li></ul>');
-define('TEXT_CLOSE_WINDOW', '<span class="pseudolink">������ɥ����Ĥ���</span> [x]');
+define('HEADING_SEARCH_HELP', '検索ヘルプ');
+define('TEXT_SEARCH_HELP', '(1)より正確に検索をしたい場合には、「AND」か「OR」、またはその両方で複数のキーワードを区切ることができます。<br /><br /><ul><li>「マイクロソフト AND マウス」と入力すると、両方のキーワードを含む商品を検索します。</li><li>「マウス OR キーボード」と入力すると、どちらかのキーワードを含む商品を検索します。</li></ul>(2)いくつかのキーワードを引用符(")で囲むと、その文字列に正確に一致するものだけを検索します。<br /><br /><ul><li>"ノート型 パソコン"と入力すると、その文字列を正確に含んだ商品を検索します。</li></ul>(3)これらの検索ルールは、括弧でくくることで、より複雑な指定が可能です。<br /><br /><ul><li>「マイクロソフト AND (キーボード OR マウス OR "visual basic")」と入力すると、「マイクロソフト」を含み、かつ「キーボード」か「マウス」か「visual basic」を含む商品を検索します。</li></ul>');
+define('TEXT_CLOSE_WINDOW', '<span class="pseudolink">ウィンドウを閉じる</span> [x]');
 
 ?>

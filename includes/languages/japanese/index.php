@@ -7,59 +7,59 @@
  * @version $Id: index.php 3027 2006-02-13 17:15:51Z drbyte $
  */
 
-define('TEXT_MAIN','�ƥ�ץ졼�ȥե����뤬�ʤ���硢���Υإåɥ饤����ʬ���ѹ�����ˤϰʲ��Υե�������Խ����ޤ���<br />
+define('TEXT_MAIN','テンプレートファイルがない場合、このヘッドライン部分を変更するには以下のファイルを編集します。<br />
 <strong>/includes/languages/japanese/index.php</strong>');
 
 // Showcase vs Store
 if (STORE_STATUS == '0') {
-  define('TEXT_GREETING_GUEST', '<span class="greetUser">������</span>���󡢤���ä��㤤�ޤ���<a href="%s">��������</a>���ޤ���?');
+  define('TEXT_GREETING_GUEST', '<span class="greetUser">ゲスト</span>さん、いらっしゃいませ。<a href="%s">ログイン</a>しますか?');
 } else {
-  define('TEXT_GREETING_GUEST', '�褦������������åפ򤪳ڤ��ߤ���������');
+  define('TEXT_GREETING_GUEST', 'ようこそ、当ショップをお楽しみください。');
 }
 
-define('TEXT_GREETING_PERSONAL', '<span class="greetUser">%s</span>�͡�����ä��㤤�ޤ������ʤ�<a href="%s">�������</a>�����ˤʤ�ޤ���?');
+define('TEXT_GREETING_PERSONAL', '<span class="greetUser">%s</span>様、いらっしゃいませ。商品の<a href="%s">新着情報</a>をご覧になりますか?');
 
-define('TEXT_INFORMATION', '������ʬ���ѹ�����ˤϡ�<br /><strong>/includes/languages/japanese/index.php</strong>��<strong>define(\'TEXT_I
-NFORMATION\',</strong>�α�¦��<br />
-���󥰥륯�����ơ������(\')�δ֤��Խ����Ƥ���������<br />�ޤ��������Υƥ����ȥܥå����Τߤ���Ѥ�����ϡ�<br /><strong>define(\'TEXT_IN
-FORMATION\',\'\')</strong><br />�Τ褦�˥��󥰥륯�����ơ������δ֤ˤϡ����⵭����������¸���뤳�Ȥǡ�������ʬ����ɽ���ˤʤ�ޤ���');
+define('TEXT_INFORMATION', 'この部分を変更するには、<br /><strong>/includes/languages/japanese/index.php</strong>の<strong>define(\'TEXT_I
+NFORMATION\',</strong>の右側の<br />
+シングルクォーテーション(\')の間を編集してください。<br />また、下部のテキストボックスのみを使用する場合は、<br /><strong>define(\'TEXT_IN
+FORMATION\',\'\')</strong><br />のようにシングルクォーテーションの間には、何も記入せずに保存することで、この部分は非表示になります。');
 
 //moved to english
-//define('TABLE_HEADING_FEATURED_PRODUCTS','�������ᾦ��');
+//define('TABLE_HEADING_FEATURED_PRODUCTS','おすすめ商品');
 
-//define('TABLE_HEADING_NEW_PRODUCTS', '���徦�� %s');
-//define('TABLE_HEADING_UPCOMING_PRODUCTS', '����ͽ�꾦��');
-//define('TABLE_HEADING_DATE_EXPECTED', '��Ͽͽ����');
+//define('TABLE_HEADING_NEW_PRODUCTS', '新着商品 %s');
+//define('TABLE_HEADING_UPCOMING_PRODUCTS', '入荷予定商品');
+//define('TABLE_HEADING_DATE_EXPECTED', '登録予定日');
 
 if ( ($category_depth == 'products') || (zen_check_url_get_terms()) ) {
   // This section deals with product-listing page contents
-  define('HEADING_TITLE', '������ǽ����');
-  define('TABLE_HEADING_IMAGE', '���ʲ���');
-  define('TABLE_HEADING_MODEL', '��ǥ�');
-  define('TABLE_HEADING_PRODUCTS', '����̾');
-  define('TABLE_HEADING_MANUFACTURER', '�᡼����');
-  define('TABLE_HEADING_QUANTITY', '����');
-  define('TABLE_HEADING_PRICE', '����');
-  define('TABLE_HEADING_WEIGHT', '����');
-  define('TABLE_HEADING_BUY_NOW', '�������㤦');
-  define('TEXT_NO_PRODUCTS', '���Υ��ƥ���ξ��ʤϤ���ޤ���');
-  define('TEXT_NO_PRODUCTS2', '���Υ᡼�����ξ��ʤϤ���ޤ���');
-  define('TEXT_NUMBER_OF_PRODUCTS', '�����ֹ�: ');
-  define('TEXT_SHOW', 'ʬ��:');
-  define('TEXT_BUY', '����㤦 \'');
-  define('TEXT_NOW', '\' ������');
-  define('TEXT_ALL_CATEGORIES', '�����ƥ���');
-  define('TEXT_ALL_MANUFACTURERS', '���᡼����');
+  define('HEADING_TITLE', '購入可能商品');
+  define('TABLE_HEADING_IMAGE', '商品画像');
+  define('TABLE_HEADING_MODEL', 'モデル');
+  define('TABLE_HEADING_PRODUCTS', '商品名');
+  define('TABLE_HEADING_MANUFACTURER', 'メーカー');
+  define('TABLE_HEADING_QUANTITY', '数量');
+  define('TABLE_HEADING_PRICE', '価格');
+  define('TABLE_HEADING_WEIGHT', '重量');
+  define('TABLE_HEADING_BUY_NOW', '今すぐ買う');
+  define('TEXT_NO_PRODUCTS', 'このカテゴリの商品はありません。');
+  define('TEXT_NO_PRODUCTS2', 'このメーカーの商品はありません。');
+  define('TEXT_NUMBER_OF_PRODUCTS', '商品番号: ');
+  define('TEXT_SHOW', '分類:');
+  define('TEXT_BUY', '一つ買う \'');
+  define('TEXT_NOW', '\' 今すぐ');
+  define('TEXT_ALL_CATEGORIES', '全カテゴリ');
+  define('TEXT_ALL_MANUFACTURERS', '全メーカー');
 } elseif ($category_depth == 'top') {
-  // �������򤵤�Ƥ��ʤ��ȥåץ�٥�Υۡ���ڡ����Ǥ�ɽ��
-  /*���Υإåɥ饤��ϡ֡���������åפؤ褦�����פʤɹ��ߤΥ��ԡ����ѹ����Ƥ���������*/
+  // 何も選択されていないトップレベルのホームページでの表示
+  /*このヘッドラインは「○○○ショップへようこそ」など好みのコピーに変更してください。*/
 
-  define('HEADING_TITLE', '����ǤȤ��������ޤ�!<br />
-����饤�󥷥�å׹��ۥ��ե�Zen Cart ���ܸ��ǤΥ��󥹥ȡ�����������ޤ�����');
+  define('HEADING_TITLE', 'おめでとうございます!<br />
+オンラインショップ構築ソフトZen Cart 日本語版のインストールに成功しました。');
 } elseif ($category_depth == 'nested') {
-  // ���֥��ƥ���Ǥ�ɽ��
-  /*���Υإåɥ饤��ϡ֡���������åפؤ褦�����פʤɹ��ߤΥ��ԡ����ѹ����Ƥ���������*/
-  define('HEADING_TITLE', '����ǤȤ��������ޤ�!<br />
-����饤�󥷥�å׹��ۥ��ե�Zen Cart ���ܸ��ǤΥ��󥹥ȡ�����������ޤ�����'); 
+  // サブカテゴリでの表示
+  /*このヘッドラインは「○○○ショップへようこそ」など好みのコピーに変更してください。*/
+  define('HEADING_TITLE', 'おめでとうございます!<br />
+オンラインショップ構築ソフトZen Cart 日本語版のインストールに成功しました。'); 
 }
 ?>

@@ -7,19 +7,19 @@
  * @version $Id: account_history.php 2989 2006-02-08 04:07:25Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', '¥Þ¥¤¥Ú¡¼¥¸');
-define('NAVBAR_TITLE_2', '¤´ÃíÊ¸ÍúÎò');
+define('NAVBAR_TITLE_1', 'ãƒžã‚¤ãƒšãƒ¼ã‚¸');
+define('NAVBAR_TITLE_2', 'ã”æ³¨æ–‡å±¥æ­´');
 
-define('HEADING_TITLE', '¤´ÃíÊ¸ÍúÎò');
+define('HEADING_TITLE', 'ã”æ³¨æ–‡å±¥æ­´');
 
-define('TEXT_ORDER_NUMBER', '¤´ÃíÊ¸ÈÖ¹æ: ');
-define('TEXT_ORDER_STATUS', '¾õ¶·: ');
-define('TEXT_ORDER_DATE', '¤´ÃíÊ¸Æü: ');
-define('TEXT_ORDER_SHIPPED_TO', '¤ªÆÏ¤±Àè: ');
-define('TEXT_ORDER_BILLED_TO', '¤´ÀÁµáÀè: ');
-define('TEXT_ORDER_PRODUCTS', 'ÉÊÌ¾: ');
-define('TEXT_ORDER_COST', '¤´ÃíÊ¸¶â³Û: ');
-define('TEXT_VIEW_ORDER', '¤´ÃíÊ¸¤ÎÉ½¼¨');
+define('TEXT_ORDER_NUMBER', 'ã”æ³¨æ–‡ç•ªå·: ');
+define('TEXT_ORDER_STATUS', 'çŠ¶æ³: ');
+define('TEXT_ORDER_DATE', 'ã”æ³¨æ–‡æ—¥: ');
+define('TEXT_ORDER_SHIPPED_TO', 'ãŠå±Šã‘å…ˆ: ');
+define('TEXT_ORDER_BILLED_TO', 'ã”è«‹æ±‚å…ˆ: ');
+define('TEXT_ORDER_PRODUCTS', 'å“å: ');
+define('TEXT_ORDER_COST', 'ã”æ³¨æ–‡é‡‘é¡: ');
+define('TEXT_VIEW_ORDER', 'ã”æ³¨æ–‡ã®è¡¨ç¤º');
 
-define('TEXT_NO_PURCHASES', '¤ªµÒÍÍ¤Î¤´ÃíÊ¸ÍúÎò¤Ï¤¢¤ê¤Þ¤»¤ó¡£');
+define('TEXT_NO_PURCHASES', 'ãŠå®¢æ§˜ã®ã”æ³¨æ–‡å±¥æ­´ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚');
 ?>

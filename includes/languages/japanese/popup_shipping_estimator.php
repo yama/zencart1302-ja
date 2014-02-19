@@ -19,8 +19,8 @@
 // +----------------------------------------------------------------------+
 // $Id: popup_shipping_estimator.php 2642 2005-12-21 15:35:44Z ajeh $
 //
-define('HEADING_SEARCH_HELP', 'Á÷ÎÁ·×»»:');
-define('TEXT_TOTAL_ITEMS', '¹ç·×ÅÀ¿ô: ');
-define('TEXT_TOTAL_WEIGHT', '&nbsp;&nbsp;½ÅÎÌ: ');
-define('TEXT_TOTAL_AMOUNT', '&nbsp;&nbsp;¶â³Û: ');
+define('HEADING_SEARCH_HELP', 'é€æ–™è¨ˆç®—:');
+define('TEXT_TOTAL_ITEMS', 'åˆè¨ˆç‚¹æ•°: ');
+define('TEXT_TOTAL_WEIGHT', '&nbsp;&nbsp;é‡é‡: ');
+define('TEXT_TOTAL_AMOUNT', '&nbsp;&nbsp;é‡‘é¡: ');
 ?>

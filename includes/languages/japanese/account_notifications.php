@@ -7,21 +7,21 @@
  * @version $Id: account_notifications.php 3007 2006-02-11 09:17:12Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', '�ޥ��ڡ���');
-define('NAVBAR_TITLE_2', '���Τ餻�᡼��');
+define('NAVBAR_TITLE_1', 'マイページ');
+define('NAVBAR_TITLE_2', 'お知らせメール');
 
-define('HEADING_TITLE', '���Τ餻�᡼�����');
+define('HEADING_TITLE', 'お知らせメール購読');
 
-define('MY_NOTIFICATIONS_TITLE', '���Τ餻�᡼��');
-define('MY_NOTIFICATIONS_DESCRIPTION', '<strong>���Ƥξ��ʤκǿ�����</strong>�򤴴�˾�ξ��ϡ������Ƥξ��ʤΤ��Τ餻�᡼�����ɤ���פ�����å����Ƥ���������');
+define('MY_NOTIFICATIONS_TITLE', 'お知らせメール');
+define('MY_NOTIFICATIONS_DESCRIPTION', '<strong>全ての商品の最新情報</strong>をご希望の場合は、「全ての商品のお知らせメールを購読する」をチェックしてください。');
 
-define('GLOBAL_NOTIFICATIONS_TITLE', '�����ʤΤ��Τ餻�᡼������');
-define('GLOBAL_NOTIFICATIONS_DESCRIPTION', '��Ͽ�����᡼�륢�ɥ쥹���Ƥˡ����Ƥξ��ʤˤĤ��ƤΤ��Τ餻�᡼�뤬��������ޤ���');
+define('GLOBAL_NOTIFICATIONS_TITLE', '全商品のお知らせメールを購読');
+define('GLOBAL_NOTIFICATIONS_DESCRIPTION', '登録したメールアドレス宛てに、全ての商品についてのお知らせメールが送信されます。');
 
-define('NOTIFICATIONS_TITLE', '���ʤΤ��Τ餻�᡼��');
-define('NOTIFICATIONS_DESCRIPTION', '�ƾ��ʤΤ��Τ餻�᡼���������ˤϡ������å��򳰤��ƹ����򥯥�å����Ƥ���������');
-define('NOTIFICATIONS_NON_EXISTING', '���ߡ��ɤξ��ʤΤ��Τ餻�᡼�����ɤ��Ƥ��ޤ���<br /><br />�ƾ��ʤΤ��Τ餻�᡼�����ɤ���ˤϡ��ƾ��ʤξ���ڡ����ˤ���֤��Τ餻�᡼��פ򥯥�å����Ƥ���������');
-define('TEXT_NO_PURCHASES', '���Τ餻�᡼�롧�ʤ�');
+define('NOTIFICATIONS_TITLE', '商品のお知らせメール');
+define('NOTIFICATIONS_DESCRIPTION', '各商品のお知らせメールを解除するには、チェックを外して更新をクリックしてください。');
+define('NOTIFICATIONS_NON_EXISTING', '現在、どの商品のお知らせメールも購読していません。<br /><br />各商品のお知らせメールを購読するには、各商品の情報ページにある「お知らせメール」をクリックしてください。');
+define('TEXT_NO_PURCHASES', 'お知らせメール：なし');
 
-define('SUCCESS_NOTIFICATIONS_UPDATED', '���Τ餻�᡼�������򹹿����ޤ�����');
+define('SUCCESS_NOTIFICATIONS_UPDATED', 'お知らせメールの設定を更新しました。');
 ?>

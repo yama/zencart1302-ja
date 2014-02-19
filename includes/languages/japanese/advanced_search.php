@@ -7,48 +7,48 @@
  * @version $Id: advanced_search.php 3253 2006-03-25 17:26:14Z birdbrain $
  */
 
-  define('NAVBAR_TITLE_1', '¾ÜºÙ¸¡º÷');
-  define('NAVBAR_TITLE_2', '¸¡º÷·ë²Ì');
+  define('NAVBAR_TITLE_1', 'è©³ç´°æ¤œç´¢');
+  define('NAVBAR_TITLE_2', 'æ¤œç´¢çµæžœ');
 
-  define('HEADING_TITLE_1', '¾ÜºÙ¸¡º÷');
-  define('HEADING_TITLE_2', '¸¡º÷·ë²Ì');
+  define('HEADING_TITLE_1', 'è©³ç´°æ¤œç´¢');
+  define('HEADING_TITLE_2', 'æ¤œç´¢çµæžœ');
 
-  define('HEADING_SEARCH_CRITERIA', '¸¡º÷¾ò·ï¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤');
+  define('HEADING_SEARCH_CRITERIA', 'æ¤œç´¢æ¡ä»¶ã‚’é¸æŠžã—ã¦ãã ã•ã„');
 
-  define('TEXT_SEARCH_IN_DESCRIPTION', '¾¦ÉÊÀâÌÀÊ¸¤â¸¡º÷ÂÐ¾Ý¤Ë¤¹¤ë');
-  define('ENTRY_CATEGORIES', '¤³¤Î¥«¥Æ¥´¥ê¤òÂÐ¾Ý¤Ë:');
-  define('ENTRY_INCLUDE_SUBCATEGORIES', '¥µ¥Ö¥«¥Æ¥´¥ê¤ò´Þ¤à');
-  define('ENTRY_MANUFACTURERS', '¤³¤Î¥á¡¼¥«¡¼¤òÂÐ¾Ý¤Ë');
-define('ENTRY_PRICE_RANGE', '²Á³ÊÂÓ¤Ç¸¡º÷');
-  define('ENTRY_PRICE_FROM', '²Á³Ê²¼¸Â:');
-  define('ENTRY_PRICE_TO', '²Á³Ê¾å¸Â:');
-define('ENTRY_DATE_RANGE', 'ÅÐÏ¿Æü¤Ç¸¡º÷');
-  define('ENTRY_DATE_FROM', '³«»ÏÆüÉÕ:');
-  define('ENTRY_DATE_TO', '½ªÎ»ÆüÉÕ:');
+  define('TEXT_SEARCH_IN_DESCRIPTION', 'å•†å“èª¬æ˜Žæ–‡ã‚‚æ¤œç´¢å¯¾è±¡ã«ã™ã‚‹');
+  define('ENTRY_CATEGORIES', 'ã“ã®ã‚«ãƒ†ã‚´ãƒªã‚’å¯¾è±¡ã«:');
+  define('ENTRY_INCLUDE_SUBCATEGORIES', 'ã‚µãƒ–ã‚«ãƒ†ã‚´ãƒªã‚’å«ã‚€');
+  define('ENTRY_MANUFACTURERS', 'ã“ã®ãƒ¡ãƒ¼ã‚«ãƒ¼ã‚’å¯¾è±¡ã«');
+define('ENTRY_PRICE_RANGE', 'ä¾¡æ ¼å¸¯ã§æ¤œç´¢');
+  define('ENTRY_PRICE_FROM', 'ä¾¡æ ¼ä¸‹é™:');
+  define('ENTRY_PRICE_TO', 'ä¾¡æ ¼ä¸Šé™:');
+define('ENTRY_DATE_RANGE', 'ç™»éŒ²æ—¥ã§æ¤œç´¢');
+  define('ENTRY_DATE_FROM', 'é–‹å§‹æ—¥ä»˜:');
+  define('ENTRY_DATE_TO', 'çµ‚äº†æ—¥ä»˜:');
 
-  define('TEXT_SEARCH_HELP_LINK', '¸¡º÷¥Ø¥ë¥× [?]');
+  define('TEXT_SEARCH_HELP_LINK', 'æ¤œç´¢ãƒ˜ãƒ«ãƒ— [?]');
 
-  define('TEXT_ALL_CATEGORIES', 'Á´¥«¥Æ¥´¥ê');
-  define('TEXT_ALL_MANUFACTURERS', 'Á´¥á¡¼¥«¡¼');
+  define('TEXT_ALL_CATEGORIES', 'å…¨ã‚«ãƒ†ã‚´ãƒª');
+  define('TEXT_ALL_MANUFACTURERS', 'å…¨ãƒ¡ãƒ¼ã‚«ãƒ¼');
 
   define('TABLE_HEADING_IMAGE', '');
-  define('TABLE_HEADING_MODEL', '¥â¥Ç¥ë');
-  define('TABLE_HEADING_PRODUCTS', 'ÉÊÌ¾');
-  define('TABLE_HEADING_MANUFACTURER', '¥á¡¼¥«¡¼');
-  define('TABLE_HEADING_QUANTITY', '¿ôÎÌ');
-  define('TABLE_HEADING_PRICE', '²Á³Ê');
-  define('TABLE_HEADING_WEIGHT', '½ÅÎÌ');
-  define('TABLE_HEADING_BUY_NOW', 'º£¤¹¤°¹ØÆþ');
+  define('TABLE_HEADING_MODEL', 'ãƒ¢ãƒ‡ãƒ«');
+  define('TABLE_HEADING_PRODUCTS', 'å“å');
+  define('TABLE_HEADING_MANUFACTURER', 'ãƒ¡ãƒ¼ã‚«ãƒ¼');
+  define('TABLE_HEADING_QUANTITY', 'æ•°é‡');
+  define('TABLE_HEADING_PRICE', 'ä¾¡æ ¼');
+  define('TABLE_HEADING_WEIGHT', 'é‡é‡');
+  define('TABLE_HEADING_BUY_NOW', 'ä»Šã™ãè³¼å…¥');
 
-  define('TEXT_NO_PRODUCTS', '¸¡º÷¾ò·ï¤Ë¹çÃ×¤¹¤ë¾¦ÉÊ¤Ï¤¢¤ê¤Þ¤»¤ó¤Ç¤·¤¿');
-  define('KEYWORD_FORMAT_STRING', '¥­¡¼¥ï¡¼¥É');
-  define('ERROR_AT_LEAST_ONE_INPUT', 'ºÇÄã°ì¤Ä°Ê¾å¤Î¸¡º÷¹àÌÜ¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£');
-  define('ERROR_INVALID_FROM_DATE', 'Ìµ¸ú¤Ê³«»ÏÆüÉÕ¤Ç¤¹¡£');
-  define('ERROR_INVALID_TO_DATE', 'Ìµ¸ú¤Ê½ªÎ»ÆüÉÕ¤Ç¤¹¡£');
-  define('ERROR_TO_DATE_LESS_THAN_FROM_DATE', '½ªÎ»ÆüÉÕ¤Ï³«»ÏÆüÉÕ¤ÈÆ±¤¸¤«¤½¤ì°Ê¹ß¤ÎÆüÉÕ¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤');
-  define('ERROR_PRICE_FROM_MUST_BE_NUM', '²Á³Ê²¼¸Â¤Ë¤Ï¿ô»ú¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤');
-  define('ERROR_PRICE_TO_MUST_BE_NUM', '²Á³Ê¾å¸Â¤Ë¤Ï¿ô»ú¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤');
-  define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM', '²Á³Ê¾å¸Â¤Ï²Á³Ê²¼¸Â¤ÈÆ±¤¸¤«¤½¤ì°Ê¾å¤Î¿ô»ú¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤');
-  define('ERROR_INVALID_KEYWORDS', 'Ìµ¸ú¤Ê¥­¡¼¥ï¡¼¥É¤Ç¤¹¡£');
+  define('TEXT_NO_PRODUCTS', 'æ¤œç´¢æ¡ä»¶ã«åˆè‡´ã™ã‚‹å•†å“ã¯ã‚ã‚Šã¾ã›ã‚“ã§ã—ãŸ');
+  define('KEYWORD_FORMAT_STRING', 'ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰');
+  define('ERROR_AT_LEAST_ONE_INPUT', 'æœ€ä½Žä¸€ã¤ä»¥ä¸Šã®æ¤œç´¢é …ç›®ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚');
+  define('ERROR_INVALID_FROM_DATE', 'ç„¡åŠ¹ãªé–‹å§‹æ—¥ä»˜ã§ã™ã€‚');
+  define('ERROR_INVALID_TO_DATE', 'ç„¡åŠ¹ãªçµ‚äº†æ—¥ä»˜ã§ã™ã€‚');
+  define('ERROR_TO_DATE_LESS_THAN_FROM_DATE', 'çµ‚äº†æ—¥ä»˜ã¯é–‹å§‹æ—¥ä»˜ã¨åŒã˜ã‹ãã‚Œä»¥é™ã®æ—¥ä»˜ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„');
+  define('ERROR_PRICE_FROM_MUST_BE_NUM', 'ä¾¡æ ¼ä¸‹é™ã«ã¯æ•°å­—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„');
+  define('ERROR_PRICE_TO_MUST_BE_NUM', 'ä¾¡æ ¼ä¸Šé™ã«ã¯æ•°å­—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„');
+  define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM', 'ä¾¡æ ¼ä¸Šé™ã¯ä¾¡æ ¼ä¸‹é™ã¨åŒã˜ã‹ãã‚Œä»¥ä¸Šã®æ•°å­—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„');
+  define('ERROR_INVALID_KEYWORDS', 'ç„¡åŠ¹ãªã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã§ã™ã€‚');
 
 ?>

@@ -20,10 +20,10 @@
 // $Id: page_3.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', '�ڡ���3');
-define('HEADING_TITLE', '�ڡ���3');
+define('NAVBAR_TITLE', 'ページ3');
+define('HEADING_TITLE', 'ページ3');
 
-define('TEXT_INFORMATION', '������ʬ���ѹ�����ˤϡ�<br /><strong>/includes/languages/japanese/page_3.php</strong>��<strong>define(\'TEXT_INFORMATION\',</strong>�α�¦��<br />
-���󥰥륯�����ơ������(\')�δ֤��Խ����Ƥ���������<br />�ޤ��������Υƥ����ȥܥå����Τߤ���Ѥ�����ϡ�<br /><strong>define(\'TEXT_IN
-FORMATION\',\'\')</strong><br />�Τ褦�˥��󥰥륯�����ơ������δ֤ˤϡ����⵭����������¸���뤳�Ȥǡ�������ʬ����ɽ���ˤʤ�ޤ���');
+define('TEXT_INFORMATION', 'この部分を変更するには、<br /><strong>/includes/languages/japanese/page_3.php</strong>の<strong>define(\'TEXT_INFORMATION\',</strong>の右側の<br />
+シングルクォーテーション(\')の間を編集してください。<br />また、下部のテキストボックスのみを使用する場合は、<br /><strong>define(\'TEXT_IN
+FORMATION\',\'\')</strong><br />のようにシングルクォーテーションの間には、何も記入せずに保存することで、この部分は非表示になります。');
 ?>

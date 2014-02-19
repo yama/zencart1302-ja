@@ -37,7 +37,7 @@ echo TEXT_ACCEPTED_CREDIT_CARDS . zen_get_cc_enabled();
 
 */
 
-define('TEXT_ACCEPTED_CREDIT_CARDS', '<strong>д┤═°═╤▓─╟╜д╩епеье╕е├е╚елб╝е╔:</strong> ');
+define('TEXT_ACCEPTED_CREDIT_CARDS', '<strong>уБФхИйчФихПпшГ╜уБкуВпуГмуВ╕уГГуГИуВлуГ╝уГЙ:</strong> ');
 
 // cc enabled text
 define('TEXT_CC_ENABLED_VISA','Visa');

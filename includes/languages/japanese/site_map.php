@@ -7,19 +7,19 @@
  * @version $Id: site_map.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 
-define('NAVBAR_TITLE', '¥µ¥¤¥È¥Þ¥Ã¥×');
-define('HEADING_TITLE', '¥µ¥¤¥È¥Þ¥Ã¥×');
+define('NAVBAR_TITLE', 'ã‚µã‚¤ãƒˆãƒžãƒƒãƒ—');
+define('HEADING_TITLE', 'ã‚µã‚¤ãƒˆãƒžãƒƒãƒ—');
 define('TEXT_INFORMATION','');
 
-define('PAGE_ACCOUNT', '¥Þ¥¤¥Ú¡¼¥¸');
-define('PAGE_ACCOUNT_EDIT', '¥¢¥«¥¦¥ó¥È¾ðÊó');
-define('PAGE_ADDRESS_BOOK', '¥¢¥É¥ì¥¹Ä¢');
-define('PAGE_ACCOUNT_HISTORY', '¤´ÃíÊ¸ÍúÎò');
-define('PAGE_ACCOUNT_NOTIFICATIONS', '¥Ë¥å¡¼¥¹¥ì¥¿¡¼¤ÎÅÐÏ¿');
-define('PAGE_SHOPPING_CART', '¥·¥ç¥Ã¥Ô¥ó¥°¥«¡¼¥È');
-define('PAGE_CHECKOUT_SHIPPING', 'Àº»»');
-define('PAGE_ADVANCED_SEARCH', '¾ÜºÙ¸¡º÷');
-define('PAGE_PRODUCTS_NEW', '¿·Ãå¾¦ÉÊ');
-define('PAGE_SPECIALS', 'ÆÃ²Á¾¦ÉÊ');
-define('PAGE_REVIEWS', '¥ì¥Ó¥å¡¼');
+define('PAGE_ACCOUNT', 'ãƒžã‚¤ãƒšãƒ¼ã‚¸');
+define('PAGE_ACCOUNT_EDIT', 'ã‚¢ã‚«ã‚¦ãƒ³ãƒˆæƒ…å ±');
+define('PAGE_ADDRESS_BOOK', 'ã‚¢ãƒ‰ãƒ¬ã‚¹å¸³');
+define('PAGE_ACCOUNT_HISTORY', 'ã”æ³¨æ–‡å±¥æ­´');
+define('PAGE_ACCOUNT_NOTIFICATIONS', 'ãƒ‹ãƒ¥ãƒ¼ã‚¹ãƒ¬ã‚¿ãƒ¼ã®ç™»éŒ²');
+define('PAGE_SHOPPING_CART', 'ã‚·ãƒ§ãƒƒãƒ”ãƒ³ã‚°ã‚«ãƒ¼ãƒˆ');
+define('PAGE_CHECKOUT_SHIPPING', 'ç²¾ç®—');
+define('PAGE_ADVANCED_SEARCH', 'è©³ç´°æ¤œç´¢');
+define('PAGE_PRODUCTS_NEW', 'æ–°ç€å•†å“');
+define('PAGE_SPECIALS', 'ç‰¹ä¾¡å•†å“');
+define('PAGE_REVIEWS', 'ãƒ¬ãƒ“ãƒ¥ãƒ¼');
 ?>

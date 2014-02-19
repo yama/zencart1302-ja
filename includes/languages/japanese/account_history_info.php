@@ -7,33 +7,33 @@
  * @version $Id: account_history_info.php 3027 2006-02-13 17:15:51Z drbyte $
  */
 
-define('NAVBAR_TITLE', '¥Þ¥¤¥Ú¡¼¥¸');
-define('NAVBAR_TITLE_1', '¥Þ¥¤¥Ú¡¼¥¸');
-define('NAVBAR_TITLE_2', '¤´ÃíÊ¸ÍúÎò');
-define('NAVBAR_TITLE_3', '¤´ÃíÊ¸¡¡#%s');
+define('NAVBAR_TITLE', 'ãƒžã‚¤ãƒšãƒ¼ã‚¸');
+define('NAVBAR_TITLE_1', 'ãƒžã‚¤ãƒšãƒ¼ã‚¸');
+define('NAVBAR_TITLE_2', 'ã”æ³¨æ–‡å±¥æ­´');
+define('NAVBAR_TITLE_3', 'ã”æ³¨æ–‡ã€€#%s');
 
-define('HEADING_TITLE', '¤´ÃíÊ¸¾ðÊó');
+define('HEADING_TITLE', 'ã”æ³¨æ–‡æƒ…å ±');
 
-define('HEADING_ORDER_NUMBER', '¤´ÃíÊ¸ÈÖ¹æ¡¡#%s');
-define('HEADING_ORDER_DATE', '¤´ÃíÊ¸Æü:');
-define('HEADING_ORDER_TOTAL', 'ÁíÃíÊ¸¿ô:');
+define('HEADING_ORDER_NUMBER', 'ã”æ³¨æ–‡ç•ªå·ã€€#%s');
+define('HEADING_ORDER_DATE', 'ã”æ³¨æ–‡æ—¥:');
+define('HEADING_ORDER_TOTAL', 'ç·æ³¨æ–‡æ•°:');
 
-define('HEADING_DELIVERY_ADDRESS', '¤ªÆÏ¤±Àè');
-define('HEADING_SHIPPING_METHOD', 'ÇÛÁ÷ÊýË¡');
+define('HEADING_DELIVERY_ADDRESS', 'ãŠå±Šã‘å…ˆ');
+define('HEADING_SHIPPING_METHOD', 'é…é€æ–¹æ³•');
 
-define('HEADING_PRODUCTS', '¾¦ÉÊ');
-define('HEADING_TAX', 'ÀÇ³Û');
-define('HEADING_TOTAL', 'Áí³Û');
-define('HEADING_QUANTITY', '¿ôÎÌ');
+define('HEADING_PRODUCTS', 'å•†å“');
+define('HEADING_TAX', 'ç¨Žé¡');
+define('HEADING_TOTAL', 'ç·é¡');
+define('HEADING_QUANTITY', 'æ•°é‡');
 
-define('HEADING_BILLING_ADDRESS', '¤´ÀÁµáÀè½»½ê');
-define('HEADING_PAYMENT_METHOD', '¤ª»ÙÊ§¤¤ÊýË¡');
+define('HEADING_BILLING_ADDRESS', 'ã”è«‹æ±‚å…ˆä½æ‰€');
+define('HEADING_PAYMENT_METHOD', 'ãŠæ”¯æ‰•ã„æ–¹æ³•');
 
-define('HEADING_ORDER_HISTORY', 'ÍúÎò¤È¥³¥á¥ó¥È');
-define('TEXT_NO_COMMENTS_AVAILABLE', '¥³¥á¥ó¥È¤Ï¤¢¤ê¤Þ¤»¤ó¡£');
-define('TABLE_HEADING_STATUS_DATE', 'ÆüÉÕ');
-define('TABLE_HEADING_STATUS_ORDER_STATUS', '¾õ¶·');
-define('TABLE_HEADING_STATUS_COMMENTS', '¥³¥á¥ó¥È');
+define('HEADING_ORDER_HISTORY', 'å±¥æ­´ã¨ã‚³ãƒ¡ãƒ³ãƒˆ');
+define('TEXT_NO_COMMENTS_AVAILABLE', 'ã‚³ãƒ¡ãƒ³ãƒˆã¯ã‚ã‚Šã¾ã›ã‚“ã€‚');
+define('TABLE_HEADING_STATUS_DATE', 'æ—¥ä»˜');
+define('TABLE_HEADING_STATUS_ORDER_STATUS', 'çŠ¶æ³');
+define('TABLE_HEADING_STATUS_COMMENTS', 'ã‚³ãƒ¡ãƒ³ãƒˆ');
 define('QUANTITY_SUFFIX', '&nbsp;x');
 define('ORDER_HEADING_DIVIDER', '&nbsp;-&nbsp;');
 define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');

@@ -20,17 +20,17 @@
 // $Id: address_book.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE_1', '�ޥ��ڡ���');
-define('NAVBAR_TITLE_2', '���ɥ쥹Ģ');
+define('NAVBAR_TITLE_1', 'マイページ');
+define('NAVBAR_TITLE_2', 'アドレス帳');
 
-define('HEADING_TITLE', '���ɥ쥹Ģ');
+define('HEADING_TITLE', 'アドレス帳');
 
-define('PRIMARY_ADDRESS_TITLE', '�����ͤν���');
-define('PRIMARY_ADDRESS_DESCRIPTION', '���ν���Ϥ����ͤ�������åפǾ��ʤ���������ݤΤ��Ϥ���Ȥʤ�ޤ���<br /><br />�ޤ�����Ψ�λ��Ф򤹤�ݤ⤳�ν��꤬�оݤȤʤ�ޤ���');
+define('PRIMARY_ADDRESS_TITLE', 'お客様の住所');
+define('PRIMARY_ADDRESS_DESCRIPTION', 'この住所はお客様が当ショップで商品を購入される際のお届け先となります。<br /><br />また、税率の算出をする際もこの住所が対象となります。');
 
-define('ADDRESS_BOOK_TITLE', '�������');
+define('ADDRESS_BOOK_TITLE', '住所一覧');
 
-define('PRIMARY_ADDRESS', '(������)');
+define('PRIMARY_ADDRESS', '(お客様)');
 
-define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>����:</strong></span> ���ɥ쥹Ģ����Ͽ�Ǥ������� %s ��ޤǤǤ���');
+define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>注意:</strong></span> アドレス帳に登録できる件数は %s 件までです。');
 ?>

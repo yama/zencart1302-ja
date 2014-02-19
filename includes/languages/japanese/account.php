@@ -7,28 +7,28 @@
  * @version $Id: account.php 2989 2006-02-08 04:07:25Z drbyte $
  */
 
-define('NAVBAR_TITLE', '¥Þ¥¤¥Ú¡¼¥¸');
-define('HEADING_TITLE', '¥Þ¥¤¥Ú¡¼¥¸');
+define('NAVBAR_TITLE', 'ãƒžã‚¤ãƒšãƒ¼ã‚¸');
+define('HEADING_TITLE', 'ãƒžã‚¤ãƒšãƒ¼ã‚¸');
 
 define('OVERVIEW_TITLE', 'Overview');
-define('OVERVIEW_SHOW_ALL_ORDERS', '(Á´¤Æ¤Î¤´ÃíÊ¸ÍúÎò¤ò¸«¤ë)');
-define('OVERVIEW_PREVIOUS_ORDERS', '¤´ÃíÊ¸ÍúÎò');
-define('TABLE_HEADING_DATE', 'ÆüÉÕ');
+define('OVERVIEW_SHOW_ALL_ORDERS', '(å…¨ã¦ã®ã”æ³¨æ–‡å±¥æ­´ã‚’è¦‹ã‚‹)');
+define('OVERVIEW_PREVIOUS_ORDERS', 'ã”æ³¨æ–‡å±¥æ­´');
+define('TABLE_HEADING_DATE', 'æ—¥ä»˜');
 define('TABLE_HEADING_ORDER_NUMBER', 'No.');
-define('TABLE_HEADING_SHIPPED_TO', 'ÇÛÁ÷Àè');
-define('TABLE_HEADING_STATUS', '¾õ¶·');
-define('TABLE_HEADING_TOTAL', '¹ç·×');
-define('TABLE_HEADING_VIEW', 'É½¼¨');
+define('TABLE_HEADING_SHIPPED_TO', 'é…é€å…ˆ');
+define('TABLE_HEADING_STATUS', 'çŠ¶æ³');
+define('TABLE_HEADING_TOTAL', 'åˆè¨ˆ');
+define('TABLE_HEADING_VIEW', 'è¡¨ç¤º');
 
-define('MY_ACCOUNT_TITLE', 'ÅÐÏ¿ÆâÍÆ');
-define('MY_ACCOUNT_INFORMATION', 'ÅÐÏ¿ÆâÍÆ¤ò¸«¤ë / ÊÔ½¸¤¹¤ë');
-define('MY_ACCOUNT_ADDRESS_BOOK', '¥¢¥É¥ì¥¹Ä¢¤ò¸«¤ë / ÊÔ½¸¤¹¤ë');
-define('MY_ACCOUNT_PASSWORD', '¥Ñ¥¹¥ï¡¼¥É¤òÊÑ¹¹¤¹¤ë');
+define('MY_ACCOUNT_TITLE', 'ç™»éŒ²å†…å®¹');
+define('MY_ACCOUNT_INFORMATION', 'ç™»éŒ²å†…å®¹ã‚’è¦‹ã‚‹ / ç·¨é›†ã™ã‚‹');
+define('MY_ACCOUNT_ADDRESS_BOOK', 'ã‚¢ãƒ‰ãƒ¬ã‚¹å¸³ã‚’è¦‹ã‚‹ / ç·¨é›†ã™ã‚‹');
+define('MY_ACCOUNT_PASSWORD', 'ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å¤‰æ›´ã™ã‚‹');
 
-define('MY_ORDERS_TITLE', '¤´ÃíÊ¸ÍúÎò¤ò¸«¤ë');
-define('MY_ORDERS_VIEW', '¤´ÃíÊ¸ÍúÎò¤ò¸«¤ë');
+define('MY_ORDERS_TITLE', 'ã”æ³¨æ–‡å±¥æ­´ã‚’è¦‹ã‚‹');
+define('MY_ORDERS_VIEW', 'ã”æ³¨æ–‡å±¥æ­´ã‚’è¦‹ã‚‹');
 
-define('EMAIL_NOTIFICATIONS_TITLE', 'E¥á¡¼¥ëÄÌÃÎ¤ÎÀßÄê');
-define('EMAIL_NOTIFICATIONS_NEWSLETTERS', '¥Ë¥å¡¼¥¹¥ì¥¿¡¼¤Î¹ØÆÉ¿½¹þ¡¦²ò½ü');
-define('EMAIL_NOTIFICATIONS_PRODUCTS', '¾¦ÉÊ¤Ë¤Ä¤¤¤Æ¤Î¤ªÃÎ¤é¤»¥ê¥¹¥È¤ÎÉ½¼¨¡¦ÊÑ¹¹');
+define('EMAIL_NOTIFICATIONS_TITLE', 'Eãƒ¡ãƒ¼ãƒ«é€šçŸ¥ã®è¨­å®š');
+define('EMAIL_NOTIFICATIONS_NEWSLETTERS', 'ãƒ‹ãƒ¥ãƒ¼ã‚¹ãƒ¬ã‚¿ãƒ¼ã®è³¼èª­ç”³è¾¼ãƒ»è§£é™¤');
+define('EMAIL_NOTIFICATIONS_PRODUCTS', 'å•†å“ã«ã¤ã„ã¦ã®ãŠçŸ¥ã‚‰ã›ãƒªã‚¹ãƒˆã®è¡¨ç¤ºãƒ»å¤‰æ›´');
 ?>

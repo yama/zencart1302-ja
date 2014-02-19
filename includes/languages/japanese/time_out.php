@@ -7,14 +7,14 @@
  * @version $Id: time_out.php 3027 2006-02-13 17:15:51Z drbyte $
  */
 
-define('NAVBAR_TITLE', '�����ॢ����');
-define('HEADING_TITLE', '��³�����Ǥ����Ƥ��������ޤ���');
-define('HEADING_TITLE_LOGGED_IN', '����������ޤ���ư���¹Ԥ��뤳�Ȥ��Ǥ��ޤ��� ');
-define('TEXT_INFORMATION', '<p>����ʸ��³����˰�����֤�Ķ�ᤷ�����ᡢ�������ƥ������ͳ���鼫ưŪ�˥��������Ȥ����Ƥ��������ޤ�����</p>
-<p>�����ͤΥ���åԥ󥰥����Ȥ����Ƥ���¸����Ƥ��ޤ��Τǡ�����³������λ���Ƥ��ʤ����Ϻ��٥������󤷤Ƥ���������</p><p>��³������λ��������ʸ���Ƥ����ˤʤ���' . (DOWNLOAD_ENABLED == 'true' ? '���ޤ��ϥ���������ɾ��ʤ����������ɤ������' : '') . '�ϡ�<a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">�ޥ��ڡ���</a>���餪���꤯��������</p>');
+define('NAVBAR_TITLE', 'タイムアウト');
+define('HEADING_TITLE', '接続を切断させていただきました');
+define('HEADING_TITLE_LOGGED_IN', '申し訳ありませんが動作を実行することができません。 ');
+define('TEXT_INFORMATION', '<p>ご注文手続き中に一定時間が超過したため、セキュリティ上の理由から自動的にログアウトさせていただきました。</p>
+<p>お客様のショッピングカートの内容は保存されていますので、お手続きが完了していない場合は再度ログインしてください。</p><p>手続きが完了したご注文内容をご覧になる場合' . (DOWNLOAD_ENABLED == 'true' ? '、またはダウンロード商品をダウンロードされる場合' : '') . 'は、<a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">マイページ</a>からお入りください。</p>');
 
-define('TEXT_INFORMATION_LOGGED_IN', '�������󤷤Ƥ���ΤǤ��㤤ʪ��³�����������ޤ�����˥塼����Ԥ�������Ӳ�������');
+define('TEXT_INFORMATION_LOGGED_IN', 'ログインしているのでお買い物をお続けいただけます。メニューから行き先をお選び下さい。');
 
-define('HEADING_RETURNING_CUSTOMER', '��������');
-define('TEXT_PASSWORD_FORGOTTEN', '�ѥ���ɤ�˺��Ǥ���?')
+define('HEADING_RETURNING_CUSTOMER', 'ログイン');
+define('TEXT_PASSWORD_FORGOTTEN', 'パスワードをお忘れですか?')
 ?>

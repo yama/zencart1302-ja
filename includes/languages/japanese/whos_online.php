@@ -19,15 +19,15 @@
 // +----------------------------------------------------------------------+
 // $Id: whos_online.php 1969 2005-09-13 06:57:21Z drbyte $
 //
-define('BOX_HEADING_WHOS_ONLINE', '¥ª¥ó¥é¥¤¥ó¤Î¤ªµÒÍÍ');
-define('BOX_WHOS_ONLINE_THEREIS', '¸½ºß');
-define('BOX_WHOS_ONLINE_THEREARE', '¸½ºß');
-define('BOX_WHOS_ONLINE_GUEST', '¿Í¤Î¥²¥¹¥È');
-define('BOX_WHOS_ONLINE_GUESTS', '¿Í¤Î¥²¥¹¥È');
-define('BOX_WHOS_ONLINE_AND', '¤È');
-define('BOX_WHOS_ONLINE_MEMBER', 'Ì¾¤Î¥á¥ó¥Ð¡¼');
-define('BOX_WHOS_ONLINE_MEMBERS', 'Ì¾¤Î¥á¥ó¥Ð¡¼');
-define('BOX_WHOS_ONLINE_ONLINE', '¤¬¤´ÍèÅ¹Ãæ¤Ç¤¹¡£');
+define('BOX_HEADING_WHOS_ONLINE', 'ã‚ªãƒ³ãƒ©ã‚¤ãƒ³ã®ãŠå®¢æ§˜');
+define('BOX_WHOS_ONLINE_THEREIS', 'ç¾åœ¨');
+define('BOX_WHOS_ONLINE_THEREARE', 'ç¾åœ¨');
+define('BOX_WHOS_ONLINE_GUEST', 'äººã®ã‚²ã‚¹ãƒˆ');
+define('BOX_WHOS_ONLINE_GUESTS', 'äººã®ã‚²ã‚¹ãƒˆ');
+define('BOX_WHOS_ONLINE_AND', 'ã¨');
+define('BOX_WHOS_ONLINE_MEMBER', 'åã®ãƒ¡ãƒ³ãƒãƒ¼');
+define('BOX_WHOS_ONLINE_MEMBERS', 'åã®ãƒ¡ãƒ³ãƒãƒ¼');
+define('BOX_WHOS_ONLINE_ONLINE', 'ãŒã”æ¥åº—ä¸­ã§ã™ã€‚');
 
 define('BOX_WHOS_ONLINE_ONLINE', 'online.');
 ?>

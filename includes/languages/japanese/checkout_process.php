@@ -20,31 +20,31 @@
 // $Id: checkout_process.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('EMAIL_TEXT_SUBJECT', '¤´ÃíÊ¸¤¢¤ê¤¬¤È¤¦¤´¤¶¤¤¤Þ¤¹¡£');
-define('EMAIL_TEXT_HEADER', 'ÃíÊ¸³ÎÇ§½ñ');
+define('EMAIL_TEXT_SUBJECT', 'ã”æ³¨æ–‡ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ã€‚');
+define('EMAIL_TEXT_HEADER', 'æ³¨æ–‡ç¢ºèªæ›¸');
 define('EMAIL_TEXT_FROM',' from ');  //added to the EMAIL_TEXT_HEADER, above on text-only emails
-define('EMAIL_THANKS_FOR_SHOPPING','¤´ÍøÍÑ¤¢¤ê¤¬¤È¤¦¤´¤¶¤¤¤Þ¤¹¡£');
-define('EMAIL_DETAILS_FOLLOW','¤´ÃíÊ¸ÆâÍÆ¤Ï°Ê²¼¤ÎÄÌ¤ê¤Ç¤¹¡£');
-define('EMAIL_TEXT_ORDER_NUMBER', '¤´ÃíÊ¸ÈÖ¹æ:');
-define('EMAIL_TEXT_INVOICE_URL', 'ÀÁµáÌÀºÙ½ñ:');
-define('EMAIL_TEXT_INVOICE_URL_CLICK', 'ÀÁµáÌÀºÙ½ñ¤ÎURL¤Ï¤³¤Á¤é¤Ç¤¹¡£');
-define('EMAIL_TEXT_DATE_ORDERED', '¤´ÃíÊ¸Æü:');
-define('EMAIL_TEXT_PRODUCTS', '¾¦ÉÊ');
-define('EMAIL_TEXT_SUBTOTAL', '¾®·×:');
-define('EMAIL_TEXT_TAX', 'ÀÇ³Û:        ');
-define('EMAIL_TEXT_SHIPPING', 'ÇÛÁ÷ÊýË¡: ');
-define('EMAIL_TEXT_TOTAL', '¹ç·×:    ');
-define('EMAIL_TEXT_DELIVERY_ADDRESS', '¤ªÆÏ¤±Àè');
-define('EMAIL_TEXT_BILLING_ADDRESS', 'ÀÁµáÀè½»½ê');
-define('EMAIL_TEXT_PAYMENT_METHOD', '¤ª»ÙÊ§¤¤ÊýË¡');
+define('EMAIL_THANKS_FOR_SHOPPING','ã”åˆ©ç”¨ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ã€‚');
+define('EMAIL_DETAILS_FOLLOW','ã”æ³¨æ–‡å†…å®¹ã¯ä»¥ä¸‹ã®é€šã‚Šã§ã™ã€‚');
+define('EMAIL_TEXT_ORDER_NUMBER', 'ã”æ³¨æ–‡ç•ªå·:');
+define('EMAIL_TEXT_INVOICE_URL', 'è«‹æ±‚æ˜Žç´°æ›¸:');
+define('EMAIL_TEXT_INVOICE_URL_CLICK', 'è«‹æ±‚æ˜Žç´°æ›¸ã®URLã¯ã“ã¡ã‚‰ã§ã™ã€‚');
+define('EMAIL_TEXT_DATE_ORDERED', 'ã”æ³¨æ–‡æ—¥:');
+define('EMAIL_TEXT_PRODUCTS', 'å•†å“');
+define('EMAIL_TEXT_SUBTOTAL', 'å°è¨ˆ:');
+define('EMAIL_TEXT_TAX', 'ç¨Žé¡:        ');
+define('EMAIL_TEXT_SHIPPING', 'é…é€æ–¹æ³•: ');
+define('EMAIL_TEXT_TOTAL', 'åˆè¨ˆ:    ');
+define('EMAIL_TEXT_DELIVERY_ADDRESS', 'ãŠå±Šã‘å…ˆ');
+define('EMAIL_TEXT_BILLING_ADDRESS', 'è«‹æ±‚å…ˆä½æ‰€');
+define('EMAIL_TEXT_PAYMENT_METHOD', 'ãŠæ”¯æ‰•ã„æ–¹æ³•');
 
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
 define('TEXT_EMAIL_VIA', 'via');
 
 // suggest not using # vs No as some spamm protection block emails with these subjects
 define('EMAIL_ORDER_NUMBER_SUBJECT', ' No: ');
-define('HEADING_ADDRESS_INFORMATION','¤´½»½ê');
-define('HEADING_SHIPPING_METHOD','ÇÛÁ÷ÊýË¡');
+define('HEADING_ADDRESS_INFORMATION','ã”ä½æ‰€');
+define('HEADING_SHIPPING_METHOD','é…é€æ–¹æ³•');
 
-define('EMAIL_GREET', ' ÍÍ');
+define('EMAIL_GREET', ' æ§˜');
 ?>

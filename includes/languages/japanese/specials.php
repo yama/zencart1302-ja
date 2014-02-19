@@ -20,5 +20,5 @@
 // $Id: specials.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'ÆÃ²Á¾¦ÉÊ');
+define('NAVBAR_TITLE', 'ç‰¹ä¾¡å•†å“');
 ?>

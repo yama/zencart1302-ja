@@ -7,13 +7,13 @@
  * @version $Id: product_reviews_info.php 3027 2006-02-13 17:15:51Z drbyte $
  */
 
-define('NAVBAR_TITLE', '¥ì¥Ó¥å¡¼');
-//define('SUB_TITLE_PRODUCT', '¾¦ÉÊ:');
-//define('SUB_TITLE_FROM', 'Åê¹Æ¼Ô:');
-//define('SUB_TITLE_DATE', 'ÆüÉÕ:');
-//define('SUB_TITLE_REVIEW', '¥ì¥Ó¥å¡¼:');
-//define('SUB_TITLE_RATING', 'É¾²Á:');
+define('NAVBAR_TITLE', 'ãƒ¬ãƒ“ãƒ¥ãƒ¼');
+//define('SUB_TITLE_PRODUCT', 'å•†å“:');
+//define('SUB_TITLE_FROM', 'æŠ•ç¨¿è€…:');
+//define('SUB_TITLE_DATE', 'æ—¥ä»˜:');
+//define('SUB_TITLE_REVIEW', 'ãƒ¬ãƒ“ãƒ¥ãƒ¼:');
+//define('SUB_TITLE_RATING', 'è©•ä¾¡:');
 define('TEXT_OF_5_STARS', '');
-define('TEXT_PRODUCT_INFO', '¾¦ÉÊ¾ðÊó');
-define('TEXT_REVIEW_ADDITIONAL', '¤µ¤é¤Ë¥ì¥Ó¥å¡¼¤òÆÉ¤à');
+define('TEXT_PRODUCT_INFO', 'å•†å“æƒ…å ±');
+define('TEXT_REVIEW_ADDITIONAL', 'ã•ã‚‰ã«ãƒ¬ãƒ“ãƒ¥ãƒ¼ã‚’èª­ã‚€');
 ?>

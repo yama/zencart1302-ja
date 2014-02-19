@@ -20,13 +20,13 @@
 // $Id: shippinginfo.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', '���������ʤˤĤ���');
-define('HEADING_TITLE', '���������ʤˤĤ���');
+define('NAVBAR_TITLE', '配送と返品について');
+define('HEADING_TITLE', '配送と返品について');
 
-define('TEXT_INFORMATION', '���Υڡ����ˡ����������ʤˤĤ��ơפε�������Ϥ��Ƥ���������<br />
-������ʬ���ѹ�����ˤϡ�<br /><strong>/includes/languages/japanese/shippinginfo.php</strong>��<strong>define(\'TEXT_I
-NFORMATION\',</strong>�α�¦��<br />
-���󥰥륯�����ơ������(\')�δ֤��Խ����Ƥ���������<br />�ޤ��������Υƥ����ȥܥå����Τߤ���Ѥ�����ϡ�<br /><strong>define(\'TEXT_IN
-FORMATION\',\'\')</strong><br />�Τ褦�˥��󥰥륯�����ơ������δ֤ˤϡ����⵭����������¸���뤳�Ȥǡ�������ʬ����ɽ���ˤʤ�ޤ���
+define('TEXT_INFORMATION', 'このページに「配送と返品について」の規約を入力してください。<br />
+この部分を変更するには、<br /><strong>/includes/languages/japanese/shippinginfo.php</strong>の<strong>define(\'TEXT_I
+NFORMATION\',</strong>の右側の<br />
+シングルクォーテーション(\')の間を編集してください。<br />また、下部のテキストボックスのみを使用する場合は、<br /><strong>define(\'TEXT_IN
+FORMATION\',\'\')</strong><br />のようにシングルクォーテーションの間には、何も記入せずに保存することで、この部分は非表示になります。
 ');
 ?>

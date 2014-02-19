@@ -7,18 +7,18 @@
  * @version $Id: page_not_found.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 
-define('NAVBAR_TITLE', '¥Ú¡¼¥¸¤¬¸«¤Ä¤«¤ê¤Þ¤»¤ó');
-define('HEADING_TITLE', '¥Ú¡¼¥¸¤¬¸«¤Ä¤«¤ê¤Þ¤»¤ó');
+define('NAVBAR_TITLE', 'ãƒšãƒ¼ã‚¸ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“');
+define('HEADING_TITLE', 'ãƒšãƒ¼ã‚¸ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“');
 define('TEXT_INFORMATION', '');
-define('PAGE_ACCOUNT', '¥Þ¥¤¥Ú¡¼¥¸');
-define('PAGE_ACCOUNT_EDIT', 'ÅÐÏ¿¾ðÊó');
-define('PAGE_ADDRESS_BOOK', '¥¢¥É¥ì¥¹Ä¢');
-define('PAGE_ACCOUNT_HISTORY', '¤´ÃíÊ¸ÍúÎò');
-define('PAGE_ACCOUNT_NOTIFICATIONS', '¥Ë¥å¡¼¥¹¥ì¥¿¡¼ÅÐÏ¿');
-define('PAGE_SHOPPING_CART', '¥«¡¼¥È¤ò¸«¤ë');
-define('PAGE_CHECKOUT_SHIPPING', '¤ª²ñ·×');
-define('PAGE_ADVANCED_SEARCH', '¾ÜºÙ¸¡º÷');
-define('PAGE_PRODUCTS_NEW', '¿·Ãå¾¦ÉÊ');
-define('PAGE_SPECIALS', '¤ª¤¹¤¹¤áÉÊ');
-define('PAGE_REVIEWS', '¥ì¥Ó¥å¡¼');
+define('PAGE_ACCOUNT', 'ãƒžã‚¤ãƒšãƒ¼ã‚¸');
+define('PAGE_ACCOUNT_EDIT', 'ç™»éŒ²æƒ…å ±');
+define('PAGE_ADDRESS_BOOK', 'ã‚¢ãƒ‰ãƒ¬ã‚¹å¸³');
+define('PAGE_ACCOUNT_HISTORY', 'ã”æ³¨æ–‡å±¥æ­´');
+define('PAGE_ACCOUNT_NOTIFICATIONS', 'ãƒ‹ãƒ¥ãƒ¼ã‚¹ãƒ¬ã‚¿ãƒ¼ç™»éŒ²');
+define('PAGE_SHOPPING_CART', 'ã‚«ãƒ¼ãƒˆã‚’è¦‹ã‚‹');
+define('PAGE_CHECKOUT_SHIPPING', 'ãŠä¼šè¨ˆ');
+define('PAGE_ADVANCED_SEARCH', 'è©³ç´°æ¤œç´¢');
+define('PAGE_PRODUCTS_NEW', 'æ–°ç€å•†å“');
+define('PAGE_SPECIALS', 'ãŠã™ã™ã‚å“');
+define('PAGE_REVIEWS', 'ãƒ¬ãƒ“ãƒ¥ãƒ¼');
 ?>

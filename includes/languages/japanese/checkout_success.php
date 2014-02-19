@@ -7,20 +7,20 @@
  * @version $Id: checkout_success.php 3198 2006-03-18 00:36:08Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', '�쥸�ؿʤ�');
-define('NAVBAR_TITLE_2', '��³��λ');
+define('NAVBAR_TITLE_1', 'レジへ進む');
+define('NAVBAR_TITLE_2', '手続完了');
 
-define('HEADING_TITLE', '����ʸ�μ�³������λ���ޤ�����');
+define('HEADING_TITLE', 'ご注文の手続きが完了しました。');
 
 define('TEXT_SUCCESS', '');
-define('TEXT_NOTIFY_PRODUCTS', '�������ʤˤĤ��Ƥ��Τ餻�᡼����˾����');
-define('TEXT_SEE_ORDERS', '<a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">�ޥ��ڡ���</a>���餪���ͤΤ���ʸ����������������ޤ���');
-define('TEXT_CONTACT_STORE_OWNER', '������ʤɤ������ޤ�����<a href="' . zen_href_link(FILENAME_CONTACT_US) . '">���䤤��碌�ڡ���</a>����ɤ�����');
-define('TEXT_THANKS_FOR_SHOPPING', '����ʸ���꤬�Ȥ��������ޤ���');
+define('TEXT_NOTIFY_PRODUCTS', '下記商品についてお知らせメールを希望する');
+define('TEXT_SEE_ORDERS', '<a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">マイページ</a>からお客様のご注文履歴をご覧いただけます。');
+define('TEXT_CONTACT_STORE_OWNER', 'ご質問などございましたら<a href="' . zen_href_link(FILENAME_CONTACT_US) . '">お問い合わせページ</a>からどうぞ。');
+define('TEXT_THANKS_FOR_SHOPPING', 'ご注文ありがとうございました');
 
 define('TABLE_HEADING_COMMENTS', '');
 
-define('FOOTER_DOWNLOAD', '\'%s\'�����餫�顢��Ǿ��ʤ����������ɤ��뤳�Ȥ�Ǥ��ޤ���');
+define('FOOTER_DOWNLOAD', '\'%s\'こちらから、後で商品をダウンロードすることもできます。');
 
-define('TEXT_YOUR_ORDER_NUMBER', '<strong>����ʸ�ֹ�:</strong> ');
+define('TEXT_YOUR_ORDER_NUMBER', '<strong>ご注文番号:</strong> ');
 ?>

@@ -31,18 +31,18 @@ define('OTHER_IMAGE_REVIEWS_RATING_STARS_ONE', 'stars_1_small.gif');
  * ALT tags for other images
  */
 
-define('OTHER_BOX_NOTIFY_REMOVE_ALT', '¤³¤Î¾¦ÉÊ¤òºï½ü¤¹¤ë');
-define('OTHER_BOX_NOTIFY_YES_ALT', '¤³¤Î¾¦ÉÊ¤ÎºÇ¿·¾ðÊó¤ò´õË¾¤¹¤ë');
-define('OTHER_BOX_WRITE_REVIEW_ALT', '¤³¤Î¾¦ÉÊ¤Î¥ì¥Ó¥å¡¼¤ò½ñ¤¯');
-define('OTHER_CALL_FOR_PRICE_ALT', '²Á³Ê¤Ï¤ªÌä¤¤¹ç¤ï¤»²¼¤µ¤¤');
-define('OTHER_DOWN_FOR_MAINTENANCE_ALT', 'Åö¥·¥ç¥Ã¥×¤Ï¸½ºß¥á¥ó¥Æ¥Ê¥ó¥¹Ãæ¤Ç¤¹¡£¤Þ¤¿¸å¤Û¤É¤ª±Û¤·²¼¤µ¤¤¡£');
+define('OTHER_BOX_NOTIFY_REMOVE_ALT', 'ã“ã®å•†å“ã‚’å‰Šé™¤ã™ã‚‹');
+define('OTHER_BOX_NOTIFY_YES_ALT', 'ã“ã®å•†å“ã®æœ€æ–°æƒ…å ±ã‚’å¸Œæœ›ã™ã‚‹');
+define('OTHER_BOX_WRITE_REVIEW_ALT', 'ã“ã®å•†å“ã®ãƒ¬ãƒ“ãƒ¥ãƒ¼ã‚’æ›¸ã');
+define('OTHER_CALL_FOR_PRICE_ALT', 'ä¾¡æ ¼ã¯ãŠå•ã„åˆã‚ã›ä¸‹ã•ã„');
+define('OTHER_DOWN_FOR_MAINTENANCE_ALT', 'å½“ã‚·ãƒ§ãƒƒãƒ—ã¯ç¾åœ¨ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ä¸­ã§ã™ã€‚ã¾ãŸå¾Œã»ã©ãŠè¶Šã—ä¸‹ã•ã„ã€‚');
 define('OTHER_TRANPARENT_ALT', '');
-define('OTHER_IMAGE_CUSTOMERS_AUTHORIZATION_ALT', '¾µÇ§¼êÂ³¤­Ãæ¤Ç¤¹...');
-define('OTHER_REVIEWS_RATING_STARS_FIVE_ALT', '¡ù¡ù¡ù¡ù¡ù');
-define('OTHER_REVIEWS_RATING_STARS_FOUR_ALT', '¡ù¡ù¡ù¡ù');
-define('OTHER_REVIEWS_RATING_STARS_THREE_ALT', '¡ù¡ù¡ù');
-define('OTHER_REVIEWS_RATING_STARS_TWO_ALT', '¡ù¡ù');
-define('OTHER_REVIEWS_RATING_STARS_ONE_ALT', '¡ù');
+define('OTHER_IMAGE_CUSTOMERS_AUTHORIZATION_ALT', 'æ‰¿èªæ‰‹ç¶šãä¸­ã§ã™...');
+define('OTHER_REVIEWS_RATING_STARS_FIVE_ALT', 'â˜†â˜†â˜†â˜†â˜†');
+define('OTHER_REVIEWS_RATING_STARS_FOUR_ALT', 'â˜†â˜†â˜†â˜†');
+define('OTHER_REVIEWS_RATING_STARS_THREE_ALT', 'â˜†â˜†â˜†');
+define('OTHER_REVIEWS_RATING_STARS_TWO_ALT', 'â˜†â˜†');
+define('OTHER_REVIEWS_RATING_STARS_ONE_ALT', 'â˜†');
 //define('OTHER_xxx_ALT', '');
 
 ?>

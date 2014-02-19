@@ -20,15 +20,15 @@
 // $Id: ssl_check.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', '�������ƥ������å�');
-define('HEADING_TITLE', '�������ƥ������å�');
+define('NAVBAR_TITLE', 'セキュリティチェック');
+define('HEADING_TITLE', 'セキュリティチェック');
 
-define('TEXT_INFORMATION', '�����ͤ�Web�֥饦�������Ѥ��Ƥ���SSL���å����ID�ȡ�������åפΥ������ƥ��ڡ��������Ѥ��Ƥ���SSL���å����ID���ۤʤäƤ��ޤ���');
-define('TEXT_INFORMATION_2', '�������ƥ�������꤬����ޤ�����������ޤ������⤦���٥������󤷤Ƥ���������');
-define('TEXT_INFORMATION_3','�����Ĥ���Web�֥饦���ϡ�������åפΤ����Ѥ�ɬ�פʰ�����SSL���å����ID��ưŪ�˱��ѤǤ��ޤ��󡣤��Τ褦��Web�֥饦���򤴻��Ѥξ�硢¾�Υ֥饦�����ѹ�����뤳�Ȥ����ᤷ�ޤ����ߴ����Τ���֥饦���Ϥ�����ʤɤ�����Ǥ��ޤ�����<a href="http://www.microsoft.com/ie/" target="_blank">Microsoft Internet Explorer</a>��<a href="http://channels.netscape.com/ns/browsers/download_other.jsp" target="_blank">Netscape</a>��<a href="http://www.mozilla.org/releases/" target="_blank">Mozilla</a>');
-define('TEXT_INFORMATION_4','�����ͤξ����ݸ�Τ���ˤ��Τ褦�����֤�Ȥ餻�Ƥ��������Ƥ���ޤ����������ؤ򤪤������ޤ����Ȥ򿼤����ͤӿ����夲�ޤ���');
-define('TEXT_INFORMATION_5','�������ƥ��ˤĤ��Ƥ䡢������åפΤ��������̤ˤĤ��ƤΤ�����ϡ�������å״����ԤޤǤɤ�����');
+define('TEXT_INFORMATION', 'お客様のWebブラウザが使用しているSSLセッションIDと、当ショップのセキュリティページが使用しているSSLセッションIDが異なっています。');
+define('TEXT_INFORMATION_2', 'セキュリティ上の問題があります。恐れ入りますが、もう一度ログインしてください。');
+define('TEXT_INFORMATION_3','いくつかのWebブラウザは、当ショップのご利用に必要な安全なSSLセッションIDを自動的に運用できません。そのようなWebブラウザをご使用の場合、他のブラウザに変更されることをお薦めします。互換性のあるブラウザはこちらなどで入手できます。：<a href="http://www.microsoft.com/ie/" target="_blank">Microsoft Internet Explorer</a>│<a href="http://channels.netscape.com/ns/browsers/download_other.jsp" target="_blank">Netscape</a>│<a href="http://www.mozilla.org/releases/" target="_blank">Mozilla</a>');
+define('TEXT_INFORMATION_4','お客様の情報保護のためにこのような措置をとらせていただいておりますが、ご不便をおかけしますことを深くお詫び申し上げます。');
+define('TEXT_INFORMATION_5','セキュリティについてや、当ショップのご利用全般についてのご質問は、当ショップ管理者までどうぞ。');
 
-define('BOX_INFORMATION_HEADING', '�Ŀ;����ݸ��ӥ������ƥ��ˤĤ���');
-define('BOX_INFORMATION', '��Ź�Ǥ�Web�����о�����Ƥ��ݸ�줿�ڡ����ˤ����ơ������ͤ�Web�֥饦���Ǽ�ưŪ��SSL���å����ID��ͭ���ˤ��ޤ���<br /><br />����ˤ�ꡢ������åפ�ˬ��Ƥ���Τ������ͤ��ܿͤǤ��뤳�Ȥ��ǧ���Ƥ��ޤ���');
+define('BOX_INFORMATION_HEADING', '個人情報保護およびセキュリティについて');
+define('BOX_INFORMATION', '当店ではWebサーバ上の全ての保護されたページにおいて、お客様のWebブラウザで自動的にSSLセッションIDを有効にします。<br /><br />これにより、当ショップを訪れているのがお客様ご本人であることを確認しています。');
 ?>
